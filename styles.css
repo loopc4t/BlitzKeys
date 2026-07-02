@@ -506,6 +506,18 @@ h1 {
   box-shadow: 0 6px 16px rgba(139, 58, 58, 0.5);
 }
 
+/* YouGlish — warm orange accent */
+.dict-button.youglish {
+  background: linear-gradient(135deg, #c96f1b 0%, #a6530f 100%);
+  color: #fff7eb;
+  box-shadow: 0 3px 10px rgba(201, 111, 27, 0.22);
+}
+
+.dict-button.youglish:hover {
+  background: linear-gradient(135deg, #de7b23 0%, #b65d12 100%);
+  box-shadow: 0 4px 12px rgba(201, 111, 27, 0.3);
+}
+
 /* =====================================================
    Footer — Dictionary links at the bottom
 ===================================================== */
