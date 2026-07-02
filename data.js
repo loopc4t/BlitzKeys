@@ -1110,7 +1110,7 @@ const sentences = [
     answer: "of",
   },
   {
-    question: "What are you talking _____ ?",
+    question: "What are you talking _____?",
     options: ["about", "at", "by", "for", "from", "in", "of", "on", "to", "with"],
     answer: "about",
   },
