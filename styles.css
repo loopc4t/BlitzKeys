@@ -464,6 +464,30 @@ h1 {
     background-color 0.6s ease;
 }
 
+.about-button {
+  margin-top: 12px;
+  margin-left: 10px;
+  padding: 8px 14px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--moonlight);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    transform 0.2s,
+    background-color 0.6s ease;
+}
+
+.about-button:hover,
 .cards-button:hover {
   transform: translateY(-2px);
   border-color: rgba(139, 58, 147, 0.4);
