@@ -797,4 +797,127 @@ cardRevealOverlay.addEventListener("click", () => {
 // Initialization
 // =====================================================
 
-startGame();
+// =====================================================
+// Persistence (save/restore)
+// =====================================================
+
+function saveState() {
+  try {
+    const deckIndices = deck
+      .map((item) => {
+        const idx = sentences.findIndex(
+          (s) => s.question === item.question && s.answer === item.answer,
+        );
+
+        return idx >= 0 ? idx : null;
+      })
+      .filter((i) => i !== null);
+
+    const state = {
+      deckIndices,
+      questionIndex,
+      currentScore,
+      currentStreak,
+      currentLevel,
+      streakAbove40,
+      streakAbove50,
+      streakAbove60,
+      unlockedCards: Array.from(unlockedCards),
+      lastSpeed,
+      // store the current input so a partial answer isn't lost
+      inputValue: input.value || "",
+      // timestamp to allow approximate live WPM reconstruction if needed
+      savedAt: Date.now(),
+    };
+
+    localStorage.setItem("blitzkeys_state", JSON.stringify(state));
+  } catch (err) {
+    console.warn("Could not save state:", err);
+  }
+}
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem("blitzkeys_state");
+
+    if (!raw) return false;
+
+    const state = JSON.parse(raw);
+
+    if (
+      state.deckIndices &&
+      Array.isArray(state.deckIndices) &&
+      state.deckIndices.length > 0
+    ) {
+      deck = state.deckIndices.map((i) => sentences[i]).filter(Boolean);
+    } else {
+      deck = shuffle(sentences);
+    }
+
+    questionIndex =
+      typeof state.questionIndex === "number" ? state.questionIndex : 0;
+
+    currentScore =
+      typeof state.currentScore === "number" ? state.currentScore : 0;
+    currentStreak =
+      typeof state.currentStreak === "number" ? state.currentStreak : 0;
+    currentLevel =
+      typeof state.currentLevel === "number"
+        ? state.currentLevel
+        : levelForScore(currentScore);
+
+    streakAbove40 =
+      typeof state.streakAbove40 === "number" ? state.streakAbove40 : 0;
+    streakAbove50 =
+      typeof state.streakAbove50 === "number" ? state.streakAbove50 : 0;
+    streakAbove60 =
+      typeof state.streakAbove60 === "number" ? state.streakAbove60 : 0;
+
+    unlockedCards = new Set(
+      Array.isArray(state.unlockedCards) ? state.unlockedCards : [],
+    );
+
+    lastSpeed = state.lastSpeed || "—";
+
+    input.disabled = false;
+
+    applyTheme(currentLevel);
+
+    renderCardsGrid();
+
+    // restore input text if present
+    if (state.inputValue) {
+      input.value = state.inputValue;
+    }
+
+    updateStats();
+
+    // make sure questionIndex is in bounds
+    if (!deck || deck.length === 0) deck = shuffle(sentences);
+
+    if (questionIndex >= deck.length) questionIndex = 0;
+
+    showQuestion();
+
+    return true;
+  } catch (err) {
+    console.warn("Could not load state:", err);
+
+    return false;
+  }
+}
+
+// Save state when the page is unloaded or hidden, and when user clicks About
+window.addEventListener("beforeunload", saveState);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") saveState();
+});
+
+if (typeof aboutButton !== "undefined" && aboutButton) {
+  aboutButton.addEventListener("click", saveState);
+}
+
+// Try to restore previous state; otherwise start fresh
+if (!loadState()) {
+  startGame();
+}
