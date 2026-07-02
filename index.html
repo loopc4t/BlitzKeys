@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>⚡ BlitzKeys</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>⚡ BlitzKeys</h1>
+
+      <p class="subtitle">Active Recall Vocabulary Practice</p>
+
+      <div class="tips">
+        <span>🔍 Find the missing word</span>
+
+        <span>⌨ Type the complete sentence</span>
+
+        <span>↵ Press Enter</span>
+      </div>
+
+      <button id="cardsButton" class="cards-button" type="button">
+        🎴 Cards <span id="cardsCount">0 / 9</span>
+      </button>
+    </header>
+
+    <section class="progress-container">
+      <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
+      </div>
+
+      <div id="progressLabel" class="progress-label">0 / 0</div>
+    </section>
+
+    <main id="card" class="card">
+      <div id="options" class="options"></div>
+
+      <div class="sentence-container">
+        <div id="sentence" class="sentence"></div>
+      </div>
+    </main>
+
+    <section class="typing-section">
+      <input
+        id="sentenceInput"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Type the complete sentence..."
+      />
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <div class="stat-title">Level</div>
+
+        <div id="level" class="stat-value level-value">1</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-title">Score</div>
+
+        <div id="score" class="stat-value">0</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-title">Streak</div>
+
+        <div id="streak" class="stat-value">—</div>
+      </div>
+
+      <div class="stat">
+        <div class="stat-title">Speed</div>
+
+        <div id="speed" class="stat-value">—</div>
+      </div>
+    </section>
+
+    <div id="levelFlash" class="level-flash"></div>
+
+    <div id="levelBanner" class="level-banner">
+      <div id="levelBannerLevel" class="level-banner-level">LEVEL 2</div>
+
+      <div id="levelBannerName" class="level-banner-name">Neon Arcade</div>
+    </div>
+
+    <div id="cardsModal" class="cards-modal">
+      <div class="cards-modal-panel">
+        <div class="cards-modal-header">
+          <h2>City Postcards</h2>
+
+          <button id="cardsModalClose" class="cards-modal-close" type="button">
+            ✕
+          </button>
+        </div>
+
+        <p class="cards-modal-subtitle">
+          Unlock every card by hitting typing speed milestones.
+        </p>
+
+        <div id="cardsGrid" class="cards-grid"></div>
+      </div>
+    </div>
+
+    <div id="cardRevealOverlay" class="card-reveal-overlay">
+      <div class="card-reveal-backdrop"></div>
+
+      <div id="cardRevealStage" class="card-reveal-stage">
+        <div class="card-reveal-label">New Card!</div>
+
+        <div id="cardRevealCard" class="card-reveal-card rarity-common">
+          <div class="card-reveal-card-inner">
+            <img id="cardRevealImage" src="" alt="" />
+
+            <div class="card-reveal-shine"></div>
+          </div>
+        </div>
+
+        <div id="cardRevealName" class="card-reveal-name"></div>
+
+        <div id="cardRevealRarity" class="card-reveal-rarity"></div>
+
+        <div class="card-reveal-hint">Tap to continue</div>
+      </div>
+    </div>
+
+    <footer class="app-footer">
+      <div class="dictionary-buttons">
+        <a
+          href="https://www.ldoceonline.com/"
+          target="_blank"
+          class="dict-button ldoe"
+          title="Longman Dictionary of Contemporary English"
+        >
+          📘 LDOCE
+        </a>
+
+        <a
+          href="https://www.urbandictionary.com/"
+          target="_blank"
+          class="dict-button urban"
+          title="Urban Dictionary"
+        >
+          🌐 Urban
+        </a>
+
+        <a
+          href="https://www.oxfordlearnersdictionaries.com/us/"
+          target="_blank"
+          class="dict-button oxford"
+          title="Oxford Learners Dictionaries"
+        >
+          📗 Oxford
+        </a>
+      </div>
+    </footer>
+
+    <script src="data.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

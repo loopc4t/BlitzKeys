@@ -1,0 +1,931 @@
+/* =====================================================
+   BlitzKeys — DRACULA IN THE DARK FOREST
+   Ancient blood, black bark, fog between the trees
+===================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #080d08;
+  --panel: #0d130d;
+  --card-bg: #0d1620;
+
+  --crimson: #b85dc0;
+  --blood: #9b4da8;
+  --fog: #a8b5a0;
+  --moss: #2c5a2c;
+  --moonlight: #d4dfc8;
+  --amber: #ff8c00;
+
+  --text: #dadfd5;
+  --muted: #576657;
+
+  --red: #e03030;
+  --green: #4a9e5c;
+
+  --border: rgba(192, 57, 43, 0.13);
+}
+
+/* =====================================================
+   Body — the forest floor at midnight
+===================================================== */
+
+body {
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background:
+    radial-gradient(ellipse at 50% 0%, #0a1a2a 0%, transparent 50%),
+    radial-gradient(ellipse at 10% 60%, #081a2a 0%, transparent 45%),
+    radial-gradient(ellipse at 90% 40%, #0d0a1a 0%, transparent 40%), var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  transition: background-color 0.6s ease;
+}
+
+/* =====================================================
+   Header
+===================================================== */
+
+header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+h1 {
+  font-size: 3.4rem;
+  font-weight: 900;
+  background: linear-gradient(90deg, #cc5500 0%, #ffb84d 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 20px rgba(204, 85, 0, 0.5));
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: var(--muted);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.tips {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+/* =====================================================
+   Common Width
+===================================================== */
+
+.progress-container,
+.card,
+.typing-section {
+  width: min(1100px, 92vw);
+}
+
+/* =====================================================
+   Progress — a trail of blood through fallen leaves
+===================================================== */
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 5px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 0;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--blood),
+    var(--crimson),
+    var(--amber)
+  );
+  transition: 0.4s ease;
+}
+
+.progress-label {
+  margin-top: 8px;
+  text-align: right;
+  color: #3a4a3a;
+  font-size: 0.82rem;
+}
+
+/* =====================================================
+   Card — a stone crypt hidden in the trees
+===================================================== */
+
+.card {
+  background: var(--card-bg);
+  border: 2px solid rgba(100, 150, 200, 0.4);
+  border-radius: 14px;
+  overflow: hidden;
+  transition:
+    border-color 0.3s,
+    box-shadow 0.3s,
+    background-color 0.6s ease;
+  box-shadow:
+    0 16px 50px rgba(0, 0, 0, 0.7),
+    inset 0 1px 0 rgba(139, 58, 147, 0.06);
+}
+
+.card.correct {
+  border-color: var(--green);
+  box-shadow:
+    0 0 0 1px var(--green),
+    0 0 24px rgba(74, 158, 92, 0.2),
+    0 16px 50px rgba(0, 0, 0, 0.7);
+}
+
+.card.wrong {
+  border-color: var(--crimson);
+  box-shadow:
+    0 0 0 1px var(--crimson),
+    0 0 24px rgba(139, 58, 147, 0.25),
+    0 16px 50px rgba(0, 0, 0, 0.7);
+}
+
+/* =====================================================
+   Options — torn parchment pinned to bark
+===================================================== */
+
+.options {
+  padding: 24px 20px;
+  text-align: center;
+  border-bottom: 1px solid rgba(44, 90, 44, 0.3);
+  color: #26b26a;
+  font-weight: 700;
+  font-size: 0.97rem;
+  letter-spacing: 0.05em;
+  background: rgba(44, 90, 44, 0.1);
+}
+
+/* =====================================================
+   Sentence
+===================================================== */
+
+.sentence {
+  min-height: 160px;
+  padding: 42px 50px;
+  font-size: 1.28rem;
+  line-height: 1.85;
+  text-align: left;
+  color: var(--text);
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.blank {
+  display: inline-block;
+  width: 7ch;
+  height: 1.1em;
+  border-bottom: 2px solid var(--crimson);
+  vertical-align: middle;
+  background: rgba(139, 58, 147, 0.06);
+  border-radius: 2px 2px 0 0;
+}
+
+/* =====================================================
+   Input — writing in the dark by torchlight
+===================================================== */
+
+.typing-section {
+  margin-top: 26px;
+}
+
+#sentenceInput {
+  width: 100%;
+  padding: 20px 24px;
+  font-size: 1.05rem;
+  font-family: inherit;
+  color: var(--moonlight);
+  background: var(--panel);
+  border: 2px solid rgba(139, 58, 147, 0.18);
+  border-radius: 11px;
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  caret-color: var(--crimson);
+}
+
+#sentenceInput:focus {
+  border-color: rgba(139, 58, 147, 0.5);
+  box-shadow: 0 0 0 4px rgba(139, 58, 147, 0.08);
+}
+
+#sentenceInput::placeholder {
+  color: #2e3d2e;
+}
+
+/* =====================================================
+   Stats — three gravestones in the clearing
+===================================================== */
+
+.stats {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  width: 170px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 11px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  transition:
+    transform 0.2s,
+    border-color 0.2s,
+    background-color 0.6s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.stat::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    160deg,
+    rgba(139, 58, 147, 0.07) 0%,
+    transparent 55%
+  );
+  pointer-events: none;
+}
+
+.stat:hover {
+  transform: translateY(-3px);
+  border-color: rgba(139, 58, 147, 0.28);
+}
+
+.stat-title {
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.stat-value {
+  margin-top: 10px;
+  color: var(--fog);
+  font-size: 1.65rem;
+  font-weight: 800;
+}
+
+/* =====================================================
+   Mobile
+===================================================== */
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 3.1rem;
+  }
+  .sentence {
+    padding: 35px;
+    font-size: 1.45rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+  .tips {
+    gap: 16px;
+    font-size: 0.85rem;
+  }
+  .sentence {
+    padding: 28px;
+    font-size: 1.3rem;
+  }
+  .stat {
+    width: 100%;
+  }
+}
+
+/* =====================================================
+   Level Up — the palette-swap cut, Magic Jewelry style
+===================================================== */
+
+.level-flash {
+  position: fixed;
+  inset: 0;
+  background: #ffffff;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 90;
+}
+
+.level-flash.show {
+  animation: flashPulse 0.5s ease-out;
+}
+
+@keyframes flashPulse {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.level-banner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.7);
+  text-align: center;
+  z-index: 91;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.level-banner.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.level-banner-level {
+  font-size: 4.2rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: var(--amber);
+  text-shadow:
+    0 0 24px var(--amber),
+    0 0 60px var(--crimson);
+}
+
+.level-banner-name {
+  margin-top: 6px;
+  font-size: 1.15rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--moonlight);
+}
+
+/* =====================================================
+   Level stat — matches the other three gravestones
+===================================================== */
+
+.stat-value.level-value {
+  color: var(--amber);
+}
+
+/* =====================================================
+   Cards button — header entry point to the collection
+===================================================== */
+
+.cards-button {
+  margin-top: 22px;
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--moonlight);
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition:
+    border-color 0.2s,
+    transform 0.2s,
+    background-color 0.6s ease;
+}
+
+.cards-button:hover {
+  transform: translateY(-2px);
+  border-color: rgba(139, 58, 147, 0.4);
+}
+
+#cardsCount {
+  color: var(--amber);
+  margin-left: 4px;
+}
+
+/* =====================================================
+   Dictionary buttons — LDOCE and Urban Dictionary
+===================================================== */
+
+.dictionary-buttons {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.dict-button {
+  padding: 9px 18px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s,
+    background-color 0.3s;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+.dict-button:hover {
+  transform: translateY(-2px);
+}
+
+/* LDOCE — Professional Blue Theme */
+.dict-button.ldoe {
+  background: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 102, 204, 0.3);
+}
+
+.dict-button.ldoe:hover {
+  background: linear-gradient(135deg, #0077dd 0%, #0055bb 100%);
+  box-shadow: 0 6px 16px rgba(0, 102, 204, 0.5);
+}
+
+/* Urban Dictionary — Subtle Muted Theme */
+.dict-button.urban {
+  background: linear-gradient(135deg, #5a7a5a 0%, #4a6a4a 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(90, 122, 90, 0.3);
+}
+
+.dict-button.urban:hover {
+  background: linear-gradient(135deg, #6a8a6a 0%, #5a7a5a 100%);
+  box-shadow: 0 6px 16px rgba(90, 122, 90, 0.5);
+}
+
+/* Oxford Learners Dictionaries — Academic Red Theme */
+.dict-button.oxford {
+  background: linear-gradient(135deg, #8b3a3a 0%, #6b2a2a 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(139, 58, 58, 0.3);
+}
+
+.dict-button.oxford:hover {
+  background: linear-gradient(135deg, #9b4a4a 0%, #7b3a3a 100%);
+  box-shadow: 0 6px 16px rgba(139, 58, 58, 0.5);
+}
+
+/* =====================================================
+   Footer — Dictionary links at the bottom
+===================================================== */
+
+.app-footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+/* =====================================================
+   Cards Modal — the postcard collection
+===================================================== */
+
+.cards-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 4, 2, 0.82);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 24px;
+}
+
+.cards-modal.show {
+  display: flex;
+}
+
+.cards-modal-panel {
+  width: min(760px, 100%);
+  max-height: 86vh;
+  overflow-y: auto;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 32px;
+  transition: background-color 0.6s ease;
+}
+
+.cards-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards-modal-header h2 {
+  font-size: 1.5rem;
+  color: var(--moonlight);
+}
+
+.cards-modal-close {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--fog);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.cards-modal-close:hover {
+  border-color: var(--crimson);
+}
+
+.cards-modal-subtitle {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.cards-grid {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card-slot {
+  position: relative;
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  transform-style: preserve-3d;
+  transition:
+    transform 0.15s ease,
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.card-slot.rarity-common {
+  border-color: rgba(74, 158, 255, 0.5);
+}
+
+.card-slot.rarity-uncommon {
+  border-color: rgba(74, 222, 128, 0.5);
+}
+
+.card-slot.rarity-rare {
+  border-color: rgba(255, 85, 85, 0.55);
+  box-shadow: 0 0 16px rgba(255, 85, 85, 0.2);
+}
+
+.card-slot.rarity-legendary {
+  border-width: 2px;
+  animation: legendaryBorderCycle 3s linear infinite;
+}
+
+@keyframes legendaryBorderCycle {
+  0% {
+    border-color: #ff5599;
+  }
+  20% {
+    border-color: #ffd700;
+  }
+  40% {
+    border-color: #7fd858;
+  }
+  60% {
+    border-color: #5dd0ff;
+  }
+  80% {
+    border-color: #c084ff;
+  }
+  100% {
+    border-color: #ff5599;
+  }
+}
+
+.card-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-slot.locked img {
+  display: none;
+}
+
+.card-slot.locked::before {
+  content: "🔒";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  opacity: 0.4;
+}
+
+.card-slot-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 8px 10px 7px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--moonlight);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
+}
+
+.card-slot.locked .card-slot-label {
+  color: var(--muted);
+  background: none;
+  position: static;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* =====================================================
+   Card reveal — Balatro-style dramatic pack opening
+===================================================== */
+
+.card-reveal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.card-reveal-overlay.show {
+  display: flex;
+}
+
+.card-reveal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(20, 10, 30, 0.92) 0%,
+    rgba(2, 2, 4, 0.97) 70%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.card-reveal-overlay.show .card-reveal-backdrop {
+  opacity: 1;
+}
+
+.card-reveal-stage {
+  position: relative;
+  text-align: center;
+  transform: scale(0.2) translateY(40px) rotate(-8deg);
+  opacity: 0;
+}
+
+.card-reveal-stage.pop {
+  animation: cardPop 0.6s cubic-bezier(0.22, 1.5, 0.4, 1) forwards;
+}
+
+@keyframes cardPop {
+  0% {
+    transform: scale(0.2) translateY(40px) rotate(-8deg);
+    opacity: 0;
+  }
+  55% {
+    transform: scale(1.1) translateY(-8px) rotate(2deg);
+    opacity: 1;
+  }
+  78% {
+    transform: scale(0.96) rotate(-1deg);
+  }
+  100% {
+    transform: scale(1) translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.card-reveal-label {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--amber);
+  text-shadow: 0 0 20px var(--amber);
+  margin-bottom: 20px;
+}
+
+.card-reveal-card {
+  position: relative;
+  width: 240px;
+  aspect-ratio: 2 / 3;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.card-reveal-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8);
+}
+
+.card-reveal-card-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card-reveal-shine {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.55) 45%,
+    rgba(255, 255, 255, 0.15) 50%,
+    transparent 65%
+  );
+  background-size: 250% 250%;
+  background-position: -60% -60%;
+  mix-blend-mode: overlay;
+  animation: shineSweep 2.2s ease-in-out infinite;
+}
+
+@keyframes shineSweep {
+  0% {
+    background-position: -60% -60%;
+  }
+  100% {
+    background-position: 160% 160%;
+  }
+}
+
+@keyframes pulseGlow {
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes spinGlow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-reveal-card.rarity-common .card-reveal-card-inner {
+  box-shadow:
+    0 0 40px 6px rgba(74, 158, 255, 0.5),
+    0 24px 60px rgba(0, 0, 0, 0.8);
+}
+
+.card-reveal-card.rarity-uncommon .card-reveal-card-inner {
+  box-shadow:
+    0 0 44px 8px rgba(74, 222, 128, 0.55),
+    0 24px 60px rgba(0, 0, 0, 0.8);
+  animation: pulseGlow 1.6s ease-in-out infinite;
+}
+
+.card-reveal-card.rarity-rare .card-reveal-card-inner {
+  box-shadow:
+    0 0 48px 10px rgba(255, 85, 85, 0.6),
+    0 24px 60px rgba(0, 0, 0, 0.8);
+  animation: pulseGlow 1.3s ease-in-out infinite;
+}
+
+.card-reveal-card.rarity-legendary::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 20px;
+  background: conic-gradient(
+    from 0deg,
+    #ff5599,
+    #ffd700,
+    #7fd858,
+    #5dd0ff,
+    #c084ff,
+    #ff5599
+  );
+  filter: blur(10px);
+  animation:
+    spinGlow 3s linear infinite,
+    pulseGlow 1.2s ease-in-out infinite;
+  z-index: -1;
+}
+
+.card-reveal-name {
+  margin-top: 20px;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--moonlight);
+}
+
+.card-reveal-rarity {
+  margin-top: 5px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.card-reveal-rarity.tier-common {
+  color: #4a9eff;
+}
+
+.card-reveal-rarity.tier-uncommon {
+  color: #4ade80;
+}
+
+.card-reveal-rarity.tier-rare {
+  color: #ff5555;
+}
+
+.card-reveal-rarity.tier-legendary {
+  background: linear-gradient(
+    90deg,
+    #ff5599,
+    #ffd700,
+    #7fd858,
+    #5dd0ff,
+    #c084ff
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: holoText 3s linear infinite;
+}
+
+@keyframes holoText {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 300% 50%;
+  }
+}
+
+.card-reveal-hint {
+  margin-top: 28px;
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+@media (max-width: 600px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-reveal-card {
+    width: 200px;
+  }
+}
