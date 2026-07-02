@@ -46,11 +46,14 @@ body {
     radial-gradient(ellipse at 10% 60%, #081a2a 0%, transparent 45%),
     radial-gradient(ellipse at 90% 40%, #0d0a1a 0%, transparent 40%), var(--bg);
   color: var(--text);
-  min-height: 100vh;
+  min-height: 100dvh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px;
+  justify-content: center;
+  padding: clamp(10px, 1.8vh, 24px) clamp(14px, 2vw, 28px);
+  gap: clamp(10px, 1.6vh, 16px);
   transition: background-color 0.6s ease;
 }
 
@@ -60,11 +63,13 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 1100px;
 }
 
 h1 {
-  font-size: 3.4rem;
+  font-size: clamp(2rem, 3.7vw, 3rem);
   font-weight: 900;
   background: linear-gradient(90deg, #cc5500 0%, #ffb84d 100%);
   -webkit-background-clip: text;
@@ -74,21 +79,21 @@ h1 {
 }
 
 .subtitle {
-  margin-top: 10px;
+  margin-top: 6px;
   color: var(--muted);
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 0.74rem;
 }
 
 .tips {
-  margin-top: 28px;
+  margin-top: 8px;
   display: flex;
   justify-content: center;
-  gap: 28px;
+  gap: 14px 18px;
   flex-wrap: wrap;
   color: var(--muted);
-  font-size: 0.93rem;
+  font-size: 0.78rem;
 }
 
 /* =====================================================
@@ -106,7 +111,8 @@ h1 {
 ===================================================== */
 
 .progress-container {
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  width: min(1100px, 100%);
 }
 
 .progress-bar {
@@ -144,6 +150,9 @@ h1 {
   border: 2px solid rgba(100, 150, 200, 0.4);
   border-radius: 14px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: clamp(190px, 26vh, 250px);
   transition:
     border-color 0.3s,
     box-shadow 0.3s,
@@ -174,12 +183,12 @@ h1 {
 ===================================================== */
 
 .options {
-  padding: 24px 20px;
+  padding: 10px 16px;
   text-align: center;
   border-bottom: 1px solid rgba(44, 90, 44, 0.3);
   color: #26b26a;
   font-weight: 700;
-  font-size: 0.97rem;
+  font-size: 0.86rem;
   letter-spacing: 0.05em;
   background: rgba(44, 90, 44, 0.1);
 }
@@ -188,11 +197,19 @@ h1 {
    Sentence
 ===================================================== */
 
+.sentence-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-height: 0;
+}
+
 .sentence {
-  min-height: 160px;
-  padding: 42px 50px;
-  font-size: 1.28rem;
-  line-height: 1.85;
+  width: 100%;
+  min-height: 120px;
+  padding: 18px 22px;
+  font-size: clamp(0.95rem, 1.6vw, 1.12rem);
+  line-height: 1.5;
   text-align: left;
   color: var(--text);
   word-break: normal;
@@ -214,13 +231,13 @@ h1 {
 ===================================================== */
 
 .typing-section {
-  margin-top: 26px;
+  margin-top: 10px;
 }
 
 #sentenceInput {
   width: 100%;
-  padding: 20px 24px;
-  font-size: 1.05rem;
+  padding: 12px 14px;
+  font-size: 0.95rem;
   font-family: inherit;
   color: var(--moonlight);
   background: var(--panel);
@@ -247,16 +264,18 @@ h1 {
 ===================================================== */
 
 .stats {
-  margin-top: 32px;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 12px;
+  flex-wrap: nowrap;
 }
 
 .stat {
-  width: 170px;
-  padding: 20px;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 160px;
+  padding: 12px;
   text-align: center;
   border-radius: 11px;
   background: var(--panel);
@@ -294,9 +313,9 @@ h1 {
 }
 
 .stat-value {
-  margin-top: 10px;
+  margin-top: 6px;
   color: var(--fog);
-  font-size: 1.65rem;
+  font-size: 1.28rem;
   font-weight: 800;
 }
 
@@ -316,18 +335,36 @@ h1 {
 
 @media (max-width: 600px) {
   body {
-    padding: 20px;
+    padding: 10px 10px 8px;
   }
   .tips {
-    gap: 16px;
-    font-size: 0.85rem;
+    gap: 8px 10px;
+    font-size: 0.72rem;
   }
   .sentence {
-    padding: 28px;
-    font-size: 1.3rem;
+    padding: 14px 16px;
+    font-size: 0.94rem;
+  }
+  .stats {
+    flex-wrap: wrap;
   }
   .stat {
-    width: 100%;
+    flex: 1 1 calc(50% - 6px);
+    max-width: none;
+  }
+}
+
+@media (max-height: 760px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  .tips {
+    display: none;
+  }
+
+  .card {
+    max-height: 34vh;
   }
 }
 
@@ -410,8 +447,8 @@ h1 {
 ===================================================== */
 
 .cards-button {
-  margin-top: 22px;
-  padding: 10px 20px;
+  margin-top: 12px;
+  padding: 8px 14px;
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 700;
@@ -442,15 +479,15 @@ h1 {
 ===================================================== */
 
 .dictionary-buttons {
-  margin-top: 16px;
+  margin-top: 12px;
   display: flex;
   justify-content: center;
-  gap: 14px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .dict-button {
-  padding: 9px 18px;
+  padding: 7px 12px;
   font-family: inherit;
   font-size: 0.9rem;
   font-weight: 600;
@@ -523,7 +560,7 @@ h1 {
 ===================================================== */
 
 .app-footer {
-  margin-top: 60px;
+  margin-top: 4px;
   text-align: center;
 }
 
