@@ -1410,11 +1410,6 @@ const sentences = [
     answer: "during",
   },
   {
-    question: "Is it true that your mother died _____ cancer.",
-    options: ["across", "at", "by", "during", "for", "from", "in", "into", "of", "on", "through", "to", "towards", "with"],
-    answer: "of",
-  },
-  {
     question: "I didn’t have enough money _____ pay for the meal.",
     options: ["across", "at", "by", "during", "for", "from", "in", "into", "of", "on", "through", "to", "towards", "with"],
     answer: "to",
@@ -2413,11 +2408,6 @@ const sentences = [
     question: "We have to be there _____ ten at the latest.",
     options: ["by", "for", "from", "in", "into", "on", "out of", "under"],
     answer: "by",
-  },
-  {
-    question: "My mother is suffering _____ cancer.",
-    options: ["by", "for", "from", "in", "into", "on", "out of", "under"],
-    answer: "from",
   },
   {
     question: "They had to translate the document from English _____ Spanish.",
