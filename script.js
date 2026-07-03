@@ -16,6 +16,7 @@ const progressLabel = document.getElementById("progressLabel");
 const score = document.getElementById("score");
 const streak = document.getElementById("streak");
 const speed = document.getElementById("speed");
+const eflLevel = document.getElementById("eflLevel");
 const level = document.getElementById("level");
 
 const levelFlash = document.getElementById("levelFlash");
@@ -30,6 +31,7 @@ const cardsModalClose = document.getElementById("cardsModalClose");
 const cardsGrid = document.getElementById("cardsGrid");
 
 const aboutButton = document.getElementById("aboutButton");
+const newGameButton = document.getElementById("newGameButton");
 const aboutModal = document.getElementById("aboutModal");
 const aboutModalClose = document.getElementById("aboutModalClose");
 const aboutModalBackdrop = document.querySelector(".about-modal-backdrop");
@@ -39,7 +41,6 @@ function openAboutModal() {
   aboutModal.classList.add("open");
   aboutModal.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
-  saveState();
   aboutModalClose?.focus();
 }
 
@@ -54,6 +55,10 @@ function closeAboutModal() {
 aboutButton?.addEventListener("click", (event) => {
   event.preventDefault();
   openAboutModal();
+});
+
+newGameButton?.addEventListener("click", () => {
+  startGame();
 });
 
 aboutModalClose?.addEventListener("click", closeAboutModal);
@@ -97,6 +102,12 @@ let streakAbove40 = 0;
 let streakAbove50 = 0;
 
 let streakAbove60 = 0;
+
+let streakAbove30 = 0;
+
+let streakAbove10 = 0;
+
+let currentEflLevel = "N/A";
 
 // =====================================================
 // Level Themes — palette swaps every SCORE_PER_LEVEL,
@@ -610,6 +621,22 @@ function updateProgress() {
   progressLabel.textContent = `${intoLevel} / ${SCORE_PER_LEVEL} to Level ${currentLevel + 1}`;
 }
 
+function getEflLevelFromStreaks() {
+  if (streakAbove50 >= 5) return "C1";
+  if (streakAbove40 >= 5) return "B2";
+  if (streakAbove30 >= 5) return "B1";
+  if (streakAbove10 >= 5) return "A2";
+  return "N/A";
+}
+
+function refreshEflLevel() {
+  currentEflLevel = getEflLevelFromStreaks();
+
+  if (eflLevel) {
+    eflLevel.textContent = currentEflLevel;
+  }
+}
+
 function updateStats(currentSpeed) {
   score.textContent = currentScore;
 
@@ -618,6 +645,10 @@ function updateStats(currentSpeed) {
   streak.textContent = currentStreak > 0 ? `${currentStreak} 🔥` : "—";
 
   speed.textContent = currentSpeed !== undefined ? currentSpeed : lastSpeed;
+
+  if (eflLevel) {
+    eflLevel.textContent = currentEflLevel;
+  }
 
   updateProgress();
 }
@@ -690,9 +721,13 @@ function checkAnswer() {
     currentScore += points;
     currentStreak++;
 
-    streakAbove40 = wpm >= 40 ? streakAbove40 + 1 : 0;
-    streakAbove50 = wpm >= 50 ? streakAbove50 + 1 : 0;
-    streakAbove60 = wpm >= 60 ? streakAbove60 + 1 : 0;
+    streakAbove40 = wpm >= 40 ? streakAbove40 + 1 : streakAbove40;
+    streakAbove50 = wpm >= 50 ? streakAbove50 + 1 : streakAbove50;
+    streakAbove60 = wpm >= 60 ? streakAbove60 + 1 : streakAbove60;
+    streakAbove30 = wpm >= 30 ? streakAbove30 + 1 : streakAbove30;
+    streakAbove10 = wpm >= 10 ? streakAbove10 + 1 : streakAbove10;
+
+    refreshEflLevel();
 
     lastSpeed = wpm + " wpm";
 
@@ -717,9 +752,7 @@ function checkAnswer() {
   } else {
     currentStreak = 0;
 
-    streakAbove40 = 0;
-    streakAbove50 = 0;
-    streakAbove60 = 0;
+    refreshEflLevel();
 
     updateStats(lastSpeed);
   }
@@ -743,7 +776,17 @@ function checkAnswer() {
   setTimeout(showQuestion, 500);
 }
 
+function clearSavedProgress() {
+  try {
+    localStorage.removeItem("blitzkeys_state");
+  } catch (err) {
+    console.warn("Could not clear saved state:", err);
+  }
+}
+
 function startGame() {
+  clearSavedProgress();
+
   deck = shuffle(sentences);
 
   questionIndex = 0;
@@ -755,6 +798,11 @@ function startGame() {
   streakAbove40 = 0;
   streakAbove50 = 0;
   streakAbove60 = 0;
+  streakAbove30 = 0;
+  streakAbove10 = 0;
+  currentEflLevel = "N/A";
+
+  refreshEflLevel();
 
   unlockedCards = new Set();
 
@@ -838,38 +886,7 @@ cardRevealOverlay.addEventListener("click", () => {
 // =====================================================
 
 function saveState() {
-  try {
-    const deckIndices = deck
-      .map((item) => {
-        const idx = sentences.findIndex(
-          (s) => s.question === item.question && s.answer === item.answer,
-        );
-
-        return idx >= 0 ? idx : null;
-      })
-      .filter((i) => i !== null);
-
-    const state = {
-      deckIndices,
-      questionIndex,
-      currentScore,
-      currentStreak,
-      currentLevel,
-      streakAbove40,
-      streakAbove50,
-      streakAbove60,
-      unlockedCards: Array.from(unlockedCards),
-      lastSpeed,
-      // store the current input so a partial answer isn't lost
-      inputValue: input.value || "",
-      // timestamp to allow approximate live WPM reconstruction if needed
-      savedAt: Date.now(),
-    };
-
-    localStorage.setItem("blitzkeys_state", JSON.stringify(state));
-  } catch (err) {
-    console.warn("Could not save state:", err);
-  }
+  clearSavedProgress();
 }
 
 function loadState() {
@@ -908,6 +925,11 @@ function loadState() {
       typeof state.streakAbove50 === "number" ? state.streakAbove50 : 0;
     streakAbove60 =
       typeof state.streakAbove60 === "number" ? state.streakAbove60 : 0;
+    streakAbove30 =
+      typeof state.streakAbove30 === "number" ? state.streakAbove30 : 0;
+    streakAbove10 =
+      typeof state.streakAbove10 === "number" ? state.streakAbove10 : 0;
+    currentEflLevel = getEflLevelFromStreaks();
 
     unlockedCards = new Set(
       Array.isArray(state.unlockedCards) ? state.unlockedCards : [],
@@ -949,7 +971,4 @@ document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "hidden") saveState();
 });
 
-// Try to restore previous state; otherwise start fresh
-if (!loadState()) {
-  startGame();
-}
+startGame();

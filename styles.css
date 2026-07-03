@@ -442,6 +442,10 @@ h1 {
   color: var(--amber);
 }
 
+.stat-value.efl-value {
+  color: #7fe0e0;
+}
+
 /* =====================================================
    Cards button — header entry point to the collection
 ===================================================== */
