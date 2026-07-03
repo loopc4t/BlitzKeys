@@ -1116,7 +1116,7 @@ const sentences = [
   },
   {
     question: "_____ the end of next year we will have made over $100,000.",
-    options: ["about", "at", "by", "for", "from", "in", "of", "on", "to", "with"],
+    options: ["About", "At", "By", "For", "From", "In", "Of", "On", "To", "With"],
     answer: "By",
   },
   {
