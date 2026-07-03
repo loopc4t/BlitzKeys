@@ -29,6 +29,42 @@ const cardsModal = document.getElementById("cardsModal");
 const cardsModalClose = document.getElementById("cardsModalClose");
 const cardsGrid = document.getElementById("cardsGrid");
 
+const aboutButton = document.getElementById("aboutButton");
+const aboutModal = document.getElementById("aboutModal");
+const aboutModalClose = document.getElementById("aboutModalClose");
+const aboutModalBackdrop = document.querySelector(".about-modal-backdrop");
+
+function openAboutModal() {
+  if (!aboutModal) return;
+  aboutModal.classList.add("open");
+  aboutModal.setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
+  saveState();
+  aboutModalClose?.focus();
+}
+
+function closeAboutModal() {
+  if (!aboutModal) return;
+  aboutModal.classList.remove("open");
+  aboutModal.setAttribute("aria-hidden", "true");
+  document.body.style.overflow = "";
+  aboutButton?.focus();
+}
+
+aboutButton?.addEventListener("click", (event) => {
+  event.preventDefault();
+  openAboutModal();
+});
+
+aboutModalClose?.addEventListener("click", closeAboutModal);
+aboutModalBackdrop?.addEventListener("click", closeAboutModal);
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && aboutModal?.classList.contains("open")) {
+    closeAboutModal();
+  }
+});
+
 const cardRevealOverlay = document.getElementById("cardRevealOverlay");
 const cardRevealStage = document.getElementById("cardRevealStage");
 const cardRevealCard = document.getElementById("cardRevealCard");
@@ -907,15 +943,11 @@ function loadState() {
   }
 }
 
-// Save state when the page is unloaded or hidden, and when user clicks About
+// Save state when the page is unloaded or hidden
 window.addEventListener("beforeunload", saveState);
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "hidden") saveState();
 });
-
-if (typeof aboutButton !== "undefined" && aboutButton) {
-  aboutButton.addEventListener("click", saveState);
-}
 
 // Try to restore previous state; otherwise start fresh
 if (!loadState()) {

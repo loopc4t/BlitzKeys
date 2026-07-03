@@ -35,7 +35,9 @@
         🎴 Cards <span id="cardsCount">0 / 9</span>
       </button>
 
-      <a id="aboutButton" class="about-button" href="about.html"> ℹ️ About </a>
+      <button id="aboutButton" class="about-button" type="button">
+        ℹ️ About
+      </button>
     </header>
 
     <section class="progress-container">
@@ -113,6 +115,81 @@
         </p>
 
         <div id="cardsGrid" class="cards-grid"></div>
+      </div>
+    </div>
+
+    <div
+      id="aboutModal"
+      class="about-modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-labelledby="aboutModalTitle"
+      aria-describedby="aboutModalDescription"
+    >
+      <div class="about-modal-backdrop"></div>
+      <div class="about-modal-panel">
+        <div class="about-modal-header">
+          <div>
+            <h2 id="aboutModalTitle">About BlitzKeys</h2>
+            <p class="subtitle">Why this typing practice works</p>
+          </div>
+
+          <button
+            id="aboutModalClose"
+            class="about-modal-close"
+            type="button"
+            aria-label="Close About dialog"
+          >
+            ✕
+          </button>
+        </div>
+
+        <div id="aboutModalDescription" class="about-modal-content">
+          <p>
+            BlitzKeys is designed as a production-based language task, not just
+            a recognition exercise.
+          </p>
+
+          <p>
+            That means you type the entire sentence, not only choose a missing
+            word. This is a direct implementation of
+            <strong>pushed output</strong>, where learners must produce full
+            forms and notice the gap between what they understand and what they
+            can actually write.
+          </p>
+
+          <p>The method is built around three core functions:</p>
+
+          <ul>
+            <li>
+              <strong>Noticing</strong>: you see the difference between the
+              sentence you can understand and the sentence you can produce.
+            </li>
+            <li>
+              <strong>Hypothesis testing</strong>: you type a full response, get
+              feedback, and refine your form immediately.
+            </li>
+            <li>
+              <strong>Metalinguistic reflection</strong>: you think about the
+              exact words and sentence structure needed to complete the sentence
+              correctly.
+            </li>
+          </ul>
+
+          <p>
+            It also emphasizes <strong>fluency development</strong>. The app
+            uses real vocabulary and speed-based rewards so you practice moving
+            known language from slow, controlled production toward faster, more
+            automatic use.
+          </p>
+
+          <p>
+            Instead of graded textbook sentences, BlitzKeys pushes the learner
+            to use real-world vocabulary and to strengthen output under time
+            pressure. That makes it more effective for fluency than a simple
+            recognition or gap-fill game.
+          </p>
+        </div>
       </div>
     </div>
 
