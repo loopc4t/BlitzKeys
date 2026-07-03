@@ -2950,14 +2950,9 @@ const sentences = [
     answer: "to",
   },
   {
-    question: "We arrived at the airport in _____ time for the plane.",
+    question: "We arrived at the airport in _____ for the plane.",
     options: ["time", "on", "at"],
     answer: "time",
-  },
-  {
-    question: "My grandfather died _____ cancer.",
-    options: ["of", "from", "with"],
-    answer: "of",
   },
   {
     question: "The resort lies about 1,500 meters _____ sea level.",
