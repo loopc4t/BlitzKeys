@@ -3965,7 +3965,7 @@ const sentences = [
     answer: "progress report",
   },
   {
-    question: "Even though the project isn’t finished, I think we are _____.",
+    question: "Even though the project isn’t finished, I think we are _____ .",
     options: ["letting down", "on the right track", "periodically"],
     answer: "on the right track",
   },
@@ -4523,7 +4523,2027 @@ const sentences = [
     question: "We ordered a large _____ with extra cheese and pepperoni.",
     options: ["burger", "pizza", "sandwich"],
     answer: "pizza",
-  }
+  },
+  {
+    question: "This suitcase is heavy. I wish I had brought my _____ instead.",
+    options: ["carry-on", "roller bag", "backpack"],
+    answer: "roller bag",
+  },
+  {
+    question: "The snacks are in _____ 9, next to the drinks.",
+    options: ["aisle", "overhead bin", "row"],
+    answer: "aisle",
+  },
+  {
+    question: "Please put your small bag in the _____ above your seat.",
+    options: ["overhead bin", "legroom", "seat pocket"],
+    answer: "overhead bin",
+  },
+  {
+    question: "We need to find a place to _____ our winter clothes during the summer.",
+    options: ["store", "pack", "move"],
+    answer: "store",
+  },
+  {
+    question: "I only brought a small _____, so I don't have to wait at baggage claim.",
+    options: ["roller bag", "carry-on", "backpack"],
+    answer: "carry-on",
+  },
+  {
+    question: "The seats are very close together, so the plane feels quite _____.",
+    options: ["comfortable", "cramped", "spacious"],
+    answer: "cramped",
+  },
+  {
+    question: "I like sitting in the emergency exit row because there is more _____.",
+    options: ["bulkhead", "legroom", "aisle"],
+    answer: "legroom",
+  },
+  {
+    question: "Passengers in the _____ must be willing to help in an emergency.",
+    options: ["bulkhead", "emergency exit row", "overhead bin"],
+    answer: "emergency exit row",
+  },
+  {
+    question: "You can _____ your seat if you want to sleep during the flight.",
+    options: ["store", "recline", "check"],
+    answer: "recline",
+  },
+  {
+    question: "The first row is behind the _____ at the front of the cabin.",
+    options: ["aisle", "carry-on", "bulkhead"],
+    answer: "bulkhead",
+  },
+  {
+    question: "He _____ about the bad food on the plane, but he still ate everything.",
+    options: ["grumbled", "praised", "laughed"],
+    answer: "grumbled",
+  },
+  {
+    question: "We're late! Let's _____ or we'll miss the train.",
+    options: ["get moving", "slow down", "sit back"],
+    answer: "get moving",
+  },
+  {
+    question: "She _____ the last window seat before anyone else could book it.",
+    options: ["stored", "snagged", "grumbled"],
+    answer: "snagged",
+  },
+  {
+    question: "Your suitcase is too big to bring on the plane. You'll have to _____.",
+    options: ["store it", "unwind", "check your bag"],
+    answer: "check your bag",
+  },
+  {
+    question: "After the long trip, we just want to go home and _____.",
+    options: ["grumble", "unwind", "recline"],
+    answer: "unwind",
+  },
+  {
+    question: "I have a dentist appointment next week for my annual _____.",
+    options: ["cleaning", "check-up", "root canal"],
+    answer: "check-up",
+  },
+  {
+    question: "The dentist recommended a professional _____ every six months.",
+    options: ["filling", "cleaning", "check-up"],
+    answer: "cleaning",
+  },
+  {
+    question: "My _____ are coming in, and they're causing a lot of pain.",
+    options: ["molars", "wisdom teeth", "canines"],
+    answer: "wisdom teeth",
+  },
+  {
+    question: "He had to get a _____ because the tooth was badly infected.",
+    options: ["cavity", "root canal", "filling"],
+    answer: "root canal",
+  },
+  {
+    question: "During the root canal, the dentist removed the damaged _____.",
+    options: ["nerve", "plaque", "tartar"],
+    answer: "nerve",
+  },
+  {
+    question: "If you eat too much sugar, you might get a _____ in your tooth.",
+    options: ["cavity", "filling", "crack"],
+    answer: "cavity",
+  },
+  {
+    question: "You use your _____ to chew and grind food.",
+    options: ["wisdom teeth", "molars", "incisors"],
+    answer: "molars",
+  },
+  {
+    question: "The dentist put a _____ in the hole after removing the decay.",
+    options: ["root canal", "filling", "crown"],
+    answer: "filling",
+  },
+  {
+    question: "She has tooth _____ and can't eat ice cream because it hurts.",
+    options: ["buildup", "sensitivity", "decay"],
+    answer: "sensitivity",
+  },
+  {
+    question: "You should brush your teeth and massage your _____ gently every day.",
+    options: ["nerves", "gums", "roots"],
+    answer: "gums",
+  },
+  {
+    question: "The dentist said my gums are starting to _____.",
+    options: ["recede", "bleed", "swell"],
+    answer: "recede",
+  },
+  {
+    question: "The infection reached the _____ of the tooth.",
+    options: ["cavity", "root", "crown"],
+    answer: "root",
+  },
+  {
+    question: "Use _____ every day to clean between your teeth.",
+    options: ["mouthwash", "dental floss", "toothpaste"],
+    answer: "dental floss",
+  },
+  {
+    question: "The _____ cleaned my teeth before the dentist examined them.",
+    options: ["dental hygienist", "assistant", "receptionist"],
+    answer: "dental hygienist",
+  },
+  {
+    question: "Remember to _____ your teeth at least twice a day.",
+    options: ["floss", "brush", "rinse"],
+    answer: "brush",
+  },
+  {
+    question: "There is a lot of _____ on your teeth because you haven't brushed well.",
+    options: ["buildup", "plaque", "staining"],
+    answer: "buildup",
+  },
+  {
+    question: "Brush your teeth regularly to remove _____.",
+    options: ["tartar", "plaque", "food poisoning"],
+    answer: "plaque",
+  },
+  {
+    question: "The dentist had to remove all her teeth and fit her with _____.",
+    options: ["fillings", "dentures", "braces"],
+    answer: "dentures",
+  },
+  {
+    question: "She's a _____ at this job, so please be patient with her.",
+    options: ["veteran", "newbie", "old hand"],
+    answer: "newbie",
+  },
+  {
+    question: "He's still _____, so he needs more training and guidance.",
+    options: ["wet behind the ears", "experienced", "an old hand"],
+    answer: "wet behind the ears",
+  },
+  {
+    question: "Marcus is a _____ teacher with over 25 years of experience.",
+    options: ["novice", "veteran", "recruit"],
+    answer: "veteran",
+  },
+  {
+    question: "She has a lot of _____ in marketing and digital advertising.",
+    options: ["experience", "expertise", "knowledge"],
+    answer: "expertise",
+  },
+  {
+    question: "She's finally working and living alone. She's learning to _____.",
+    options: ["stand on her own two feet", "prop herself up", "take things with a grain of salt"],
+    answer: "stand on her own two feet",
+  },
+  {
+    question: "As a _____, I made a lot of mistakes when I first started playing chess.",
+    options: ["veteran", "novice", "expert"],
+    answer: "novice",
+  },
+  {
+    question: "Trust and communication are the _____ of a good relationship.",
+    options: ["cornerstone", "foundation", "result"],
+    answer: "cornerstone",
+  },
+  {
+    question: "Driving too fast on icy roads is very _____.",
+    options: ["careless", "reckless", "inept"],
+    answer: "reckless",
+  },
+  {
+    question: "She is very _____ at learning new languages quickly.",
+    options: ["inept", "adept", "experienced"],
+    answer: "adept",
+  },
+  {
+    question: "He is completely _____ when it comes to fixing computers.",
+    options: ["adept", "inept", "inexperienced"],
+    answer: "inept",
+  },
+  {
+    question: "The company hired 15 new _____ this year.",
+    options: ["old hands", "recruits", "employees"],
+    answer: "recruits",
+  },
+  {
+    question: "Ask Linda for help—she's an _____ when it comes to organizing big events.",
+    options: ["old hand", "newbie", "recruit"],
+    answer: "old hand",
+  },
+  {
+    question: "Our regular teacher is sick today, so we have a _____.",
+    options: ["assistant", "substitute", "principal"],
+    answer: "substitute",
+  },
+  {
+    question: "The class is going on a _____ to the science museum next week.",
+    options: ["vacation", "field trip", "tour"],
+    answer: "field trip",
+  },
+  {
+    question: "Before we start the game, let's review the _____.",
+    options: ["instructions", "ground rules", "schedule"],
+    answer: "ground rules",
+  },
+  {
+    question: "Let's _____ the instructions one more time before you begin.",
+    options: ["get through", "go over", "write down"],
+    answer: "go over",
+  },
+  {
+    question: "Find a _____ and discuss the questions together.",
+    options: ["teacher", "partner", "stranger"],
+    answer: "partner",
+  },
+  {
+    question: "Young children should _____ when crossing the street.",
+    options: ["let their guard down", "hold hands", "run ahead"],
+    answer: "hold hands",
+  },
+  {
+    question: "I just need to _____ this project, and then I can relax.",
+    options: ["get through", "go over", "put off"],
+    answer: "get through",
+  },
+  {
+    question: "Never talk to a _____ without telling your parents first.",
+    options: ["partner", "stranger", "neighbor"],
+    answer: "stranger",
+  },
+  {
+    question: "In this safety video, children learn how to stay safe from online and real-life _____.",
+    options: ["teachers", "predators", "substitutes"],
+    answer: "predators",
+  },
+  {
+    question: "Don't let anyone _____ you into getting into their car.",
+    options: ["lure", "abduct", "accost"],
+    answer: "lure",
+  },
+  {
+    question: "The police warned parents about people who might try to _____ children.",
+    options: ["lure", "abduct", "approach"],
+    answer: "abduct",
+  },
+  {
+    question: "She was winning easily, but then she _____ and lost the match.",
+    options: ["let her guard down", "gave up", "got distracted"],
+    answer: "let her guard down",
+  },
+  {
+    question: "He _____ the meeting to take an important phone call.",
+    options: ["stepped away from", "waylaid", "accosted"],
+    answer: "stepped away from",
+  },
+  {
+    question: "You need your parents' _____ to go on the school trip.",
+    options: ["permission", "approval", "signature"],
+    answer: "permission",
+  },
+  {
+    question: "The man was _____ by two strangers asking for money late at night.",
+    options: ["waylaid", "accosted", "lured"],
+    answer: "accosted",
+  },
+  {
+    question: "She was _____ by a friend who stopped her to chat on her way home.",
+    options: ["abducted", "waylaid", "accosted"],
+    answer: "waylaid",
+  },
+  {
+    question: "Most fifth _____ enjoy playing outside during recess.",
+    options: ["substitutes", "graders", "teachers"],
+    answer: "graders",
+  },
+  {
+    question: "He _____ all his friends, asking them to lend him money for his new phone.",
+    options: ["spotted", "hit up", "called"],
+    answer: "hit up",
+  },
+  {
+    question: "Can you _____ me $10 until next week? I forgot my wallet.",
+    options: ["hit up", "spot", "lend"],
+    answer: "spot",
+  },
+  {
+    question: "Becoming a famous actor in Hollywood is just a _____ for most people.",
+    options: ["goal", "pipe dream", "plan"],
+    answer: "pipe dream",
+  },
+  {
+    question: "Don't ask him for money—he's a real _____.",
+    options: ["big-hearted", "cheapskate", "generous person"],
+    answer: "cheapskate",
+  },
+  {
+    question: "Her _____ is amazing. She donates time and money to many causes.",
+    options: ["kindness", "generosity", "charity work"],
+    answer: "generosity",
+  },
+  {
+    question: "After selling their company, they've been _____.",
+    options: ["rolling in it", "struggling financially", "living paycheck to paycheck"],
+    answer: "rolling in it",
+  },
+  {
+    question: "I really don't want to _____ my old car, but I need the money.",
+    options: ["part with", "sell", "give away"],
+    answer: "part with",
+  },
+  {
+    question: "She donates large amounts of money _____.",
+    options: ["only when asked", "without giving it a second thought", "after thinking about it for weeks"],
+    answer: "without giving it a second thought",
+  },
+  {
+    question: "Raising twins while working full time means you've really _____.",
+    options: ["got your work cut out for you", "got it made", "had an easy time"],
+    answer: "got your work cut out for you",
+  },
+  {
+    question: "My uncle is a real _____. He never buys anything unless it's on sale.",
+    options: ["big-hearted", "penny-pincher", "shopaholic"],
+    answer: "penny-pincher",
+  },
+  {
+    question: "He's too _____ to even buy coffee for his friends.",
+    options: ["stingy", "big-hearted", "charitable"],
+    answer: "stingy",
+  },
+  {
+    question: "She's very _____. She always helps people in need.",
+    options: ["stingy", "big-hearted", "careless"],
+    answer: "big-hearted",
+  },
+  {
+    question: "The company is very _____ and donates to many local charities.",
+    options: ["stingy", "charitable", "profitable"],
+    answer: "charitable",
+  },
+  {
+    question: "I'm trying to save money, but _____, I'll join you for dinner.",
+    options: ["what the heck", "on second thought", "never mind"],
+    answer: "what the heck",
+  },
+  {
+    question: "This $50 will help _____ until I get paid next week.",
+    options: ["tide me over", "pay my bills forever", "make me rich"],
+    answer: "tide me over",
+  },
+  {
+    question: "I always treat myself to a nice dinner on _____.",
+    options: ["payday", "vacation", "weekends"],
+    answer: "payday",
+  },
+  {
+    question: "An extra battery always _____ when traveling.",
+    options: ["comes in handy", "gets in the way", "runs out"],
+    answer: "comes in handy",
+  },
+  {
+    question: "He won a lot of money at the casino and decided to _____ .",
+    options: ["keep betting", "borrow more money", "quit while he was ahead"],
+    answer: "quit while he was ahead",
+  },
+  {
+    question: "They always sleep with the curtains _____ so no one can see inside.",
+    options: ["peeking", "drawn", "disclosed"],
+    answer: "drawn",
+  },
+  {
+    question: "She closed the door because she wanted some _____ .",
+    options: ["anonymity", "privacy", "seclusion"],
+    answer: "privacy",
+  },
+  {
+    question: "The police caught a _____ looking into the neighbor’s windows.",
+    options: ["hermit", "peeping Tom", "paranoid"],
+    answer: "peeping Tom",
+  },
+  {
+    question: "The children tried to _____ at their Christmas presents before the morning.",
+    options: ["invade", "peek", "disclose"],
+    answer: "peek",
+  },
+  {
+    question: "She _____ offered to help clean up after the party.",
+    options: ["paranoid", "voluntarily", "on guard"],
+    answer: "voluntarily",
+  },
+  {
+    question: "Reading someone’s private messages is an _____ of their privacy.",
+    options: ["invasion", "anonymity", "seclusion"],
+    answer: "invasion",
+  },
+  {
+    question: "He enjoys the _____ of online forums where no one knows his real name.",
+    options: ["privacy", "anonymity", "hermit"],
+    answer: "anonymity",
+  },
+  {
+    question: "When walking alone at night, it’s important to _____ .",
+    options: ["breathe a word", "be on guard", "rest assured"],
+    answer: "be on guard",
+  },
+  {
+    question: "The information is shared only on a _____ .",
+    options: ["need-to-know basis", "pipe dream", "rest assured"],
+    answer: "need-to-know basis",
+  },
+  {
+    question: "He’s so _____ that he thinks everyone is trying to follow him.",
+    options: ["big-hearted", "paranoid", "stingy"],
+    answer: "paranoid",
+  },
+  {
+    question: "The other team is really _____ win this championship.",
+    options: ["getting", "disclosing", "out to"],
+    answer: "out to",
+  },
+  {
+    question: "They’re planning to _____ the leader of the rival group.",
+    options: ["get", "peek", "lure"],
+    answer: "get",
+  },
+  {
+    question: "The company refused to _____ any details about the new product.",
+    options: ["invade", "disclose", "part with"],
+    answer: "disclose",
+  },
+  {
+    question: "She spent the weekend in complete _____ in a mountain cabin.",
+    options: ["anonymity", "seclusion", "privacy"],
+    answer: "seclusion",
+  },
+  {
+    question: "He lives like a _____ and rarely leaves his house.",
+    options: ["peeping Tom", "hermit", "paranoid"],
+    answer: "hermit",
+  },
+  {
+    question: "_____ , everything is under control and we will finish on time.",
+    options: ["Rest assured", "Breathe a word", "Get someone"],
+    answer: "Rest assured",
+  },
+  {
+    question: "Don’t _____ about the surprise party or it won’t be a surprise.",
+    options: ["get through", "breathe a word", "let your guard down"],
+    answer: "breathe a word",
+  },
+  {
+    question: "He let his temper _____ when the other driver cut him off.",
+    options: ["get the best of him", "freak out", "lose control"],
+    answer: "get the best of him",
+  },
+  {
+    question: "She completely _____ when she saw the spider in the bathroom.",
+    options: ["rectified the situation", "freaked out", "calmed down"],
+    answer: "freaked out",
+  },
+  {
+    question: "We need to find a way to _____ the mistake before it's too late.",
+    options: ["ignore", "rectify", "repeat"],
+    answer: "rectify",
+  },
+  {
+    question: "_____, I realize that quitting my job was a bad decision.",
+    options: ["In retrospect", "Nevertheless", "At first"],
+    answer: "In retrospect",
+  },
+  {
+    question: "Stop acting like a _____. You're annoying everyone.",
+    options: ["twerp", "genius", "professional"],
+    answer: "twerp",
+  },
+  {
+    question: "I shouldn't have invested in that company, but _____ .",
+    options: ["hindsight is 20/20", "you live and learn", "that's life"],
+    answer: "hindsight is 20/20",
+  },
+  {
+    question: "The meeting was just a _____ to make the boss look good.",
+    options: ["celebration", "dog and pony show", "discussion"],
+    answer: "dog and pony show",
+  },
+  {
+    question: "He tried to _____ the bad news so she wouldn't be too upset.",
+    options: ["sugarcoat", "exaggerate", "hide"],
+    answer: "sugarcoat",
+  },
+  {
+    question: "I have no _____ to your plan except the timing.",
+    options: ["repercussion", "objection", "solution"],
+    answer: "objection",
+  },
+  {
+    question: "Don't _____ in the negotiations—fight for the best deal.",
+    options: ["pull your punches", "give an inch", "back down"],
+    answer: "pull your punches",
+  },
+  {
+    question: "They wouldn't _____ during the discussion, so we couldn't reach an agreement.",
+    options: ["give an inch", "compromise", "change the subject"],
+    answer: "give an inch",
+  },
+  {
+    question: "He doesn't like horror movies. _____, he went with his friends.",
+    options: ["In retrospect", "Nevertheless", "As a result"],
+    answer: "Nevertheless",
+  },
+  {
+    question: "If you make that decision, there will be serious _____.",
+    options: ["objections", "repercussions", "benefits"],
+    answer: "repercussions",
+  },
+  {
+    question: "Please take out the garbage—the kitchen really _____.",
+    options: ["lathers", "stinks", "sparkles"],
+    answer: "stinks",
+  },
+  {
+    question: "She prefers taking a long bath instead of a quick _____.",
+    options: ["shower", "swim", "rinse"],
+    answer: "shower",
+  },
+  {
+    question: "Let me _____ for a minute so the water can get hot.",
+    options: ["run the water", "turn off the faucet", "scrub the sink"],
+    answer: "run the water",
+  },
+  {
+    question: "The floor is all wet because the _____ has a hole in it.",
+    options: ["showerhead", "shower curtain", "bathtub"],
+    answer: "shower curtain",
+  },
+  {
+    question: "We installed a new _____ that has different spray settings.",
+    options: ["faucet", "showerhead", "stopper"],
+    answer: "showerhead",
+  },
+  {
+    question: "Rub the soap until you make a nice _____.",
+    options: ["lather", "rinse", "soak"],
+    answer: "lather",
+  },
+  {
+    question: "I had to _____ the pan for ten minutes to remove the burnt food.",
+    options: ["rinse off", "scrub", "wipe"],
+    answer: "scrub",
+  },
+  {
+    question: "After playing in the mud, the kids were dirty _____.",
+    options: ["from head to toe", "inside and out", "all over the yard"],
+    answer: "from head to toe",
+  },
+  {
+    question: "Make sure you _____ all the soap before you get out of the shower.",
+    options: ["lather up", "rinse off", "dry off"],
+    answer: "rinse off",
+  },
+  {
+    question: "Always wash your hands with _____ and water.",
+    options: ["bubble bath", "soap", "shampoo"],
+    answer: "soap",
+  },
+  {
+    question: "After swimming, she used a big towel to _____.",
+    options: ["soak", "towel off", "rinse off"],
+    answer: "towel off",
+  },
+  {
+    question: "Let the dirty dishes _____ in hot water before washing them.",
+    options: ["scrub", "soak", "dry"],
+    answer: "soak",
+  },
+  {
+    question: "Put the _____ in the drain so the sink fills with water.",
+    options: ["faucet", "stopper", "drainpipe"],
+    answer: "stopper",
+  },
+  {
+    question: "She filled the _____ with hot water and took a relaxing bath.",
+    options: ["sink", "bathtub", "shower"],
+    answer: "bathtub",
+  },
+  {
+    question: "Turn on the _____ to get hot water for your shower.",
+    options: ["stopper", "faucet", "drain"],
+    answer: "faucet",
+  },
+  {
+    question: "She loves taking a _____ with lots of bubbles after a long day.",
+    options: ["bubble bath", "quick shower", "cold rinse"],
+    answer: "bubble bath",
+  },
+  {
+    question: "We cleaned _____ of the house before the guests arrived.",
+    options: ["from head to toe", "every nook and cranny", "little by little"],
+    answer: "every nook and cranny",
+  },
+  {
+    question: "The purple hair wasn't really the look she was _____.",
+    options: ["going for", "trying on", "looking at"],
+    answer: "going for",
+  },
+  {
+    question: "Don't _____ in the negotiations—fight for the best deal.",
+    options: ["pull your punches", "give an inch", "back down"],
+    answer: "pull your punches",
+  },
+  {
+    question: "They wouldn't _____ during the discussion, so we couldn't reach an agreement.",
+    options: ["give an inch", "compromise", "change the subject"],
+    answer: "give an inch",
+  },
+  {
+    question: "He doesn't like horror movies. _____, he went with his friends.",
+    options: ["In retrospect", "Nevertheless", "As a result"],
+    answer: "Nevertheless",
+  },
+  {
+    question: "If you make that decision, there will be serious _____.",
+    options: ["objections", "repercussions", "benefits"],
+    answer: "repercussions",
+  },
+  {
+    question: "Please take out the garbage—the kitchen really _____.",
+    options: ["lathers", "stinks", "sparkles"],
+    answer: "stinks",
+  },
+  {
+    question: "She prefers taking a long bath instead of a quick _____.",
+    options: ["shower", "swim", "rinse"],
+    answer: "shower",
+  },
+  {
+    question: "Let me _____ for a minute so the water can get hot.",
+    options: ["run the water", "turn off the faucet", "scrub the sink"],
+    answer: "run the water",
+  },
+  {
+    question: "The floor is all wet because the _____ has a hole in it.",
+    options: ["showerhead", "shower curtain", "bathtub"],
+    answer: "shower curtain",
+  },
+  {
+    question: "We installed a new _____ that has different spray settings.",
+    options: ["faucet", "showerhead", "stopper"],
+    answer: "showerhead",
+  },
+  {
+    question: "Rub the soap until you make a nice _____.",
+    options: ["lather", "rinse", "soak"],
+    answer: "lather",
+  },
+  {
+    question: "I had to _____ the pan for ten minutes to remove the burnt food.",
+    options: ["rinse off", "scrub", "wipe"],
+    answer: "scrub",
+  },
+  {
+    question: "After playing in the mud, the kids were dirty _____.",
+    options: ["from head to toe", "inside and out", "all over the yard"],
+    answer: "from head to toe",
+  },
+  {
+    question: "Make sure you _____ all the soap before you get out of the shower.",
+    options: ["lather up", "rinse off", "dry off"],
+    answer: "rinse off",
+  },
+  {
+    question: "Always wash your hands with _____ and water.",
+    options: ["bubble bath", "soap", "shampoo"],
+    answer: "soap",
+  },
+  {
+    question: "After swimming, she used a big towel to _____.",
+    options: ["soak", "towel off", "rinse off"],
+    answer: "towel off",
+  },
+  {
+    question: "Let the dirty dishes _____ in hot water before washing them.",
+    options: ["scrub", "soak", "dry"],
+    answer: "soak",
+  },
+  {
+    question: "Put the _____ in the drain so the sink fills with water.",
+    options: ["faucet", "stopper", "drainpipe"],
+    answer: "stopper",
+  },
+  {
+    question: "She filled the _____ with hot water and took a relaxing bath.",
+    options: ["sink", "bathtub", "shower"],
+    answer: "bathtub",
+  },
+  {
+    question: "Turn on the _____ to get hot water for your shower.",
+    options: ["stopper", "faucet", "drain"],
+    answer: "faucet",
+  },
+  {
+    question: "She loves taking a _____ with lots of bubbles after a long day.",
+    options: ["bubble bath", "quick shower", "cold rinse"],
+    answer: "bubble bath",
+  },
+  {
+    question: "We cleaned _____ of the house before the guests arrived.",
+    options: ["from head to toe", "every nook and cranny", "little by little"],
+    answer: "every nook and cranny",
+  },
+  {
+    question: "The purple hair wasn't really the look she was _____.",
+    options: ["going for", "trying on", "looking at"],
+    answer: "going for",
+  },
 
+  // Batch 2
+  {
+    question: "Stop _____ and just tell me what happened.",
+    options: ["speaking your mind", "beating around the bush", "changing your tune"],
+    answer: "beating around the bush",
+  },
+  {
+    question: "He had to _____ to finish the report before the deadline.",
+    options: ["call it a day", "burn the midnight oil", "take it easy"],
+    answer: "burn the midnight oil",
+  },
+  {
+    question: "After the argument, they decided to _____ and start fresh.",
+    options: ["bury the hatchet", "hold a grudge", "rub it in"],
+    answer: "bury the hatchet",
+  },
+  {
+    question: "I can't believe you _____ on your promise like that.",
+    options: ["kept your word", "went back", "backed out"],
+    answer: "backed out",
+  },
+  {
+    question: "She always _____ before making a big decision.",
+    options: ["sleeps on it", "jumps the gun", "wings it"],
+    answer: "sleeps on it",
+  },
+  {
+    question: "He tends to _____ when he's nervous, talking about anything but the real issue.",
+    options: ["ramble on", "cut to the chase", "hold his tongue"],
+    answer: "ramble on",
+  },
+  {
+    question: "Wipe down the _____ after you finish brushing your teeth.",
+    options: ["bathtub", "sink", "showerhead"],
+    answer: "sink",
+  },
+  {
+    question: "The _____ was clogged, so the water wouldn't drain.",
+    options: ["faucet", "drain", "stopper"],
+    answer: "drain",
+  },
+  {
+    question: "He forgot to _____ the towel, so it stayed damp and started to smell.",
+    options: ["hang up", "fold up", "soak"],
+    answer: "hang up",
+  },
+  {
+    question: "There's a puddle on the floor—the _____ must be leaking.",
+    options: ["mirror", "pipe", "mat"],
+    answer: "pipe",
+  },
+  {
+    question: "Use this brush to _____ the grout between the tiles.",
+    options: ["scrub", "rinse", "polish"],
+    answer: "scrub",
+  },
+  {
+    question: "The mirror was so _____ from the steam that I couldn't see myself.",
+    options: ["cracked", "fogged up", "spotless"],
+    answer: "fogged up",
+  },
+  {
+    question: "Don't forget to _____ the tub before you take a bath.",
+    options: ["rinse out", "fill up", "dry off"],
+    answer: "rinse out",
+  },
+  {
+    question: "He keeps his razor and toothbrush on the _____ next to the sink.",
+    options: ["shelf", "drain", "curtain rod"],
+    answer: "shelf",
+  },
+  {
+    question: "The plumber replaced the old _____ because it kept dripping.",
+    options: ["stopper", "faucet", "mat"],
+    answer: "faucet",
+  },
+  {
+    question: "Chop the onions _____ so they cook evenly.",
+    options: ["finely", "roughly", "loosely"],
+    answer: "finely",
+  },
+  {
+    question: "Let the soup _____ on low heat for an hour.",
+    options: ["simmer", "boil over", "scorch"],
+    answer: "simmer",
+  },
+  {
+    question: "She always _____ the pan before adding the oil.",
+    options: ["cools", "heats up", "washes"],
+    answer: "heats up",
+  },
+  {
+    question: "The bread came out perfectly _____ on the outside.",
+    options: ["soggy", "golden brown", "burnt"],
+    answer: "golden brown",
+  },
+  {
+    question: "He _____ the dishes before putting them in the dishwasher.",
+    options: ["soaks", "scrubs", "rinses off"],
+    answer: "rinses off",
+  },
+  {
+    question: "After the intense workout, they were all _____ and drenched in sweat, trying to catch their breath.",
+    options: ["shivering", "stretching", "panting"],
+    answer: "panting",
+  },
+  {
+    question: "The abandoned house was _____, with its walls cracked and its windows shattered.",
+    options: ["freshly painted", "hollowed out", "fully furnished"],
+    answer: "hollowed out",
+  },
+  {
+    question: "His voice sounded _____ after singing for hours at the concert, but he didn't mind.",
+    options: ["smooth", "scratchy", "clear"],
+    answer: "scratchy",
+  },
+  {
+    question: "The _____ startup was quickly gaining attention for its innovative approach to technology.",
+    options: ["struggling", "burgeoning", "outdated"],
+    answer: "burgeoning",
+  },
+  {
+    question: "The attic was full of _____, from old books to broken furniture and forgotten keepsakes.",
+    options: ["odds and ends", "bits and pieces", "nooks and crannies"],
+    answer: "odds and ends",
+  },
+  {
+    question: "She _____ her resignation letter after years of working at the company, ready for a new chapter in her life.",
+    options: ["tendered", "withdrew", "postponed"],
+    answer: "tendered",
+  },
+  {
+    question: "They were like _____, briefly crossing paths without ever really connecting.",
+    options: ["two peas in a pod", "ships passing in the night", "birds of a feather"],
+    answer: "ships passing in the night",
+  },
+  {
+    question: "His _____ attitude toward the deadline surprised everyone, as he seemed completely unconcerned about the pressure.",
+    options: ["anxious", "meticulous", "insouciant"],
+    answer: "insouciant",
+  },
+  {
+    question: "The spring had _____ early this year, with flowers blooming and trees beginning to bud weeks ahead of schedule.",
+    options: ["sprung", "faded", "stalled"],
+    answer: "sprung",
+  },
+  {
+    question: "He spent the whole afternoon _____, waiting for the meeting to start without anything productive to do.",
+    options: ["killing time", "getting ahead", "cutting corners"],
+    answer: "killing time",
+  },
+  {
+    question: "I decided to _____ my grandmother to check in on her and spend some time together.",
+    options: ["call on", "look up", "wait on"],
+    answer: "call on",
+  },
+  {
+    question: "His _____ response left everyone at the table feeling awkward, as he didn't bother with pleasantries.",
+    options: ["curt", "warm", "long-winded"],
+    answer: "curt",
+  },
+  {
+    question: "Her _____ compliments made him feel proud of his work, and he appreciated her kind words.",
+    options: ["backhanded", "effusive", "reluctant"],
+    answer: "effusive",
+  },
+  {
+    question: "The company _____ its new programmers dry by overworking them with long hours and little compensation.",
+    options: ["sucks", "lets", "sets"],
+    answer: "sucks",
+  },
+  {
+    question: "She _____ the paper in frustration, tossing it into the recycling bin after a failed attempt.",
+    options: ["smoothed out", "scrunched up", "folded neatly"],
+    answer: "scrunched up",
+  },
+  {
+    question: "They were meeting _____, sneaking around to keep their relationship a secret from their friends.",
+    options: ["on the sly", "out in the open", "on the fence"],
+    answer: "on the sly",
+  },
+  {
+    question: "The artist spent hours _____ the details of the landscape, ensuring every shadow and highlight was perfect.",
+    options: ["rendering", "erasing", "sketching loosely"],
+    answer: "rendering",
+  },
+  {
+    question: "After a long day of skiing, they sat down to enjoy a warm _____ of schnapps to relax their muscles.",
+    options: ["shot", "sip", "splash"],
+    answer: "shot",
+  },
+  {
+    question: "_____, this was the best concert I've ever attended!",
+    options: ["You can say that again", "It goes without saying", "That remains to be seen"],
+    answer: "You can say that again",
+  },
+  {
+    question: "He had always been _____ to his boss, never questioning any of the orders given to him.",
+    options: ["indifferent", "subservient", "hostile"],
+    answer: "subservient",
+  },
+  {
+    question: "Arguing about which movie is better is like _____—both are great in their own way.",
+    options: ["reading between the lines", "comparing apples to oranges", "beating a dead horse"],
+    answer: "comparing apples to oranges",
+  },
+  {
+    question: "The idea of a flying car that runs on water seemed utterly _____, yet people were still excited about it.",
+    options: ["practical", "ludicrous", "predictable"],
+    answer: "ludicrous",
+  },
+  {
+    question: "He _____ during the meeting, hoping someone would recognize his efforts.",
+    options: ["fished for compliments", "kept a low profile", "held his tongue"],
+    answer: "fished for compliments",
+  },
+  {
+    question: "She decided to _____ some cinnamon on the pancakes, adding a warm, spicy touch to the dish.",
+    options: ["drizzle", "sprinkle", "smear"],
+    answer: "sprinkle",
+  },
+  {
+    question: "They joked that they had a _____ on them, as everything that could go wrong seemed to happen.",
+    options: ["jinx", "knack", "streak"],
+    answer: "jinx",
+  },
+  {
+    question: "With too many _____, she was feeling overwhelmed by all the projects she had to juggle.",
+    options: ["fish to fry", "irons in the fire", "eggs in one basket"],
+    answer: "irons in the fire",
+  },
+  {
+    question: "The athlete _____ off the field after injuring his ankle during the game.",
+    options: ["hobbled", "sprinted", "strolled"],
+    answer: "hobbled",
+  },
+  {
+    question: "The _____ signs of stress were evident on his face, his clenched jaw and tense shoulders.",
+    options: ["subtle", "telltale", "faint"],
+    answer: "telltale",
+  },
+  {
+    question: "The crowd was _____ as the final seconds of the game ticked down to a dramatic finish.",
+    options: ["in a frenzy", "at a loss", "on the fence"],
+    answer: "in a frenzy",
+  },
+  {
+    question: "By _____ a supportive environment at work, the manager ensured her team stayed motivated and productive.",
+    options: ["avoiding", "dismissing", "fostering"],
+    answer: "fostering",
+  },
+  {
+    question: "She was _____ to overthinking, which often caused her to feel anxious about situations that were out of her control.",
+    options: ["opposed", "prone", "immune"],
+    answer: "prone",
+  },
+  {
+    question: "Let's _____ and come up with a solution to this problem before the deadline.",
+    options: ["put our heads together", "throw in the towel", "let the chips fall"],
+    answer: "put our heads together",
+  },
+  {
+    question: "He felt a _____ in his heart as he said goodbye to his childhood home.",
+    options: ["wrench", "flutter", "spark"],
+    answer: "wrench",
+  },
+  {
+    question: "The hike was _____ difficult, with steep slopes and scorching heat making every step a challenge.",
+    options: ["mildly", "hellishly", "somewhat"],
+    answer: "hellishly",
+  },
+  {
+    question: "The constant delays were _____ in this project, and we learned to expect them.",
+    options: ["out of the blue", "par for the course", "a stretch"],
+    answer: "par for the course",
+  },
+  {
+    question: "Living in the city gave her _____—exciting nightlife and the calm of nearby nature.",
+    options: ["a taste of her own medicine", "the best of both worlds", "the short end of the stick"],
+    answer: "the best of both worlds",
+  },
+  {
+    question: "She was quick to _____ not taking the job offer when she saw how well her friend was doing in that role.",
+    options: ["regret", "celebrate", "forget"],
+    answer: "regret",
+  },
+  {
+    question: "He was _____ interest in the conversation, pretending to listen while his mind wandered.",
+    options: ["feigning", "showing", "losing"],
+    answer: "feigning",
+  },
+  {
+    question: "As a _____, he often found himself at odds with the mainstream beliefs of his community.",
+    options: ["heretic", "diplomat", "mediator"],
+    answer: "heretic",
+  },
+  {
+    question: "I had an _____ that something was wrong when I saw the look on her face, but I didn't ask.",
+    options: ["inkling", "excuse", "agenda"],
+    answer: "inkling",
+  },
+  {
+    question: "There are always _____ in the car, offering unsolicited advice on how to drive.",
+    options: ["designated drivers", "copilots", "backseat drivers"],
+    answer: "backseat drivers",
+  },
+  {
+    question: "The company was _____ for policy changes that would benefit their industry and increase profits.",
+    options: ["campaigning", "voting", "lobbying"],
+    answer: "lobbying",
+  },
+  {
+    question: "Her speech was full of _____ and energy, inspiring the audience to take action and make a difference.",
+    options: ["doubt", "pep", "silence"],
+    answer: "pep",
+  },
+  {
+    question: "They tried to _____ the wood in two, but the axe kept bouncing off the tough bark.",
+    options: ["sand", "bend", "split"],
+    answer: "split",
+  },
+  {
+    question: "The bullies _____ him after school, but he didn't let it affect his self-confidence.",
+    options: ["cheered up", "roughed up", "backed off"],
+    answer: "roughed up",
+  },
+  {
+    question: "The _____ occurred when the government's attempt to control the rat population led to more rats being bred for rewards.",
+    options: ["domino effect", "placebo effect", "cobra effect"],
+    answer: "cobra effect",
+  },
+  {
+    question: "The naughty child couldn't resist _____ cookies from the jar when no one was looking.",
+    options: ["sharing", "baking", "sneaking"],
+    answer: "sneaking",
+  },
+  {
+    question: "As a _____, he always worried that every small cough or headache was a sign of something serious.",
+    options: ["pessimist", "hypochondriac", "skeptic"],
+    answer: "hypochondriac",
+  },
+  {
+    question: "She was _____ in her research, spending long hours in the library to ensure every detail was correct.",
+    options: ["careless", "hesitant", "assiduous"],
+    answer: "assiduous",
+  },
+  {
+    question: "He was _____ with all the work he was taking on, but he refused to slow down.",
+    options: ["taking it easy", "running himself ragged", "cutting corners"],
+    answer: "running himself ragged",
+  },
+  {
+    question: "The meeting started off _____ when the presenter's slides weren't ready on time.",
+    options: ["with a bang", "on a high note", "on the wrong foot"],
+    answer: "on the wrong foot",
+  },
+  {
+    question: "After spending years in the city, she found herself _____ for the mountains and their serene beauty.",
+    options: ["settling", "pining", "preparing"],
+    answer: "pining",
+  },
+  {
+    question: "The kids were excited, their minds _____ with ideas for the school project they were about to start.",
+    options: ["resting", "wandering", "buzzing"],
+    answer: "buzzing",
+  },
+  {
+    question: "He felt like a total _____ at the party, unsure of what to say or how to fit in with the crowd.",
+    options: ["star", "dweeb", "host"],
+    answer: "dweeb",
+  },
+  {
+    question: "She was _____ when her colleague was promoted to the position she had been hoping for.",
+    options: ["over the moon", "green with envy", "on cloud nine"],
+    answer: "green with envy",
+  },
+  {
+    question: "His voice hit an unusually high pitch when he tried to sing in _____ during karaoke night.",
+    options: ["harmony", "falsetto", "rhythm"],
+    answer: "falsetto",
+  },
+  {
+    question: "After the holiday feast, there was a _____ of food left over, enough to last for days.",
+    options: ["shortage", "sample", "surfeit"],
+    answer: "surfeit",
+  },
+  {
+    question: "The town's reputation was tarnished by the _____ of corruption that had festered for years.",
+    options: ["fountain", "cesspool", "wave"],
+    answer: "cesspool",
+  },
+  {
+    question: "The lawyer tried to _____ the credibility of the witness, but her testimony held strong.",
+    options: ["confirm", "praise", "impugn"],
+    answer: "impugn",
+  },
+  {
+    question: "Despite the challenges, they managed to _____ and complete the project on time.",
+    options: ["let it go", "pull it off", "put it off"],
+    answer: "pull it off",
+  },
+  {
+    question: "The speaker used visuals to _____ his main points, ensuring the audience understood the key message.",
+    options: ["gloss over", "brush aside", "hammer home"],
+    answer: "hammer home",
+  },
+  {
+    question: "The enemy finally _____ after days of intense negotiation, agreeing to the peace terms.",
+    options: ["retaliated", "negotiated", "capitulated"],
+    answer: "capitulated",
+  },
+  {
+    question: "Don't take it seriously; I was just _____ you with that outrageous story.",
+    options: ["letting down", "putting on", "showing up"],
+    answer: "putting on",
+  },
+  {
+    question: "The teacher had to _____ the student's attitude in class, reminding him to be more respectful to his peers.",
+    options: ["look into", "crack down on", "give in to"],
+    answer: "crack down on",
+  },
+  {
+    question: "The bounty hunter was hired to _____ the fugitive, who had been on the run for months.",
+    options: ["hunt down", "look after", "back up"],
+    answer: "hunt down",
+  },
+  {
+    question: "They decided to _____ someone else outside their relationship, which caused a lot of tension and heartbreak.",
+    options: ["check in with", "mess around with", "look out for"],
+    answer: "mess around with",
+  },
+  {
+    question: "I had to _____ the sunlight with the curtains because it was too bright to work in the room.",
+    options: ["block out", "let in", "brighten up"],
+    answer: "block out",
+  },
+  {
+    question: "The police were _____ about the illegal operation, leading to a successful raid on the warehouse.",
+    options: ["backed up", "tipped off", "called off"],
+    answer: "tipped off",
+  },
+  {
+    question: "She tried to _____ her tears during the meeting, but it was hard to control her emotions.",
+    options: ["hold back", "let out", "give up"],
+    answer: "hold back",
+  },
+  {
+    question: "We spent the afternoon _____ fruits from the garden by freezing them so we could enjoy them later in the year.",
+    options: ["putting up", "giving away", "throwing out"],
+    answer: "putting up",
+  },
+  {
+    question: "I quickly _____ my coffee before heading to the next meeting, knowing I didn't have much time.",
+    options: ["drank up", "poured out", "warmed up"],
+    answer: "drank up",
+  },
+  {
+    question: "After weeks of brainstorming, we finally _____ a brilliant idea for our new marketing campaign.",
+    options: ["backed off", "hit on", "gave up"],
+    answer: "hit on",
+  },
+  {
+    question: "I had to _____ my comment after realizing I had misunderstood the situation and hurt her feelings.",
+    options: ["take back", "bring up", "pass on"],
+    answer: "take back",
+  },
+  {
+    question: "He accidentally _____ his coffee cup while reaching for the phone, spilling it all over the papers.",
+    options: ["picked up", "knocked over", "set down"],
+    answer: "knocked over",
+  },
+  {
+    question: "They were _____ in the park, completely oblivious to the people walking by.",
+    options: ["making out", "hanging out", "looking around"],
+    answer: "making out",
+  },
+  {
+    question: "Let me _____ the main points from today's meeting so we can all be on the same page moving forward.",
+    options: ["bring up", "sum up", "go over"],
+    answer: "sum up",
+  },
+  {
+    question: "We need to _____ a new marketing strategy if we want to stay ahead of the competition.",
+    options: ["come up with", "do away with", "catch up on"],
+    answer: "come up with",
+  },
+  {
+    question: "I _____ right on time this morning, eager to start the day's tasks.",
+    options: ["clocked in", "showed off", "checked out"],
+    answer: "clocked in",
+  },
+  {
+    question: "She decided to _____ for the casual Friday event, ditching her usual work attire for something more relaxed.",
+    options: ["dress up", "dress down", "dress out"],
+    answer: "dress down",
+  },
+  {
+    question: "Make sure to _____ your computer at the end of the day to save energy and extend its lifespan.",
+    options: ["log in", "power off", "back up"],
+    answer: "power off",
+  },
+  {
+    question: "I was so nervous about the final exam, but I managed to _____ it with a decent grade.",
+    options: ["put off", "get through", "give up on"],
+    answer: "get through",
+  },
+  {
+    question: "After weeks of hard work, he was promoted and finally _____ a higher position within the company.",
+    options: ["moved up to", "backed down from", "settled for"],
+    answer: "moved up to",
+  },
+  {
+    question: "The program _____ right before I saved my document, and I had to restart the computer.",
+    options: ["froze up", "cleared out", "shut down"],
+    answer: "froze up",
+  },
+  {
+    question: "_____ for cars while crossing the street, especially when it's raining or foggy.",
+    options: ["Look up", "Check in", "Watch out"],
+    answer: "Watch out",
+  },
+  {
+    question: "My manager has been _____ me about missing deadlines, even though I've been working overtime.",
+    options: ["catching up with", "riding", "backing off from"],
+    answer: "riding",
+  },
+  {
+    question: "The prisoner managed to _____ the facility, but the authorities were quick to launch a manhunt.",
+    options: ["check out of", "break out of", "settle into"],
+    answer: "break out of",
+  },
+  {
+    question: "I had to _____ the important points from the meeting so I wouldn't forget any details later.",
+    options: ["jot down", "look over", "cross out"],
+    answer: "jot down",
+  },
+  {
+    question: "We were planning to _____ for the weekend, but the weather forecast didn't look promising.",
+    options: ["settle down", "get away", "check in"],
+    answer: "get away",
+  },
+  {
+    question: "I had to _____ some lotion after being out in the sun for too long to soothe my skin.",
+    options: ["wipe off", "rub in", "peel off"],
+    answer: "rub in",
+  },
+  {
+    question: "We _____ on our road trip early in the morning, hoping to reach our destination by sunset.",
+    options: ["wrapped up", "held off", "started out"],
+    answer: "started out",
+  },
+  {
+    question: "She just _____ the criticism, confident that she was doing the right thing.",
+    options: ["dwelled on", "shrugged off", "gave in to"],
+    answer: "shrugged off",
+  },
+  {
+    question: "We finally decided to _____ after months of planning, and it felt great to settle into our new home.",
+    options: ["break up", "move in together", "move out"],
+    answer: "move in together",
+  },
+  {
+    question: "I was able to _____ a quick dinner with just a few ingredients I had in the fridge, no recipe required.",
+    options: ["clean out", "put away", "rustle up"],
+    answer: "rustle up",
+  },
+  {
+    question: "After working long hours for weeks, I started to _____ and knew I needed to take a break.",
+    options: ["cool off", "wind up", "burn out"],
+    answer: "burn out",
+  },
+  {
+    question: "The smell of fresh cookies always _____ memories of when I was a child visiting my grandmother's house.",
+    options: ["gives away", "brings back", "puts off"],
+    answer: "brings back",
+  },
+  {
+    question: "The children _____ their favorite scenes from the movie, laughing and having a great time.",
+    options: ["left out", "figured out", "acted out"],
+    answer: "acted out",
+  },
+  {
+    question: "The loud noise from the fireworks _____ the birds, causing them to scatter into the sky.",
+    options: ["frightened away", "called in", "settled down"],
+    answer: "frightened away",
+  },
+  {
+    question: "The constant reminders from the advertisements really _____ from buying the product, as it felt too pushy.",
+    options: ["turned me off", "won me over", "signed me up"],
+    answer: "turned me off",
+  },
+  {
+    question: "She _____ her old friend while in town, and they caught up over coffee in a cozy cafe.",
+    options: ["backed off from", "called on", "checked out"],
+    answer: "called on",
+  },
+  {
+    question: "The new CEO is expected to _____ the company next month, bringing a fresh vision for the future.",
+    options: ["step down from", "look after", "take over"],
+    answer: "take over",
+  },
+  {
+    question: "He managed to _____ the right crowd at work, quickly climbing the corporate ladder.",
+    options: ["stay away from", "get in with", "back away from"],
+    answer: "get in with",
+  },
+  {
+    question: "After a while, I started to _____ moving to the city. It just didn't feel like the right place anymore.",
+    options: ["warm up to", "cool on", "settle into"],
+    answer: "cool on",
+  },
+  {
+    question: "I didn't expect to _____ finding that rare book at the flea market, but I was thrilled when I did.",
+    options: ["luck into", "give up on", "hold off on"],
+    answer: "luck into",
+  },
+  {
+    question: "She started to _____ him at the party, clearly making her intentions known, but he wasn't interested.",
+    options: ["back away from", "look past", "throw herself at"],
+    answer: "throw herself at",
+  },
+  {
+    question: "I didn't study much for the exam, but somehow I managed to _____ and pass.",
+    options: ["scrape by", "ace it", "fall behind"],
+    answer: "scrape by",
+  },
+  {
+    question: "I had to _____ to another meeting right after lunch, leaving no time to chat with my colleagues.",
+    options: ["settle in", "catch up", "rush off"],
+    answer: "rush off",
+  },
+  {
+    question: "She just _____ the criticism, confident that she was doing the right thing.",
+    options: ["dwelled on", "gave in to", "shrugged off"],
+    answer: "shrugged off",
+  },
+  {
+    question: "We finally decided to _____ after months of planning, and it felt great to settle into our new home.",
+    options: ["break up", "move in together", "move out"],
+    answer: "move in together",
+  },
+  {
+    question: "I was able to _____ a quick dinner with just a few ingredients I had in the fridge, no recipe required.",
+    options: ["clean out", "put away", "rustle up"],
+    answer: "rustle up",
+  },
+  {
+    question: "After working long hours for weeks, I started to _____ and knew I needed to take a break.",
+    options: ["cool off", "burn out", "wind up"],
+    answer: "burn out",
+  },
+  {
+    question: "The smell of fresh cookies always _____ memories of when I was a child visiting my grandmother's house.",
+    options: ["gives away", "puts off", "brings back"],
+    answer: "brings back",
+  },
+  {
+    question: "The children _____ their favorite scenes from the movie, laughing and having a great time.",
+    options: ["left out", "acted out", "figured out"],
+    answer: "acted out",
+  },
+  {
+    question: "The loud noise from the fireworks _____ the birds, causing them to scatter into the sky.",
+    options: ["called in", "settled down", "frightened away"],
+    answer: "frightened away",
+  },
+  {
+    question: "The constant reminders from the advertisements really _____ from buying the product, as it felt too pushy.",
+    options: ["won me over", "signed me up", "turned me off"],
+    answer: "turned me off",
+  },
+  {
+    question: "She _____ her old friend while in town, and they caught up over coffee in a cozy cafe.",
+    options: ["backed off from", "checked out", "called on"],
+    answer: "called on",
+  },
+  {
+    question: "The new CEO is expected to _____ the company next month, bringing a fresh vision for the future.",
+    options: ["step down from", "look after", "take over"],
+    answer: "take over",
+  },
+  {
+    question: "He managed to _____ the right crowd at work, quickly climbing the corporate ladder.",
+    options: ["get in with", "stay away from", "back away from"],
+    answer: "get in with",
+  },
+  {
+    question: "After a while, I started to _____ moving to the city. It just didn't feel like the right place anymore.",
+    options: ["warm up to", "cool on", "settle into"],
+    answer: "cool on",
+  },
+  {
+    question: "I didn't expect to _____ finding that rare book at the flea market, but I was thrilled when I did.",
+    options: ["give up on", "hold off on", "luck into"],
+    answer: "luck into",
+  },
+  {
+    question: "She started to _____ him at the party, clearly making her intentions known, but he wasn't interested.",
+    options: ["back away from", "throw herself at", "look past"],
+    answer: "throw herself at",
+  },
+  {
+    question: "I didn't study much for the exam, but somehow I managed to _____ and pass.",
+    options: ["ace it", "scrape by", "fall behind"],
+    answer: "scrape by",
+  },
+  {
+    question: "I had to _____ to another meeting right after lunch, leaving no time to chat with my colleagues.",
+    options: ["settle in", "rush off", "catch up"],
+    answer: "rush off",
+  },
+  {
+    question: "I finally got around to _____ my garage after putting it off for weeks. It was a huge task but felt great once it was done.",
+    options: ["locking up", "cleaning out", "checking on"],
+    answer: "cleaning out",
+  },
+  {
+    question: "When I heard a strange noise in the night, I _____ in bed, trying to figure out what it was.",
+    options: ["dozed off", "sat up", "settled down"],
+    answer: "sat up",
+  },
+  {
+    question: "I've always believed in the power of hard work and persistence, and I try to _____ that in others too.",
+    options: ["instill", "dismiss", "excuse"],
+    answer: "instill",
+  },
+  {
+    question: "He had to _____ the piece of paper to reveal the hidden message on the other side.",
+    options: ["fold up", "turn over", "tear off"],
+    answer: "turn over",
+  },
+  {
+    question: "It was easy to _____ the city using public transport, so we didn't need to worry about driving.",
+    options: ["get around", "look over", "settle into"],
+    answer: "get around",
+  },
+  {
+    question: "All the efforts and hard work _____ a successful launch, and the company saw a significant increase in sales.",
+    options: ["backed off from", "added up to", "cut down on"],
+    answer: "added up to",
+  },
+  {
+    question: "The news about the new project quickly _____, and everyone at the office was talking about it.",
+    options: ["got around", "died down", "held up"],
+    answer: "got around",
+  },
+  {
+    question: "He managed to _____ the deal and secure a share of the profits without much effort.",
+    options: ["back out of", "cut in on", "pass up on"],
+    answer: "cut in on",
+  },
+  {
+    question: "She decided to _____ at the party, not wanting to join the conversation about politics.",
+    options: ["hang back", "speak up", "join in"],
+    answer: "hang back",
+  },
+  {
+    question: "After a long day at work, I couldn't wait to _____ and head home to relax.",
+    options: ["check in", "get off", "hold on"],
+    answer: "get off",
+  },
+  {
+    question: "I know I missed your birthday, but I'll _____ by taking you out for a nice dinner next week.",
+    options: ["make up for it", "call it off", "look into it"],
+    answer: "make up for it",
+  },
+  {
+    question: "The teacher _____ the students after school for talking too much during class, making them miss their buses.",
+    options: ["sent off", "kept in", "let out"],
+    answer: "kept in",
+  },
+  {
+    question: "After all the hard work, I _____ with a promotion, something I never expected when I first started the job.",
+    options: ["backed off", "held off", "ended up"],
+    answer: "ended up",
+  },
+  {
+    question: "We decided to _____ to the beach after the meeting, ready for a little relaxation after a hectic week.",
+    options: ["head off", "settle down", "hold back"],
+    answer: "head off",
+  },
+  {
+    question: "It's hard to _____ my performance against others because each situation is so different, but I try to focus on my personal progress.",
+    options: ["give up", "measure", "hand over"],
+    answer: "measure",
+  },
+  {
+    question: "During our vacation, we tried to _____ every moment of relaxation before heading back to work.",
+    options: ["spin out", "cut off", "wrap up"],
+    answer: "spin out",
+  },
+  {
+    question: "I felt a bit queasy after the rollercoaster ride, but I managed to _____ the food I had just eaten.",
+    options: ["keep down", "throw out", "pass up"],
+    answer: "keep down",
+  },
+  {
+    question: "She went to the store to _____ a new jacket, wanting to see if it fit well before deciding whether to buy it.",
+    options: ["put away", "try on", "give back"],
+    answer: "try on",
+  },
+  {
+    question: "After hearing I was sick, my friend called to _____, making sure I was feeling better and offering help.",
+    options: ["check on me", "back me up", "call me out"],
+    answer: "check on me",
+  },
+  {
+    question: "I decided to _____ and check on my friend, who had just moved into a new apartment and seemed a little lonely.",
+    options: ["hold off", "run in", "back away"],
+    answer: "run in",
+  },
+  {
+    question: "At the party, he couldn't help but _____ his new car, excited to share it with everyone and get their reactions.",
+    options: ["show off", "put away", "give up"],
+    answer: "show off",
+  },
+  {
+    question: "The children were having a great time _____ the old cardboard boxes, turning them into a makeshift fort in the living room.",
+    options: ["breaking down", "giving away", "putting off"],
+    answer: "breaking down",
+  },
+  {
+    question: "We decided to _____ late to watch the meteor shower, finding a perfect spot on the rooftop with clear skies.",
+    options: ["stay up", "settle down", "call it off"],
+    answer: "stay up",
+  },
+  {
+    question: "All that time, she'd been _____ him on.",
+    options: ["leading", "walking", "backing"],
+    answer: "leading",
+  },
+  {
+    question: "The map _____ the emergency exits clearly in case of an unexpected evacuation.",
+    options: ["hid", "marked", "guessed"],
+    answer: "marked",
+  },
+  {
+    question: "Thanks to the kind stranger, she found her missing wallet before _____ the bus.",
+    options: ["missing", "catching", "skipping"],
+    answer: "catching",
+  },
+  {
+    question: "The debate got heated as opinions _____, but everyone stayed respectful.",
+    options: ["agreed", "clashed", "settled"],
+    answer: "clashed",
+  },
+  {
+    question: "The drone _____ over the field, capturing breathtaking views of the sprawling landscape.",
+    options: ["buzzed", "crawled", "sank"],
+    answer: "buzzed",
+  },
+  {
+    question: "A cozy café was _____ near the library, offering a quiet escape for readers.",
+    options: ["blocked", "tucked", "spread"],
+    answer: "tucked",
+  },
+  {
+    question: "The ball rolled into the neighbor's yard, sending the kids _____ to retrieve it.",
+    options: ["scrambling", "resting", "wandering"],
+    answer: "scrambling",
+  },
+  {
+    question: "The painting hung _____ on the wall, drawing curious glances from visitors.",
+    options: ["neatly", "crookedly", "smoothly"],
+    answer: "crookedly",
+  },
+  {
+    question: "A strange noise _____ in the hallway, making everyone pause for a moment.",
+    options: ["faded", "echoed", "settled"],
+    answer: "echoed",
+  },
+  {
+    question: "She _____ down at her phone, realizing she'd missed several important messages.",
+    options: ["glanced", "reached", "pushed"],
+    answer: "glanced",
+  },
+  {
+    question: "The balloon floated up into the sky, _____ among the clouds above.",
+    options: ["landing", "disappearing", "bursting"],
+    answer: "disappearing",
+  },
+  {
+    question: "He waited at the bus stop, _____ slightly in the cool morning air.",
+    options: ["shivering", "sweating", "stretching"],
+    answer: "shivering",
+  },
+  {
+    question: "The lid _____ off the jar unexpectedly, spilling sugar all over the counter.",
+    options: ["popped", "slid", "melted"],
+    answer: "popped",
+  },
+  {
+    question: "It had been raining _____ since the early morning, flooding the garden path.",
+    options: ["nonstop", "occasionally", "briefly"],
+    answer: "nonstop",
+  },
+  {
+    question: "In addition to the usual snacks, she _____ homemade cookies to share with the group.",
+    options: ["brought", "returned", "skipped"],
+    answer: "brought",
+  },
+  {
+    question: "The fire extinguisher was placed near the exit in case of emergencies, ensuring everyone's _____.",
+    options: ["comfort", "safety", "entertainment"],
+    answer: "safety",
+  },
+  {
+    question: "Thanks to her quick thinking, the spilled drink was cleaned up before it _____ the carpet.",
+    options: ["matched", "stained", "covered"],
+    answer: "stained",
+  },
+  {
+    question: "The project was challenging, especially in terms of managing time and _____ deadlines.",
+    options: ["meeting", "ignoring", "counting"],
+    answer: "meeting",
+  },
+  {
+    question: "The plane flew over the mountains, offering a breathtaking view of snow-capped peaks _____.",
+    options: ["above", "below", "beside"],
+    answer: "below",
+  },
+  {
+    question: "A small coffee shop _____ near the train station became a favorite spot for commuters.",
+    options: ["nestled", "collapsed", "wandered"],
+    answer: "nestled",
+  },
+  {
+    question: "The puppy darted into the garden, chasing after a butterfly fluttering just out of _____.",
+    options: ["sight", "reach", "mind"],
+    answer: "reach",
+  },
+  {
+    question: "She wrote a heartfelt letter about her childhood memories, _____ it with a smile.",
+    options: ["sealing", "erasing", "folding away"],
+    answer: "sealing",
+  },
+  {
+    question: "The stars twinkled brightly above the quiet countryside, _____ up the vast night sky.",
+    options: ["lighting", "clouding", "dimming"],
+    answer: "lighting",
+  },
+  {
+    question: "The ferry glided across the calm lake, leaving a gentle ripple in its _____.",
+    options: ["path", "wake", "shadow"],
+    answer: "wake",
+  },
+  {
+    question: "A stack of magazines sat on the coffee table, some slightly _____ from frequent reading.",
+    options: ["dog-eared", "sealed shut", "untouched"],
+    answer: "dog-eared",
+  },
+  {
+    question: "The kitten hid in the basket of laundry, peeking out curiously at the _____ room.",
+    options: ["empty", "bustling", "silent"],
+    answer: "bustling",
+  },
+  {
+    question: "The team gathered at the starting line, ready to _____ the big race.",
+    options: ["wrap up", "call off", "kick off"],
+    answer: "kick off",
+  },
+  {
+    question: "He brushed the dust off the old mirror, revealing a faint _____ of himself.",
+    options: ["shadow", "outline", "reflection"],
+    answer: "reflection",
+  },
+  {
+    question: "The candle flickered out during the storm, plunging the room into an eerie _____.",
+    options: ["glow", "warmth", "silence"],
+    answer: "silence",
+  },
+  {
+    question: "The path wound through the forest, leading to a clearing bathed in golden _____.",
+    options: ["sunlight", "fog", "shade"],
+    answer: "sunlight",
+  },
+  {
+    question: "Raindrops slid down the windowpane, creating tiny rivers as they _____ to the sill.",
+    options: ["froze", "zigzagged", "climbed"],
+    answer: "zigzagged",
+  },
+  {
+    question: "A ladder leaned up against the side of the house, waiting to be used for _____.",
+    options: ["decoration", "storage", "repairs"],
+    answer: "repairs",
+  },
+  {
+    question: "The secret stash of chocolates was hidden behind the stack of books on the _____.",
+    options: ["porch", "sink", "shelf"],
+    answer: "shelf",
+  },
+  {
+    question: "The cottage was far from the bustling city, nestled peacefully in the rolling _____.",
+    options: ["hills", "traffic", "streets"],
+    answer: "hills",
+  },
+  {
+    question: "In addition to the flowers, she brought a handwritten note to _____ her friend's day.",
+    options: ["brighten", "shorten", "confuse"],
+    answer: "brighten",
+  },
+  {
+    question: "A kite flew high above the park, its bright colors vivid against the clear blue _____.",
+    options: ["ground", "sky", "field"],
+    answer: "sky",
+  },
+  {
+    question: "They strolled across the cobblestone bridge, pausing to _____ the view of the river below.",
+    options: ["admire", "block", "measure"],
+    answer: "admire",
+  },
+  {
+    question: "The keys were left on the counter, right next to the stack of _____ mail.",
+    options: ["sorted", "unopened", "shredded"],
+    answer: "unopened",
+  },
+  {
+    question: "The kids huddled in the tent, listening to the rain _____ softly against the fabric.",
+    options: ["pattering", "roaring", "freezing"],
+    answer: "pattering",
+  },
+  {
+    question: "The group waited at the entrance to the museum, chatting _____ about what they would see inside.",
+    options: ["quietly", "excitedly", "nervously"],
+    answer: "excitedly",
+  },
+  {
+    question: "She dusted off the old record player, hoping it still _____ after years of sitting untouched.",
+    options: ["worked", "sold", "shined"],
+    answer: "worked",
+  },
+  {
+    question: "The lights flickered out suddenly, leaving the room in complete _____ for a moment.",
+    options: ["silence", "darkness", "chaos"],
+    answer: "darkness",
+  },
+  {
+    question: "The road stretched far beyond the horizon, _____ into the rolling hills ahead.",
+    options: ["disappearing", "climbing", "bending"],
+    answer: "disappearing",
+  },
+  {
+    question: "Leaves swirled down the street, carried by the crisp autumn wind through the _____.",
+    options: ["basement", "neighborhood", "attic"],
+    answer: "neighborhood",
+  },
+  {
+    question: "A line of ants marched up the wall, disappearing into a crack near the _____.",
+    options: ["ceiling", "floor", "doorway"],
+    answer: "ceiling",
+  },
+  {
+    question: "He found a forgotten toy behind the couch while cleaning, triggering a wave of _____.",
+    options: ["anger", "nostalgia", "confusion"],
+    answer: "nostalgia",
+  },
+  {
+    question: "The restaurant was located far from the city center, but it was worth the drive for the _____.",
+    options: ["parking", "noise", "food"],
+    answer: "food",
+  },
+  {
+    question: "He found an old photograph tucked inside the pages of a novel, bringing back a flood of _____.",
+    options: ["memories", "excuses", "plans"],
+    answer: "memories",
+  },
+  {
+    question: "The suitcase sat unpacked on the bed, a reminder of the weekend trip they'd just _____ from.",
+    options: ["escaped", "returned", "vanished"],
+    answer: "returned",
+  },
+  {
+    question: "A bird perched on the windowsill, pecking curiously at its _____ in the glass.",
+    options: ["shadow", "reflection", "outline"],
+    answer: "reflection",
+  },
+  {
+    question: "The smell of freshly baked cookies _____ out of the kitchen, drawing everyone into the room.",
+    options: ["wafted", "leaked", "dripped"],
+    answer: "wafted",
+  },
+  {
+    question: "Her scarf got caught on a hook by the door, making her laugh as she struggled to _____ it.",
+    options: ["untangle", "sew", "fold"],
+    answer: "untangle",
+  },
+  {
+    question: "The train pulled into the station on time, the sound of brakes _____ echoing through the platform.",
+    options: ["humming", "screeching", "whistling softly"],
+    answer: "screeching",
+  },
+  {
+    question: "Water dripped steadily from the faucet in the bathroom, creating a soft rhythm in the _____.",
+    options: ["stillness", "chaos", "traffic"],
+    answer: "stillness",
+  },
+  {
+    question: "A balloon floated aimlessly across the park, carried by the gentle breeze over the picnic _____.",
+    options: ["fences", "tables", "hills"],
+    answer: "tables",
+  },
+  {
+    question: "The sign about the upcoming event was taped to the bulletin board, catching everyone's _____.",
+    options: ["attention", "money", "trust"],
+    answer: "attention",
+  },
+  {
+    question: "The voice assistant in my phone has _____ trying to understand my accent and just googles random things now.",
+    options: ["kept on", "started", "given up"],
+    answer: "given up",
+  },
+  {
+    question: "I spend more time _____ a movie to watch than actually watching movies these days.",
+    options: ["finishing", "picking", "reviewing"],
+    answer: "picking",
+  },
+  {
+    question: "Every time someone brings up her crush, she _____ like a turtle hiding in its shell.",
+    options: ["lights up", "opens up", "clams up"],
+    answer: "clams up",
+  },
+  {
+    question: "The kids were _____ in the meadow, chasing butterflies and laughing without a care in the world.",
+    options: ["trudging", "hiding", "frolicking"],
+    answer: "frolicking",
+  },
+  {
+    question: "After a bit of friendly _____ about his haircut, he finally admitted he'd cut it himself.",
+    options: ["advice", "ribbing", "praise"],
+    answer: "ribbing",
+  },
+  {
+    question: "They decided to try the _____ at dance class, even though they kept stepping on each other's toes.",
+    options: ["sprint", "handstand", "foxtrot"],
+    answer: "foxtrot",
+  },
+  {
+    question: "The market had all manner of _____, from handmade crafts to freshly baked bread and exotic spices.",
+    options: ["customers", "receipts", "stalls"],
+    answer: "stalls",
+  },
+  {
+    question: "We had to _____ the river to get to the other side, and the cold water nearly froze our legs off.",
+    options: ["sail across", "dive under", "wade through"],
+    answer: "wade through",
+  },
+  {
+    question: "She really _____ playing pranks on her coworkers, nothing mean, just harmless fun.",
+    options: ["feels guilty about", "gives up on", "gets a kick out of"],
+    answer: "gets a kick out of",
+  },
+  {
+    question: "The train was _____ this morning, and I could barely squeeze into the car without losing my bag.",
+    options: ["half-empty", "running late", "jam-packed"],
+    answer: "jam-packed",
+  },
+  {
+    question: "The snake _____ across the trail, making everyone jump back with a mix of fear and fascination.",
+    options: ["hopped", "stomped", "slithered"],
+    answer: "slithered",
+  },
+  {
+    question: "The boat ride was so choppy that half the passengers looked like they were ready to _____ their lunch overboard.",
+    options: ["pack", "save", "toss"],
+    answer: "toss",
+  },
+  {
+    question: "They offered a flat rate for all-you-can-eat tacos, and let's just say we _____.",
+    options: ["lost track of time", "ran out of napkins", "got our money's worth"],
+    answer: "got our money's worth",
+  },
+  {
+    question: "The trail had such a steep _____ that we had to stop halfway up just to catch our breath.",
+    options: ["curve", "shortcut", "incline"],
+    answer: "incline",
+  },
+  {
+    question: "Every time I try to fold a fitted sheet, I end up with what looks like a fabric origami _____.",
+    options: ["gone terribly wrong", "done to perfection", "left unfinished"],
+    answer: "gone terribly wrong",
+  },
+  {
+    question: "My smart TV is probably _____ me for binge watching the same show for the fourth time this month.",
+    options: ["rewarding", "judging", "ignoring"],
+    answer: "judging",
+  },
+  {
+    question: "I keep telling myself I'll start running tomorrow, but tomorrow has _____ into a very flexible concept.",
+    options: ["faded", "broken", "turned"],
+    answer: "turned",
+  },
+  {
+    question: "The amount of tabs I have open in my browser is starting to look like a _____.",
+    options: ["morse code message", "shopping list", "grocery receipt"],
+    answer: "morse code message",
+  },
+  {
+    question: "My succulent just died and I am honestly impressed because those things are supposed to be _____ to kill.",
+    options: ["easy", "impossible", "dangerous"],
+    answer: "impossible",
+  },
+  {
+    question: "Trying to eat healthy but the pizza place across the street knows my order _____.",
+    options: ["by chance", "by accident", "by heart"],
+    answer: "by heart",
+  },
+  {
+    question: "I organized my desktop files into neat folders yesterday and somehow they are already _____ everywhere again.",
+    options: ["scattered", "stacked", "labeled"],
+    answer: "scattered",
+  },
+  {
+    question: "The laundry basket is giving me _____ every time I walk past it without doing the washing.",
+    options: ["friendly waves", "disappointed looks", "a standing ovation"],
+    answer: "disappointed looks",
+  },
+  {
+    question: "My cooking skills have evolved from burning toast to successfully making pasta without _____ the smoke alarm.",
+    options: ["turning off", "fixing", "setting off"],
+    answer: "setting off",
+  },
+  {
+    question: "Every Sunday I write a to do list for the week and by Monday evening it has turned into a _____ list.",
+    options: ["wishful thinking", "grocery shopping", "well organized"],
+    answer: "wishful thinking",
+  },
+  {
+    question: "The barista at my local coffee shop probably thinks I live there considering how often I show up for my _____.",
+    options: ["grocery run", "caffeine fix", "morning jog"],
+    answer: "caffeine fix",
+  },
+  {
+    question: "My camera roll is basically just pictures of food I meant to post but never _____ editing.",
+    options: ["gave up on", "finished with", "got around to"],
+    answer: "got around to",
+  },
+  {
+    question: "Sometimes I wonder if my WiFi router is secretly _____ against me when it stops working during important calls.",
+    options: ["plotting", "teaming up", "working"],
+    answer: "plotting",
+  },
+  {
+    question: "I have perfected the _____ of making it look like I am paying attention in virtual meetings while actually online shopping.",
+    options: ["habit", "art", "risk"],
+    answer: "art",
+  },
+  {
+    question: "My attempt at urban gardening has turned my balcony into what looks like a plant _____.",
+    options: ["paradise", "factory", "hospital"],
+    answer: "hospital",
+  },
+  {
+    question: "The relationship between me and my reusable water bottle is more _____ than any dating relationship I have had.",
+    options: ["committed", "distant", "casual"],
+    answer: "committed",
+  },
+  {
+    question: "I keep reorganizing my workspace thinking it will make me more _____ but really I just like moving things around.",
+    options: ["relaxed", "productive", "creative"],
+    answer: "productive",
+  },
+  {
+    question: "My online shopping cart is basically a collection of things I want but will probably never actually _____.",
+    options: ["need", "use", "buy"],
+    answer: "buy",
+  },
+  
+  
+
+  
 
 ];
