@@ -7333,7 +7333,396 @@ const sentences = [
     question: "She was deeply _____ when he made fun of her accent.",
     options: ["excited", "offended", "happy"],
     answer: "offended",
+  },
+  {
+    question: "I usually go to bed _____ 11 p.m.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "My grandmother was born _____ 1945.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "We're meeting _____ Saturday afternoon.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The store opens _____ 8 o'clock every day.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "I was born _____ the winter.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "Her wedding is _____ June 12th.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "I'll call you _____ the morning.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The train leaves _____ noon.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "We celebrate Christmas _____ December.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "I have a dentist appointment _____ 3:30.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "She was born _____ a Tuesday.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The shop is closed _____ Sundays.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "He was elected president _____ 2020.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The library is open _____ the weekends.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "I always feel tired _____ the end of a long day.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "My cousin is getting married _____ the spring.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The bakery closes _____ 6 p.m. sharp.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "We always visit our grandparents _____ New Year's Day.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The meeting starts _____ 9:15 sharp.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "My birthday is _____ March.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "We're having a party _____ Friday night.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The store closes _____ midnight during the holidays.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "The company was founded _____ 1998.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "Her flight lands _____ July 4th.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "I take a walk _____ the evening.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The show begins _____ 7 p.m.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "Most schools start a new term _____ September.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "I always clean the house _____ Saturdays.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The bridge was built _____ the 1800s.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "He wakes up _____ dawn every morning.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "Their anniversary falls _____ October 3rd.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The team practices _____ the afternoon.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The restaurant is fully booked _____ New Year's Eve.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The concert ends _____ 11 o'clock.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "She graduated from college _____ 2015.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "We usually eat dinner _____ 6:30.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "The museum is closed _____ Mondays.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "The plane departs _____ the beginning of the month.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "Let's not beat around the _____; just tell me what happened.",
+    options: ["tree", "shrub", "bush"],
+    answer: "bush",
+  },
+  {
+    question: "He hit the nail right on the _____ with that comment.",
+    options: ["head", "top", "nose"],
+    answer: "head",
+  },
+  {
+    question: "I've been feeling a little under the _____ lately.",
+    options: ["rain", "weather", "sky"],
+    answer: "weather",
+  },
+  {
+    question: "That new car cost me an arm and a _____.",
+    options: ["foot", "hand", "leg"],
+    answer: "leg",
+  },
+  {
+    question: "Good luck on your exam tomorrow — break a _____!",
+    options: ["hand", "leg", "arm"],
+    answer: "leg",
+  },
+  {
+    question: "She accidentally let the cat out of the _____ about the surprise party.",
+    options: ["house", "bag", "box"],
+    answer: "bag",
+  },
+  {
+    question: "Relax, it's not rocket _____; anyone can learn it.",
+    options: ["physics", "science", "math"],
+    answer: "science",
+  },
+  {
+    question: "You're barking up the wrong _____ if you think I did it.",
+    options: ["bush", "path", "tree"],
+    answer: "tree",
+  },
+  {
+    question: "There's no point crying over spilled _____ now.",
+    options: ["water", "juice", "milk"],
+    answer: "milk",
+  },
+  {
+    question: "Ever since she got the promotion, she's been on cloud _____.",
+    options: ["seven", "ten", "nine"],
+    answer: "nine",
+  },
+  {
+    question: "Don't worry about the test, it'll be a piece of _____.",
+    options: ["bread", "cake", "pie"],
+    answer: "cake",
+  },
+  {
+    question: "The old man finally kicked the _____ at age 95.",
+    options: ["can", "bucket", "pail"],
+    answer: "bucket",
+  },
+  {
+    question: "Go ahead, I'm all _____ — tell me everything.",
+    options: ["hands", "ears", "eyes"],
+    answer: "ears",
+  },
+  {
+    question: "We've made good progress today; let's call it a _____.",
+    options: ["deal", "day", "night"],
+    answer: "day",
+  },
+  {
+    question: "The delay was annoying, but it was the last _____ when they lost my luggage.",
+    options: ["straw", "stick", "feather"],
+    answer: "straw",
+  },
+  {
+    question: "He's had a chip on his _____ ever since he got passed over for the job.",
+    options: ["back", "shoulder", "arm"],
+    answer: "shoulder",
+  },
+  {
+    question: "You should take what he says with a grain of _____.",
+    options: ["sand", "salt", "sugar"],
+    answer: "salt",
+  },
+  {
+    question: "She finally spilled the _____ about their secret engagement.",
+    options: ["tea", "peas", "beans"],
+    answer: "beans",
+  },
+  {
+    question: "I'm going to hit the _____ early tonight; I'm exhausted.",
+    options: ["hay", "pillow", "bed"],
+    answer: "hay",
+  },
+  {
+    question: "Stop beating a dead _____; the decision has already been made.",
+    options: ["dog", "horse", "mule"],
+    answer: "horse",
+  },
+  {
+    question: "Could you please _____ down the volume? It's too loud.",
+    options: ["bring", "turn", "put"],
+    answer: "turn",
+  },
+  {
+    question: "I need to _____ up early tomorrow for my flight.",
+    options: ["lift", "wake", "raise"],
+    answer: "wake",
+  },
+  {
+    question: "She decided to _____ up smoking after her doctor's warning.",
+    options: ["take", "give", "let"],
+    answer: "give",
+  },
+  {
+    question: "Can you _____ out this form before your appointment?",
+    options: ["fit", "fill", "fix"],
+    answer: "fill",
+  },
+  {
+    question: "They had to _____ off the meeting due to bad weather.",
+    options: ["phone", "call", "ring"],
+    answer: "call",
+  },
+  {
+    question: "He's trying to _____ up with new ideas for the project.",
+    options: ["get", "go", "come"],
+    answer: "come",
+  },
+  {
+    question: "Please _____ out the lights before you leave the office.",
+    options: ["shut", "close", "turn"],
+    answer: "turn",
+  },
+  {
+    question: "I can't _____ up with all this noise anymore.",
+    options: ["stand", "put", "keep"],
+    answer: "put",
+  },
+  {
+    question: "We need to _____ down the budget for next quarter.",
+    options: ["slice", "cut", "chop"],
+    answer: "cut",
+  },
+  {
+    question: "She had to _____ up her job to take care of her mother.",
+    options: ["throw", "give", "let"],
+    answer: "give",
+  },
+  {
+    question: "The plane is about to _____ off; please fasten your seatbelt.",
+    options: ["take", "fly", "lift"],
+    answer: "take",
+  },
+  {
+    question: "I ran into an old friend and we _____ up talking for hours.",
+    options: ["finished", "closed", "ended"],
+    answer: "ended",
+  },
+  {
+    question: "Let's _____ over the report before we submit it.",
+    options: ["view", "look", "watch"],
+    answer: "look",
+  },
+  {
+    question: "He was late, so he had to _____ up on his homework over the weekend.",
+    options: ["catch", "reach", "grab"],
+    answer: "catch",
+  },
+  {
+    question: "Don't _____ up on your dreams just because it's difficult.",
+    options: ["put", "give", "let"],
+    answer: "give",
+  },
+  {
+    question: "The kids love to _____ around in the backyard after school.",
+    options: ["run", "walk", "jog"],
+    answer: "run",
+  },
+  {
+    question: "I need to _____ up my resume before applying for jobs.",
+    options: ["set", "update", "put"],
+    answer: "update",
+  },
+  {
+    question: "The company plans to _____ off 200 employees next month.",
+    options: ["lay", "cut", "put"],
+    answer: "lay",
+  },
+  {
+    question: "Please _____ down your seatbelt before we take off.",
+    options: ["lock", "buckle", "tie"],
+    answer: "buckle",
+  },
+  {
+    question: "She's going to _____ up her own business next year.",
+    options: ["build", "set", "make"],
+    answer: "set",
   }
-  
 
 ];
