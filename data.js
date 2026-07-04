@@ -3065,8 +3065,8 @@ const sentences = [
     answer: "at the age of 9",
   },
   {
-    question: "I'm not _____ today, so please leave me alone.",
-    options: ["under stress", "in a good mood", "on leave"],
+    question: "I'm not _____ today, so please don't try to joke around with me.",
+    options: ["on leave", "in a good mood", "out of stock"],
     answer: "in a good mood",
   },
   {
@@ -3085,7 +3085,7 @@ const sentences = [
     answer: "at the latest",
   },
   {
-    question: "He was questioned _____ so don't believe everything he says.",
+    question: "He was questioned _____, surrounded by cameras and reporters, so don't believe everything he says.",
     options: ["in public", "in detail", "under stress"],
     answer: "in public",
   },
@@ -3240,12 +3240,12 @@ const sentences = [
     answer: "in the long run",
   },
   {
-    question: "The negotiator was looking for a way to _____ the two sides together.",
+    question: "The negotiator was looking for a way to physically _____ the two rival delegations together at the same table.",
     options: ["draw", "get", "bring"],
     answer: "bring",
   },
   {
-    question: "He came into the room quietly so that he wouldn’t _____ attention.",
+    question: "He came into the room quietly so that he wouldn't _____ attention.",
     options: ["catch", "do", "draw"],
     answer: "draw",
   },
@@ -3270,12 +3270,12 @@ const sentences = [
     answer: "do",
   },
   {
-    question: "I’m sorry. I didn’t _____ your name. Could you tell me again?",
+    question: "I'm sorry. I didn't _____ your name. Could you tell me again?",
     options: ["draw", "catch", "do"],
     answer: "catch",
   },
   {
-    question: "The mafia boss had his associates do everything for him, so he didn’t have to _____ his hands dirty.",
+    question: "The mafia boss had his associates do everything for him, so he didn't have to _____ his hands dirty.",
     options: ["get", "bring", "catch"],
     answer: "get",
   },
@@ -3300,12 +3300,12 @@ const sentences = [
     answer: "get",
   },
   {
-    question: "You can’t behave like that. You must _____ a line between your private and professional life.",
+    question: "You can't behave like that. You must _____ a line between your private and professional life.",
     options: ["draw", "catch", "get"],
     answer: "draw",
   },
   {
-    question: "You must wear something warmer or else you’ll _____ a cold.",
+    question: "You must wear something warmer or else you'll _____ a cold.",
     options: ["catch", "do", "draw"],
     answer: "catch",
   },
@@ -3320,7 +3320,7 @@ const sentences = [
     answer: "caught",
   },
   {
-    question: "If you don’t start learning more, you’ll _____ badly in the test next week.",
+    question: "If you don't start learning more, you'll _____ badly in the test next week.",
     options: ["do", "bring", "get"],
     answer: "do",
   },
@@ -3520,7 +3520,7 @@ const sentences = [
     answer: "drew up",
   },
   {
-    question: "The manager had _____ the new documents with his lawyers before making a decision.",
+    question: "The manager had his lawyers _____ the new contract together with him so it would be ready for signing.",
     options: ["found out", "gone through", "drawn up"],
     answer: "drawn up",
   },
@@ -3546,7 +3546,7 @@ const sentences = [
   },
   {
     question: "My little brother keeps clicking his pen nonstop. It really _____.",
-    options: ["gets on my nerves", "drives me crazy", "shoots the breeze"],
+    options: ["gets on my nerves", "does the trick", "shoots the breeze"],
     answer: "gets on my nerves",
   },
   {
@@ -3591,7 +3591,7 @@ const sentences = [
   },
   {
     question: "Living with three roommates sometimes _____ because we all have very different habits.",
-    options: ["drives me crazy", "gets on my nerves", "shoots the breeze"],
+    options: ["drives me crazy", "no skin off my nose", "shoots the breeze"],
     answer: "drives me crazy",
   },
   {
@@ -3645,7 +3645,7 @@ const sentences = [
     answer: "dining",
   },
   {
-    question: "On weekends, many families go to the _____ to have a picnic and let the kids play.",
+    question: "On weekends, many families go to the _____ to spread a blanket on the grass, have a picnic, and let the kids run around.",
     options: ["trail", "park", "playground"],
     answer: "park",
   },
@@ -3725,11 +3725,6 @@ const sentences = [
     answer: "pen",
   },
   {
-    question: "Be careful with that bottle of _____ — don't spill it on your clothes.",
-    options: ["eraser", "highlighter", "glue"],
-    answer: "glue",
-  },
-  {
     question: "The children used colorful _____ to draw pictures of their families.",
     options: ["crayons", "trail", "index cards"],
     answer: "crayons",
@@ -3785,7 +3780,7 @@ const sentences = [
     answer: "pharmacy",
   },
   {
-    question: "Always read the _____ carefully before taking any medicine.",
+    question: "Always read the entire _____ on the bottle carefully before taking any medicine, including the dosage instructions.",
     options: ["warning", "cap", "label"],
     answer: "label",
   },
@@ -3798,11 +3793,6 @@ const sentences = [
     question: "The package has a clear _____ about possible side effects.",
     options: ["dosage", "warning", "seal"],
     answer: "warning",
-  },
-  {
-    question: "_____ for ice on the road—it's very slippery today.",
-    options: ["Do the trick", "Watch out", "Slack off"],
-    answer: "Watch out",
   },
   {
     question: "She had a serious _____ after eating peanuts.",
@@ -3840,7 +3830,7 @@ const sentences = [
     answer: "prescription",
   },
   {
-    question: "One common side effect of this medicine is _____, so don't drive after taking it.",
+    question: "One common side effect of this medicine is _____, so you might feel too sleepy to drive safely after taking it.",
     options: ["autonomy", "drowsiness", "dizziness"],
     answer: "drowsiness",
   },
@@ -3930,7 +3920,7 @@ const sentences = [
     answer: "worth the trouble",
   },
   {
-    question: "The manager asked for _____ results to see if the new training program was working.",
+    question: "The manager asked for _____ results — specific numbers she could track over time — to see if the new training program was working.",
     options: ["periodic", "measurable", "progress"],
     answer: "measurable",
   },
@@ -3940,7 +3930,7 @@ const sentences = [
     answer: "goal",
   },
   {
-    question: "I don’t want to _____ my team, so I will finish the report on time.",
+    question: "I don't want to _____ my team, so I will finish the report on time.",
     options: ["report back", "let them down", "get results"],
     answer: "let them down",
   },
@@ -3965,12 +3955,12 @@ const sentences = [
     answer: "progress report",
   },
   {
-    question: "Even though the project isn’t finished, I think we are _____ .",
+    question: "Even though the project isn't finished, I think we are _____ .",
     options: ["letting down", "on the right track", "periodically"],
     answer: "on the right track",
   },
   {
-    question: "It’s important to have a clear _____ before you start working on a big project.",
+    question: "It's important to have a clear _____ before you start working on a big project.",
     options: ["progress report", "goal", "measurable"],
     answer: "goal",
   },
@@ -3985,8 +3975,8 @@ const sentences = [
     answer: "let down",
   },
   {
-    question: "We need to see some real _____ soon or the project might be canceled.",
-    options: ["progress report", "measurable", "get results"],
+    question: "We need to _____ soon, or the project might be canceled.",
+    options: ["submit a progress report", "get results", "let down"],
     answer: "get results",
   },
   {
@@ -4085,11 +4075,6 @@ const sentences = [
     answer: "post",
   },
   {
-    question: "Many people just _____ on the forum—they read everything but never write anything.",
-    options: ["upload", "lurk", "reply"],
-    answer: "lurk",
-  },
-  {
     question: "This _____ about the best hiking trails has over 200 replies.",
     options: ["FAQ", "avatar", "thread"],
     answer: "thread",
@@ -4125,7 +4110,7 @@ const sentences = [
     answer: "flaming",
   },
   {
-    question: "I wrote a _____ explaining why I disagreed.",
+    question: "In response to her post, I wrote a _____ explaining why I disagreed.",
     options: ["reply", "thread", "avatar"],
     answer: "reply",
   },
@@ -4175,7 +4160,7 @@ const sentences = [
     answer: "hit it off",
   },
   {
-    question: "There was instant _____ between them as soon as they met.",
+    question: "There was instant _____ between them the moment they locked eyes across the room.",
     options: ["friendship", "chemistry", "agreement"],
     answer: "chemistry",
   },
@@ -4183,11 +4168,6 @@ const sentences = [
     question: "She has _____ of friends on social media.",
     options: ["a ton", "hide nor hair", "chemistry"],
     answer: "a ton",
-  },
-  {
-    question: "We have a lot _____ — we both love hiking and traveling.",
-    options: ["in common", "on purpose", "at risk"],
-    answer: "in common",
   },
   {
     question: "I haven't seen hide nor hair _____ Maria since she moved away.",
@@ -4230,7 +4210,7 @@ const sentences = [
     answer: "Speaking",
   },
   {
-    question: "Who is the _____ for questions about the conference registration?",
+    question: "Who should I email directly if I have questions about the conference registration?",
     options: ["contact person", "administrative assistant", "staff"],
     answer: "contact person",
   },
@@ -4330,13 +4310,13 @@ const sentences = [
     answer: "rudimentary",
   },
   {
-    question: "She always dresses with a lot of _____.",
-    options: ["style", "flair", "confidence"],
+    question: "She always dresses with a lot of _____, favoring bold colors and unexpected accessories.",
+    options: ["flair", "plainness", "confidence"],
     answer: "flair",
   },
   {
     question: "The chef really showed his cooking _____ with that incredible meal.",
-    options: ["mastery", "chops", "passion"],
+    options: ["chops", "recipe", "passion"],
     answer: "chops",
   },
   {
@@ -4355,11 +4335,6 @@ const sentences = [
     answer: "mastery",
   },
   {
-    question: "The judges loved the _____ of his music—it sounded completely new and fresh.",
-    options: ["originality", "rudimentary style", "bill"],
-    answer: "originality",
-  },
-  {
     question: "Her singing has so much _____ that the audience was deeply moved.",
     options: ["stalemate", "expressiveness", "mastery"],
     answer: "expressiveness",
@@ -4375,8 +4350,8 @@ const sentences = [
     answer: "duke it out",
   },
   {
-    question: "Her name is at the top of the _____.",
-    options: ["bill", "program", "list"],
+    question: "As the headliner, her name is at the top of the _____ posted outside the theater.",
+    options: ["bill", "invoice", "list"],
     answer: "bill",
   },
   {
@@ -4400,7 +4375,7 @@ const sentences = [
     answer: "Let me tell you",
   },
   {
-    question: "When you become a _____, you have to take responsibility for your own life.",
+    question: "Stop acting like a child; it's time you started behaving like a _____.",
     options: ["pipsqueak", "grown-up", "adult"],
     answer: "grown-up",
   },
@@ -4420,17 +4395,17 @@ const sentences = [
     answer: "No comment",
   },
   {
-    question: "This information is _____. Please don't share it with anyone else.",
+    question: "This information is _____ and only authorized employees may access it.",
     options: ["personal", "confidential", "private"],
     answer: "confidential",
   },
   {
-    question: "He said he's leaving the company for _____ reasons.",
+    question: "He said he's leaving the company for _____ reasons that he'd rather not discuss.",
     options: ["confidential", "personal", "financial"],
     answer: "personal",
   },
   {
-    question: "After a long week at work, I just want some _____ at home.",
+    question: "After a long, noisy week at work, I just want some _____ at home—no phone calls, no noise.",
     options: ["peace and quiet", "rest and relaxation", "free time"],
     answer: "peace and quiet",
   },
@@ -4450,12 +4425,12 @@ const sentences = [
     answer: "out of",
   },
   {
-    question: "Could you please _____ me the salt?",
+    question: "Could you please _____ me the salt? It's right there next to you.",
     options: ["bring", "hand", "give"],
     answer: "hand",
   },
   {
-    question: "I'm craving something salty. Let's buy a bag of _____.",
+    question: "I'm craving something salty and crunchy. Let's buy a bag of _____.",
     options: ["French fries", "potato chips", "pretzels"],
     answer: "potato chips",
   },
@@ -4465,7 +4440,7 @@ const sentences = [
     answer: "burger",
   },
   {
-    question: "Most kids love eating _____ with ketchup.",
+    question: "Most kids love dipping their _____ in ketchup.",
     options: ["popcorn", "French fries", "onion rings"],
     answer: "French fries",
   },
@@ -4475,7 +4450,7 @@ const sentences = [
     answer: "popcorn",
   },
   {
-    question: "Eating too much _____ is bad for your health.",
+    question: "Eating too much greasy, processed _____ is bad for your health.",
     options: ["fast food", "junk food", "dessert"],
     answer: "junk food",
   },
@@ -4505,14 +4480,9 @@ const sentences = [
     answer: "door-to-door",
   },
   {
-    question: "It is my _____ to take care of my younger siblings while my parents are at work.",
-    options: ["responsibility", "duty", "habit"],
+    question: "As the eldest child, it is my _____ to take care of my younger siblings while my parents are at work.",
+    options: ["hobby", "duty", "habit"],
     answer: "duty",
-  },
-  {
-    question: "Don't ask him for a favor if you don't really need it—he's such a _____.",
-    options: ["leader", "softy", "genius"],
-    answer: "softy",
   },
   {
     question: "I'll have a cheeseburger and a large _____, please.",
@@ -4525,7 +4495,7 @@ const sentences = [
     answer: "pizza",
   },
   {
-    question: "This suitcase is heavy. I wish I had brought my _____ instead.",
+    question: "This suitcase is heavy to drag through the airport. I wish I had brought my rolling _____ instead.",
     options: ["carry-on", "roller bag", "backpack"],
     answer: "roller bag",
   },
@@ -4545,7 +4515,7 @@ const sentences = [
     answer: "store",
   },
   {
-    question: "I only brought a small _____, so I don't have to wait at baggage claim.",
+    question: "I only brought a small _____ that fits under the seat, so I don't have to wait at baggage claim.",
     options: ["roller bag", "carry-on", "backpack"],
     answer: "carry-on",
   },
@@ -4600,12 +4570,12 @@ const sentences = [
     answer: "unwind",
   },
   {
-    question: "I have a dentist appointment next week for my annual _____.",
+    question: "I have a dentist appointment next week for my annual _____, where the dentist examines my teeth and checks for cavities.",
     options: ["cleaning", "check-up", "root canal"],
     answer: "check-up",
   },
   {
-    question: "The dentist recommended a professional _____ every six months.",
+    question: "The hygienist recommended a professional teeth _____ every six months to remove plaque and tartar buildup.",
     options: ["filling", "cleaning", "check-up"],
     answer: "cleaning",
   },
@@ -4635,7 +4605,7 @@ const sentences = [
     answer: "molars",
   },
   {
-    question: "The dentist put a _____ in the hole after removing the decay.",
+    question: "Since it was only a minor cavity, the dentist put a small _____ in the hole after removing the decay.",
     options: ["root canal", "filling", "crown"],
     answer: "filling",
   },
@@ -4676,7 +4646,7 @@ const sentences = [
   },
   {
     question: "There is a lot of _____ on your teeth because you haven't brushed well.",
-    options: ["buildup", "plaque", "staining"],
+    options: ["buildup", "swelling", "staining"],
     answer: "buildup",
   },
   {
@@ -4705,8 +4675,8 @@ const sentences = [
     answer: "veteran",
   },
   {
-    question: "She has a lot of _____ in marketing and digital advertising.",
-    options: ["experience", "expertise", "knowledge"],
+    question: "She has a lot of specialized _____ in marketing and digital advertising, having studied it in depth.",
+    options: ["money", "expertise", "knowledge"],
     answer: "expertise",
   },
   {
@@ -4721,12 +4691,12 @@ const sentences = [
   },
   {
     question: "Trust and communication are the _____ of a good relationship.",
-    options: ["cornerstone", "foundation", "result"],
+    options: ["cornerstone", "reward", "result"],
     answer: "cornerstone",
   },
   {
     question: "Driving too fast on icy roads is very _____.",
-    options: ["careless", "reckless", "inept"],
+    options: ["cautious", "reckless", "inept"],
     answer: "reckless",
   },
   {
@@ -4736,18 +4706,13 @@ const sentences = [
   },
   {
     question: "He is completely _____ when it comes to fixing computers.",
-    options: ["adept", "inept", "inexperienced"],
+    options: ["adept", "inept", "meticulous"],
     answer: "inept",
   },
   {
     question: "The company hired 15 new _____ this year.",
-    options: ["old hands", "recruits", "employees"],
+    options: ["old hands", "recruits", "clients"],
     answer: "recruits",
-  },
-  {
-    question: "Ask Linda for help—she's an _____ when it comes to organizing big events.",
-    options: ["old hand", "newbie", "recruit"],
-    answer: "old hand",
   },
   {
     question: "Our regular teacher is sick today, so we have a _____.",
@@ -4761,7 +4726,7 @@ const sentences = [
   },
   {
     question: "Before we start the game, let's review the _____.",
-    options: ["instructions", "ground rules", "schedule"],
+    options: ["guest list", "ground rules", "schedule"],
     answer: "ground rules",
   },
   {
@@ -4800,13 +4765,13 @@ const sentences = [
     answer: "lure",
   },
   {
-    question: "The police warned parents about people who might try to _____ children.",
+    question: "The police warned parents about people who might try to grab and take children away.",
     options: ["lure", "abduct", "approach"],
     answer: "abduct",
   },
   {
     question: "She was winning easily, but then she _____ and lost the match.",
-    options: ["let her guard down", "gave up", "got distracted"],
+    options: ["let her guard down", "gave up", "improved her game"],
     answer: "let her guard down",
   },
   {
@@ -4816,7 +4781,7 @@ const sentences = [
   },
   {
     question: "You need your parents' _____ to go on the school trip.",
-    options: ["permission", "approval", "signature"],
+    options: ["permission", "opinion", "signature"],
     answer: "permission",
   },
   {
@@ -4841,7 +4806,7 @@ const sentences = [
   },
   {
     question: "Can you _____ me $10 until next week? I forgot my wallet.",
-    options: ["hit up", "spot", "lend"],
+    options: ["hit up", "spot", "owe"],
     answer: "spot",
   },
   {
@@ -4850,13 +4815,8 @@ const sentences = [
     answer: "pipe dream",
   },
   {
-    question: "Don't ask him for money—he's a real _____.",
-    options: ["big-hearted", "cheapskate", "generous person"],
-    answer: "cheapskate",
-  },
-  {
     question: "Her _____ is amazing. She donates time and money to many causes.",
-    options: ["kindness", "generosity", "charity work"],
+    options: ["patience", "generosity", "charity work"],
     answer: "generosity",
   },
   {
@@ -4866,7 +4826,7 @@ const sentences = [
   },
   {
     question: "I really don't want to _____ my old car, but I need the money.",
-    options: ["part with", "sell", "give away"],
+    options: ["part with", "wash", "give away"],
     answer: "part with",
   },
   {
@@ -4931,7 +4891,7 @@ const sentences = [
   },
   {
     question: "She closed the door because she wanted some _____ .",
-    options: ["anonymity", "privacy", "seclusion"],
+    options: ["anonymity", "privacy", "attention"],
     answer: "privacy",
   },
   {
@@ -4991,7 +4951,7 @@ const sentences = [
   },
   {
     question: "She spent the weekend in complete _____ in a mountain cabin.",
-    options: ["anonymity", "seclusion", "privacy"],
+    options: ["anonymity", "seclusion", "chaos"],
     answer: "seclusion",
   },
   {
@@ -5025,19 +4985,14 @@ const sentences = [
     answer: "rectify",
   },
   {
-    question: "_____, I realize that quitting my job was a bad decision.",
-    options: ["In retrospect", "Nevertheless", "At first"],
-    answer: "In retrospect",
+    question: "I shouldn't have invested in that company, but _____ — looking back, the warning signs were obvious.",
+    options: ["hindsight is 20/20", "you live and learn", "that's life"],
+    answer: "hindsight is 20/20",
   },
   {
     question: "Stop acting like a _____. You're annoying everyone.",
     options: ["twerp", "genius", "professional"],
     answer: "twerp",
-  },
-  {
-    question: "I shouldn't have invested in that company, but _____ .",
-    options: ["hindsight is 20/20", "you live and learn", "that's life"],
-    answer: "hindsight is 20/20",
   },
   {
     question: "The meeting was just a _____ to make the boss look good.",
@@ -5055,13 +5010,8 @@ const sentences = [
     answer: "objection",
   },
   {
-    question: "Don't _____ in the negotiations—fight for the best deal.",
-    options: ["pull your punches", "give an inch", "back down"],
-    answer: "pull your punches",
-  },
-  {
     question: "They wouldn't _____ during the discussion, so we couldn't reach an agreement.",
-    options: ["give an inch", "compromise", "change the subject"],
+    options: ["give an inch", "take notes", "change the subject"],
     answer: "give an inch",
   },
   {
@@ -5073,11 +5023,6 @@ const sentences = [
     question: "If you make that decision, there will be serious _____.",
     options: ["objections", "repercussions", "benefits"],
     answer: "repercussions",
-  },
-  {
-    question: "Please take out the garbage—the kitchen really _____.",
-    options: ["lathers", "stinks", "sparkles"],
-    answer: "stinks",
   },
   {
     question: "She prefers taking a long bath instead of a quick _____.",
@@ -5165,13 +5110,8 @@ const sentences = [
     answer: "going for",
   },
   {
-    question: "Don't _____ in the negotiations—fight for the best deal.",
-    options: ["pull your punches", "give an inch", "back down"],
-    answer: "pull your punches",
-  },
-  {
     question: "They wouldn't _____ during the discussion, so we couldn't reach an agreement.",
-    options: ["give an inch", "compromise", "change the subject"],
+    options: ["give an inch", "take notes", "change the subject"],
     answer: "give an inch",
   },
   {
@@ -5183,11 +5123,6 @@ const sentences = [
     question: "If you make that decision, there will be serious _____.",
     options: ["objections", "repercussions", "benefits"],
     answer: "repercussions",
-  },
-  {
-    question: "Please take out the garbage—the kitchen really _____.",
-    options: ["lathers", "stinks", "sparkles"],
-    answer: "stinks",
   },
   {
     question: "She prefers taking a long bath instead of a quick _____.",
@@ -5274,8 +5209,6 @@ const sentences = [
     options: ["going for", "trying on", "looking at"],
     answer: "going for",
   },
-
-  // Batch 2
   {
     question: "Stop _____ and just tell me what happened.",
     options: ["speaking your mind", "beating around the bush", "changing your tune"],
@@ -5292,7 +5225,7 @@ const sentences = [
     answer: "bury the hatchet",
   },
   {
-    question: "I can't believe you _____ on your promise like that.",
+    question: "I can't believe you _____ of the deal like that.",
     options: ["kept your word", "went back", "backed out"],
     answer: "backed out",
   },
@@ -5320,11 +5253,6 @@ const sentences = [
     question: "He forgot to _____ the towel, so it stayed damp and started to smell.",
     options: ["hang up", "fold up", "soak"],
     answer: "hang up",
-  },
-  {
-    question: "There's a puddle on the floor—the _____ must be leaking.",
-    options: ["mirror", "pipe", "mat"],
-    answer: "pipe",
   },
   {
     question: "Use this brush to _____ the grout between the tiles.",
@@ -5398,7 +5326,7 @@ const sentences = [
   },
   {
     question: "The attic was full of _____, from old books to broken furniture and forgotten keepsakes.",
-    options: ["odds and ends", "bits and pieces", "nooks and crannies"],
+    options: ["odds and ends", "hopes and dreams", "nooks and crannies"],
     answer: "odds and ends",
   },
   {
@@ -5428,7 +5356,7 @@ const sentences = [
   },
   {
     question: "I decided to _____ my grandmother to check in on her and spend some time together.",
-    options: ["call on", "look up", "wait on"],
+    options: ["call on", "put off", "wait on"],
     answer: "call on",
   },
   {
@@ -5462,7 +5390,7 @@ const sentences = [
     answer: "rendering",
   },
   {
-    question: "After a long day of skiing, they sat down to enjoy a warm _____ of schnapps to relax their muscles.",
+    question: "After a long day of skiing, they sat down to enjoy a warm _____ of schnapps, downing it in one gulp to relax their muscles.",
     options: ["shot", "sip", "splash"],
     answer: "shot",
   },
@@ -5475,11 +5403,6 @@ const sentences = [
     question: "He had always been _____ to his boss, never questioning any of the orders given to him.",
     options: ["indifferent", "subservient", "hostile"],
     answer: "subservient",
-  },
-  {
-    question: "Arguing about which movie is better is like _____—both are great in their own way.",
-    options: ["reading between the lines", "comparing apples to oranges", "beating a dead horse"],
-    answer: "comparing apples to oranges",
   },
   {
     question: "The idea of a flying car that runs on water seemed utterly _____, yet people were still excited about it.",
@@ -5550,11 +5473,6 @@ const sentences = [
     question: "The constant delays were _____ in this project, and we learned to expect them.",
     options: ["out of the blue", "par for the course", "a stretch"],
     answer: "par for the course",
-  },
-  {
-    question: "Living in the city gave her _____—exciting nightlife and the calm of nearby nature.",
-    options: ["a taste of her own medicine", "the best of both worlds", "the short end of the stick"],
-    answer: "the best of both worlds",
   },
   {
     question: "She was quick to _____ not taking the job offer when she saw how well her friend was doing in that role.",
@@ -5753,7 +5671,7 @@ const sentences = [
   },
   {
     question: "Let me _____ the main points from today's meeting so we can all be on the same page moving forward.",
-    options: ["bring up", "sum up", "go over"],
+    options: ["bring up", "sum up", "leave out"],
     answer: "sum up",
   },
   {
@@ -6113,7 +6031,7 @@ const sentences = [
   },
   {
     question: "Thanks to the kind stranger, she found her missing wallet before _____ the bus.",
-    options: ["missing", "catching", "skipping"],
+    options: ["delaying", "catching", "skipping"],
     answer: "catching",
   },
   {
@@ -6203,7 +6121,7 @@ const sentences = [
   },
   {
     question: "The puppy darted into the garden, chasing after a butterfly fluttering just out of _____.",
-    options: ["sight", "reach", "mind"],
+    options: ["danger", "reach", "mind"],
     answer: "reach",
   },
   {
@@ -6218,7 +6136,7 @@ const sentences = [
   },
   {
     question: "The ferry glided across the calm lake, leaving a gentle ripple in its _____.",
-    options: ["path", "wake", "shadow"],
+    options: ["cabin", "wake", "shadow"],
     answer: "wake",
   },
   {
@@ -6518,7 +6436,7 @@ const sentences = [
   },
   {
     question: "I have perfected the _____ of making it look like I am paying attention in virtual meetings while actually online shopping.",
-    options: ["habit", "art", "risk"],
+    options: ["chore", "art", "risk"],
     answer: "art",
   },
   {
@@ -6541,9 +6459,881 @@ const sentences = [
     options: ["need", "use", "buy"],
     answer: "buy",
   },
-  
-  
-
+  {
+    question: "Her _____ is so full that she can barely fit anything else inside.",
+    options: ["garage", "closet", "kitchen"],
+    answer: "closet",
+  },
+  {
+    question: "I need to buy a whole new _____ for my new job because most of my clothes are too casual.",
+    options: ["house", "wardrobe", "furniture"],
+    answer: "wardrobe",
+  },
+  {
+    question: "She spent almost an hour at the store _____ out the perfect dress for her sister's wedding.",
+    options: ["washing", "picking", "cleaning"],
+    answer: "picking",
+  },
+  {
+    question: "The knees of his favorite jeans are completely _____, but he refuses to throw them away.",
+    options: ["wet", "frayed", "expensive"],
+    answer: "frayed",
+  },
+  {
+    question: "The old photograph had _____ over the years and was now only a pale version of its original colors.",
+    options: ["dirty", "faded", "ripped"],
+    answer: "faded",
+  },
+  {
+    question: "There's a big _____ in my shirt sleeve. I must have caught it on something sharp.",
+    options: ["button", "rip", "stain"],
+    answer: "rip",
+  },
+  {
+    question: "I spilled coffee on my white blouse, and now there's a big brown _____ that won't come out.",
+    options: ["zipper", "stain", "rip"],
+    answer: "stain",
+  },
+  {
+    question: "The _____ on my jacket is broken, so I can't zip it up.",
+    options: ["size", "color", "zipper"],
+    answer: "zipper",
+  },
+  {
+    question: "The drawer is _____, and I can't open it no matter how hard I pull.",
+    options: ["heavy", "stuck", "empty"],
+    answer: "stuck",
+  },
+  {
+    question: "The leather on these shoes is badly _____ after years of everyday use.",
+    options: ["cold", "scuffed", "wet"],
+    answer: "scuffed",
+  },
+  {
+    question: "These shoes are so old that the _____ are completely smooth, and I keep slipping.",
+    options: ["buckles", "soles", "laces"],
+    answer: "soles",
+  },
+  {
+    question: "My winter coat is really _____. I've had it for ten years, and it's starting to show its age.",
+    options: ["heavy", "new", "worn"],
+    answer: "worn",
+  },
+  {
+    question: "We were completely out of clean clothes, so we had to wash everything by hand. _____ call for desperate measures.",
+    options: ["Quiet days", "Desperate times", "Happy moments"],
+    answer: "Desperate times",
+  },
+  {
+    question: "I can't meet your friends looking like this. I need to change into something more _____ first.",
+    options: ["comfortable", "presentable", "colorful"],
+    answer: "presentable",
+  },
+  {
+    question: "The dress looked absolutely _____. There wasn't a single wrinkle or flaw anywhere.",
+    options: ["cheap", "flawless", "colorful"],
+    answer: "flawless",
+  },
+  {
+    question: "After working for a big company for ten years, he finally decided to _____ and start his own business.",
+    options: ["take a break", "take the leap", "take a rest"],
+    answer: "take the leap",
+  },
+  {
+    question: "I downloaded a _____ to make all my business letters look professional and consistent.",
+    options: ["folder", "picture", "template"],
+    answer: "template",
+  },
+  {
+    question: "We _____ our new kitchen with special lighting and different handles on the cabinets.",
+    options: ["painted", "customized", "cleaned"],
+    answer: "customized",
+  },
+  {
+    question: "Her writing has a distinct southern _____ that makes you feel like you're in a small town in Georgia.",
+    options: ["color", "flavor", "sound"],
+    answer: "flavor",
+  },
+  {
+    question: "The company plans to _____ its new product next month with a big advertising campaign.",
+    options: ["finish", "sell", "launch"],
+    answer: "launch",
+  },
+  {
+    question: "Did you read my latest _____ on the blog? I wrote about my trip to Japan.",
+    options: ["letter", "post", "email"],
+    answer: "post",
+  },
+  {
+    question: "Please _____ the report with the latest sales numbers before tomorrow's meeting.",
+    options: ["print", "update", "read"],
+    answer: "update",
+  },
+  {
+    question: "The new game became very popular. It really _____ with young people.",
+    options: ["gave up", "caught on", "slowed down"],
+    answer: "caught on",
+  },
+  {
+    question: "The _____ is full of opinions about the new movie that came out last week.",
+    options: ["television", "blogosphere", "newspaper"],
+    answer: "blogosphere",
+  },
+  {
+    question: "His cover letter was mostly _____. He explained why he was the best person for the job.",
+    options: ["complaints", "jokes", "self-promotion"],
+    answer: "self-promotion",
+  },
+  {
+    question: "I used a _____ to find information about hotels in Rome.",
+    options: ["dictionary", "search engine", "calculator"],
+    answer: "search engine",
+  },
+  {
+    question: "Many bloggers try to _____ with other websites to attract more visitors.",
+    options: ["write stories", "swap links", "share photos"],
+    answer: "swap links",
+  },
+  {
+    question: "Her website gets over 5,000 _____ every day from people all over the world.",
+    options: ["friends", "hits", "emails"],
+    answer: "hits",
+  },
+  {
+    question: "When his coach told him he had real talent, he _____ and started practicing every day.",
+    options: ["laughed at it", "forgot about it", "took it to heart"],
+    answer: "took it to heart",
+  },
+  {
+    question: "I read the blog post and left a _____ saying how much I enjoyed it.",
+    options: ["picture", "comment", "question"],
+    answer: "comment",
+  },
+  {
+    question: "The President _____ three new judges to the Supreme Court last month.",
+    options: ["interviewed", "appointed", "elected"],
+    answer: "appointed",
+  },
+  {
+    question: "When the manager retires next year, who do you think will _____ her?",
+    options: ["fire", "help", "succeed"],
+    answer: "succeed",
+  },
+  {
+    question: "They need someone to _____ the position while the regular employee is on maternity leave.",
+    options: ["create", "fill", "leave"],
+    answer: "fill",
+  },
+  {
+    question: "There are five strong _____ for the job, but we can only hire one.",
+    options: ["customers", "candidates", "students"],
+    answer: "candidates",
+  },
+  {
+    question: "The decision has to be approved by the _____ before we can move forward.",
+    options: ["new employees", "higher-ups", "customers"],
+    answer: "higher-ups",
+  },
+  {
+    question: "The company carefully _____ all job applicants before inviting them for interviews.",
+    options: ["ignores", "vets", "meets"],
+    answer: "vets",
+  },
+  {
+    question: "She has a few _____ in her closet from mistakes she made years ago.",
+    options: ["clothes", "skeletons", "secrets"],
+    answer: "skeletons",
+  },
+  {
+    question: "I'm sorry, but I'm not _____ to discuss the details of the contract.",
+    options: ["at work", "at liberty", "at home"],
+    answer: "at liberty",
+  },
+  {
+    question: "Only people in the president's _____ knew about the major changes coming to the company.",
+    options: ["office", "family", "inner circle"],
+    answer: "inner circle",
+  },
+  {
+    question: "The boss has become very _____ with the new intern lately.",
+    options: ["strict", "buddy-buddy", "polite"],
+    answer: "buddy-buddy",
+  },
+  {
+    question: "Three different candidates are still _____ for the manager position.",
+    options: ["under payment", "under consideration", "under training"],
+    answer: "under consideration",
+  },
+  {
+    question: "She got promoted after only six months. _____!",
+    options: ["That's normal", "That's huge", "That's small"],
+    answer: "That's huge",
+  },
+  {
+    question: "Mr. Thompson will serve as the _____ director until they find a permanent replacement.",
+    options: ["retired", "interim", "new"],
+    answer: "interim",
+  },
+  {
+    question: "He has the _____ because his uncle is the head of the department.",
+    options: ["difficult path", "inside track", "outside chance"],
+    answer: "inside track",
+  },
+  {
+    question: "The company is keeping its new product plans _____ until the official announcement.",
+    options: ["in the open", "under wraps", "on the table"],
+    answer: "under wraps",
+  },
+  {
+    question: "Can you pass me the _____? I want to change the channel.",
+    options: ["phone", "remote", "book"],
+    answer: "remote",
+  },
+  {
+    question: "_____ turning down the music? I'm trying to study.",
+    options: ["Can you help", "Do you mind", "Are you happy"],
+    answer: "Do you mind",
+  },
+  {
+    question: "Our team made it to the national _____. We're so excited!",
+    options: ["party", "playoffs", "practice"],
+    answer: "playoffs",
+  },
+  {
+    question: "I'm _____ the home team tonight. I hope they win!",
+    options: ["waiting for", "rooting for", "angry at"],
+    answer: "rooting for",
+  },
+  {
+    question: "No one expected them to win. They were the clear _____ in the match.",
+    options: ["favorite", "champion", "underdog"],
+    answer: "underdog",
+  },
+  {
+    question: "The team was _____ after winning the championship game.",
+    options: ["sad", "victorious", "tired"],
+    answer: "victorious",
+  },
+  {
+    question: "Our team really _____ last night. The final score was 8 to 1.",
+    options: ["got lucky", "got pounded", "got better"],
+    answer: "got pounded",
+  },
+  {
+    question: "Who do you think will be the next world _____ in boxing?",
+    options: ["coach", "champion", "player"],
+    answer: "champion",
+  },
+  {
+    question: "Please let me work _____ for a while. I need to finish this report.",
+    options: ["with friends", "in peace", "with music"],
+    answer: "in peace",
+  },
+  {
+    question: "The basketball _____ starts in October and ends in June.",
+    options: ["team", "season", "game"],
+    answer: "season",
+  },
+  {
+    question: "He's always so _____ when he's hungry. It's better not to talk to him then.",
+    options: ["quiet", "testy", "happy"],
+    answer: "testy",
+  },
+  {
+    question: "Which team are you _____ in the final?",
+    options: ["ignoring", "backing", "fighting"],
+    answer: "backing",
+  },
+  {
+    question: "The employees are all _____ because there are rumors about layoffs.",
+    options: ["running late", "running scared", "running fast"],
+    answer: "running scared",
+  },
+  {
+    question: "She studied hard but _____ during the exam because she was too nervous.",
+    options: ["relaxed", "choked", "succeeded"],
+    answer: "choked",
+  },
+  {
+    question: "The little boy almost _____ when he swallowed a large piece of candy.",
+    options: ["got excited", "got choked", "got tired"],
+    answer: "got choked",
+  },
+  {
+    question: "She took a _____ class to learn how to protect herself if she is ever attacked.",
+    options: ["self-defense", "swimming", "cooking"],
+    answer: "self-defense",
+  },
+  {
+    question: "Before the game started, the players were _____ the opposing team.",
+    options: ["cheering", "ignoring", "sizing up"],
+    answer: "sizing up",
+  },
+  {
+    question: "The small dog looks scary, but he's actually completely _____.",
+    options: ["dangerous", "harmless", "angry"],
+    answer: "harmless",
+  },
+  {
+    question: "The man was arrested for making _____ phone calls to his ex-wife.",
+    options: ["short", "friendly", "threatening"],
+    answer: "threatening",
+  },
+  {
+    question: "After they ran out of bullets, the two men were forced into _____.",
+    options: ["hand-to-hand combat", "knife", "gun"],
+    answer: "hand-to-hand combat",
+  },
+  {
+    question: "When the dog attacked, the man tried to _____ himself with a stick.",
+    options: ["feed", "defend", "run"],
+    answer: "defend",
+  },
+  {
+    question: "Karate is a popular _____ that teaches people how to fight without weapons.",
+    options: ["game", "sport", "martial art"],
+    answer: "martial art",
+  },
+  {
+    question: "The bigger boy tried to _____ the smaller boy after school.",
+    options: ["beat up", "play with", "help"],
+    answer: "beat up",
+  },
+  {
+    question: "We need to _____ the problem directly instead of avoiding it.",
+    options: ["forget", "confront", "ignore"],
+    answer: "confront",
+  },
+  {
+    question: "The players are really _____ for tomorrow's championship game.",
+    options: ["tired", "bored", "pumped up"],
+    answer: "pumped up",
+  },
+  {
+    question: "When I saw the car accident, a rush of _____ made my heart race.",
+    options: ["food", "adrenaline", "water"],
+    answer: "adrenaline",
+  },
+  {
+    question: "The teacher tried to _____ the argument between the two students.",
+    options: ["start", "join", "defuse"],
+    answer: "defuse",
+  },
+  {
+    question: "Some customers complained that the salesman was _____ them with too many phone calls.",
+    options: ["harassing", "helping", "paying"],
+    answer: "harassing",
+  },
+  {
+    question: "We've got a lot to finish today. Let's _____ on this report.",
+    options: ["go home", "take a break", "do some damage"],
+    answer: "do some damage",
+  },
+  {
+    question: "You need the right _____ if you want to succeed in this difficult job.",
+    options: ["car", "mindset", "shoes"],
+    answer: "mindset",
+  },
+  {
+    question: "Could you please give me _____ to your house? I don't know the area well.",
+    options: ["money", "directions", "advice"],
+    answer: "directions",
+  },
+  {
+    question: "The address is 245 Oak Street. The nearest _____ is Pine Avenue.",
+    options: ["building", "highway", "cross street"],
+    answer: "cross street",
+  },
+  {
+    question: "Take the highway and get off at _____ 47.",
+    options: ["exit", "entrance", "stop"],
+    answer: "exit",
+  },
+  {
+    question: "We're _____ north on the highway toward the mountains.",
+    options: ["parking", "stopping", "heading"],
+    answer: "heading",
+  },
+  {
+    question: "The house is just past the big _____ in the road.",
+    options: ["hill", "bend", "bridge"],
+    answer: "bend",
+  },
+  {
+    question: "At the fork in the road, _____ left toward the lake.",
+    options: ["speed", "veer", "stop"],
+    answer: "veer",
+  },
+  {
+    question: "This is a _____. We'll have to turn around.",
+    options: ["highway", "dead end", "main road"],
+    answer: "dead end",
+  },
+  {
+    question: "Be careful. This is a _____ street, so you can only drive in one direction.",
+    options: ["two-way", "wide", "one-way"],
+    answer: "one-way",
+  },
+  {
+    question: "We have to stop because the _____ is red.",
+    options: ["light", "road", "sign"],
+    answer: "light",
+  },
+  {
+    question: "It's very difficult to find _____ parking downtown on weekends.",
+    options: ["garage", "street", "reserved"],
+    answer: "street",
+  },
+  {
+    question: "The restaurant offers _____ parking, so someone will park your car for you.",
+    options: ["cheap", "valet", "free"],
+    answer: "valet",
+  },
+  {
+    question: "The store will _____ your parking ticket if you buy something.",
+    options: ["sell", "ignore", "validate"],
+    answer: "validate",
+  },
+  {
+    question: "I need to put more money in the parking _____ or I'll get a ticket.",
+    options: ["meter", "light", "sign"],
+    answer: "meter",
+  },
+  {
+    question: "The main street is very busy. Let's try looking for parking on a _____ instead.",
+    options: ["bridge", "side street", "highway"],
+    answer: "side street",
+  },
+  {
+    question: "There was no parking, so I had to _____ the block a few times.",
+    options: ["cross", "circle", "stop"],
+    answer: "circle",
+  },
+  {
+    question: "Life is short. We should try to _____ as much as possible.",
+    options: ["work harder", "get the most out of life", "save more money"],
+    answer: "get the most out of life",
+  },
+  {
+    question: "She wants to _____ by traveling, trying new things, and taking risks.",
+    options: ["live safely", "live quietly", "live life to its fullest"],
+    answer: "live life to its fullest",
+  },
+  {
+    question: "Wearing baggy pants was a popular _____ in the 1990s, but it didn't last long.",
+    options: ["fad", "rule", "tradition"],
+    answer: "fad",
+  },
+  {
+    question: "After his heart attack, he completely changed his _____ and started exercising and eating healthier.",
+    options: ["house", "car", "lifestyle"],
+    answer: "lifestyle",
+  },
+  {
+    question: "Teaching young children is very _____ for her. She loves her job.",
+    options: ["easy", "fulfilling", "boring"],
+    answer: "fulfilling",
+  },
+  {
+    question: "Most children _____ when they only want to eat pizza and nothing else.",
+    options: ["go to school", "go through a phase", "go to bed"],
+    answer: "go through a phase",
+  },
+  {
+    question: "Instead of worrying about tomorrow, try to _____ and enjoy today.",
+    options: ["live in the moment", "remember everything", "plan everything"],
+    answer: "live in the moment",
+  },
+  {
+    question: "Her constant _____ makes everyone around her feel unhappy.",
+    options: ["energy", "negativity", "kindness"],
+    answer: "negativity",
+  },
+  {
+    question: "I really _____ all your help during this difficult time.",
+    options: ["forget", "appreciate", "ignore"],
+    answer: "appreciate",
+  },
+  {
+    question: "She comes from a religious family and is a _____ Christian.",
+    options: ["studying", "practicing", "reading"],
+    answer: "practicing",
+  },
+  {
+    question: "Practicing _____ each morning helps me stay calm and focused during a busy day.",
+    options: ["coffee", "music", "mindfulness"],
+    answer: "mindfulness",
+  },
+  {
+    question: "The mother tried to _____ her crying child by holding him gently.",
+    options: ["excite", "calm", "scare"],
+    answer: "calm",
+  },
+  {
+    question: "She starts every morning with ten minutes of _____ to clear her mind.",
+    options: ["laundry", "meditation", "eating"],
+    answer: "meditation",
+  },
+  {
+    question: "Stop _____ the past. It's keeping you from moving forward.",
+    options: ["laughing at", "talking about", "dwelling on"],
+    answer: "dwelling on",
+  },
+  {
+    question: "I always read _____ before buying a new phone.",
+    options: ["advertisements", "consumer reviews", "prices"],
+    answer: "consumer reviews",
+  },
+  {
+    question: "He received offers from three different companies and is now _____ his options.",
+    options: ["accepting", "ignoring", "weighing"],
+    answer: "weighing",
+  },
+  {
+    question: "Don't decide yet. You should _____ your options open for a while.",
+    options: ["keep", "forget", "close"],
+    answer: "keep",
+  },
+  {
+    question: "I can't _____ my mind. Should I take the job or go back to school?",
+    options: ["change", "lose", "make up"],
+    answer: "make up",
+  },
+  {
+    question: "If you need any help, please don't _____ to ask.",
+    options: ["hesitate", "forget", "try"],
+    answer: "hesitate",
+  },
+  {
+    question: "This phone comes in several color _____.",
+    options: ["prices", "options", "problems"],
+    answer: "options",
+  },
+  {
+    question: "_____ speaking, it's better to save the money than to buy a new car right now.",
+    options: ["Loudly", "Logically", "Quickly"],
+    answer: "Logically",
+  },
+  {
+    question: "The scientists performed a careful _____ of the data before publishing their findings.",
+    options: ["story", "analysis", "photo"],
+    answer: "analysis",
+  },
+  {
+    question: "Once you choose a university, you'll have to _____ that decision for the next four years.",
+    options: ["fight with", "play with", "live with"],
+    answer: "live with",
+  },
+  {
+    question: "His past mistakes continue to _____ him many years later.",
+    options: ["help", "haunt", "entertain"],
+    answer: "haunt",
+  },
+  {
+    question: "The heavy snow has _____ the city's transportation system.",
+    options: ["started", "crippled", "improved"],
+    answer: "crippled",
+  },
+  {
+    question: "Her _____ is making it difficult for the team to move forward with the project.",
+    options: ["experience", "speed", "indecision"],
+    answer: "indecision",
+  },
+  {
+    question: "Stop _____ and just give me your final answer.",
+    options: ["stalling", "helping", "running"],
+    answer: "stalling",
+  },
+  {
+    question: "I bought my new laptop at a big _____ store downtown.",
+    options: ["grocery", "electronics", "clothing"],
+    answer: "electronics",
+  },
+  {
+    question: "I don't think you'll _____ quitting your job. It was the right decision.",
+    options: ["remember", "regret", "enjoy"],
+    answer: "regret",
+  },
+  {
+    question: "His joke didn't _____ very well with the audience. No one laughed.",
+    options: ["look", "go over", "sound"],
+    answer: "go over",
+  },
+  {
+    question: "The new movie was a complete _____. Almost no one went to see it.",
+    options: ["success", "hit", "flop"],
+    answer: "flop",
+  },
+  {
+    question: "I completely _____ my presentation. I was so nervous that I forgot everything.",
+    options: ["bombed", "prepared", "enjoyed"],
+    answer: "bombed",
+  },
+  {
+    question: "This year's conference felt like a _____ of last year's. They covered almost all the same topics.",
+    options: ["surprise", "retread", "improvement"],
+    answer: "retread",
+  },
+  {
+    question: "Are you tired after the long trip? Not in the _____. I feel great!",
+    options: ["morning", "least", "evening"],
+    answer: "least",
+  },
+  {
+    question: "His criticism was too _____. He should have been more polite.",
+    options: ["kind", "harsh", "quiet"],
+    answer: "harsh",
+  },
+  {
+    question: "Business has been _____ this year. We're losing a lot of money.",
+    options: ["normal", "excellent", "dismal"],
+    answer: "dismal",
+  },
+  {
+    question: "She was very _____ when she told him his work needed improvement.",
+    options: ["tactful", "angry", "loud"],
+    answer: "tactful",
+  },
+  {
+    question: "When you consider everything, her decision really _____ cost and location.",
+    options: ["starts with", "ends with", "boils down to"],
+    answer: "boils down to",
+  },
+  {
+    question: "It's _____ to see a grown man crying over a lost video game.",
+    options: ["exciting", "pathetic", "normal"],
+    answer: "pathetic",
+  },
+  {
+    question: "The kids were _____ when they saw the presents.",
+    options: ["sitting quietly", "jumping up and down", "feeling tired"],
+    answer: "jumping up and down",
+  },
+  {
+    question: "If you keep practicing every day, you're _____ improve.",
+    options: ["too lazy to", "bound to", "afraid to"],
+    answer: "bound to",
+  },
+  {
+    question: "My parents were against the idea at first, but they're finally starting to _____.",
+    options: ["move away", "come around", "get angry"],
+    answer: "come around",
+  },
+  {
+    question: "I need to _____ my essay before I submit it. There are still many mistakes.",
+    options: ["copy", "rework", "throw away"],
+    answer: "rework",
+  },
+  {
+    question: "Why is that woman _____ at us? Do we know her?",
+    options: ["smiling", "staring", "talking"],
+    answer: "staring",
+  },
+  {
+    question: "She had a big _____ on her teacher when she was in middle school.",
+    options: ["fight", "crush", "problem"],
+    answer: "crush",
+  },
+  {
+    question: "He _____ for Maria the moment he saw her and proposed after only six months.",
+    options: ["became friends", "fell head over heels", "felt sorry"],
+    answer: "fell head over heels",
+  },
+  {
+    question: "It was _____ when we met. We both knew immediately that we wanted to be together.",
+    options: ["just friendship", "a bad idea", "love at first sight"],
+    answer: "love at first sight",
+  },
+  {
+    question: "You could see the _____ fly when they started talking at the party.",
+    options: ["sparks", "words", "problems"],
+    answer: "sparks",
+  },
+  {
+    question: "I can't believe I _____ the exit. Now we have to drive ten more miles.",
+    options: ["missed", "took", "saw"],
+    answer: "missed",
+  },
+  {
+    question: "Her face turned red with a deep _____ when he complimented her dress.",
+    options: ["tear", "blush", "smile"],
+    answer: "blush",
+  },
+  {
+    question: "He had a big _____ on his face when he received his exam results.",
+    options: ["cry", "grin", "frown"],
+    answer: "grin",
+  },
+  {
+    question: "They have great _____. You can tell they really enjoy being together.",
+    options: ["arguments", "chemistry", "problems"],
+    answer: "chemistry",
+  },
+  {
+    question: "She kept _____ at him during the meeting, but he didn't notice.",
+    options: ["laughing", "stealing glances", "shouting"],
+    answer: "stealing glances",
+  },
+  {
+    question: "Don't worry. The monster under your bed is just a _____ of your imagination.",
+    options: ["picture", "photo", "figment"],
+    answer: "figment",
+  },
+  {
+    question: "I'm very _____ him, but I'm not sure if he feels the same way.",
+    options: ["afraid of", "attracted to", "angry at"],
+    answer: "attracted to",
+  },
+  {
+    question: "Don't answer for me. I can _____ for myself.",
+    options: ["speak", "cook", "sing"],
+    answer: "speak",
+  },
+  {
+    question: "The old building is so _____. The walls are cracked and the roof leaks.",
+    options: ["beautiful", "decrepit", "modern"],
+    answer: "decrepit",
+  },
+  {
+    question: "In the _____ of his life, he was a famous actor and traveled all over the world.",
+    options: ["beginning", "end", "prime"],
+    answer: "prime",
+  },
+  {
+    question: "Now that he's retired, many people in _____ start thinking more about their health.",
+    options: ["middle age", "childhood", "adolescence"],
+    answer: "middle age",
+  },
+  {
+    question: "Traveling abroad gave her a new _____ on her own culture.",
+    options: ["job", "perspective", "house"],
+    answer: "perspective",
+  },
+  {
+    question: "Most of the players on the team are still _____. Only a few are over 30.",
+    options: ["old men", "spring chickens", "grandparents"],
+    answer: "spring chickens",
+  },
+  {
+    question: "Many teenagers experience _____ as they try to figure out who they are.",
+    options: ["peace", "angst", "happiness"],
+    answer: "angst",
+  },
+  {
+    question: "As he got older, he became more _____ and stopped doing childish things.",
+    options: ["mature", "lazy", "noisy"],
+    answer: "mature",
+  },
+  {
+    question: "Many young people feel _____ about their appearance during puberty.",
+    options: ["confidence", "strength", "insecure"],
+    answer: "insecure",
+  },
+  {
+    question: "There is a lot of _____ about the future of the company.",
+    options: ["certainty", "money", "uncertainty"],
+    answer: "uncertainty",
+  },
+  {
+    question: "He felt a lot of _____ when he had to speak in front of the whole class.",
+    options: ["joy", "awkwardness", "confidence"],
+    answer: "awkwardness",
+  },
+  {
+    question: "_____ fashion changes very quickly and is often influenced by social media.",
+    options: ["Baby", "Teenage", "Elderly"],
+    answer: "Teenage",
+  },
+  {
+    question: "Listening to old songs makes me feel _____ for my childhood.",
+    options: ["bored", "nostalgic", "angry"],
+    answer: "nostalgic",
+  },
+  {
+    question: "Children gradually lose some of their _____ as they grow up.",
+    options: ["strength", "innocence", "money"],
+    answer: "innocence",
+  },
+  {
+    question: "_____ is an exciting but dangerous sport that requires a lot of courage.",
+    options: ["Reading", "Cooking", "Skydiving"],
+    answer: "Skydiving",
+  },
+  {
+    question: "I hope I live a long life before I finally _____.",
+    options: ["go to sleep", "kick the bucket", "eat dinner"],
+    answer: "kick the bucket",
+  },
+  {
+    question: "It's rude to _____ women like that. Stop staring at them.",
+    options: ["talk to", "ogle", "help"],
+    answer: "ogle",
+  },
+  {
+    question: "The new bridge is being built by over fifty _____.",
+    options: ["teachers", "doctors", "construction workers"],
+    answer: "construction workers",
+  },
+  {
+    question: "She is a _____ of a successful businesswoman who started from nothing.",
+    options: ["prime example", "small example", "bad example"],
+    answer: "prime example",
+  },
+  {
+    question: "His father taught him that true _____ includes being kind and responsible.",
+    options: ["friendship", "manhood", "childhood"],
+    answer: "manhood",
+  },
+  {
+    question: "Even though I exercise, I still have _____ arms that I don't like.",
+    options: ["strong", "flabby", "thin"],
+    answer: "flabby",
+  },
+  {
+    question: "If you eat too much junk food, you'll end up with a big _____.",
+    options: ["back", "gut", "head"],
+    answer: "gut",
+  },
+  {
+    question: "A _____ of young men were standing outside the gym.",
+    options: ["pair", "single", "bunch"],
+    answer: "bunch",
+  },
+  {
+    question: "Some advertisements _____ women by showing them only as objects of desire.",
+    options: ["respect", "objectify", "ignore"],
+    answer: "objectify",
+  },
+  {
+    question: "He's been working out hard to get a _____ .",
+    options: ["big belly", "six-pack", "long legs"],
+    answer: "six-pack",
+  },
+  {
+    question: "Look at those _____. He must lift a lot of weights!",
+    options: ["shoes", "guns", "legs"],
+    answer: "guns",
+  },
+  {
+    question: "Athletes usually have very _____ bodies with almost no extra fat.",
+    options: ["heavy", "soft", "lean"],
+    answer: "lean",
+  },
+  {
+    question: "Some people think cleaning bathrooms is a _____ job, but it's necessary.",
+    options: ["demeaning", "easy", "fun"],
+    answer: "demeaning",
+  },
+  {
+    question: "_____ the whole team, I want to congratulate you on your victory.",
+    options: ["In front of", "Because of", "On behalf of"],
+    answer: "On behalf of",
+  },
+  {
+    question: "She was deeply _____ when he made fun of her accent.",
+    options: ["excited", "offended", "happy"],
+    answer: "offended",
+  }
   
 
 ];
