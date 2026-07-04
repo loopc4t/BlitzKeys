@@ -79,6 +79,20 @@ BlitzKeys features an immersive theme system that transforms the visual appearan
 - **Speed Calculation**: Monitor how quickly you complete each sentence
 - **Card Rewards**: Collect unique cards as you level up
 
+**Card Unlock Rules**
+
+The collectible cards are awarded for speed streaks. Streaks count consecutive correct answers at or above the listed WPM thresholds and reset on an incorrect answer.
+
+- **Card 1 (Dublin)**: 5 × ≥40 WPM or 3 × ≥50 WPM or 2 × ≥60 WPM
+- **Card 2 (London)**: 10 × ≥40 WPM or 5 × ≥50 WPM or 3 × ≥60 WPM
+- **Card 3 (Los Angeles)**: 5 × ≥50 WPM or 4 × ≥60 WPM
+- **Card 4 (New York City)**: 10 × ≥50 WPM or 5 × ≥60 WPM
+- **Card 5 (Cape Town)**: 15 × ≥50 WPM or 6 × ≥60 WPM
+- **Card 6 (Sydney)**: 7 × ≥60 WPM or 3 × ≥70 WPM
+- **Card 7 (Singapore)**: 10 × ≥60 WPM or 4 × ≥70 WPM
+- **Card 8 (Auckland)**: 15 × ≥60 WPM or 5 × ≥70 WPM
+- **Card 9 (Toronto)**: 20 × ≥60 WPM or 10 × ≥70 WPM
+
 ## 🛠️ Technical Stack
 
 - **HTML5**: Semantic structure and form elements

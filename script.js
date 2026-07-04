@@ -103,6 +103,8 @@ let streakAbove50 = 0;
 
 let streakAbove60 = 0;
 
+let streakAbove70 = 0;
+
 let streakAbove30 = 0;
 
 let streakAbove10 = 0;
@@ -256,89 +258,95 @@ const LEVEL_THEMES = [
 
 // =====================================================
 // Achievement Cards — city postcards unlocked by
-// typing-speed milestones
+// speed streak milestones
 // =====================================================
 
 const ACHIEVEMENTS = [
   {
-    id: "wpm40",
-    name: "40 WPM Club",
+    id: "streak40x5",
+    name: "5x 40+ Streak",
     city: "Dublin",
     rarity: "common",
     image: "cards/dublin.jpg",
-    condition: (ctx) => ctx.wpm >= 40,
+    condition: (ctx) =>
+      ctx.streakAbove40 >= 5 ||
+      ctx.streakAbove50 >= 3 ||
+      ctx.streakAbove60 >= 2,
   },
 
   {
-    id: "wpm50",
-    name: "50 WPM Club",
+    id: "streak40x10",
+    name: "10x 40+ Streak",
     city: "London",
     rarity: "common",
     image: "cards/london.jpg",
-    condition: (ctx) => ctx.wpm >= 50,
+    condition: (ctx) =>
+      ctx.streakAbove40 >= 10 ||
+      ctx.streakAbove50 >= 5 ||
+      ctx.streakAbove60 >= 3,
   },
 
   {
-    id: "wpm60",
-    name: "60 WPM Club",
+    id: "streak50x5",
+    name: "5x 50+ Streak",
     city: "Los Angeles",
     rarity: "common",
     image: "cards/los_angeles.jpg",
-    condition: (ctx) => ctx.wpm >= 60,
+    condition: (ctx) => ctx.streakAbove50 >= 5 || ctx.streakAbove60 >= 4,
   },
 
   {
-    id: "wpm70",
-    name: "70 WPM Club",
+    id: "streak50x10",
+    name: "10x 50+ Streak",
     city: "New York City",
     rarity: "uncommon",
     image: "cards/new_york.jpg",
-    condition: (ctx) => ctx.wpm >= 70,
+    condition: (ctx) => ctx.streakAbove50 >= 10 || ctx.streakAbove60 >= 5,
   },
 
   {
-    id: "streak5at40",
-    name: "5 in a Row @ 40+",
+    id: "streak50x15",
+    name: "15x 50+ Streak",
     city: "Cape Town",
     rarity: "rare",
     image: "cards/cape_town.jpg",
-    condition: (ctx) => ctx.streakAbove40 >= 5,
+    condition: (ctx) => ctx.streakAbove50 >= 15 || ctx.streakAbove60 >= 6,
   },
 
   {
-    id: "streak5at50",
-    name: "5 in a Row @ 50+",
+    id: "streak60x7",
+    name: "7x 60+ Streak",
     city: "Sydney",
     rarity: "rare",
     image: "cards/sydney.jpg",
-    condition: (ctx) => ctx.streakAbove50 >= 5,
+    condition: (ctx) => ctx.streakAbove60 >= 7 || ctx.streakAbove70 >= 3,
   },
 
   {
-    id: "streak10at40",
-    name: "10 in a Row @ 40+",
+    id: "streak60x10",
+    name: "10x 60+ Streak",
     city: "Singapore",
     rarity: "rare",
     image: "cards/singapore.jpg",
-    condition: (ctx) => ctx.streakAbove40 >= 10,
+    condition: (ctx) => ctx.streakAbove60 >= 10 || ctx.streakAbove70 >= 4,
   },
 
   {
-    id: "streak10at50",
-    name: "10 in a Row @ 50+",
+    id: "streak60x15",
+    name: "15x 60+ Streak",
     city: "Auckland",
     rarity: "rare",
     image: "cards/auckland.jpg",
-    condition: (ctx) => ctx.streakAbove50 >= 10,
+    condition: (ctx) => ctx.streakAbove60 >= 15 || ctx.streakAbove70 >= 5,
   },
 
   {
-    id: "streak10at60",
-    name: "10 in a Row @ 60+",
+    id: "streak60x20",
+    name: "20x 60+ Streak",
     city: "Toronto",
     rarity: "legendary",
     image: "cards/toronto.jpg",
-    condition: (ctx) => ctx.streakAbove60 >= 10,
+    condition: (ctx) => ctx.streakAbove60 >= 20 || ctx.streakAbove70 >= 10,
   },
 ];
 
@@ -721,11 +729,12 @@ function checkAnswer() {
     currentScore += points;
     currentStreak++;
 
-    streakAbove40 = wpm >= 40 ? streakAbove40 + 1 : streakAbove40;
-    streakAbove50 = wpm >= 50 ? streakAbove50 + 1 : streakAbove50;
-    streakAbove60 = wpm >= 60 ? streakAbove60 + 1 : streakAbove60;
-    streakAbove30 = wpm >= 30 ? streakAbove30 + 1 : streakAbove30;
-    streakAbove10 = wpm >= 10 ? streakAbove10 + 1 : streakAbove10;
+    streakAbove40 = wpm >= 40 ? streakAbove40 + 1 : 0;
+    streakAbove50 = wpm >= 50 ? streakAbove50 + 1 : 0;
+    streakAbove60 = wpm >= 60 ? streakAbove60 + 1 : 0;
+    streakAbove70 = wpm >= 70 ? streakAbove70 + 1 : 0;
+    streakAbove30 = wpm >= 30 ? streakAbove30 + 1 : 0;
+    streakAbove10 = wpm >= 10 ? streakAbove10 + 1 : 0;
 
     refreshEflLevel();
 
@@ -738,6 +747,7 @@ function checkAnswer() {
       streakAbove40,
       streakAbove50,
       streakAbove60,
+      streakAbove70,
     });
 
     const newLevel = levelForScore(currentScore);
@@ -751,6 +761,13 @@ function checkAnswer() {
     }
   } else {
     currentStreak = 0;
+
+    streakAbove40 = 0;
+    streakAbove50 = 0;
+    streakAbove60 = 0;
+    streakAbove70 = 0;
+    streakAbove30 = 0;
+    streakAbove10 = 0;
 
     refreshEflLevel();
 
@@ -798,6 +815,7 @@ function startGame() {
   streakAbove40 = 0;
   streakAbove50 = 0;
   streakAbove60 = 0;
+  streakAbove70 = 0;
   streakAbove30 = 0;
   streakAbove10 = 0;
   currentEflLevel = "N/A";
@@ -925,6 +943,8 @@ function loadState() {
       typeof state.streakAbove50 === "number" ? state.streakAbove50 : 0;
     streakAbove60 =
       typeof state.streakAbove60 === "number" ? state.streakAbove60 : 0;
+    streakAbove70 =
+      typeof state.streakAbove70 === "number" ? state.streakAbove70 : 0;
     streakAbove30 =
       typeof state.streakAbove30 === "number" ? state.streakAbove30 : 0;
     streakAbove10 =
