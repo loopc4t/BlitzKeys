@@ -1,6 +1,7 @@
 /* =====================================================
-   BlitzKeys — DRACULA IN THE DARK FOREST
-   Ancient blood, black bark, fog between the trees
+   BlitzKeys — QUEST FOR THE TRIFORCE OF WORDS
+   NES-cart adventuring: gold item-boxes, dungeon night,
+   a text box for every sentence you have to clear
 ===================================================== */
 
 * {
@@ -9,52 +10,83 @@
   box-sizing: border-box;
 }
 
-:root {
-  --bg: #080d08;
-  --panel: #0d130d;
-  --card-bg: #0d1620;
-
-  --crimson: #b85dc0;
-  --blood: #9b4da8;
-  --fog: #a8b5a0;
-  --moss: #2c5a2c;
-  --moonlight: #d4dfc8;
-  --amber: #ff8c00;
-
-  --text: #dadfd5;
-  --muted: #576657;
-
-  --red: #e03030;
-  --green: #4a9e5c;
-
-  --border: rgba(192, 57, 43, 0.13);
+/* opendyslexic-latin-400-normal */
+@font-face {
+  font-family: "OpenDyslexic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src:
+    url(https://cdn.jsdelivr.net/fontsource/fonts/opendyslexic@latest/latin-400-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/opendyslexic@latest/latin-400-normal.woff)
+      format("woff");
 }
+
+/* opendyslexic-latin-700-normal */
+@font-face {
+  font-family: "OpenDyslexic";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src:
+    url(https://cdn.jsdelivr.net/fontsource/fonts/opendyslexic@latest/latin-700-normal.woff2)
+      format("woff2"),
+    url(https://cdn.jsdelivr.net/fontsource/fonts/opendyslexic@latest/latin-700-normal.woff)
+      format("woff");
+}
+
+:root {
+  /* Hyrule Castle — base palette, swapped per level by script.js */
+  --bg: #0a0a10;
+  --panel: #121218;
+  --card-bg: #181820;
+
+  --crimson: #8fa3c9;
+  --blood: #55628a;
+  --fog: #c3c9d9;
+  --moss: #3a4258;
+  --moonlight: #e8ecf5;
+  --amber: #c9a227;
+  --frame: #5a5f70;
+
+  --text: #e8ecf5;
+  --muted: #565c6e;
+
+  --red: #e2503b;
+  --green: #4fae5c;
+
+  --border: rgba(143, 163, 201, 0.18);
+
+  --font-pixel: "OpenDyslexic", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "OpenDyslexic", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --notch: 10px;
+}
+
+/* Chunky gold-on-dark item-box frame, corners clipped like a
+   pixel-art bevel. Used for the sentence card, HUD stats, and modals. */
 
 /* =====================================================
    Body — the forest floor at midnight
 ===================================================== */
 
 body {
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  font-family: var(--font-body);
   background:
-    radial-gradient(ellipse at 50% 0%, #0a1a2a 0%, transparent 50%),
-    radial-gradient(ellipse at 10% 60%, #081a2a 0%, transparent 45%),
-    radial-gradient(ellipse at 90% 40%, #0d0a1a 0%, transparent 40%), var(--bg);
+    radial-gradient(ellipse at 50% 0%, rgba(201, 162, 39, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 10% 60%, rgba(90, 95, 112, 0.14) 0%, transparent 45%),
+    radial-gradient(ellipse at 90% 40%, rgba(0, 0, 0, 0.4) 0%, transparent 40%), var(--bg);
   color: var(--text);
   min-height: 100dvh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: clamp(10px, 1.8vh, 24px) clamp(14px, 2vw, 28px);
-  gap: clamp(10px, 1.6vh, 16px);
+  justify-content: flex-start;
+  padding: clamp(22px, 4vh, 44px) clamp(14px, 2vw, 28px) clamp(14px, 2vh, 24px);
+  gap: clamp(16px, 2.6vh, 26px);
   transition: background-color 0.6s ease;
+  position: relative;
 }
 
 /* =====================================================
@@ -63,31 +95,47 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 0;
   width: 100%;
   max-width: 1100px;
+  padding: 22px 20px 18px;
+  background: var(--panel);
+  border: 4px solid var(--frame);
+  clip-path: polygon(
+    var(--notch) 0,
+    calc(100% - var(--notch)) 0,
+    100% var(--notch),
+    100% calc(100% - var(--notch)),
+    calc(100% - var(--notch)) 100%,
+    var(--notch) 100%,
+    0 calc(100% - var(--notch)),
+    0 var(--notch)
+  );
+  box-shadow:
+    inset 0 0 0 3px var(--bg),
+    inset 0 0 0 5px var(--frame);
+  transition: background-color 0.6s ease;
 }
 
 h1 {
-  font-size: clamp(2rem, 3.7vw, 3rem);
-  font-weight: 900;
-  background: linear-gradient(90deg, #cc5500 0%, #ffb84d 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  filter: drop-shadow(0 0 20px rgba(204, 85, 0, 0.5));
+  font-family: var(--font-pixel);
+  font-size: clamp(1.5rem, 3.2vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--amber);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .subtitle {
-  margin-top: 6px;
-  color: var(--muted);
-  letter-spacing: 0.22em;
+  margin-top: 12px;
+  color: var(--fog);
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  font-size: 0.74rem;
+  font-size: 0.85rem;
+  font-family: var(--font-pixel);
 }
 
 .tips {
-  margin-top: 8px;
+  margin-top: 16px;
   display: flex;
   justify-content: center;
   gap: 14px 18px;
@@ -102,7 +150,8 @@ h1 {
 
 .progress-container,
 .card,
-.typing-section {
+.typing-section,
+.stats {
   width: min(1100px, 92vw);
 }
 
@@ -116,29 +165,36 @@ h1 {
 }
 
 .progress-bar {
-  height: 5px;
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: 999px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.35);
+  border: 2px solid var(--frame);
+  border-radius: 0;
   overflow: hidden;
+  box-shadow: inset 0 0 0 2px var(--bg);
 }
 
 .progress-fill {
   width: 0;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    var(--blood),
-    var(--crimson),
-    var(--amber)
-  );
-  transition: 0.4s ease;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 7px,
+      rgba(0, 0, 0, 0.25) 7px,
+      rgba(0, 0, 0, 0.25) 8px
+    ),
+    linear-gradient(90deg, var(--blood), var(--crimson), var(--amber));
+  transition: 0.4s steps(12);
 }
 
 .progress-label {
   margin-top: 8px;
   text-align: right;
-  color: #3a4a3a;
-  font-size: 0.82rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-family: var(--font-pixel);
+  letter-spacing: 0.05em;
 }
 
 /* =====================================================
@@ -147,34 +203,45 @@ h1 {
 
 .card {
   background: var(--card-bg);
-  border: 2px solid rgba(100, 150, 200, 0.4);
-  border-radius: 14px;
-  overflow: hidden;
+  border: 4px solid var(--frame);
+  clip-path: polygon(
+    var(--notch) 0,
+    calc(100% - var(--notch)) 0,
+    100% var(--notch),
+    100% calc(100% - var(--notch)),
+    calc(100% - var(--notch)) 100%,
+    var(--notch) 100%,
+    0 calc(100% - var(--notch)),
+    0 var(--notch)
+  );
   display: flex;
   flex-direction: column;
   min-height: clamp(190px, 26vh, 250px);
   transition:
-    border-color 0.3s,
-    box-shadow 0.3s,
+    border-color 0.15s,
+    box-shadow 0.15s,
     background-color 0.6s ease;
   box-shadow:
-    0 16px 50px rgba(0, 0, 0, 0.7),
-    inset 0 1px 0 rgba(139, 58, 147, 0.06);
+    inset 0 0 0 3px var(--bg),
+    inset 0 0 0 5px var(--frame),
+    0 16px 50px rgba(0, 0, 0, 0.7);
 }
 
 .card.correct {
   border-color: var(--green);
   box-shadow:
-    0 0 0 1px var(--green),
-    0 0 24px rgba(74, 158, 92, 0.2),
+    inset 0 0 0 3px var(--bg),
+    inset 0 0 0 5px var(--green),
+    0 0 24px rgba(74, 158, 92, 0.3),
     0 16px 50px rgba(0, 0, 0, 0.7);
 }
 
 .card.wrong {
-  border-color: var(--crimson);
+  border-color: var(--red);
   box-shadow:
-    0 0 0 1px var(--crimson),
-    0 0 24px rgba(139, 58, 147, 0.25),
+    inset 0 0 0 3px var(--bg),
+    inset 0 0 0 5px var(--red),
+    0 0 24px rgba(226, 80, 59, 0.3),
     0 16px 50px rgba(0, 0, 0, 0.7);
 }
 
@@ -185,12 +252,12 @@ h1 {
 .options {
   padding: 10px 16px;
   text-align: center;
-  border-bottom: 1px solid rgba(44, 90, 44, 0.3);
-  color: #26b26a;
+  border-bottom: 3px solid var(--frame);
+  color: var(--fog);
   font-weight: 700;
   font-size: 0.86rem;
   letter-spacing: 0.05em;
-  background: rgba(44, 90, 44, 0.1);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 /* =====================================================
@@ -220,10 +287,10 @@ h1 {
   display: inline-block;
   width: 7ch;
   height: 1.1em;
-  border-bottom: 2px solid var(--crimson);
+  border-bottom: 3px dashed var(--frame);
   vertical-align: middle;
-  background: rgba(139, 58, 147, 0.06);
-  border-radius: 2px 2px 0 0;
+  background: rgba(201, 162, 39, 0.08);
+  border-radius: 0;
 }
 
 /* =====================================================
@@ -238,85 +305,74 @@ h1 {
   width: 100%;
   padding: 12px 14px;
   font-size: 0.95rem;
-  font-family: inherit;
+  font-family: var(--font-body);
   color: var(--moonlight);
   background: var(--panel);
-  border: 2px solid rgba(139, 58, 147, 0.18);
-  border-radius: 11px;
+  border: 3px solid var(--border);
+  border-radius: 0;
   outline: none;
   transition:
-    border-color 0.2s,
-    box-shadow 0.2s;
-  caret-color: var(--crimson);
+    border-color 0.15s,
+    box-shadow 0.15s;
+  caret-color: var(--amber);
 }
 
 #sentenceInput:focus {
-  border-color: rgba(139, 58, 147, 0.5);
-  box-shadow: 0 0 0 4px rgba(139, 58, 147, 0.08);
+  border-color: var(--frame);
+  box-shadow:
+    inset 0 0 0 2px var(--bg),
+    0 0 0 3px rgba(95, 122, 82, 0.25);
 }
 
 #sentenceInput::placeholder {
-  color: #2e3d2e;
+  color: var(--muted);
 }
 
 /* =====================================================
-   Stats — three gravestones in the clearing
+   Stats — a single top HUD strip, like the score/coin/
+   time row across the top of an NES cart
 ===================================================== */
 
 .stats {
-  margin-top: 12px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: nowrap;
+  background: var(--panel);
+  border: 3px solid var(--frame);
+  box-shadow: inset 0 0 0 2px var(--bg);
+  transition:
+    border-color 0.2s,
+    background-color 0.6s ease;
 }
 
 .stat {
   flex: 1 1 0;
   min-width: 0;
-  max-width: 160px;
-  padding: 12px;
+  padding: 8px 6px;
   text-align: center;
-  border-radius: 11px;
-  background: var(--panel);
-  border: 1px solid var(--border);
+  border-left: 2px solid var(--border);
   transition:
-    transform 0.2s,
     border-color 0.2s,
     background-color 0.6s ease;
-  position: relative;
-  overflow: hidden;
 }
 
-.stat::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    160deg,
-    rgba(139, 58, 147, 0.07) 0%,
-    transparent 55%
-  );
-  pointer-events: none;
-}
-
-.stat:hover {
-  transform: translateY(-3px);
-  border-color: rgba(139, 58, 147, 0.28);
+.stat:first-child {
+  border-left: none;
 }
 
 .stat-title {
-  color: var(--muted);
-  font-size: 0.72rem;
+  color: var(--fog);
+  font-size: 0.68rem;
   text-transform: uppercase;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.08em;
+  font-family: var(--font-pixel);
 }
 
 .stat-value {
   margin-top: 6px;
-  color: var(--fog);
-  font-size: 1.28rem;
-  font-weight: 800;
+  color: var(--moonlight);
+  font-size: 0.95rem;
+  font-weight: 400;
+  font-family: var(--font-pixel);
 }
 
 /* =====================================================
@@ -349,8 +405,18 @@ h1 {
     flex-wrap: wrap;
   }
   .stat {
-    flex: 1 1 calc(50% - 6px);
-    max-width: none;
+    flex: 1 1 calc(50% - 1px);
+    border-bottom: 2px solid var(--border);
+  }
+  .stat:nth-child(even) {
+    border-left: 2px solid var(--border);
+  }
+  .stat-value {
+    font-size: 0.78rem;
+  }
+  .cards-button,
+  .about-button {
+    font-size: 0.85rem;
   }
 }
 
@@ -417,9 +483,10 @@ h1 {
 }
 
 .level-banner-level {
-  font-size: 4.2rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
+  font-family: var(--font-pixel);
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 400;
+  letter-spacing: 0.05em;
   color: var(--amber);
   text-shadow:
     0 0 24px var(--amber),
@@ -427,9 +494,10 @@ h1 {
 }
 
 .level-banner-name {
-  margin-top: 6px;
-  font-size: 1.15rem;
-  letter-spacing: 0.3em;
+  margin-top: 12px;
+  font-family: var(--font-pixel);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--moonlight);
 }
@@ -450,51 +518,49 @@ h1 {
    Cards button — header entry point to the collection
 ===================================================== */
 
-.cards-button {
-  margin-top: 12px;
-  padding: 8px 14px;
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: var(--moonlight);
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 999px;
-  cursor: pointer;
-  transition:
-    border-color 0.2s,
-    transform 0.2s,
-    background-color 0.6s ease;
-}
-
+.cards-button,
 .about-button {
   margin-top: 12px;
-  margin-left: 10px;
-  padding: 8px 14px;
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  padding: 10px 14px;
+  font-family: var(--font-pixel);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
   color: var(--moonlight);
   background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: 999px;
+  border: 3px solid var(--frame);
+  border-radius: 0;
+  box-shadow:
+    3px 3px 0 rgba(0, 0, 0, 0.5),
+    inset 0 0 0 2px var(--bg);
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition:
-    border-color 0.2s,
-    transform 0.2s,
+    transform 0.1s,
+    box-shadow 0.1s,
     background-color 0.6s ease;
+}
+
+.about-button {
+  margin-left: 10px;
 }
 
 .about-button:hover,
 .cards-button:hover {
-  transform: translateY(-2px);
-  border-color: rgba(139, 58, 147, 0.4);
+  transform: translate(-1px, -1px);
+  box-shadow:
+    4px 4px 0 rgba(0, 0, 0, 0.5),
+    inset 0 0 0 2px var(--bg);
+}
+
+.about-button:active,
+.cards-button:active {
+  transform: translate(2px, 2px);
+  box-shadow:
+    0 0 0 rgba(0, 0, 0, 0.5),
+    inset 0 0 0 2px var(--bg);
 }
 
 #cardsCount {
@@ -515,24 +581,27 @@ h1 {
 }
 
 .dict-button {
-  padding: 7px 12px;
-  font-family: inherit;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
+  padding: 9px 12px;
+  font-family: var(--font-pixel);
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 0;
   cursor: pointer;
   transition:
-    transform 0.2s,
-    box-shadow 0.2s,
-    background-color 0.3s;
+    transform 0.1s,
+    box-shadow 0.1s;
   display: inline-block;
-  border: 2px solid transparent;
+  border: 3px solid rgba(0, 0, 0, 0.35);
 }
 
 .dict-button:hover {
-  transform: translateY(-2px);
+  transform: translate(-1px, -1px);
+}
+
+.dict-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: none !important;
 }
 
 /* About modal */
@@ -561,11 +630,23 @@ h1 {
   width: min(900px, calc(100% - 36px));
   max-height: min(80vh, 700px);
   overflow-y: auto;
-  background: rgba(13, 19, 13, 0.96);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 20px;
+  background: var(--card-bg);
+  border: 4px solid var(--frame);
+  clip-path: polygon(
+    var(--notch) 0,
+    calc(100% - var(--notch)) 0,
+    100% var(--notch),
+    100% calc(100% - var(--notch)),
+    calc(100% - var(--notch)) 100%,
+    var(--notch) 100%,
+    0 calc(100% - var(--notch)),
+    0 var(--notch)
+  );
   padding: 26px;
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+  box-shadow:
+    inset 0 0 0 3px var(--bg),
+    inset 0 0 0 5px var(--frame),
+    0 30px 80px rgba(0, 0, 0, 0.55);
   z-index: 1;
 }
 
@@ -579,7 +660,9 @@ h1 {
 
 .about-modal-header h2 {
   margin-bottom: 8px;
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-family: var(--font-pixel);
+  font-size: clamp(1rem, 2vw, 1.4rem);
+  color: var(--amber);
 }
 
 .about-modal-content {
@@ -602,25 +685,28 @@ h1 {
 }
 
 .about-modal-close {
-  border: none;
-  background: rgba(255, 255, 255, 0.04);
-  color: var(--text);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  border: 3px solid var(--frame);
+  background: var(--panel);
+  color: var(--moonlight);
+  width: 38px;
+  height: 38px;
+  border-radius: 0;
   cursor: pointer;
-  font-size: 1.05rem;
+  font-size: 1rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition:
-    transform 0.2s,
-    background-color 0.2s;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s;
 }
 
 .about-modal-close:hover {
-  background: rgba(255, 255, 255, 0.1);
-  transform: scale(1.04);
+  transform: translate(-1px, -1px);
+}
+
+.about-modal-close:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
 }
 
 /* LDOCE — Professional Blue Theme */
@@ -704,9 +790,21 @@ h1 {
   max-height: 86vh;
   overflow-y: auto;
   background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 16px;
+  border: 4px solid var(--frame);
+  clip-path: polygon(
+    var(--notch) 0,
+    calc(100% - var(--notch)) 0,
+    100% var(--notch),
+    100% calc(100% - var(--notch)),
+    calc(100% - var(--notch)) 100%,
+    var(--notch) 100%,
+    0 calc(100% - var(--notch)),
+    0 var(--notch)
+  );
   padding: 32px;
+  box-shadow:
+    inset 0 0 0 3px var(--bg),
+    inset 0 0 0 5px var(--frame);
   transition: background-color 0.6s ease;
 }
 
@@ -717,30 +815,39 @@ h1 {
 }
 
 .cards-modal-header h2 {
-  font-size: 1.5rem;
-  color: var(--moonlight);
+  font-family: var(--font-pixel);
+  font-size: 1.1rem;
+  color: var(--amber);
 }
 
 .cards-modal-close {
   width: 34px;
   height: 34px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
+  border-radius: 0;
+  border: 3px solid var(--frame);
   background: var(--panel);
   color: var(--fog);
   font-size: 1rem;
   cursor: pointer;
-  transition: border-color 0.2s;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s;
 }
 
 .cards-modal-close:hover {
-  border-color: var(--crimson);
+  transform: translate(-1px, -1px);
+}
+
+.cards-modal-close:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
 }
 
 .cards-modal-subtitle {
   margin-top: 8px;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.8rem;
+  font-family: var(--font-pixel);
+  line-height: 1.6;
 }
 
 .cards-grid {
@@ -753,10 +860,10 @@ h1 {
 .card-slot {
   position: relative;
   aspect-ratio: 2 / 3;
-  border-radius: 10px;
+  border-radius: 0;
   overflow: hidden;
   background: var(--panel);
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   transform-style: preserve-3d;
   transition:
     transform 0.15s ease,
@@ -831,9 +938,9 @@ h1 {
   right: 0;
   bottom: 0;
   padding: 8px 10px 7px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
+  font-size: 0.72rem;
+  font-family: var(--font-pixel);
+  letter-spacing: 0.02em;
   color: var(--moonlight);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, transparent 100%);
 }
@@ -910,9 +1017,9 @@ h1 {
 }
 
 .card-reveal-label {
-  font-size: 1rem;
-  font-weight: 900;
-  letter-spacing: 0.35em;
+  font-family: var(--font-pixel);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--amber);
   text-shadow: 0 0 20px var(--amber);
@@ -1027,16 +1134,16 @@ h1 {
 
 .card-reveal-name {
   margin-top: 20px;
-  font-size: 1.35rem;
-  font-weight: 800;
+  font-family: var(--font-pixel);
+  font-size: 1rem;
   color: var(--moonlight);
 }
 
 .card-reveal-rarity {
-  margin-top: 5px;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.28em;
+  margin-top: 8px;
+  font-family: var(--font-pixel);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -1079,11 +1186,12 @@ h1 {
 
 .card-reveal-hint {
   margin-top: 28px;
+  font-family: var(--font-pixel);
   font-size: 0.72rem;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media (max-width: 600px) {
