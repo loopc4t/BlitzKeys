@@ -60,6 +60,17 @@ newGameButton?.addEventListener("click", () => {
 aboutModalClose?.addEventListener("click", closeAboutModal);
 aboutModalBackdrop?.addEventListener("click", closeAboutModal);
 
+// If we arrived here via the old standalone about.html redirect
+// (?about=1) or a direct #about link, open the modal automatically
+// and clean the URL so a refresh doesn't reopen it.
+if (
+  new URLSearchParams(window.location.search).get("about") ||
+  window.location.hash === "#about"
+) {
+  openAboutModal();
+  history.replaceState(null, "", window.location.pathname);
+}
+
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && aboutModal?.classList.contains("open")) {
     closeAboutModal();
