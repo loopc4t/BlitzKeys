@@ -10,9 +10,6 @@ const sentence = document.getElementById("sentence");
 
 const input = document.getElementById("sentenceInput");
 
-const progressFill = document.getElementById("progressFill");
-const progressLabel = document.getElementById("progressLabel");
-
 const score = document.getElementById("score");
 const streak = document.getElementById("streak");
 const speed = document.getElementById("speed");
@@ -22,7 +19,6 @@ const level = document.getElementById("level");
 const levelFlash = document.getElementById("levelFlash");
 const levelBanner = document.getElementById("levelBanner");
 const levelBannerLevel = document.getElementById("levelBannerLevel");
-const levelBannerName = document.getElementById("levelBannerName");
 
 const cardsButton = document.getElementById("cardsButton");
 const cardsCount = document.getElementById("cardsCount");
@@ -112,11 +108,11 @@ let streakAbove10 = 0;
 let currentEflLevel = "N/A";
 
 // =====================================================
-// Level Themes — palette swaps every SCORE_PER_LEVEL,
-// Magic Jewelry (NES) style
+// Leveling — level up every SCORE_PER_LEVEL points
+// (palette rotation removed; theme stays fixed now)
 // =====================================================
 
-const SCORE_PER_LEVEL = 2000;
+const SCORE_PER_LEVEL = 1000;
 
 const LEVEL_THEMES = [
   {
@@ -445,7 +441,8 @@ function levelForScore(currentScoreValue) {
 }
 
 function themeForLevel(levelNumber) {
-  return LEVEL_THEMES[(levelNumber - 1) % LEVEL_THEMES.length];
+  // Theme no longer changes with level — always the base Hyrule Castle palette.
+  return LEVEL_THEMES[0];
 }
 
 function applyTheme(levelNumber) {
@@ -471,10 +468,7 @@ function applyTheme(levelNumber) {
 }
 
 function triggerLevelUp(newLevel) {
-  const theme = themeForLevel(newLevel);
-
   levelBannerLevel.textContent = `LEVEL ${newLevel}`;
-  levelBannerName.textContent = theme.name;
 
   levelFlash.classList.remove("show");
   void levelFlash.offsetWidth;
@@ -631,11 +625,7 @@ function renderCardsGrid() {
 // =====================================================
 
 function updateProgress() {
-  const intoLevel = currentScore % SCORE_PER_LEVEL;
-
-  progressFill.style.width = `${(intoLevel / SCORE_PER_LEVEL) * 100}%`;
-
-  progressLabel.textContent = `${intoLevel} / ${SCORE_PER_LEVEL} to Level ${currentLevel + 1}`;
+  // Progress bar removed from the UI; level/score are shown in the stats bar.
 }
 
 function getEflLevelFromStreaks() {

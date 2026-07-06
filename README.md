@@ -1,6 +1,6 @@
 # ⚡ BlitzKeys
 
-An interactive vocabulary practice application featuring active recall learning through fill-in-the-blank sentences. Master English vocabulary with engaging gamification, dynamic themes, and collectible cards.
+An interactive vocabulary practice application featuring active recall learning through fill-in-the-blank sentences. Master English vocabulary with engaging gamification, an NES-inspired look, and collectible cards.
 
 ## 🎮 Features
 
@@ -9,15 +9,14 @@ An interactive vocabulary practice application featuring active recall learning 
   - 🔍 Find the missing word
   - ⌨️ Type the complete sentence
   - ↵ Press Enter to submit
-- **Dynamic Theming**: 6+ visually distinct themes including Dark Forest, Neon Arcade, Molten Core, Frostbite, Toxic Swamp, and Royal Purple
+- **NES-Inspired Look**: A single "Hyrule Castle" palette with chunky pixel-corner frames, an OpenDyslexic-friendly font, and a top HUD bar for score/level/streak/speed/EFL
 - **Gamification Elements**:
   - Score tracking with leveling system
   - Streak counter for consecutive correct answers
   - Speed metrics for timed performance
-  - Level progression every 2,000 points
+  - Level progression every 1,000 points
 - **Collectible Cards**: Unlock and view unique cards as you progress through the game
-- **Progress Tracking**: Visual progress bar and statistics display
-- **Smooth Animations**: NES-inspired palette swaps and polished transitions
+- **Smooth Animations**: Level-up flash and banner transitions
 
 ## 🚀 Getting Started
 
@@ -60,21 +59,16 @@ BlitzKeyes/
 └── README.md           # This file
 ```
 
-## 🎨 Themes
+## 🎨 Theme
 
-BlitzKeys features an immersive theme system that transforms the visual appearance every 2,000 points:
+BlitzKeys now uses a single fixed palette instead of rotating themes:
 
-- **Dark Forest**: Deep greens and purples with moonlit aesthetics
-- **Neon Arcade**: Cyberpunk vibes with hot pink and cyan
-- **Molten Core**: Fiery oranges and deep reds
-- **Frostbite**: Cool blues and icy whites
-- **Toxic Swamp**: Luminous greens and acidic yellows
-- **Royal Purple**: Elegant purples and mystical tones
+- **Hyrule Castle**: near-black stone with cool slate-blue, silver, and muted gold accents, styled after classic NES item/dialogue boxes
 
 ## 🎯 Game Mechanics
 
 - **Score System**: +100 points per correct answer, -0 for incorrect (encourages learning)
-- **Levels**: Unlock new themes and visual effects as your score increases
+- **Levels**: Score climbs and triggers a level-up flash/banner every 1,000 points
 - **Streaks**: Track consecutive correct answers for motivation
 - **Speed Calculation**: Monitor how quickly you complete each sentence
 - **Card Rewards**: Collect unique cards as you level up
