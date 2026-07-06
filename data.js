@@ -4955,7 +4955,7 @@ const sentences = [
     answer: "hermit",
   },
   {
-    question: "_____ , everything is under control and we will finish on time.",
+    question: "_____, everything is under control and we will finish on time.",
     options: ["Rest assured", "Breathe a word", "Get someone"],
     answer: "Rest assured",
   },
