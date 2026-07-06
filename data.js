@@ -225,11 +225,6 @@ const sentences = [
     answer: "thicker",
   },
   {
-    question: "At his mother's funeral, he was so _____ with emotion that he couldn't finish his speech.",
-    options: ["incapacitated", "overwhelmed", "seething"],
-    answer: "overwhelmed",
-  },
-  {
     question: "I was _____ surprised by the excellent customer service - that company really cares about its customers.",
     options: ["deeply", "pleasantly", "significantly"],
     answer: "pleasantly",
@@ -7798,6 +7793,31 @@ const sentences = [
     question: "The plot of the novel is so _____ with subplots that it's hard to keep track of every character.",
     options: ["filled", "intertwined", "crowded"],
     answer: "intertwined",
+  },
+  {
+    question: "He patted his pockets frantically at the front door, realizing he'd _____ his keys inside the house.",
+    options: ["hidden", "left", "locked"],
+    answer: "left",
+  },
+  {
+    question: "She pulled over to the side of the road and rolled down her window to ask a passerby for _____.",
+    options: ["permission", "directions", "opinions"],
+    answer: "directions",
+  },
+  {
+    question: "As the car came to a stop, he unbuckled his seatbelt and _____ the vehicle.",
+    options: ["got out of", "pulled over", "boarded"],
+    answer: "got out of",
+  },
+  {
+    question: "Halfway to the airport, she suddenly remembered she'd _____ her passport on the kitchen counter.",
+    options: ["packed", "found", "forgotten"],
+    answer: "forgotten",
+  },
+  {
+    question: "The waiter approached the table and asked if they were ready to _____ their order.",
+    options: ["cancel", "place", "return"],
+    answer: "place",
   }
   
 
