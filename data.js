@@ -4959,6 +4959,26 @@ const sentences = [
     options: ["Rest assured", "Breathe a word", "Get someone"],
     answer: "Rest assured",
   },
+    {
+    question: "The comedian's joke was so _____ that half of it was about how hard it is to write good jokes.",
+    options: ["meta", "satire", "parody"],
+    answer: "meta",
+  },
+  {
+    question: "The latest balance patch shook up the _____, so players are testing new strategies instead of relying on the old favorites.",
+    options: ["meta", "criteria", "standard"],
+    answer: "meta",
+  },
+  {
+    question: "The interview got a little _____ when the host started asking the journalist questions about journalism itself.",
+    options: ["meta", "domestic", "municipal"],
+    answer: "meta",
+  },
+  {
+    question: "It felt oddly _____ to write an essay about procrastination while procrastinating on writing it.",
+    options: ["domestic", "municipal", "meta"],
+    answer: "meta",
+  },
   {
     question: "Don’t _____ about the surprise party or it won’t be a surprise.",
     options: ["get through", "breathe a word", "let your guard down"],
@@ -4969,6 +4989,7 @@ const sentences = [
     options: ["get the best of him", "freak out", "lose control"],
     answer: "get the best of him",
   },
+  
   {
     question: "She completely _____ when she saw the spider in the bathroom.",
     options: ["rectified the situation", "freaked out", "calmed down"],
