@@ -7723,6 +7723,56 @@ const sentences = [
     question: "She's going to _____ up her own business next year.",
     options: ["build", "set", "make"],
     answer: "set",
+  },
+  {
+    question: "He's been dragging his feet on signing the contract for weeks now.",
+    options: ["dragging his feet", "hitting the ground running", "jumping the gun"],
+    answer: "dragging his feet",
+  },
+  {
+    question: "I know it's a tough situation, but let's not _____ and just focus on solving it.",
+    options: ["cross that bridge", "cry over spilled milk", "throw in the towel"],
+    answer: "cry over spilled milk",
+  },
+  {
+    question: "She really _____ when she found out she got the promotion.",
+    options: ["jumped for joy", "bit her tongue", "hit the roof"],
+    answer: "jumped for joy",
+  },
+  {
+    question: "Don't worry about the small typo, it's not going to _____.",
+    options: ["make or break the deal", "cost an arm and a leg", "come back to haunt you"],
+    answer: "make or break the deal",
+  },
+  {
+    question: "He always seems to _____ whenever there's free food at the office.",
+    options: ["come out of the woodwork", "keep his cards close to his chest", "read between the lines"],
+    answer: "come out of the woodwork",
+  },
+  {
+    question: "After the layoffs were announced, everyone was walking on _____ around the office.",
+    options: ["thin ice", "eggshells", "cloud nine"],
+    answer: "eggshells",
+  },
+  {
+    question: "I'm not going to _____ about it, the presentation was a disaster.",
+    options: ["beat around the bush", "let the cat out of the bag", "spill the beans"],
+    answer: "beat around the bush",
+  },
+  {
+    question: "She's been under the weather all week, but she's finally starting to _____.",
+    options: ["turn the corner", "bite the bullet", "call it quits"],
+    answer: "turn the corner",
+  },
+  {
+    question: "He put his foot in his mouth when he brought up her ex at dinner.",
+    options: ["put his foot in his mouth", "kept his nose clean", "played it by ear"],
+    answer: "put his foot in his mouth",
+  },
+  {
+    question: "We need to _____ before the client arrives, the office is a mess.",
+    options: ["clean up our act", "let sleeping dogs lie", "burn our bridges"],
+    answer: "clean up our act",
   }
 
 ];
