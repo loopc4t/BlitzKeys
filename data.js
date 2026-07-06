@@ -4370,7 +4370,7 @@ const sentences = [
     answer: "come up with",
   },
   {
-    question: "_____ , I've lived in this city for over thirty years, so I know it very well.",
+    question: "_____, I've lived in this city for over thirty years, so I know it very well.",
     options: ["No comment", "Let me tell you", "Wait and see"],
     answer: "Let me tell you",
   },
@@ -7691,7 +7691,7 @@ const sentences = [
   },
   {
     question: "He was late, so he had to _____ up on his homework over the weekend.",
-    options: ["catch", "reach", "grab"],
+    options: ["reach", "grab", "catch"],
     answer: "catch",
   },
   {
@@ -7736,17 +7736,17 @@ const sentences = [
   },
   {
     question: "She really _____ when she found out she got the promotion.",
-    options: ["jumped for joy", "bit her tongue", "hit the roof"],
+    options: ["bit her tongue", "hit the roof", "jumped for joy"],
     answer: "jumped for joy",
   },
   {
     question: "Don't worry about the small typo, it's not going to _____.",
-    options: ["make or break the deal", "cost an arm and a leg", "come back to haunt you"],
+    options: ["cost an arm and a leg", "make or break the deal", "come back to haunt you"],
     answer: "make or break the deal",
   },
   {
     question: "He always seems to _____ whenever there's free food at the office.",
-    options: ["come out of the woodwork", "keep his cards close to his chest", "read between the lines"],
+    options: ["keep his cards close to his chest", "read between the lines", "come out of the woodwork"],
     answer: "come out of the woodwork",
   },
   {
@@ -7773,6 +7773,32 @@ const sentences = [
     question: "We need to _____ before the client arrives, the office is a mess.",
     options: ["clean up our act", "let sleeping dogs lie", "burn our bridges"],
     answer: "clean up our act",
+  },
+  {
+    question: "When the security footage surfaced, he realized _____ and confessed to everything.",
+    options: ["the coast was clear", "the ball was in his court", "the gig was up"],
+    answer: "the gig was up",
+  },
+  {
+    question: "She managed to _____ quite a bit of debt after years of careless spending.",
+    options: ["shake off", "rack up", "cut down"],
+    answer: "rack up",
+  },
+  {
+    question: "Investing all his savings in a single stock turned out to be pure _____.",
+    options: ["prudence", "diligence", "folly"],
+    answer: "folly",
+  },
+  {
+    question: "After years of practice, she is now _____ in classical piano technique.",
+    options: ["well-versed", "curious about", "fond of"],
+    answer: "well-versed",
+  },
+  {
+    question: "The plot of the novel is so _____ with subplots that it's hard to keep track of every character.",
+    options: ["filled", "intertwined", "crowded"],
+    answer: "intertwined",
   }
+  
 
 ];
