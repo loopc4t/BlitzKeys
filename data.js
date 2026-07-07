@@ -3176,7 +3176,7 @@ const sentences = [
   },
   {
     question: "They used to have _____ relationship, but at the moment they're seeing each other quite often.",
-    options: ["out of shape", "on and off", "behind schedule"],
+    options: ["out of shape", "behind schedule", "on and off"],
     answer: "on and off",
   },
   {
@@ -4881,17 +4881,17 @@ const sentences = [
   },
   {
     question: "They always sleep with the curtains _____ so no one can see inside.",
-    options: ["peeking", "drawn", "disclosed"],
+    options: ["peeking", "disclosed", "drawn"],
     answer: "drawn",
   },
   {
     question: "She closed the door because she wanted some _____ .",
-    options: ["anonymity", "privacy", "attention"],
+    options: ["anonymity", "attention", "privacy"],
     answer: "privacy",
   },
   {
     question: "The police caught a _____ looking into the neighbor’s windows.",
-    options: ["hermit", "peeping Tom", "paranoid"],
+    options: ["hermit", "paranoid", "peeping Tom"],
     answer: "peeping Tom",
   },
   {
@@ -4911,12 +4911,12 @@ const sentences = [
   },
   {
     question: "He enjoys the _____ of online forums where no one knows his real name.",
-    options: ["privacy", "anonymity", "hermit"],
+    options: ["privacy", "hermit", "anonymity"],
     answer: "anonymity",
   },
   {
     question: "When walking alone at night, it’s important to _____ .",
-    options: ["breathe a word", "be on guard", "rest assured"],
+    options: ["breathe a word", "rest assured", "be on guard"],
     answer: "be on guard",
   },
   {
@@ -5052,17 +5052,17 @@ const sentences = [
   },
   {
     question: "The floor is all wet because the _____ has a hole in it.",
-    options: ["showerhead", "shower curtain", "bathtub"],
+    options: ["showerhead", "bathtub", "shower curtain"],
     answer: "shower curtain",
   },
   {
     question: "We installed a new _____ that has different spray settings.",
-    options: ["faucet", "showerhead", "stopper"],
+    options: ["faucet", "stopper", "showerhead"],
     answer: "showerhead",
   },
   {
     question: "Rub the soap until you make a nice _____.",
-    options: ["lather", "rinse", "soak"],
+    options: ["rinse", "soak", "lather"],
     answer: "lather",
   },
   {
@@ -5077,17 +5077,17 @@ const sentences = [
   },
   {
     question: "Make sure you _____ all the soap before you get out of the shower.",
-    options: ["lather up", "rinse off", "dry off"],
+    options: ["lather up", "dry off", "rinse off"],
     answer: "rinse off",
   },
   {
     question: "Always wash your hands with _____ and water.",
-    options: ["bubble bath", "soap", "shampoo"],
+    options: ["bubble bath", "shampoo", "soap"],
     answer: "soap",
   },
   {
     question: "After swimming, she used a big towel to _____.",
-    options: ["soak", "towel off", "rinse off"],
+    options: ["soak", "rinse off", "towel off"],
     answer: "towel off",
   },
   {
@@ -5212,7 +5212,7 @@ const sentences = [
   },
   {
     question: "She loves taking a _____ with lots of bubbles after a long day.",
-    options: ["bubble bath", "quick shower", "cold rinse"],
+    options: ["quick shower", "cold rinse", "bubble bath"],
     answer: "bubble bath",
   },
   {
@@ -5302,12 +5302,12 @@ const sentences = [
   },
   {
     question: "Let the soup _____ on low heat for an hour.",
-    options: ["simmer", "boil over", "scorch"],
+    options: ["boil over", "scorch", "simmer"],
     answer: "simmer",
   },
   {
     question: "She always _____ the pan before adding the oil.",
-    options: ["cools", "heats up", "washes"],
+    options: ["cools", "washes", "heats up"],
     answer: "heats up",
   },
   {
@@ -5392,12 +5392,12 @@ const sentences = [
   },
   {
     question: "She _____ the paper in frustration, tossing it into the recycling bin after a failed attempt.",
-    options: ["smoothed out", "scrunched up", "folded neatly"],
+    options: ["smoothed out", "folded neatly", "scrunched up"],
     answer: "scrunched up",
   },
   {
     question: "They were meeting _____, sneaking around to keep their relationship a secret from their friends.",
-    options: ["on the sly", "out in the open", "on the fence"],
+    options: ["out in the open", "on the fence", "on the sly"],
     answer: "on the sly",
   },
   {
@@ -5427,12 +5427,12 @@ const sentences = [
   },
   {
     question: "He _____ during the meeting, hoping someone would recognize his efforts.",
-    options: ["fished for compliments", "kept a low profile", "held his tongue"],
+    options: ["kept a low profile", "held his tongue", "fished for compliments"],
     answer: "fished for compliments",
   },
   {
     question: "She decided to _____ some cinnamon on the pancakes, adding a warm, spicy touch to the dish.",
-    options: ["drizzle", "sprinkle", "smear"],
+    options: ["drizzle", "smear", "sprinkle"],
     answer: "sprinkle",
   },
   {
@@ -5452,12 +5452,12 @@ const sentences = [
   },
   {
     question: "The _____ signs of stress were evident on his face, his clenched jaw and tense shoulders.",
-    options: ["subtle", "telltale", "faint"],
+    options: ["subtle", "faint", "telltale"],
     answer: "telltale",
   },
   {
     question: "The crowd was _____ as the final seconds of the game ticked down to a dramatic finish.",
-    options: ["in a frenzy", "at a loss", "on the fence"],
+    options: ["at a loss", "on the fence", "in a frenzy"],
     answer: "in a frenzy",
   },
   {
@@ -5532,7 +5532,7 @@ const sentences = [
   },
   {
     question: "The bullies _____ him after school, but he didn't let it affect his self-confidence.",
-    options: ["cheered up", "roughed up", "backed off"],
+    options: ["cheered up", "backed off", "roughed up"],
     answer: "roughed up",
   },
   {
@@ -5687,7 +5687,7 @@ const sentences = [
   },
   {
     question: "Let me _____ the main points from today's meeting so we can all be on the same page moving forward.",
-    options: ["bring up", "sum up", "leave out"],
+    options: ["bring up", "leave out", "sum up"],
     answer: "sum up",
   },
   {
@@ -5717,12 +5717,12 @@ const sentences = [
   },
   {
     question: "After weeks of hard work, he was promoted and finally _____ a higher position within the company.",
-    options: ["moved up to", "backed down from", "settled for"],
+    options: ["backed down from", "settled for", "moved up to"],
     answer: "moved up to",
   },
   {
     question: "The program _____ right before I saved my document, and I had to restart the computer.",
-    options: ["froze up", "cleared out", "shut down"],
+    options: ["cleared out", "shut down", "froze up"],
     answer: "froze up",
   },
   {
@@ -8346,9 +8346,9 @@ const sentences = [
     answer: "established",
   },
   {
-    question: "_____ you be attending the meeting tomorrow, or are you busy?",
+    question: "_____ you mind if I opened the window? It's a bit warm in here.",
     options: ["Shall", "Will", "Would"],
-    answer: "Will",
+    answer: "Would",
   },
   {
     question: "Members of that religious group were _____ for decades because of their beliefs.",
@@ -8422,8 +8422,8 @@ const sentences = [
   },
   {
     question: "Some of the world's richest business _____ own newspapers, television networks, and movie studios.",
-    options: ["publisher", "magnate", "population"],
-    answer: "magnate",
+    options: ["publishers", "magnates", "populations"],
+    answer: "magnates",
   },
   {
     question: "After years of writing, she finally found a _____ willing to print her novel.",
@@ -8489,7 +8489,2196 @@ const sentences = [
     question: "I still _____ the smell of my grandmother's kitchen, even though it's been years since she passed away.",
     options: ["learn by heart", "remind", "remember"],
     answer: "remember",
-  }
-  
+  },
+  {
+    question: "The mail carrier left a _____ on the porch, too big to fit through the mailbox slot.",
+    options: ["receipt", "invitation", "parcel"],
+    answer: "parcel",
+  },
+  {
+    question: "Scrolling through everyone's vacation photos gave her a serious case of _____ she couldn't shake all weekend.",
+    options: ["FOMO", "nostalgia", "boredom"],
+    answer: "FOMO",
+  },
+  {
+    question: "Running into his future business partner at a random coffee shop was pure _____.",
+    options: ["habit", "serendipity", "obligation"],
+    answer: "serendipity",
+  },
+  {
+    question: "After months of negotiations, the _____ was a modest pay raise and a longer lunch break.",
+    options: ["outset", "upshot of it all", "gist"],
+    answer: "upshot of it all",
+  },
+  {
+    question: "Every morning, the street vendor would _____ fake watches to tourists near the station.",
+    options: ["hawk", "browse", "haggle"],
+    answer: "hawk",
+  },
+  {
+    question: "She skipped the party but spent the whole night refreshing her phone, gripped by _____ over what she might be missing.",
+    options: ["boredom", "FOMO", "nostalgia"],
+    answer: "FOMO",
+  },
+  {
+    question: "The delivery service charges extra for any _____ over 20 kilograms.",
+    options: ["parcel", "receipt", "invitation"],
+    answer: "parcel",
+  },
+  {
+    question: "The reviewer called the restaurant \"the finest dining experience known to man,\" clearly written _____ about a place that only serves hot dogs.",
+    options: ["tongue in cheek", "word for word", "off the cuff"],
+    answer: "tongue in cheek",
+  },
+  {
+    question: "He said it was \"the best meal he'd ever had,\" but the way he raised an eyebrow made it clear he meant it _____.",
+    options: ["in earnest", "off the record", "tongue in cheek"],
+    answer: "tongue in cheek",
+  },
+  {
+    question: "When his old friend switched to the rival team overnight, he shouted, \"You dirty _____!\"",
+    options: ["fox", "rat", "wolf"],
+    answer: "rat",
+  },
+  {
+    question: "She was so _____ that she handed over her savings to a caller claiming to be from the bank.",
+    options: ["cautious", "gullible", "generous"],
+    answer: "gullible",
+  },
+  {
+    question: "He got so _____ about the reunion that he could barely sit still on the flight home.",
+    options: ["held back", "worked up", "let down"],
+    answer: "worked up",
+  },
+  {
+    question: "A new car right now is well _____ my means, so I'll keep driving the old one.",
+    options: ["below", "beyond", "within"],
+    answer: "beyond",
+  },
+  {
+    question: "I was just _____ Karl's leg when I told him Marissa wanted to go out with him.",
+    options: ["shaking", "pulling", "kicking"],
+    answer: "pulling",
+  },
+  {
+    question: "Go ahead and _____ of me all you want, I'm still wearing these shoes.",
+    options: ["keep track", "make fun", "take care"],
+    answer: "make fun",
+  },
+  {
+    question: "I hope you won't _____ playing the piano just because of one bad performance.",
+    options: ["look into", "give up", "carry on"],
+    answer: "give up",
+  },
+  {
+    question: "She went to _____ to avoid running into him, even changing her daily route to work.",
+    options: ["limits", "extremes", "measures"],
+    answer: "extremes",
+  },
+  {
+    question: "He was _____ doubt the worst reporter the paper had ever hired.",
+    options: ["under", "without", "against"],
+    answer: "without",
+  },
+  {
+    question: "That his own son could have done something so horrible is a _____.",
+    options: ["walk in the park", "hard pill to swallow", "piece of cake"],
+    answer: "hard pill to swallow",
+  },
+  {
+    question: "Without much upkeep over the years, the old barn had become badly _____.",
+    options: ["newly built", "run down", "well kept"],
+    answer: "run down",
+  },
+  {
+    question: "She turned to painting after the _____ of her long relationship.",
+    options: ["makeup", "break-up", "buildup"],
+    answer: "break-up",
+  },
+  {
+    question: "He drove like a maniac, and we had one _____ after another.",
+    options: ["wild guess", "near miss", "long shot"],
+    answer: "near miss",
+  },
+  {
+    question: "Don't bother with it now. _____ for a day or two before deciding.",
+    options: ["Call it quits", "Let it ride", "Wrap it up"],
+    answer: "Let it ride",
+  },
+  {
+    question: "Keep it down, boys! Mother is _____ to put up with our arguing tonight.",
+    options: ["in good spirits", "in no mood", "high and dry"],
+    answer: "in no mood",
+  },
+  {
+    question: "She's a very _____ child who's always forgetting her homework and leaving her backpack at school.",
+    options: ["quick-witted", "absent-minded", "even-tempered"],
+    answer: "absent-minded",
+  },
+  {
+    question: "Jane told Bill he was dull. _____, she said he was unfriendly too.",
+    options: ["As opposed to that", "On top of that", "In spite of that"],
+    answer: "On top of that",
+  },
+  {
+    question: "If there's a breach of the safety regulations, you're supposed to _____ right away.",
+    options: ["take turns", "take action", "take chances"],
+    answer: "take action",
+  },
+  {
+    question: "She does all the housework herself. Nobody else ever _____ to help her out.",
+    options: ["makes ends meet", "lifts a finger", "turns a blind eye"],
+    answer: "lifts a finger",
+  },
+  {
+    question: "_____! If my parents find out about this, they will go absolutely mad!",
+    options: ["Never mind", "Oh no", "No problem"],
+    answer: "Oh no",
+  },
+  {
+    question: "When the man died under strange circumstances, investigators were called in and soon _____.",
+    options: ["beat around the bush", "smelled a rat", "jumped to conclusions"],
+    answer: "smelled a rat",
+  },
+  {
+    question: "The sight of Joe eating raw fish is enough to _____.",
+    options: ["cross my mind", "turn my stomach", "break my heart"],
+    answer: "turn my stomach",
+  },
+  {
+    question: "She'll manage very well if you just _____.",
+    options: ["keep her company", "leave her alone", "help her out"],
+    answer: "leave her alone",
+  },
+  {
+    question: "To everyone's complete surprise, within minutes the ship _____.",
+    options: ["went down in flames", "vanished into thin air", "ran out of steam"],
+    answer: "vanished into thin air",
+  },
+  {
+    question: "Steve's putting on a smile. I bet he's _____.",
+    options: ["over the moon", "up to something", "down in the dumps"],
+    answer: "up to something",
+  },
+  {
+    question: "The burglar _____ the house without making a sound.",
+    options: ["barged into", "sneaked into", "broke into"],
+    answer: "sneaked into",
+  },
+  {
+    question: "The lecture was so boring that many students _____.",
+    options: ["showed up", "sneaked out", "spoke up"],
+    answer: "sneaked out",
+  },
+  {
+    question: "We still meet for lunch _____, but not as often as we used to.",
+    options: ["day in and day out", "every now and then", "once and for all"],
+    answer: "every now and then",
+  },
+  {
+    question: "She knew they had meant it kindly, but it had hurt _____.",
+    options: ["at the same time", "all the same", "once and for all"],
+    answer: "all the same",
+  },
+  {
+    question: "What an arrogant, _____ man, she thought.",
+    options: ["level-headed", "big-headed", "warm-hearted"],
+    answer: "big-headed",
+  },
+  {
+    question: "They don't make a _____ out of minor irritations.",
+    options: ["fresh start", "big deal", "clean sweep"],
+    answer: "big deal",
+  },
+  {
+    question: "\"I'll give you an allowance,\" he said. \"No big _____,\" she thought, unimpressed.",
+    options: ["surprise", "deal", "chance"],
+    answer: "deal",
+  },
+  {
+    question: "To get that kind of job or promotion you would have to _____ someone's palm.",
+    options: ["shake", "grease", "read"],
+    answer: "grease",
+  },
+  {
+    question: "Good for her! She took advantage of a _____ in the tax law.",
+    options: ["verdict", "loophole", "clause"],
+    answer: "loophole",
+  },
+  {
+    question: "I acted like it was _____, when really it was breaking my heart.",
+    options: ["second nature", "no big deal", "a close call"],
+    answer: "no big deal",
+  },
+  {
+    question: "Boss: I need someone to pick up my wife when she arrives from the airport.\nEmployee: _____.",
+    options: ["Suit yourself", "Leave it to me", "Bear with me"],
+    answer: "Leave it to me",
+  },
+  {
+    question: "Why is your face all bruised? _____ you were in the middle of a fight.",
+    options: ["I doubt", "I bet", "I wonder"],
+    answer: "I bet",
+  },
+  {
+    question: "One day I'll want to _____ and have a family.",
+    options: ["move on", "settle down", "branch out"],
+    answer: "settle down",
+  },
+  {
+    question: "_____! It can't be as bad as all that.",
+    options: ["Watch out", "Cheer up", "Hang on"],
+    answer: "Cheer up",
+  },
+  {
+    question: "I can't _____ about where to take my vacation.",
+    options: ["change my tune", "keep an open mind", "make up my mind"],
+    answer: "make up my mind",
+  },
+  {
+    question: "I am trying to _____ to make this event a success.",
+    options: ["think out of the box", "play it by ear", "read between the lines"],
+    answer: "think out of the box",
+  },
+  {
+    question: "I really hope this promotion _____ because it sounds fascinating.",
+    options: ["slips my mind", "comes my way", "goes without saying"],
+    answer: "comes my way",
+  },
+  {
+    question: "Things are _____ for families across the country as the economy continues to rebound.",
+    options: ["up in the air", "looking up", "hanging by a thread"],
+    answer: "looking up",
+  },
+  {
+    question: "I don't _____ going if no one else wants to.",
+    options: ["care", "mind", "bother"],
+    answer: "mind",
+  },
+  {
+    question: "_____, it was she who approached me about the deal, not the other way around.",
+    options: ["In the meantime", "For the record", "As a rule"],
+    answer: "For the record",
+  },
+  {
+    question: "Taking time out to get fit will _____ in the long run.",
+    options: ["cut corners", "pay dividends", "raise the bar"],
+    answer: "pay dividends",
+  },
+  {
+    question: "Don't think that learning Dutch or any other language will be _____.",
+    options: ["a close call", "a breeze", "a long shot"],
+    answer: "a breeze",
+  },
+  {
+    question: "I'm usually _____ when addressing a large crowd of people.",
+    options: ["up in arms", "on the fence", "ill at ease"],
+    answer: "ill at ease",
+  },
+  {
+    question: "An experienced detective was _____ the case.",
+    options: ["committed to", "referred to", "assigned to"],
+    answer: "assigned to",
+  },
+  {
+    question: "Never mind me! I am _____ having my sleep interrupted.",
+    options: ["capable of", "used to", "fond of"],
+    answer: "used to",
+  },
+  {
+    question: "Henry _____, but the board still denied his proposal.",
+    options: ["called it a day", "gave it his best shot", "let it slide"],
+    answer: "gave it his best shot",
+  },
+  {
+    question: "A previous divorce can make you _____ about getting married again.",
+    options: ["think twice", "make peace", "change your mind"],
+    answer: "think twice",
+  },
+  {
+    question: "_____ my client, I would like to remind you of your obligations in this matter.",
+    options: ["In spite of", "In light of", "On behalf of"],
+    answer: "On behalf of",
+  },
+  {
+    question: "You can _____ him to give you a reasonable bill for your services.",
+    options: ["settle for", "cash in on", "bank on"],
+    answer: "bank on",
+  },
+  {
+    question: "If you cancel now you'll _____ all my arrangements.",
+    options: ["hold up", "mess up", "wrap up"],
+    answer: "mess up",
+  },
+  {
+    question: "The teacher asked the students to _____ short dialogues by themselves.",
+    options: ["make up", "brush up", "look up"],
+    answer: "make up",
+  },
+  {
+    question: "He leans over backwards to _____ for what he has lost.",
+    options: ["make up", "own up", "give up"],
+    answer: "make up",
+  },
+  {
+    question: "Road accident victims _____ almost a quarter of the hospital's patients.",
+    options: ["look after", "make up", "stand for"],
+    answer: "make up",
+  },
+  {
+    question: "We often quarrel, but we always _____ soon after.",
+    options: ["give up", "make up", "act up"],
+    answer: "make up",
+  },
+  {
+    question: "It's all very well having a joke, but sometimes you _____.",
+    options: ["go without saying", "go too far", "go the extra mile"],
+    answer: "go too far",
+  },
+  {
+    question: "Do you _____ coming up with ideas? If so, we would love to hear from you.",
+    options: ["have a say in", "have a knack for", "have a hunch about"],
+    answer: "have a knack for",
+  },
+  {
+    question: "Guys play basketball, goof off, gamble, _____, argue, and ignore their women.",
+    options: ["show up", "drop by", "hang out"],
+    answer: "hang out",
+  },
+  {
+    question: "I'm afraid I'll be _____ tomorrow at ten, so let's meet another time.",
+    options: ["held back", "tied up", "worn out"],
+    answer: "tied up",
+  },
+  {
+    question: "Even the most _____ doctors can forget to suggest routine tests.",
+    options: ["absent-minded", "well-intentioned", "experienced"],
+    answer: "well-intentioned",
+  },
+  {
+    question: "We will be _____ that a quick thaw is on its way.",
+    options: ["keeping a straight face", "keeping our fingers crossed", "keeping an open mind"],
+    answer: "keeping our fingers crossed",
+  },
+  {
+    question: "I stay away from that old house on the corner. It gives me _____!",
+    options: ["the runaround", "the creeps", "the cold shoulder"],
+    answer: "the creeps",
+  },
+  {
+    question: "That movie really _____ me. I didn't expect it to be so good!",
+    options: ["let down", "wore out", "knocked out"],
+    answer: "knocked out",
+  },
+  {
+    question: "You will _____ at the party in your new dress.",
+    options: ["make a point", "make a hit", "make a scene"],
+    answer: "make a hit",
+  },
+  {
+    question: "Mom can't wait for the flowers to bloom and _____ our yard.",
+    options: ["brighten up", "clean up", "fix up"],
+    answer: "brighten up",
+  },
+  {
+    question: "I meant to pick up the tickets, but it just _____.",
+    options: ["slipped my mind", "changed my mind", "crossed my mind"],
+    answer: "slipped my mind",
+  },
+  {
+    question: "The code of conduct required that he strike back or _____.",
+    options: ["take the blame", "back down", "lose face"],
+    answer: "lose face",
+  },
+  {
+    question: "Fresh evidence has recently _____ that suggests he didn't commit the murder.",
+    options: ["come to terms", "come to light", "come into play"],
+    answer: "come to light",
+  },
+  {
+    question: "When we took the test, Tom _____ and started early.",
+    options: ["made a run for it", "jumped the gun", "beat around the bush"],
+    answer: "jumped the gun",
+  },
+  {
+    question: "We're advising all our investors to _____ till the market improves.",
+    options: ["hang back", "sit tight", "stand by"],
+    answer: "sit tight",
+  },
+  {
+    question: "He got the promotion just because he was _____ to the higher-ups.",
+    options: ["a go-getter", "a bootlicker", "a wallflower"],
+    answer: "a bootlicker",
+  },
+  {
+    question: "It is only natural for youngsters to _____ the excitement of driving a fast car.",
+    options: ["dread", "crave", "resent"],
+    answer: "crave",
+  },
+  {
+    question: "His meeting with the Holtzes seemed to have refreshed Alvin and _____.",
+    options: ["changed his tune", "cleared his head", "opened his eyes"],
+    answer: "cleared his head",
+  },
+  {
+    question: "This brother lived _____, and his wife popped in and out all the time.",
+    options: ["downtown", "next door", "close by"],
+    answer: "next door",
+  },
+  {
+    question: "They were hounded _____ by the press, with no privacy at all.",
+    options: ["through thick and thin", "once and for all", "day and night"],
+    answer: "day and night",
+  },
+  {
+    question: "He has compiled a record _____ in its wretchedness.",
+    options: ["second to none", "few and far between", "larger than life"],
+    answer: "second to none",
+  },
+  {
+    question: "There are women who have silver hair _____.",
+    options: ["to spare", "to speak of", "to die for"],
+    answer: "to die for",
+  },
+  {
+    question: "Freddie was _____ a glass of water. He was so thirsty.",
+    options: ["keen on", "dying for", "fed up with"],
+    answer: "dying for",
+  },
+  {
+    question: "An old friend _____ me the day before yesterday.",
+    options: ["ran into", "called on", "checked in on"],
+    answer: "called on",
+  },
+  {
+    question: "_____ hamburgers, I am as hungry as a hawk.",
+    options: ["Speaking of", "Along with", "As opposed to"],
+    answer: "Speaking of",
+  },
+  {
+    question: "_____ going to the theater tonight?",
+    options: ["How come", "How about", "What do you say to"],
+    answer: "What do you say to",
+  },
+  {
+    question: "Members of the public would _____ to become part owners of the corporation.",
+    options: ["take a rain check", "run out of luck", "jump at the chance"],
+    answer: "jump at the chance",
+  },
+  {
+    question: "There's something odd about him, but I can't quite _____.",
+    options: ["get to the bottom of it", "wrap my head around it", "put my finger on it"],
+    answer: "put my finger on it",
+  },
+  {
+    question: "The researchers and institutions in this network are _____.",
+    options: ["few and far between", "a dime a dozen", "the cream of the crop"],
+    answer: "the cream of the crop",
+  },
+  {
+    question: "We've got the best _____ in the country working on this problem.",
+    options: ["eye", "hand", "brain"],
+    answer: "brain",
+  },
+  {
+    question: "He tried to _____ with people he knew to avoid being called up.",
+    options: ["foot the bill", "call the shots", "pull strings"],
+    answer: "pull strings",
+  },
+  {
+    question: "This country prides itself on letting people _____, relying on no one else's work but their own.",
+    options: ["call it quits", "toe the line", "make their own way"],
+    answer: "make their own way",
+  },
+  {
+    question: "I'm convinced there is something _____ going on.",
+    options: ["far-fetched", "run-down", "fishy"],
+    answer: "fishy",
+  },
+  {
+    question: "I've far better things to do than _____ arguing with you.",
+    options: ["bite my tongue", "waste my breath", "hold my tongue"],
+    answer: "waste my breath",
+  },
+  {
+    question: "I'd like to help you, but my _____.",
+    options: ["hands are tied", "feet are cold", "back is turned"],
+    answer: "hands are tied",
+  },
+  {
+    question: "I'm too tired to _____ any nonsense tonight.",
+    options: ["look down on", "get away with", "put up with"],
+    answer: "put up with",
+  },
+  {
+    question: "Learn the saying! You can't _____.",
+    options: ["have your cake and eat it too", "judge a book by its cover", "count your chickens before they hatch"],
+    answer: "judge a book by its cover",
+  },
+  {
+    question: "She doesn't care about other people's feelings. She's _____.",
+    options: ["beside herself", "not herself", "full of herself"],
+    answer: "full of herself",
+  },
+  {
+    question: "Do not _____, my dear friends, but leave room for God's wrath.",
+    options: ["make amends", "take revenge", "hold a grudge"],
+    answer: "take revenge",
+  },
+  {
+    question: "He put me down in front of my own employees. He won't _____ it!",
+    options: ["get away with", "come up with", "live to regret"],
+    answer: "get away with",
+  },
+  {
+    question: "I felt I was _____ myself, wearing such a silly costume in broad daylight.",
+    options: ["getting the better of", "making a laughingstock of", "keeping an eye on"],
+    answer: "making a laughingstock of",
+  },
+  {
+    question: "After she insulted me, all I thought about was how I could _____ with her.",
+    options: ["settle down", "make peace", "get even"],
+    answer: "get even",
+  },
+  {
+    question: "You may not like her, but _____ she's a good teacher.",
+    options: ["all in all", "for that matter", "fair is fair"],
+    answer: "fair is fair",
+  },
+  {
+    question: "I don't mean to _____, but the fact is you're the one who is left out.",
+    options: ["pick on you", "hurt your feelings", "get on your nerves"],
+    answer: "hurt your feelings",
+  },
+  {
+    question: "Keith: We must continue our discussion of the Wilson project.\nSally: _____!",
+    options: ["That's more like it", "Here we go again", "So far so good"],
+    answer: "Here we go again",
+  },
+  {
+    question: "Regulators _____ those infractions, and thousands of consumers suffered for it.",
+    options: ["gave the green light to", "turned a blind eye to", "kept a close eye on"],
+    answer: "turned a blind eye to",
+  },
+  {
+    question: "Sam is as _____ as ever as he contends with unrequited feelings.",
+    options: ["carefree", "grumpy", "outgoing"],
+    answer: "grumpy",
+  },
+  {
+    question: "It rained, it snowed, and, _____, our flight was canceled.",
+    options: ["all things considered", "to crown it all", "for the record"],
+    answer: "to crown it all",
+  },
+  {
+    question: "Everything in her wardrobe must be hopelessly _____.",
+    options: ["out of the question", "out of the ordinary", "out of date"],
+    answer: "out of date",
+  },
+  {
+    question: "David lit up many gatherings with his _____ forthright comments.",
+    options: ["typically", "barely", "hardly"],
+    answer: "typically",
+  },
+  {
+    question: "It's the worst cover-up I have ever seen. You're _____.",
+    options: ["reading between the lines", "falsifying the facts", "bending the rules"],
+    answer: "falsifying the facts",
+  },
+  {
+    question: "Whenever we're going to a party, it _____ for my wife to get ready.",
+    options: ["takes a hint", "takes ages", "takes a toll"],
+    answer: "takes ages",
+  },
+  {
+    question: "He was incapable of leading a bowling team, _____ a country.",
+    options: ["not to be confused with", "let alone", "as opposed to"],
+    answer: "let alone",
+  },
+  {
+    question: "I hear Sarah is _____ with sales from her latest novel.",
+    options: ["making ends meet", "making a scene", "making a bundle"],
+    answer: "making a bundle",
+  },
+  {
+    question: "If I'm inside for three days _____, I go crazy.",
+    options: ["in a row", "at a time", "on end"],
+    answer: "in a row",
+  },
+  {
+    question: "His _____ girlfriend refuses to get engaged without a ring and diamond earrings to match.",
+    options: ["high-maintenance", "easygoing", "down-to-earth"],
+    answer: "high-maintenance",
+  },
+  {
+    question: "It's unfair to _____ other people's misfortunes.",
+    options: ["get the hang of", "take advantage of", "make the most of"],
+    answer: "take advantage of",
+  },
+  {
+    question: "Wow, that performance was _____!",
+    options: ["out of line", "out of this world", "out of the blue"],
+    answer: "out of this world",
+  },
+  {
+    question: "You think Tom stole your watch? Impossible! He has _____.",
+    options: ["a thick skin", "a heart of gold", "a chip on his shoulder"],
+    answer: "a heart of gold",
+  },
+  {
+    question: "I wanted to have the new car, but Sally _____.",
+    options: ["beat me to the punch", "let me off the hook", "gave me the benefit of the doubt"],
+    answer: "beat me to the punch",
+  },
+  {
+    question: "Steve dropped out of school and _____ as a car dealer.",
+    options: ["went into business", "made a name for himself", "turned over a new leaf"],
+    answer: "went into business",
+  },
+  {
+    question: "Enough humiliation already! Someone has got to stand up and say _____.",
+    options: ["so much for that", "that's enough", "enough is enough"],
+    answer: "enough is enough",
+  },
+  {
+    question: "They're only proposing the law to _____ important issues.",
+    options: ["shed light on", "divert attention from", "get to grips with"],
+    answer: "divert attention from",
+  },
+  {
+    question: "The younger generation is very _____ get an education.",
+    options: ["keen to", "bound to", "quick to"],
+    answer: "keen to",
+  },
+  {
+    question: "You burned your arm on purpose! Stop _____.",
+    options: ["playing along", "playing it safe", "playing the victim"],
+    answer: "playing the victim",
+  },
+  {
+    question: "People would suspect a _____ if public hearings aren't held.",
+    options: ["showdown", "cover-up", "close call"],
+    answer: "cover-up",
+  },
+  {
+    question: "The candidate has been accused of using _____ during the debate to undermine the credibility of his opponent.",
+    options: ["smoke and mirrors", "give and take", "tooth and nail"],
+    answer: "smoke and mirrors",
+  },
+  {
+    question: "Don't think you can fool me with that old ruse. _____, you know.",
+    options: ["I have half a mind to leave", "I wasn't born yesterday", "I don't have all day"],
+    answer: "I wasn't born yesterday",
+  },
+  {
+    question: "Mom is now calling me every hour, and I'm sure you _____. What exactly did you tell her?",
+    options: ["have the upper hand", "have a finger in the pie", "have a bone to pick"],
+    answer: "have a finger in the pie",
+  },
+  {
+    question: "The world's destiny is being dictated by leaders who _____.",
+    options: ["cannot make heads or tails of it", "cannot see the forest for the trees", "cannot see farther than the end of their nose"],
+    answer: "cannot see farther than the end of their nose",
+  },
+  {
+    question: "You want to be known as a _____ who gets the job done well.",
+    options: ["go-getter", "wallflower", "know-it-all"],
+    answer: "go-getter",
+  },
+  {
+    question: "Don't worry about the dent. It's _____.",
+    options: ["not out of the woods", "not the end of the world", "not my cup of tea"],
+    answer: "not the end of the world",
+  },
+  {
+    question: "It's amazing what people will do to _____ paying taxes.",
+    options: ["keep up with", "get out of", "come down with"],
+    answer: "get out of",
+  },
+  {
+    question: "Oh man! I can't lift up my head. I'm completely _____.",
+    options: ["stuck", "torn", "beat"],
+    answer: "beat",
+  },
+  {
+    question: "It's _____ that they must sell their house before they can buy another.",
+    options: ["as plain as day", "as clear as mud", "as easy as pie"],
+    answer: "as plain as day",
+  },
+  {
+    question: "The only reason she stays late at work is to receive _____ from her boss!",
+    options: ["a pat on the back", "the cold shoulder", "the short end of the stick"],
+    answer: "a pat on the back",
+  },
+  {
+    question: "Thank you for your generous donation. I'm sure it will _____ for the families who need it most.",
+    options: ["go a long way", "go down in history", "go without saying"],
+    answer: "go a long way",
+  },
+  {
+    question: "We were two moms _____, both exhausted from sleepless nights with our newborns, and able to make each other feel better.",
+    options: ["in the same boat", "on the same page", "at the same time"],
+    answer: "in the same boat",
+  },
+  {
+    question: "Obviously, you've been _____. Why did you give him five thousand francs?",
+    options: ["put on hold", "taken for a ride", "given the benefit of the doubt"],
+    answer: "taken for a ride",
+  },
+  {
+    question: "We hope we can _____ your continued cooperation and support.",
+    options: ["look down on", "keep tabs on", "count on"],
+    answer: "count on",
+  },
+  {
+    question: "I just lay in the sun for a week and did nothing — it was _____.",
+    options: ["heaven", "a dog's life", "no picnic"],
+    answer: "heaven",
+  },
+  {
+    question: "Tom always _____, so if he promised to help you move, then he'll be here.",
+    options: ["gets cold feet", "keeps his word", "has a change of heart"],
+    answer: "keeps his word",
+  },
+  {
+    question: "I had a great childhood and _____ those days very fondly.",
+    options: ["look forward to", "look back on", "look down on"],
+    answer: "look back on",
+  },
+  {
+    question: "Their marriage _____ when she found out about her husband's affair.",
+    options: ["fell through", "fell flat", "fell apart"],
+    answer: "fell apart",
+  },
+  {
+    question: "The watch parts _____ and jumbled up.",
+    options: ["fell apart", "fell through", "fell out"],
+    answer: "fell apart",
+  },
+  {
+    question: "The old lady will _____ if she still gets no news from her son.",
+    options: ["go a long way", "go nuts", "go without saying"],
+    answer: "go nuts",
+  },
+  {
+    question: "Don't _____ about our arrangements. At least for a couple of days.",
+    options: ["let on", "let down", "let up"],
+    answer: "let on",
+  },
+  {
+    question: "Poor Mike! He's been leading _____ since his wife left him.",
+    options: ["a charmed life", "a dog's life", "a double life"],
+    answer: "a dog's life",
+  },
+  {
+    question: "_____ makes you a liar.",
+    options: ["Giving one's word", "Going back on one's word", "Keeping one's word"],
+    answer: "Going back on one's word",
+  },
+  {
+    question: "This job is _____ — the pay is good but my boss is a real Simon Legree.",
+    options: ["a walk in the park", "no bed of roses", "a piece of cake"],
+    answer: "no bed of roses",
+  },
+  {
+    question: "She put me on hold with nothing but elevator music, and I ended up _____ for ten minutes.",
+    options: ["holding my breath", "biting my nails", "twiddling my thumbs"],
+    answer: "twiddling my thumbs",
+  },
+  {
+    question: "I'm going to _____ for you and present your idea to the boss.",
+    options: ["watch my step", "stick my neck out", "keep an eye out"],
+    answer: "stick my neck out",
+  },
+  {
+    question: "Find yourself a _____ university, preferably one with room to spare.",
+    options: ["hand-me-down", "top-notch", "run-of-the-mill"],
+    answer: "top-notch",
+  },
+  {
+    question: "The government is trying to _____ its commitment to reduce pollution.",
+    options: ["look into", "back out of", "catch up on"],
+    answer: "back out of",
+  },
+  {
+    question: "Giving him such a powerful car when he's only just learned to drive is _____.",
+    options: ["a leap of faith", "asking for trouble", "a close call"],
+    answer: "asking for trouble",
+  },
+  {
+    question: "The trash really _____; why don't you take it out?",
+    options: ["piles up", "stinks", "drags on"],
+    answer: "stinks",
+  },
+  {
+    question: "_____, but you have stated everything exactly backwards.",
+    options: ["I couldn't care less", "I beg to differ", "I dare say"],
+    answer: "I beg to differ",
+  },
+  {
+    question: "Orders slowed, causing sales to _____ dramatically.",
+    options: ["fall behind", "fall short", "fall off"],
+    answer: "fall off",
+  },
+  {
+    question: "I've done all I can for him, and now I'm _____ him.",
+    options: ["washing my hands of", "keeping tabs on", "turning my back on"],
+    answer: "washing my hands of",
+  },
+  {
+    question: "I can't give you any more pocket money, Alice. _____, you know.",
+    options: ["Money doesn't grow on trees", "Every penny counts", "A penny saved is a penny earned"],
+    answer: "Money doesn't grow on trees",
+  },
+  {
+    question: "It's time you quit that _____ job and find a more rewarding one.",
+    options: ["dead-end", "run-down", "hands-on"],
+    answer: "dead-end",
+  },
+  {
+    question: "The storm _____ the phones all around the country.",
+    options: ["knocked down", "knocked out", "knocked off"],
+    answer: "knocked out",
+  },
+  {
+    question: "Those sleeping pills _____ for ten hours.",
+    options: ["let me down", "knocked me out", "wore me out"],
+    answer: "knocked me out",
+  },
+  {
+    question: "The response to my work has absolutely _____.",
+    options: ["worn me out", "let me down", "knocked me out"],
+    answer: "knocked me out",
+  },
+  {
+    question: "Mark my words! We'll _____ from the first round.",
+    options: ["knock them down", "knock them out", "knock them off"],
+    answer: "knock them out",
+  },
+  {
+    question: "Don't _____. The battery's dead.",
+    options: ["wear yourself out", "push yourself too hard", "knock yourself out"],
+    answer: "knock yourself out",
+  },
+  {
+    question: "Thomas is a computer _____. He works nonstop for hours and hours!",
+    options: ["wallflower", "junkie", "go-getter"],
+    answer: "junkie",
+  },
+  {
+    question: "My mind was filled with _____ thoughts of death.",
+    options: ["half-baked", "morbid", "far-fetched"],
+    answer: "morbid",
+  },
+  {
+    question: "He's amazingly cheerful considering all he's had to _____.",
+    options: ["go through", "go along with", "go without"],
+    answer: "go through",
+  },
+  {
+    question: "_____ is that the relevant economic context is not Europe but globalization.",
+    options: ["The benefit of the doubt", "The heart of the matter", "The long and short of it"],
+    answer: "The heart of the matter",
+  },
+  {
+    question: "Peter was a shameless _____ with all the girls in school.",
+    options: ["show-off", "know-it-all", "flirt"],
+    answer: "flirt",
+  },
+  {
+    question: "He felt appalled by the whole idea of marriage, so we _____.",
+    options: ["fell apart", "broke up", "fell through"],
+    answer: "broke up",
+  },
+  {
+    question: "He turned the whole house _____ looking for his checkbook.",
+    options: ["upside down", "back to front", "inside out"],
+    answer: "upside down",
+  },
+  {
+    question: "That kitten _____ a human baby.",
+    options: ["acts like", "looks like", "sounds like"],
+    answer: "sounds like",
+  },
+  {
+    question: "He earned good money being beaten _____ as a prize fighter.",
+    options: ["tooth and nail", "black and blue", "hand and foot"],
+    answer: "black and blue",
+  },
+  {
+    question: "She and her brother are _____. They both tell lies all the time.",
+    options: ["cut from the same cloth", "in the same boat", "on the same page"],
+    answer: "cut from the same cloth",
+  },
+  {
+    question: "The point is they were _____ for daring to complain.",
+    options: ["shown the ropes", "given a run for their money", "taught a lesson"],
+    answer: "taught a lesson",
+  },
+  {
+    question: "When the teacher saw the two boys shove each other, she came running over to try to _____.",
+    options: ["call off the fight", "break up the fight", "settle the score"],
+    answer: "break up the fight",
+  },
+  {
+    question: "The movie theater _____ that guy for sneaking food inside.",
+    options: ["let go of", "kicked out", "threw out"],
+    answer: "kicked out",
+  },
+  {
+    question: "Don't _____ — your writing is really excellent!",
+    options: ["beat yourself up", "sell yourself short", "kid yourself"],
+    answer: "sell yourself short",
+  },
+  {
+    question: "He and I dated for a while, but it _____.",
+    options: ["fell behind", "went nowhere", "fell short"],
+    answer: "went nowhere",
+  },
+  {
+    question: "I didn't do it. I swear to that with a _____.",
+    options: ["straight face", "level head", "clear conscience"],
+    answer: "clear conscience",
+  },
+  {
+    question: "My children always _____ about who made the mess in the house.",
+    options: ["go around in circles", "go on and on", "go back and forth"],
+    answer: "go around in circles",
+  },
+  {
+    question: "She is still so young. It is sad to see her being so caught up in the _____.",
+    options: ["rough patch", "rat race", "wild goose chase"],
+    answer: "rat race",
+  },
+  {
+    question: "You don't have to _____ by accepting the job in Alaska during winter.",
+    options: ["jump through hoops", "go out on a limb", "bite off more than you can chew"],
+    answer: "bite off more than you can chew",
+  },
+  {
+    question: "The thought of working for a faceless corporation really _____.",
+    options: ["throws me off", "gets me down", "wears me out"],
+    answer: "gets me down",
+  },
+  {
+    question: "In the absence of adequate data, the surveyors are just _____, making no real progress.",
+    options: ["going around in circles", "going through the motions", "going back and forth"],
+    answer: "going around in circles",
+  },
+  {
+    question: "Children, recess is over, so _____ and take your seats, please.",
+    options: ["settle down", "shape up", "simmer down"],
+    answer: "simmer down",
+  },
+  {
+    question: "I'm going to put my feet up and _____ this afternoon.",
+    options: ["let my hair down", "take it easy", "call it a day"],
+    answer: "take it easy",
+  },
+  {
+    question: "You should not _____ by success or get disappointed by failure.",
+    options: ["get carried away", "get the upper hand", "get cold feet"],
+    answer: "get carried away",
+  },
+  {
+    question: "The art of Early American furniture painters is _____ studying.",
+    options: ["well worth", "worth its weight in gold", "worth its salt"],
+    answer: "well worth",
+  },
+  {
+    question: "Right now, her condition is stable. We promise to _____ as she improves.",
+    options: ["keep you in the loop", "keep you company", "keep you posted"],
+    answer: "keep you posted",
+  },
+  {
+    question: "I'll _____ once I get settled in at school.",
+    options: ["drop you a line", "give you a ring", "keep you posted"],
+    answer: "drop you a line",
+  },
+  {
+    question: "Sports stars earn _____ for pushing everything from shoes to soft drinks.",
+    options: ["big bucks", "their fair share", "a run for their money"],
+    answer: "big bucks",
+  },
+  {
+    question: "We'll have to cost this carefully, but as _____ I'd say it'll be about two million dollars.",
+    options: ["a rough patch", "a close call", "a ballpark figure"],
+    answer: "a ballpark figure",
+  },
+  {
+    question: "_____ a few years, they are contemporaries.",
+    options: ["Give or take", "Come what may", "More or less"],
+    answer: "Give or take",
+  },
+  {
+    question: "Oh! I can't afford this now. I don't _____ enough money _____.",
+    options: ["have / in store", "have / on me", "have / on hand"],
+    answer: "have / on me",
+  },
+  {
+    question: "How did you back out of the weekend arrangement without asking me first? You're really brilliant at putting me _____!",
+    options: ["on thin ice", "in an awkward position", "on the spot"],
+    answer: "in an awkward position",
+  },
+  {
+    question: "He's seven times as quick and he's only 20 years old — _____!",
+    options: ["give me a hand", "give me a break", "give me a shot"],
+    answer: "give me a break",
+  },
+  {
+    question: "I'm sorry I didn't call you back sooner. It totally _____.",
+    options: ["slipped my mind", "blew my mind", "crossed my mind"],
+    answer: "slipped my mind",
+  },
+  {
+    question: "It's a lot of information to absorb _____.",
+    options: ["once in a while", "once and for all", "all at once"],
+    answer: "all at once",
+  },
+  {
+    question: "_____, I know of two people who are coming, but I'm pretty sure more said they'd be here.",
+    options: ["As far as I know", "Off the top of my head", "Now that I think of it"],
+    answer: "Off the top of my head",
+  },
+  {
+    question: "I can't quote the exact statistics for you _____. They're in this report.",
+    options: ["at the drop of a hat", "off the top of my head", "at a moment's notice"],
+    answer: "off the top of my head",
+  },
+  {
+    question: "Wait, _____ a little. What did you say that phone number was?",
+    options: ["back up", "slow down", "hold on"],
+    answer: "back up",
+  },
+  {
+    question: "It does make sense to _____ my French before I go to Paris.",
+    options: ["brush up on", "keep up with", "catch up on"],
+    answer: "brush up on",
+  },
+  {
+    "question": "I don't mean to _____, but this pasta sauce I made is quite delicious!",
+    "options": ["twiddle my thumbs", "blow my own horn", "wear my heart on my sleeve"],
+    "answer": "blow my own horn"
+  },
+  {
+    "question": "The silent treatment isn't helping the situation between you two, so just _____ already!",
+    "options": ["clear the air", "break the ice", "call it quits"],
+    "answer": "clear the air"
+  },
+  {
+    "question": "As time passed, and with his gentle reassurance, she finally _____ to me about her past.",
+    "options": ["caught on", "came around", "opened up"],
+    "answer": "opened up"
+  },
+  {
+    "question": "Starting your own business is really tough. I had to _____.",
+    "options": ["learn it the hard way", "get the hang of it", "call it a day"],
+    "answer": "learn it the hard way"
+  },
+  {
+    "question": "After the horrible events of the last week, we are all _____.",
+    "options": ["on the fence", "on edge", "on the ball"],
+    "answer": "on edge"
+  },
+  {
+    "question": "Standing in those massive holiday lines completely _____. I need to sit down.",
+    "options": ["throws me off", "gets me down", "wipes me out"],
+    "answer": "wipes me out"
+  },
+  {
+    "question": "Those who do not know history are _____ repeat it.",
+    "options": ["bound to", "doomed to", "meant to"],
+    "answer": "doomed to"
+  },
+  {
+    "question": "Don't _____. It was just a minor misunderstanding, not the end of the world.",
+    "options": ["make a mountain out of a molehill", "beat a dead horse", "cry over spilled milk"],
+    "answer": "make a mountain out of a molehill"
+  },
+  {
+    "question": "I didn't observe anything _____ about her behavior that day.",
+    "options": ["out of the blue", "out of the ordinary", "out of hand"],
+    "answer": "out of the ordinary"
+  },
+  {
+    "question": "An old friend might well be able to _____ to her and help her see reason.",
+    "options": ["get through", "get over", "get around"],
+    "answer": "get through"
+  },
+  {
+    "question": "Be sure to _____ if anything changes between now and then.",
+    "options": ["think it over", "take it easy", "keep me posted"],
+    "answer": "keep me posted"
+  },
+  {
+    "question": "I haven't talked to her in years, so I wouldn't know how to _____ anymore.",
+    "options": ["get along with her", "get hold of her", "get over her"],
+    "answer": "get hold of her"
+  },
+  {
+    "question": "Sorry, the vending machine is _____. You'll have to go across the street to get a snack.",
+    "options": ["out of order", "out of stock", "out of reach"],
+    "answer": "out of order"
+  },
+  {
+    "question": "Sam was obviously _____ in love with his new bride, and Martha was clearly content.",
+    "options": ["over the moon", "on cloud nine", "head over heels"],
+    "answer": "head over heels"
+  },
+  {
+    question: "I don't mean to _____, but this pasta sauce I made is quite delicious!",
+    options: ["twiddle my thumbs", "blow my own horn", "wear my heart on my sleeve"],
+    answer: "blow my own horn",
+  },
+  {
+    question: "The silent treatment isn't helping the situation between you two, so just _____ already!",
+    options: ["clear the air", "break the ice", "call it quits"],
+    answer: "clear the air",
+  },
+  {
+    question: "As time passed, and with his gentle reassurance, she finally _____ to me about her past.",
+    options: ["caught on", "came around", "opened up"],
+    answer: "opened up",
+  },
+  {
+    question: "Starting your own business is really tough. I had to _____.",
+    options: ["learn it the hard way", "get the hang of it", "call it a day"],
+    answer: "learn it the hard way",
+  },
+  {
+    question: "After the horrible events of the last week, we are all _____.",
+    options: ["on the fence", "on edge", "on the ball"],
+    answer: "on edge",
+  },
+  {
+    question: "Standing in those massive holiday lines completely _____. I need to sit down.",
+    options: ["throws me off", "gets me down", "wipes me out"],
+    answer: "wipes me out",
+  },
+  {
+    question: "Those who do not know history are _____ repeat it.",
+    options: ["bound to", "doomed to", "meant to"],
+    answer: "doomed to",
+  },
+  {
+    question: "Don't _____. It was just a minor misunderstanding, not the end of the world.",
+    options: ["make a mountain out of a molehill", "beat a dead horse", "cry over spilled milk"],
+    answer: "make a mountain out of a molehill",
+  },
+  {
+    question: "I didn't observe anything _____ about her behavior that day.",
+    options: ["out of the blue", "out of the ordinary", "out of hand"],
+    answer: "out of the ordinary",
+  },
+  {
+    question: "An old friend might well be able to _____ to her and help her see reason.",
+    options: ["get through", "get over", "get around"],
+    answer: "get through",
+  },
+  {
+    question: "Be sure to _____ if anything changes between now and then.",
+    options: ["think it over", "take it easy", "keep me posted"],
+    answer: "keep me posted",
+  },
+  {
+    question: "I haven't talked to her in years, so I wouldn't know how to _____ anymore.",
+    options: ["get along with her", "get hold of her", "get over her"],
+    answer: "get hold of her",
+  },
+  {
+    question: "Sorry, the vending machine is _____. You'll have to go across the street to get a snack.",
+    options: ["out of order", "out of stock", "out of reach"],
+    answer: "out of order",
+  },
+  {
+    question: "Sam was obviously _____ in love with his new bride, and Martha was clearly content.",
+    options: ["over the moon", "on cloud nine", "head over heels"],
+    answer: "head over heels",
+  },
+  {
+    question: "He was fastidious in his preparation for _____.",
+    options: ["the big picture", "the big day", "the big leagues"],
+    answer: "the big day",
+  },
+  {
+    question: "Unless you get through to Steve by phone, just _____. He will catch up later on.",
+    options: ["leave him a message", "give him a ring", "drop him a line"],
+    answer: "leave him a message",
+  },
+  {
+    question: "You've _____ wrong; I know he seems gruff, but he's a total sweetheart.",
+    options: ["got me", "got him", "got us"],
+    answer: "got him",
+  },
+  {
+    question: "You shouldn't be eating that burger as long as you're trying to _____.",
+    options: ["lose your appetite", "watch your step", "lose weight"],
+    answer: "lose weight",
+  },
+  {
+    question: "Let's slow down for heaven's sake! _____.",
+    options: ["My head is spinning", "I've lost my train of thought", "I'm at my wit's end"],
+    answer: "My head is spinning",
+  },
+  {
+    question: "My doctor put me _____ of nothing but fruits, vegetables, and nuts.",
+    options: ["on a schedule", "on a diet", "on a budget"],
+    answer: "on a diet",
+  },
+  {
+    question: "Hearing the gruesome details of the murder made me _____.",
+    options: ["lose my nerve", "lose my train of thought", "lose my appetite"],
+    answer: "lose my appetite",
+  },
+  {
+    question: "She wondered why the _____ Miranda was going along with what Adam wanted.",
+    options: ["strong-willed", "even-tempered", "level-headed"],
+    answer: "strong-willed",
+  },
+  {
+    question: "Let's get the ball rolling, boys; _____ with making excuses!",
+    options: ["no wonder", "enough already", "so much for"],
+    answer: "enough already",
+  },
+  {
+    question: "How on earth could she stay there? The place _____ like a sewer!",
+    options: ["stunk", "reeks of trouble", "smells fishy"],
+    answer: "stunk",
+  },
+  {
+    question: 'Bob: "Well, I have to confess that I made a mess of the event." Luna: "_____"',
+    options: ["Don't beat yourself up!", "Way to go!", "That's the spirit!"],
+    answer: "Don't beat yourself up!",
+  },
+  {
+    question: "Bob often tries to _____ between meetings.",
+    options: ["grab a bite", "catch some z's", "take five"],
+    answer: "grab a bite",
+  },
+  {
+    question: "On second thought, I see that by doing this we might be _____ another failure.",
+    options: ["in on", "in over", "in for"],
+    answer: "in for",
+  },
+  {
+    question: "The wood was so _____ you could put your finger through it.",
+    options: ["worn", "rotten", "frail"],
+    answer: "rotten",
+  },
+  {
+    question: "I used to _____ in the evening when my parents were on night shifts.",
+    options: ["eat out", "grab a bite", "dine in"],
+    answer: "eat out",
+  },
+  {
+    question: "You can _____ that we will do everything we can to get your money back.",
+    options: ["bet your life", "take it easy", "rest assured"],
+    answer: "rest assured",
+  },
+  {
+    question: "Police believe the items are a major _____ in the six-week-old inquiry.",
+    options: ["breakthrough", "cover-up", "setback"],
+    answer: "breakthrough",
+  },
+  {
+    question: 'A: "I will be the one in charge for the last quarter." B: "_____"',
+    options: ["Big deal!", "Good for you!", "Way to go!"],
+    answer: "Big deal!",
+  },
+  {
+    question: "Many analysts warned that an economic crash was _____, but none of the world's governments paid any mind.",
+    options: ["on the horizon", "out of the blue", "in the cards"],
+    answer: "on the horizon",
+  },
+  {
+    question: "This firm has _____ since the new management took over.",
+    options: ["gone to the dogs", "gone through the motions", "lost its touch"],
+    answer: "gone to the dogs",
+  },
+  {
+    question: "The proposal to build a golf course next to the airport is still _____.",
+    options: ["on the fence", "in the works", "up in the air"],
+    answer: "up in the air",
+  },
+  {
+    question: "We've finally started having a bit of a _____ with our latest products.",
+    options: ["winning streak", "run for our money", "leg up"],
+    answer: "winning streak",
+  },
+  {
+    question: "Don't be angry. I will _____ for damage to your car.",
+    options: ["pay through the nose", "foot the bill", "take the hit"],
+    answer: "foot the bill",
+  },
+  {
+    question: "I know we have a lot to discuss, but _____ — has anyone heard back from the printer?",
+    options: ["first things first", "all things considered", "for what it's worth"],
+    answer: "first things first",
+  },
+  {
+    question: "This scientist has _____ a new theory in his research field.",
+    options: ["put up with", "put forth", "put off"],
+    answer: "put forth",
+  },
+  {
+    question: "The lobbyists don't seem to be doing anything to stop this tax bill. They're _____.",
+    options: ["fiddling while Rome burns", "beating around the bush", "dragging their feet"],
+    answer: "fiddling while Rome burns",
+  },
+  {
+    question: "You are not in charge of the universe; you are _____ yourself.",
+    options: ["in tune with", "in touch with", "in charge of"],
+    answer: "in charge of",
+  },
+  {
+    question: "When you're _____ and need to look stylish, black will always save the day.",
+    options: ["worn out", "at a loss", "pressed for time"],
+    answer: "pressed for time",
+  },
+  {
+    question: "The mountaineers _____ their base camp at the foot of the mountain.",
+    options: ["set up", "set off", "set out"],
+    answer: "set up",
+  },
+  {
+    question: "The doctor will be here soon. _____, try and relax.",
+    options: ["In the meantime", "Once and for all", "By and large"],
+    answer: "In the meantime",
+  },
+  {
+    question: "Jen's going to have to _____ if she wants to get her story in tomorrow's newspaper — it's almost time to send it to the publisher!",
+    options: ["take your time", "race against time", "kill some time"],
+    answer: "race against time",
+  },
+  {
+    question: "_____, I've worked as a journalist for six years. I know this stuff inside out.",
+    options: ["For your information", "As far as it goes", "As luck would have it"],
+    answer: "For your information",
+  },
+  {
+    question: "The world is being _____ by the string of multimedia technologies coming down the pike.",
+    options: ["turned inside out", "turned around", "turned upside down"],
+    answer: "turned upside down",
+  },
+  {
+    question: "My car broke down again, but maybe it was _____; I've been wasting too much time driving around anyway.",
+    options: ["a stroke of luck", "a blessing in disguise", "a close call"],
+    answer: "a blessing in disguise",
+  },
+  {
+    question: "_____, the level of retail sales fell in January.",
+    options: ["As far as it goes", "For what it's worth", "Contrary to expectations"],
+    answer: "Contrary to expectations",
+  },
+  {
+    question: "But his character remained serene and _____ in dignity.",
+    options: ["unshaken", "unspoken", "unheard-of"],
+    answer: "unshaken",
+  },
+  {
+    question: "I was curious to _____ what she had said.",
+    options: ["get across", "find out", "look into"],
+    answer: "find out",
+  },
+  {
+    question: "He's trying to _____ various strands of radical philosophic thought.",
+    options: ["get through", "sort out", "bring together"],
+    answer: "bring together",
+  },
+  {
+    question: "When I'm going through a hard time, I try to remind myself that _____.",
+    options: ["every cloud has a silver lining", "it's a blessing in disguise", "it's now or never"],
+    answer: "every cloud has a silver lining",
+  },
+  {
+    question: "You need to _____ and focus on winning today's game.",
+    options: ["get over it", "get on with it", "get through it"],
+    answer: "get over it",
+  },
+  {
+    question: "He's been wrong several times before, so I don't put much stock in what he says _____.",
+    options: ["any longer than that", "anymore", "once and for all"],
+    answer: "anymore",
+  },
+  {
+    question: "I could never be a doctor or nurse — I just _____ the sight of blood.",
+    options: ["can't stand", "can't shake", "can't handle"],
+    answer: "can't stand",
+  },
+  {
+    question: "I had no idea what they were arguing about! The discussion was _____.",
+    options: ["beside the point", "out of the ordinary", "over my head"],
+    answer: "over my head",
+  },
+  {
+    question: "If you want to _____, feel free to now. That would make you feel better.",
+    options: ["throw up", "pass out", "act up"],
+    answer: "throw up",
+  },
+  {
+    question: "Bob was being considered for the promotion, but he _____ when he came in late to work each day this week.",
+    options: ["let it slide", "blew it", "called it quits"],
+    answer: "blew it",
+  },
+  {
+    question: "Draw up a seat and _____. I would like to have a word with you.",
+    options: ["get out of here", "get on with it", "get over here"],
+    answer: "get over here",
+  },
+  {
+    question: "No one knows how many underage children _____ to work in those sweatshops every single day.",
+    options: ["cut class", "call it a day", "clock in"],
+    answer: "clock in",
+  },
+  {
+    question: "She _____ on her rival with allegations of corruption.",
+    options: ["turned the tables", "turned the page", "turned the tide"],
+    answer: "turned the tables",
+  },
+  {
+    question: "Whether you had insurance is _____; the accident is your fault.",
+    options: ["out of the question", "beside the point", "off the hook"],
+    answer: "beside the point",
+  },
+  {
+    question: "Parents are not supposed to _____ in their children's quarrels.",
+    options: ["take sides", "take a stand", "take the blame"],
+    answer: "take sides",
+  },
+  {
+    question: "Companies just want to make sure their employees aren't _____.",
+    options: ["acting up", "slacking off", "losing ground"],
+    answer: "slacking off",
+  },
+  {
+    question: "Quit _____ and work on your book report already, Scotty!",
+    options: ["messing around", "fooling with it", "holding out"],
+    answer: "messing around",
+  },
+  {
+    question: "I was _____ when I didn't get the thing I had been waiting for for a long time.",
+    options: ["feeling down", "feeling beat", "feeling torn"],
+    answer: "feeling down",
+  },
+  {
+    question: "She had been _____ him for three years before they got married.",
+    options: ["hanging out with", "getting along with", "going out with"],
+    answer: "going out with",
+  },
+  {
+    question: "The local city council has _____ by imposing this steep new income tax on residents.",
+    options: ["overstepped its bounds", "bitten off more than it can chew", "fallen short"],
+    answer: "overstepped its bounds",
+  },
+  {
+    question: "Don't try to _____ that nonsense! I know it isn't so.",
+    options: ["sell me", "pull on me", "feed me"],
+    answer: "feed me",
+  },
+  {
+    question: "He finally _____ and gave up his plans to quit his job and become an artist.",
+    options: ["came to his senses", "had a change of heart", "got cold feet"],
+    answer: "came to his senses",
+  },
+  {
+    question: "That song is so darn catchy — I can't _____!",
+    options: ["get it out of my head", "get over it", "shake it off"],
+    answer: "get it out of my head",
+  },
+  {
+    question: "Ooh, I'm really scared of you! I'm _____. You frighten me so!",
+    options: ["biting my nails", "at my wit's end", "shaking in my little boots"],
+    answer: "shaking in my little boots",
+  },
+  {
+    question: "The storm ruined the corn crop and _____ everyone in the county.",
+    options: ["wiped out", "knocked out", "wore out"],
+    answer: "wiped out",
+  },
+  {
+    question: "Sarah's a very sensitive kid, so don't _____ her.",
+    options: ["mess with", "mess around with", "fool around with"],
+    answer: "mess with",
+  },
+  {
+    question: "Would you like me to try to _____ between you and your parents?",
+    options: ["smooth things over", "shake things up", "bring things up"],
+    answer: "smooth things over",
+  },
+  {
+    question: "I know he's bothersome, but don't let him _____.",
+    options: ["get under your skin", "get your hopes up", "get a grip"],
+    answer: "get under your skin",
+  },
+  {
+    question: "It _____ that it'll be colder in January than it is in November.",
+    options: ["remains to be seen", "stands to reason", "comes to light"],
+    answer: "stands to reason",
+  },
+  {
+    question: "Why does Kerry always _____ by saying the wrong thing?",
+    options: ["step on her own toes", "put her foot in her mouth", "shoot herself in the foot"],
+    answer: "put her foot in her mouth",
+  },
+  {
+    question: "David complained that his older sister was always _____.",
+    options: ["showing off to him", "bossing him around", "picking on him"],
+    answer: "bossing him around",
+  },
+  {
+    question: "The council has announced its intention to _____ on parking offenses.",
+    options: ["clamp on", "close in", "crack down"],
+    answer: "crack down",
+  },
+  {
+    question: "He _____ because he invited me in front of his mom and I didn't want to go.",
+    options: ["put me on the spot", "gave me a hand", "let me slide"],
+    answer: "put me on the spot",
+  },
+  {
+    question: "How dare you call the station behind my back? I've _____ you — get out!",
+    options: ["had a bone to pick with", "had it up to here with", "had it in for"],
+    answer: "had it up to here with",
+  },
+  {
+    question: "It took her a while to _____ living alone after the divorce.",
+    options: ["adjust to", "get around to", "warm up to"],
+    answer: "adjust to",
+  },
+  {
+    question: "It's a completely desolate area. There are no people there _____.",
+    options: ["for what it's worth", "in the true sense of the word", "as far as it goes"],
+    answer: "in the true sense of the word",
+  },
+  {
+    question: "Kids are bound to end up _____ if their parents are too easy-going.",
+    options: ["spoiled", "grounded", "sheltered"],
+    answer: "spoiled",
+  },
+  {
+    question: "Her pleas for mercy _____; the judge gave her the maximum sentence.",
+    options: ["fell flat", "fell through the cracks", "fell on deaf ears"],
+    answer: "fell on deaf ears",
+  },
+  {
+    question: "You've found the problem, Sid! You _____!",
+    options: ["hit the jackpot", "hit the nail on the head", "hit the road"],
+    answer: "hit the nail on the head",
+  },
+  {
+    question: "I can't stop singing this one verse _____ in my head.",
+    options: ["over and over again", "once and for all", "through and through"],
+    answer: "over and over again",
+  },
+  {
+    question: "_____ George over there. That dude knows how to dress!",
+    options: ["Get the hang of", "Get a rise out of", "Get a load of"],
+    answer: "Get a load of",
+  },
+  {
+    question: "Jane may look like she doesn't understand you, but she's really extremely bright. _____.",
+    options: ["Appearances are deceiving", "It goes without saying", "That's beside the point"],
+    answer: "Appearances are deceiving",
+  },
+  {
+    question: "One seller admits she _____ tricking people.",
+    options: ["gets carried away with", "gets a kick out of", "gets the hang of"],
+    answer: "gets a kick out of",
+  },
+  {
+    question: "Everyone was frightened to death as the car _____.",
+    options: ["went into reverse", "went downhill", "went out of control"],
+    answer: "went out of control",
+  },
+  {
+    question: "Here's a book that will have you _____.",
+    options: ["in stitches", "in a bind", "in the loop"],
+    answer: "in stitches",
+  },
+  {
+    question: "I don't think he will _____ your requests if you keep pestering him.",
+    options: ["give up on", "give in to", "give way to"],
+    answer: "give in to",
+  },
+  {
+    question: "Do you get very nostalgic about _____?",
+    options: ["the writing on the wall", "the big picture", "the good old days"],
+    answer: "the good old days",
+  },
+  {
+    question: "The police have so far failed to _____ the attacker.",
+    options: ["track down", "keep tabs on", "look into"],
+    answer: "track down",
+  },
+  {
+    question: "Others may _____ life on a more even keel but they do not feel entitled to it.",
+    options: ["settle for", "yearn for", "make do with"],
+    answer: "yearn for",
+  },
+  {
+    question: "I've lived in the US for 10 years, so I've somewhat _____ with British politics.",
+    options: ["lost touch", "lost my train of thought", "lost the plot"],
+    answer: "lost touch",
+  },
+  {
+    question: "The newest styles _____ the clothes of the Seventies.",
+    options: ["keep up with", "catch up on", "hark back to"],
+    answer: "hark back to",
+  },
+  {
+    question: "She is constantly _____, running around, pushing other kids, and throwing toys.",
+    options: ["on the edge", "on the go", "on the ball"],
+    answer: "on the go",
+  },
+  {
+    question: "Ken doesn't want to be _____ to any one woman.",
+    options: ["held back", "worn out", "tied down"],
+    answer: "tied down",
+  },
+  {
+    question: "They _____ their members by issuing a quarterly newsletter.",
+    options: ["keep in touch with", "get through to", "catch up with"],
+    answer: "keep in touch with",
+  },
+  {
+    question: "The western cowboys usually went to town on Saturdays to _____.",
+    options: ["live it up", "call it a day", "hold their horses"],
+    answer: "live it up",
+  },
+  {
+    question: "I completely by chance _____ my old college roommate at the airport.",
+    options: ["ran into", "ran over", "ran through"],
+    answer: "ran into",
+  },
+  {
+    question: "I can't _____ his constant complaining any longer.",
+    options: ["put off", "put up with", "put down"],
+    answer: "put up with",
+  },
+  {
+    question: "She has always _____ her older sister, admiring her courage and kindness.",
+    options: ["looked down on", "looked forward to", "looked up to"],
+    answer: "looked up to",
+  },
+  {
+    question: "He finally managed to _____ the loss of his job and started a new business.",
+    options: ["get away with", "get on with", "get over"],
+    answer: "get over",
+  },
+  {
+    question: "Their plans to open a new restaurant _____ when the investor withdrew funding.",
+    options: ["fell behind", "fell out", "fell through"],
+    answer: "fell through",
+  },
+  {
+    question: "The new policy is expected to _____ significant changes in how the company operates.",
+    options: ["bring back", "bring up", "bring about"],
+    answer: "bring about",
+  },
+  {
+    question: "She recently _____ painting as a way to relax after work.",
+    options: ["taken over", "taken after", "taken up"],
+    answer: "taken up",
+  },
+  {
+    question: "I think I'm _____ a cold; my throat has been sore all day.",
+    options: ["coming up with", "coming across", "coming down with"],
+    answer: "coming down with",
+  },
+  {
+    question: "Please _____ a moment while I check the details.",
+    options: ["hold off", "hold up", "hold on"],
+    answer: "hold on",
+  },
+  {
+    question: "He decided to _____ the job offer because the salary was too low.",
+    options: ["turn up", "turn into", "turn down"],
+    answer: "turn down",
+  },
+  {
+    question: "If you're _____, go see an inspiring movie or go to the theater.",
+    options: ["on a roll", "in a rut", "in a fix"],
+    answer: "in a rut",
+  },
+  {
+    question: "Turn to your dictionary when you _____ difficult words.",
+    options: ["come up with", "come along", "come across"],
+    answer: "come across",
+  },
+  {
+    question: "Being there gave me a chance to _____ with some old friends.",
+    options: ["touch base", "keep tabs on", "hit it off"],
+    answer: "touch base",
+  },
+  {
+    question: "Simran is looking for a loyal friend, not _____.",
+    options: ["a shoulder to cry on", "a fair-weather friend", "a kindred spirit"],
+    answer: "a fair-weather friend",
+  },
+  {
+    question: "She is a very _____ person, not at all attracted by the glamour world.",
+    options: ["down-to-earth", "larger-than-life", "starry-eyed"],
+    answer: "down-to-earth",
+  },
+  {
+    question: "I had to leave — I didn't really _____ with the new manager.",
+    options: ["hit it off", "check in", "square off"],
+    answer: "hit it off",
+  },
+  {
+    question: "I was still working _____ as a waitress to support myself.",
+    options: ["on and off", "day in, day out", "little by little"],
+    answer: "on and off",
+  },
+  {
+    question: "History suggests several steady, reliable ways to become _____ or even wealthy.",
+    options: ["hard up", "well-off", "down and out"],
+    answer: "well-off",
+  },
+  {
+    question: "They rather _____ anyone who couldn't speak French.",
+    options: ["turn a blind eye to", "keep tabs on", "look down their nose at"],
+    answer: "look down their nose at",
+  },
+  {
+    question: "His doctor advised him to _____ alcohol.",
+    options: ["steer clear of", "keep an eye on", "brush up on"],
+    answer: "steer clear of",
+  },
+  {
+    question: "Just _____ I was saying to Bob that I'd love to travel to France.",
+    options: ["one of these days", "day after day", "the other day"],
+    answer: "the other day",
+  },
+  {
+    question: "I thought she really liked me, but the next day she gave me _____.",
+    options: ["the cold shoulder", "a piece of her mind", "the benefit of the doubt"],
+    answer: "the cold shoulder",
+  },
+  {
+    question: "Please _____ what happened last night.",
+    options: ["count on", "fill me in on", "cash in on"],
+    answer: "fill me in on",
+  },
+  {
+    question: "She gave him a sweet smile, totally _____ with the look of dislike in her eyes.",
+    options: ["in tune", "on par", "at odds"],
+    answer: "at odds",
+  },
+  {
+    question: "Dad's _____. He'll let me do anything I want.",
+    options: ["a pushover", "a hard nut to crack", "a tough cookie"],
+    answer: "a pushover",
+  },
+  {
+    question: "Though they work as a team, they often don't _____ on most issues.",
+    options: ["see eye to eye", "keep in step", "take turns"],
+    answer: "see eye to eye",
+  },
+  {
+    question: "You've got to _____. Stop being such a mama's boy.",
+    options: ["feel sorry for yourself", "keep to yourself", "stand up for yourself"],
+    answer: "stand up for yourself",
+  },
+  {
+    question: "I can't stand the way your mother _____ like that and tells you what to do!",
+    options: ["turns a blind eye to you", "leads you around by the nose", "takes it out on you"],
+    answer: "leads you around by the nose",
+  },
+  {
+    question: "The electricity company is really _____. We've got a week to pay before our supply is cut off!",
+    options: ["putting the screws on us", "giving us a hand", "cutting us some slack"],
+    answer: "putting the screws on us",
+  },
+  {
+    question: "Her parents want her to go to college, but she _____ and insists on trying to become an actress.",
+    options: ["has her head in the clouds", "has second thoughts", "has a mind of her own"],
+    answer: "has a mind of her own",
+  },
+  {
+    question: "The magazine claims that almost half of Britain's women _____ their partners.",
+    options: ["cheat on", "check in on", "look out for"],
+    answer: "cheat on",
+  },
+  {
+    question: "His business is _____ because of his poor marketing policies.",
+    options: ["on the mend", "on the ball", "on the rocks"],
+    answer: "on the rocks",
+  },
+  {
+    question: "I am sure he will be gratified to learn that we are _____.",
+    options: ["on the same page", "in the same boat", "on the same wavelength"],
+    answer: "on the same wavelength",
+  },
+  {
+    question: "Throwing a baby shower is a great way to celebrate that you _____.",
+    options: ["have your hands full", "have a bun in the oven", "have a lot on your plate"],
+    answer: "have a bun in the oven",
+  },
+  {
+    question: "He thought he might be having a heart attack, but his chest pains were just _____.",
+    options: ["a false alarm", "a close call", "a wake-up call"],
+    answer: "a false alarm",
+  },
+  {
+    question: "I'm sure he didn't mean anything by that comment — don't _____ too much.",
+    options: ["blow it off", "blow it up", "blow it over"],
+    answer: "blow it up",
+  },
+  {
+    question: "His hypothesis has been _____ since the beginning, so I'm not surprised that he couldn't prove it in the lab.",
+    options: ["on shaky ground", "out of bounds", "up in the air"],
+    answer: "on shaky ground",
+  },
+  {
+    question: "When they _____, she flung herself into her work to try to forget him.",
+    options: ["fell out", "grew apart", "split up"],
+    answer: "split up",
+  },
+  {
+    question: "The party _____ in a court case usually pays the other party's legal costs.",
+    options: ["in question", "at stake", "at fault"],
+    answer: "at fault",
+  },
+  {
+    question: "The Leader of the House should _____ next week for this urgent matter to be discussed.",
+    options: ["buy time", "make time", "kill time"],
+    answer: "make time",
+  },
+  {
+    question: "We talk about reducing our costs, but it's _____.",
+    options: ["no sooner said than done", "as good as done", "easier said than done"],
+    answer: "easier said than done",
+  },
+  {
+    question: "The plan's completely ruined, so we'll have to start _____.",
+    options: ["from scratch", "from the top", "out of nowhere"],
+    answer: "from scratch",
+  },
+  {
+    question: "He _____ and booked a seat for me even before I had confirmed that I was coming.",
+    options: ["jumped the queue", "jumped at the chance", "jumped the gun"],
+    answer: "jumped the gun",
+  },
+  {
+    question: "He _____ completely when his wife left him over his drinking habit.",
+    options: ["lost his head", "lost his touch", "lost his nerve"],
+    answer: "lost his head",
+  },
+  {
+    question: "He has _____ when he's working on a project — he thinks of nothing else.",
+    options: ["a mind of his own", "a lot on his mind", "a one-track mind"],
+    answer: "a one-track mind",
+  },
+  {
+    question: "I'm sorry that things ended this way. _____?",
+    options: ["No hard feelings", "No strings attached", "No offense taken"],
+    answer: "No hard feelings",
+  },
+  {
+    question: "We should be in when you arrive, but _____, the neighbors have a spare key and will let you into the house.",
+    options: ["if all else fails", "if duty calls", "if time permits"],
+    answer: "if all else fails",
+  },
+  {
+    question: "Sarah always goes out of her way to help everyone she can — she really _____.",
+    options: ["wears her heart on her sleeve", "has her heart in the right place", "has a heart of gold"],
+    answer: "has a heart of gold",
+  },
+  {
+    question: "She's been _____ the phone with her sister for over an hour.",
+    options: ["at", "on", "to"],
+    answer: "on",
+  },
+  {
+    question: "He arrived _____ the airport two hours before his flight.",
+    options: ["at", "in", "for"],
+    answer: "at",
+  },
+  {
+    question: "The company is _____ the verge of signing a major new contract.",
+    options: ["at", "in", "on"],
+    answer: "on",
+  },
+  {
+    question: "I'm not very good _____ remembering people's names.",
+    options: ["for", "to", "at"],
+    answer: "at",
+  },
+  {
+    question: "They've lived _____ the same house for over twenty years.",
+    options: ["in", "at", "on"],
+    answer: "in",
+  },
+  {
+    question: "She apologized _____ arriving late to the meeting.",
+    options: ["to", "for", "at"],
+    answer: "for",
+  },
+  {
+    question: "He's married _____ a woman he met while studying abroad.",
+    options: ["with", "to", "for"],
+    answer: "to",
+  },
+  {
+    question: "We're really looking forward _____ the weekend.",
+    options: ["for", "at", "to"],
+    answer: "to",
+  },
+  {
+    question: "The meeting has been rescheduled _____ Friday afternoon.",
+    options: ["for", "at", "on"],
+    answer: "for",
+  },
+  {
+    question: "He's been _____ trouble with his boss ever since he missed that deadline.",
+    options: ["on", "at", "in"],
+    answer: "in",
+  },
+  {
+    question: "I'm really interested _____ learning more about ancient history.",
+    options: ["at", "on", "in"],
+    answer: "in",
+  },
+  {
+    question: "She was born _____ a small village in the mountains.",
+    options: ["at", "in", "on"],
+    answer: "in",
+  },
+  {
+    question: "He's responsible _____ managing the entire sales team.",
+    options: ["for", "to", "at"],
+    answer: "for",
+  },
+  {
+    question: "The book is dedicated _____ his late grandmother.",
+    options: ["to", "for", "at"],
+    answer: "to",
+  },
+  {
+    question: "Please knock _____ the door before you enter.",
+    options: ["on", "for", "in"],
+    answer: "on",
+  },
+  {
+    question: "She's quite skilled _____ solving complex problems under pressure.",
+    options: ["to", "at", "for"],
+    answer: "at",
+  },
+  {
+    question: "We should arrive _____ time for the opening ceremony.",
+    options: ["in", "by", "at"],
+    answer: "in",
+  },
+  {
+    question: "He was praised _____ his outstanding contribution to the project.",
+    options: ["to", "at", "for"],
+    answer: "for",
+  },
+  {
+    question: "The children were waiting _____ line for the bus to arrive.",
+    options: ["with", "at", "in"],
+    answer: "in",
+  },
+  {
+    question: "I'd like to exchange this shirt _____ a larger size.",
+    options: ["with", "for", "to"],
+    answer: "for",
+  },
+  {
+    question: "Did you hear that new track? That's straight _____. I've had it on repeat all day.",
+    options: ["sus", "fire", "cap"],
+    answer: "fire",
+  },
+  {
+    question: "I heard you went on a date with Sarah. _____, what happened?",
+    options: ["you slayed that", "bet", "spill the tea"],
+    answer: "spill the tea",
+  },
+  {
+    question: "_____, this is the best pizza I've had in my entire life.",
+    options: ["No cap", "She ghosted me", "I'm beat"],
+    answer: "No cap",
+  },
+  {
+    question: "Why is Jake suddenly being so nice? He's _____.",
+    options: ["beat", "ghosted", "sus"],
+    answer: "sus",
+  },
+  {
+    question: "I worked a 12 hour shift today. I'm _____, man.",
+    options: ["beat", "sus", "cap"],
+    answer: "beat",
+  },
+  {
+    question: "_____ I actually like this math class, I just don't tell anyone.",
+    options: ["Lowkey", "No cap", "Bet"],
+    answer: "Lowkey",
+  },
+  {
+    question: "Wanna grab food later? _____.",
+    options: ["Cap", "Ghosted", "Bet"],
+    answer: "Bet",
+  },
+  {
+    question: "Your makeup looks incredible. _____!",
+    options: ["that's cap", "you slayed that", "she ghosted me"],
+    answer: "you slayed that",
+  },
+  {
+    question: "We were texting every day and then she just _____.",
+    options: ["ghosted me", "spilled the tea", "slayed that"],
+    answer: "ghosted me",
+  },
+  {
+    question: "He said he knows celebrities. That's _____.",
+    options: ["fire", "beat", "cap"],
+    answer: "cap",
+  },
+  {
+    question: "She blocked me on everything. I'm _____ right now.",
+    options: ["mid", "down bad", "bussin"],
+    answer: "down bad",
+  },
+  {
+    question: "She is the best singer alive, _____.",
+    options: ["sheesh", "yeet", "periodt"],
+    answer: "periodt",
+  },
+  {
+    question: "He asked her out so smoothly. That dude has mad _____.",
+    options: ["rizz", "vibe check", "facts"],
+    answer: "rizz",
+  },
+  {
+    question: "These tacos are _____. I need another plate.",
+    options: ["mid", "big yikes", "bussin"],
+    answer: "bussin",
+  },
+  {
+    question: "Watch me _____ this ball across the field.",
+    options: ["yeet", "rizz", "vibe check"],
+    answer: "yeet",
+  },
+  {
+    question: "The movie was _____. I expected better.",
+    options: ["bussin", "sheesh", "mid"],
+    answer: "mid",
+  },
+  {
+    question: "He tripped in front of everyone. _____.",
+    options: ["Facts", "Periodt", "Big yikes"],
+    answer: "Big yikes",
+  },
+  {
+    question: "_____, how are you doing today?",
+    options: ["Vibe check", "Down bad", "Big yikes"],
+    answer: "Vibe check",
+  },
+  {
+    question: "_____, look at that outfit, it looks expensive.",
+    options: ["Sheesh", "Mid", "Periodt"],
+    answer: "Sheesh",
+  },
+  {
+    question: "Pineapple belongs on pizza. _____.",
+    options: ["Rizz", "Yeet", "Facts"],
+    answer: "Facts",
+  },
+  {
+    question: "The math test was a _____. I finished it in ten minutes.",
+    options: ["piece of cake", "blue moon", "nail on the head"],
+    answer: "piece of cake",
+  },
+  {
+    question: "You will do great on stage tonight. _____!",
+    options: ["Break a leg", "Beat around the bush", "Spill the beans"],
+    answer: "Break a leg",
+  },
+  {
+    question: "You _____ when you said the project would take longer than expected.",
+    options: ["hit the nail on the head", "let the cat out of the bag", "cost an arm and a leg"],
+    answer: "hit the nail on the head",
+  },
+  {
+    question: "That new phone _____. I cannot afford it.",
+    options: ["costs an arm and a leg", "is under the weather", "is a piece of cake"],
+    answer: "costs an arm and a leg",
+  },
+  {
+    question: "I am _____ today, so I will stay home from work.",
+    options: ["under the weather", "barking up the wrong tree", "once in a blue moon"],
+    answer: "under the weather",
+  },
+  {
+    question: "Please do not _____ about the surprise party. Keep it a secret.",
+    options: ["spill the beans", "beat around the bush", "hit the nail on the head"],
+    answer: "spill the beans",
+  },
+  {
+    question: "She accidentally _____ and told everyone about the promotion before it was announced.",
+    options: ["let the cat out of the bag", "spilled the beans", "cost an arm and a leg"],
+    answer: "let the cat out of the bag",
+  },
+  {
+    question: "If you think I took your book, you are _____. I never even saw it.",
+    options: ["barking up the wrong tree", "under the weather", "beating around the bush"],
+    answer: "barking up the wrong tree",
+  },
+  {
+    question: "Stop _____ and tell me what really happened.",
+    options: ["beating around the bush", "letting the cat out of the bag", "hitting the nail on the head"],
+    answer: "beating around the bush",
+  },
+  {
+    question: "I eat fast food _____. Maybe once or twice a year.",
+    options: ["once in a blue moon", "under the weather", "a piece of cake"],
+    answer: "once in a blue moon",
+  },
+  {
+    question: "Could you fill out the form before you submit it? I want to make sure everything is correct.",
+    options: ["fill out", "cross out", "sort out"],
+    answer: "fill out",
+  },
+  {
+    question: "The teacher asked the students to _____ their homework by Friday.",
+    options: ["hand over", "hand out", "hand in"],
+    answer: "hand in",
+  },
+  {
+    question: "I need to _____ early tomorrow to catch my flight.",
+    options: ["stand up", "get up", "show up"],
+    answer: "get up",
+  },
+  {
+    question: "The meeting was _____ because half the team was sick.",
+    options: ["called up", "called out", "called off"],
+    answer: "called off",
+  },
+  {
+    question: "She decided to _____ smoking after her doctor's warning.",
+    options: ["give away", "give up", "give in"],
+    answer: "give up",
+  },
+  {
+    question: "Please _____ your shoes before you walk into the house.",
+    options: ["take off", "take away", "take back"],
+    answer: "take off",
+  },
+  {
+    question: "The company plans to _____ fifty new employees next quarter.",
+    options: ["take over", "take up", "take on"],
+    answer: "take on",
+  },
+  {
+    question: "He tends to _____ whenever things don't go his way.",
+    options: ["freak out", "burn out", "space out"],
+    answer: "freak out",
+  },
+  {
+    question: "We had to _____ the trip because of the storm warning.",
+    options: ["put up", "put off", "put down"],
+    answer: "put off",
+  },
 
 ];
