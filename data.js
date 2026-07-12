@@ -10680,5 +10680,205 @@ const sentences = [
     options: ["put up", "put off", "put down"],
     answer: "put off",
   },
+  {
+    question: "She climbed _____ the ladder to clean the gutters.",
+    options: ["into", "up", "down"],
+    answer: "up",
+  },
+  {
+    question: "He jumped _____ the pool without a moment's hesitation.",
+    options: ["out", "onto", "into"],
+    answer: "into",
+  },
+  {
+    question: "Please switch _____ the lights before you leave the office.",
+    options: ["down", "into", "off"],
+    answer: "off",
+  },
+  {
+    question: "The plane took _____ right on schedule despite the storm.",
+    options: ["up", "off", "out"],
+    answer: "off",
+  },
+  {
+    question: "She jotted _____ a quick note before rushing out the door.",
+    options: ["out", "down", "up"],
+    answer: "down",
+  },
+  {
+    question: "He turned _____ the job offer without a second thought.",
+    options: ["off", "out", "down"],
+    answer: "down",
+  },
+  {
+    question: "They set _____ a small bakery in the neighborhood last year.",
+    options: ["out", "up", "off"],
+    answer: "up",
+  },
+  {
+    question: "The alarm went _____ at midnight, waking the entire building.",
+    options: ["on", "off", "out"],
+    answer: "off",
+  },
+  {
+    question: "Please fill _____ the blanks in this worksheet.",
+    options: ["up", "in", "on"],
+    answer: "in",
+  },
+  {
+    question: "He broke _____ the abandoned house late at night.",
+    options: ["onto", "out", "into"],
+    answer: "into",
+  },
+  {
+    question: "The committee is looking _____ several complaints about the new policy.",
+    options: ["up", "on", "into"],
+    answer: "into",
+  },
+  {
+    question: "She jumped _____ the stage and grabbed the microphone.",
+    options: ["into", "up", "onto"],
+    answer: "onto",
+  },
+  {
+    question: "Please check _____ at the front desk before going to your room.",
+    options: ["out", "up", "in"],
+    answer: "in",
+  },
+  {
+    question: "He spread the flour _____ the counter to knead the dough.",
+    options: ["into", "in", "onto"],
+    answer: "onto",
+  },
+  {
+    question: "He is _____ of town this week for a business trip.",
+    options: ["off", "on", "out"],
+    answer: "out",
+  },
+  {
+    question: "The company is rolling _____ a new product line next month.",
+    options: ["up", "off", "out"],
+    answer: "out",
+  },
+  {
+    question: "Could you turn _____ the TV? I want to watch the news.",
+    options: ["into", "on", "up"],
+    answer: "on",
+  },
+  {
+    question: "Speak _____! I can't hear you from back here.",
+    options: ["out", "on", "up"],
+    answer: "up",
+  },
+  {
+    question: "Please calm _____ before you say something you'll regret.",
+    options: ["out", "off", "down"],
+    answer: "down",
+  },
+  {
+    question: "He's been _____ a diet for two months and has lost ten pounds.",
+    options: ["in", "into", "on"],
+    answer: "on",
+  },
+  {
+    question: "She's been _____ edge all week waiting for her exam results.",
+    options: ["through", "at", "on"],
+    answer: "on",
+  },
+  {
+    question: "He walked _____ the room without saying a word to anyone.",
+    options: ["through", "against", "between"],
+    answer: "through",
+  },
+  {
+    question: "The cat is hiding _____ the couch again.",
+    options: ["behind", "between", "along"],
+    answer: "behind",
+  },
+  {
+    question: "She's furious _____ him for missing the meeting without notice.",
+    options: ["with", "for", "at"],
+    answer: "with",
+  },
+  {
+    question: "The decision was made _____ the whole family, not just the parents.",
+    options: ["among", "between", "along"],
+    answer: "among",
+  },
+  {
+    question: "We had to choose _____ the red car and the blue one.",
+    options: ["among", "between", "through"],
+    answer: "between",
+  },
+  {
+    question: "He leaned his bike _____ the wall while he ran inside.",
+    options: ["against", "along", "under"],
+    answer: "against",
+  },
+  {
+    question: "They walked _____ the river for hours, enjoying the scenery.",
+    options: ["along", "against", "behind"],
+    answer: "along",
+  },
+  {
+    question: "The negotiations broke down _____ disagreements over pricing.",
+    options: ["for", "over", "by"],
+    answer: "over",
+  },
+  {
+    question: "She's worried _____ her son's grades this semester.",
+    options: ["about", "for", "with"],
+    answer: "about",
+  },
+  {
+    question: "This gift is _____ you, as a thank-you for your help.",
+    options: ["from", "for", "with"],
+    answer: "for",
+  },
+  {
+    question: "The package finally arrived _____ three weeks of delays.",
+    options: ["after", "by", "from"],
+    answer: "after",
+  },
+  {
+    question: "He's been working _____ that same company since he graduated.",
+    options: ["with", "for", "by"],
+    answer: "for",
+  },
+  {
+    question: "The novel was written _____ a famous author from the 1800s.",
+    options: ["from", "with", "by"],
+    answer: "by",
+  },
+  {
+    question: "She ran _____ her old classmate at the grocery store yesterday.",
+    options: ["across", "along", "against"],
+    answer: "across",
+  },
+  {
+    question: "The kids were playing _____ the old oak tree in the yard.",
+    options: ["around", "along", "through"],
+    answer: "around",
+  },
+  {
+    question: "He hid the keys _____ the doormat so I could get in.",
+    options: ["between", "under", "behind"],
+    answer: "under",
+  },
+  {
+    question: "The report needs to be finished _____ Friday at the latest.",
+    options: ["until", "since", "by"],
+    answer: "by",
+  },
+  {
+    question: "She stood _____ her sister and her cousin in the photo.",
+    options: ["between", "among", "against"],
+    answer: "between",
+  },
+  {
+    question: "He's determined to succeed, no matter what obstacles stand _____ him.",
+    options: ["through", "against", "behind"],
+    answer: "against",
+  }
 
 ];
