@@ -7991,7 +7991,7 @@ const sentences = [
     answer: "pulpit",
   },
   {
-    question: "You don't need a manual for this — just use your _____ and you'll figure it out.",
+    question: "You don't need a manual for this; Just use your _____ and you'll figure it out.",
     options: ["native clothing", "common sense", "rate"],
     answer: "common sense",
   },
@@ -9231,7 +9231,7 @@ const sentences = [
     answer: "count on",
   },
   {
-    question: "I just lay in the sun for a week and did nothing — it was _____.",
+    question: "I just lay in the sun for a week and did nothing. It was _____.",
     options: ["heaven", "a dog's life", "no picnic"],
     answer: "heaven",
   },
@@ -9276,7 +9276,7 @@ const sentences = [
     answer: "Going back on one's word",
   },
   {
-    question: "This job is _____ — the pay is good but my boss is a real Simon Legree.",
+    question: "This job is _____; the pay is good but my boss is a real Simon Legree.",
     options: ["a walk in the park", "no bed of roses", "a piece of cake"],
     answer: "no bed of roses",
   },
@@ -9426,7 +9426,7 @@ const sentences = [
     answer: "kicked out",
   },
   {
-    question: "Don't _____ — your writing is really excellent!",
+    question: "Don't _____; your writing is really excellent!",
     options: ["beat yourself up", "sell yourself short", "kid yourself"],
     answer: "sell yourself short",
   },
@@ -9521,7 +9521,7 @@ const sentences = [
     answer: "in an awkward position",
   },
   {
-    question: "He's seven times as quick and he's only 20 years old — _____!",
+    question: "He's seven times as quick and he's only 20 years old. _____!",
     options: ["give me a hand", "give me a break", "give me a shot"],
     answer: "give me a break",
   },
@@ -9811,7 +9811,7 @@ const sentences = [
     answer: "foot the bill",
   },
   {
-    question: "I know we have a lot to discuss, but _____ — has anyone heard back from the printer?",
+    question: "I know we have a lot to discuss, but _____; has anyone heard back from the printer?",
     options: ["first things first", "all things considered", "for what it's worth"],
     answer: "first things first",
   },
@@ -9846,7 +9846,7 @@ const sentences = [
     answer: "In the meantime",
   },
   {
-    question: "Jen's going to have to _____ if she wants to get her story in tomorrow's newspaper — it's almost time to send it to the publisher!",
+    question: "Jen's going to have to _____ if she wants to get her story in tomorrow's newspaper; It's almost time to send it to the publisher!",
     options: ["take your time", "race against time", "kill some time"],
     answer: "race against time",
   },
@@ -9901,7 +9901,7 @@ const sentences = [
     answer: "anymore",
   },
   {
-    question: "I could never be a doctor or nurse — I just _____ the sight of blood.",
+    question: "I could never be a doctor or nurse; I just _____ the sight of blood.",
     options: ["can't stand", "can't shake", "can't handle"],
     answer: "can't stand",
   },
@@ -9981,7 +9981,7 @@ const sentences = [
     answer: "came to his senses",
   },
   {
-    question: "That song is so darn catchy — I can't _____!",
+    question: "That song is so darn catchy; I can't _____!",
     options: ["get it out of my head", "get over it", "shake it off"],
     answer: "get it out of my head",
   },
@@ -10036,7 +10036,7 @@ const sentences = [
     answer: "put me on the spot",
   },
   {
-    question: "How dare you call the station behind my back? I've _____ you — get out!",
+    question: "How dare you call the station behind my back? I've _____ you. Get out!",
     options: ["had a bone to pick with", "had it up to here with", "had it in for"],
     answer: "had it up to here with",
   },
@@ -10221,7 +10221,7 @@ const sentences = [
     answer: "down-to-earth",
   },
   {
-    question: "I had to leave — I didn't really _____ with the new manager.",
+    question: "I had to leave; I didn't really _____ with the new manager.",
     options: ["hit it off", "check in", "square off"],
     answer: "hit it off",
   },
@@ -10321,7 +10321,7 @@ const sentences = [
     answer: "a false alarm",
   },
   {
-    question: "I'm sure he didn't mean anything by that comment — don't _____ too much.",
+    question: "I'm sure he didn't mean anything by that comment; Don't _____ too much.",
     options: ["blow it off", "blow it up", "blow it over"],
     answer: "blow it up",
   },
@@ -10366,7 +10366,7 @@ const sentences = [
     answer: "lost his head",
   },
   {
-    question: "He has _____ when he's working on a project — he thinks of nothing else.",
+    question: "He has _____ when he's working on a project; He thinks of nothing else.",
     options: ["a mind of his own", "a lot on his mind", "a one-track mind"],
     answer: "a one-track mind",
   },
@@ -10381,7 +10381,7 @@ const sentences = [
     answer: "if all else fails",
   },
   {
-    question: "Sarah always goes out of her way to help everyone she can — she really _____.",
+    question: "Sarah always goes out of her way to help everyone she can; She really _____.",
     options: ["wears her heart on her sleeve", "has her heart in the right place", "has a heart of gold"],
     answer: "has a heart of gold",
   },
