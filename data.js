@@ -10879,6 +10879,209 @@ const sentences = [
     question: "He's determined to succeed, no matter what obstacles stand _____ him.",
     options: ["through", "against", "behind"],
     answer: "against",
-  }
+  },
+  {
+    question: "He got down on one knee and _____ to his girlfriend at sunset.",
+    options: ["suggested", "proposed", "offered"],
+    answer: "proposed",
+  },
+  {
+    question: "After the ceremony, the newlyweds flew off for their _____ in Bali.",
+    options: ["vacation", "retreat", "honeymoon"],
+    answer: "honeymoon",
+  },
+  {
+    question: "They've been happily _____ for over twenty years now.",
+    options: ["married", "wedded", "spoused"],
+    answer: "married",
+  },
+  {
+    question: "They dated for two years before finally deciding to move in _____.",
+    options: ["jointly", "together", "mutually"],
+    answer: "together",
+  },
+  {
+    question: "My older brother is very _____ of me; he always wants to know where I am.",
+    options: ["defensive", "guarded", "protective"],
+    answer: "protective",
+  },
+  {
+    question: "Sibling _____ is common between kids close in age.",
+    options: ["rivalry", "competition", "jealousy"],
+    answer: "rivalry",
+  },
+  {
+    question: "After the funeral, the brothers finally _____ their differences and made peace.",
+    options: ["solved", "settled", "fixed"],
+    answer: "settled",
+  },
+  {
+    question: "After years of arguing, my parents' marriage finally fell _____.",
+    options: ["aside", "away", "apart"],
+    answer: "apart",
+  },
+  {
+    question: "My grandmother is the _____ of the family; everyone comes to her for advice and guidance.",
+    options: ["matriarch", "patriarch", "elder"],
+    answer: "matriarch",
+  },
+  {
+    question: "He's the _____ sheep of the family. Nobody talks about what he did.",
+    options: ["dark", "black", "bad"],
+    answer: "black",
+  },
+  {
+    question: "She's the _____ image of her mother; they could be twins.",
+    options: ["exact", "perfect", "spitting"],
+    answer: "spitting",
+  },
+  {
+    question: "It's amazing how much he _____ after his father; they even have the same laugh.",
+    options: ["takes", "looks", "follows"],
+    answer: "takes",
+  },
+  {
+    question: "Height tends to _____ in families; tall parents often have tall kids.",
+    options: ["pass", "run", "flow"],
+    answer: "run",
+  },
+  {
+    question: "My uncle is a _____ parent; he raised my cousins all by himself after the divorce.",
+    options: ["solo", "alone", "single"],
+    answer: "single",
+  },
+  {
+    question: "The company gives new parents twelve weeks of paid _____ leave.",
+    options: ["parent", "parental", "parents'"],
+    answer: "parental",
+  },
+  {
+    question: "Due to the storm, they had no choice but to _____ the wedding to the following weekend.",
+    options: ["cancel", "postpone", "forget"],
+    answer: "postpone",
+  },
+  {
+    question: "After the divorce was finalized, she reverted to her _____ name.",
+    options: ["single", "original", "maiden"],
+    answer: "maiden",
+  },
+  {
+    question: "My cousin found out she's _____ during a routine doctor's visit.",
+    options: ["waiting", "hoping", "expecting"],
+    answer: "expecting",
+  },
+  {
+    question: "The baby arrived three weeks _____.",
+    options: ["early", "premature", "soon"],
+    answer: "early",
+  },
+  {
+    question: "It's a small world — turns out my new boss is actually my second _____ once removed.",
+    options: ["relative", "cousin", "nephew"],
+    answer: "cousin",
+  },
+  {
+    question: "The train was _____ through the tunnel at breakneck speed.",
+    options: ["hurtling", "sprinting", "hurling"],
+    answer: "hurtling",
+  },
+  {
+    question: "He lived in a _____ apartment with peeling paint and a leaking roof.",
+    options: ["spacious", "tidy", "squalid"],
+    answer: "squalid",
+  },
+  {
+    question: "The car came _____ around the corner, nearly hitting a parked truck.",
+    options: ["careening", "curving", "circling"],
+    answer: "careening",
+  },
+  {
+    question: "They found an old _____ barn at the edge of the property, ready to collapse.",
+    options: ["sturdy", "spacious", "ramshackle"],
+    answer: "ramshackle",
+  },
+  {
+    question: "The tourists wandered past _____ buildings that hadn't been touched in decades.",
+    options: ["pristine", "dilapidated", "modern"],
+    answer: "dilapidated",
+  },
+  {
+    question: "The detective followed the suspect into a _____ bar in the worst part of town.",
+    options: ["seedy", "upscale", "trendy"],
+    answer: "seedy",
+  },
+  {
+    question: "His hands were _____ from working on the car engine all afternoon.",
+    options: ["groomed", "glossy", "grimy"],
+    answer: "grimy",
+  },
+  {
+    question: "The company was _____ on the edge of bankruptcy after years of losses.",
+    options: ["standing", "teetering", "resting"],
+    answer: "teetering",
+  },
+  {
+    question: "A truck came _____ down the highway, swerving between lanes.",
+    options: ["strolling", "barreling", "wandering"],
+    answer: "barreling",
+  },
+  {
+    question: "The car suddenly _____ off the road and into a ditch.",
+    options: ["strolled", "marched", "veered"],
+    answer: "veered",
+  },
+  {
+    question: "The old castle walls were _____, with stones falling away year after year.",
+    options: ["gleaming", "crumbling", "polished"],
+    answer: "crumbling",
+  },
+  {
+    question: "The wound had been left untreated and was starting to _____.",
+    options: ["fester", "flourish", "freshen"],
+    answer: "fester",
+  },
+  {
+    question: "The milk had gone _____ after sitting out in the heat all day.",
+    options: ["fragrant", "fresh", "rancid"],
+    answer: "rancid",
+  },
+  {
+    question: "The pond water was _____ and full of algae, so you couldn't see the bottom.",
+    options: ["clear", "murky", "transparent"],
+    answer: "murky",
+  },
+  {
+    question: "An _____ old man shuffled slowly down the sidewalk, leaning on his cane.",
+    options: ["decrepit", "robust", "athletic"],
+    answer: "decrepit",
+  },
+  {
+    question: "He wore a _____ coat that had clearly seen better days.",
+    options: ["plush", "new", "threadbare"],
+    answer: "threadbare",
+  },
+  {
+    question: "She arrived at the meeting looking _____, her hair a mess and her shirt untucked.",
+    options: ["polished", "disheveled", "groomed"],
+    answer: "disheveled",
+  },
+  {
+    question: "He noticed a shadowy figure _____ near the entrance of the building.",
+    options: ["lurking", "dancing", "singing"],
+    answer: "lurking",
+  },
+  {
+    question: "A stray cat was _____ around the alley, searching for scraps of food.",
+    options: ["napping", "bathing", "prowling"],
+    answer: "prowling",
+  },
+  {
+    question: "The boy was caught _____ around the back of the store, clearly up to no good.",
+    options: ["skipping", "skulking", "singing"],
+    answer: "skulking",
+  },
+
+
+  
 
 ];
