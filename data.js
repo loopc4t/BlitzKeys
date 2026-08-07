@@ -4856,7 +4856,7 @@ const sentences = [
   },
   {
     question: "I'm trying to save money, but _____, I'll join you for dinner.",
-    options: ["what the heck", "on second thought", "never mind"],
+    options: ["what the heck", "no way", "never mind"],
     answer: "what the heck",
   },
   {
@@ -4865,7 +4865,7 @@ const sentences = [
     answer: "tide me over",
   },
   {
-    question: "I always treat myself to a nice dinner on _____.",
+    question: "I always treat myself to a nice dinner on _____, since that's when my paycheck lands in my account.",
     options: ["payday", "vacation", "weekends"],
     answer: "payday",
   },
@@ -4875,7 +4875,7 @@ const sentences = [
     answer: "comes in handy",
   },
   {
-    question: "He won a lot of money at the casino and decided to _____ .",
+    question: "He won a lot of money at the casino, and not wanting to risk losing it, decided to _____ .",
     options: ["keep betting", "borrow more money", "quit while he was ahead"],
     answer: "quit while he was ahead",
   },
@@ -11080,8 +11080,106 @@ const sentences = [
     options: ["skipping", "skulking", "singing"],
     answer: "skulking",
   },
-
-
+  {
+    question: "At the box office, we had no choice but to _____ nearly $200 each for the tickets.",
+    options: ["save up", "shell out", "cut back"],
+    answer: "shell out",
+  },
+  {
+    question: "Because the deadline was so tight, the contractor decided to _____, using cheaper materials than promised.",
+    options: ["cut corners", "go the extra mile", "take it slow"],
+    answer: "cut corners",
+  },
+  {
+    question: "After the long shift, all he wanted to do was _____ and sleep for ten hours.",
+    options: ["hit the sack", "hit the road", "hit the books"],
+    answer: "hit the sack",
+  },
+  {
+    question: "She promised not to tell anyone about the surprise party, but she accidentally _____ to her sister.",
+    options: ["kept quiet", "played along", "spilled the beans"],
+    answer: "spilled the beans",
+  },
+  {
+    question: "With the exam tomorrow morning, she had no choice but to _____ and review her notes until 3 a.m.",
+    options: ["burn the midnight oil", "call it a night", "sleep in"],
+    answer: "burn the midnight oil",
+  },
+  {
+    question: "The car repair was going to be expensive, but he finally decided to _____ and pay for it.",
+    options: ["put it off", "back out", "bite the bullet"],
+    answer: "bite the bullet",
+  },
+  {
+    question: "When the funding fell through, the whole project was _____, and they had to start planning from scratch.",
+    options: ["ahead of schedule", "back to square one", "set in stone"],
+    answer: "back to square one",
+  },
+  {
+    question: "By 6 p.m. the workers were exhausted, so the foreman told everyone to _____ and go home.",
+    options: ["call it a day", "pick up the pace", "push through"],
+    answer: "call it a day",
+  },
+  {
+    question: "Right before the wedding ceremony, the groom suddenly _____ and almost didn't show up.",
+    options: ["jumped for joy", "took charge", "got cold feet"],
+    answer: "got cold feet",
+  },
+  {
+    question: "After failing the test three times, he finally decided to _____ and drop the course.",
+    options: ["push forward", "throw in the towel", "double down"],
+    answer: "throw in the towel",
+  },
+  {
+    question: "The negotiations had stalled for weeks, but both sides finally agreed to _____ and split the difference.",
+    options: ["dig in", "meet halfway", "walk away"],
+    answer: "meet halfway",
+  },
+  {
+    question: "He had spent all his savings on the trip, so for the rest of the month he had to _____.",
+    options: ["live it up", "splurge", "tighten his belt"],
+    answer: "tighten his belt",
+  },
+  {
+    question: "The rumor spread so fast that by lunchtime, the whole office had _____.",
+    options: ["gotten wind of it", "kept it under wraps", "turned a blind eye"],
+    answer: "gotten wind of it",
+  },
+  {
+    question: "The manager was furious about the missed deadline and made it clear she wanted someone to _____.",
+    options: ["take the blame", "get the credit", "lend a hand"],
+    answer: "take the blame",
+  },
+  {
+    question: "The two brothers hadn't spoken in years, but at their mother's funeral they finally decided to _____.",
+    options: ["bury the hatchet", "hold a grudge", "rub it in"],
+    answer: "bury the hatchet",
+  },
+  {
+    question: "The witness kept changing her story, so the detective suspected she was trying to _____.",
+    options: ["come clean", "cover her tracks", "own up"],
+    answer: "cover her tracks",
+  },
+  {
+    question: "The startup was losing money every month, and investors worried it would soon _____.",
+    options: ["go under", "take off", "break even"],
+    answer: "go under",
+  },
+  {
+    question: "He'd been putting off the visit to the dentist for months, but the pain finally forced him to _____.",
+    options: ["face the music", "let it slide", "brush it off"],
+    answer: "face the music",
+  },
+  {
+    question: "The team was down by twenty points at halftime, but the coach refused to _____ and kept encouraging them.",
+    options: ["give up", "rally the troops", "call it quits"],
+    answer: "give up",
+  },
+  {
+    question: "She had rehearsed the speech so many times that when she finally gave it, she _____.",
+    options: ["nailed it", "choked", "winged it"],
+    answer: "nailed it",
+  }
   
 
 ];
