@@ -5001,7 +5001,7 @@ const sentences = [
     answer: "rectify",
   },
   {
-    question: "I shouldn't have invested in that company, but _____. Looking back, the warning signs were obvious.",
+    question: "I shouldn't have invested in that company, but _____. At the time, none of the warning signs seemed obvious at all.",
     options: ["hindsight is 20/20", "you live and learn", "that's life"],
     answer: "hindsight is 20/20",
   },
