@@ -10305,8 +10305,8 @@ const sentences = [
     options: ["on the mend", "on the ball", "on the rocks"],
     answer: "on the rocks",
   },
-  {
-    question: "I am sure he will be gratified to learn that we are _____.",
+{
+    question: "I am sure he will be gratified to learn that we are _____, since we've always had a similar way of thinking about things.",
     options: ["on the same page", "in the same boat", "on the same wavelength"],
     answer: "on the same wavelength",
   },
