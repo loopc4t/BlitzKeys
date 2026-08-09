@@ -3950,7 +3950,7 @@ const sentences = [
     answer: "progress report",
   },
   {
-    question: "Even though the project isn't finished, I think we are _____ .",
+    question: "Even though the project isn't finished, I think we are _____.",
     options: ["letting down", "on the right track", "periodically"],
     answer: "on the right track",
   },
