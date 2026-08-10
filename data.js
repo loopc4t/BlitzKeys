@@ -225,7 +225,7 @@ const sentences = [
     answer: "thicker",
   },
   {
-    question: "I was _____ surprised by the excellent customer service - that company really cares about its customers.",
+    question: "I was _____ surprised by the excellent customer service, it was a nice change from the awful experience I'd had at other companies.",
     options: ["deeply", "pleasantly", "significantly"],
     answer: "pleasantly",
   },
