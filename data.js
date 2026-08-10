@@ -11077,7 +11077,7 @@ const sentences = [
   },
   {
     question: "The boy was caught _____ around the back of the store, clearly up to no good.",
-    options: ["skipping", "skulking", "singing"],
+    options: ["skulking", "singing", "skipping"],
     answer: "skulking",
   },
   {
@@ -11162,24 +11162,125 @@ const sentences = [
   },
   {
     question: "The startup was losing money every month, and investors worried it would soon _____.",
-    options: ["go under", "take off", "break even"],
+    options: ["take off", "go under", "break even"],
     answer: "go under",
   },
   {
     question: "He'd been putting off the visit to the dentist for months, but the pain finally forced him to _____.",
-    options: ["face the music", "let it slide", "brush it off"],
+    options: ["let it slide", "brush it off", "face the music"],
     answer: "face the music",
   },
   {
     question: "The team was down by twenty points at halftime, but the coach refused to _____ and kept encouraging them.",
-    options: ["give up", "rally the troops", "call it quits"],
+    options: ["rally the troops", "give up", "call it quits"],
     answer: "give up",
   },
   {
     question: "She had rehearsed the speech so many times that when she finally gave it, she _____.",
-    options: ["nailed it", "choked", "winged it"],
+    options: ["choked", "winged it", "nailed it"],
     answer: "nailed it",
+  },
+  {
+    question: "Ever since the business deal fell through, there's been _____ between the two former partners.",
+    options: ["common ground", "bad blood", "good chemistry"],
+    answer: "bad blood",
+  },
+  {
+    question: "She wanted to say something during the meeting, but decided to _____ until she had more information.",
+    options: ["speak up", "hold back", "jump in"],
+    answer: "hold back",
+  },
+  {
+    question: "His accusation turned out to be completely _____, none of the evidence supported it.",
+    options: ["on point", "spot on", "off base"],
+    answer: "off base",
+  },
+  {
+    question: "Surviving the earthquake was a _____ that she still has nightmares about years later.",
+    options: ["pleasant surprise", "harrowing experience", "minor inconvenience"],
+    answer: "harrowing experience",
+  },
+  {
+    question: "In the old cartoons, the hero always had a loyal _____ who followed him on every adventure.",
+    options: ["rival", "stranger", "sidekick"],
+    answer: "sidekick",
+  },
+  {
+    question: "The toddler was so _____ that she refused every suggestion and insisted on doing things her own way.",
+    options: ["easygoing", "headstrong", "shy"],
+    answer: "headstrong",
+  },
+  {
+    question: "The contractor was clearly _____ the materials, the walls were already cracking after just one month.",
+    options: ["skimping on", "investing in", "doubling down on"],
+    answer: "skimping on",
+  },
+  {
+    question: "His constant bragging during the interview was _____, and the panel decided not to hire him.",
+    options: ["impressive", "reassuring", "off-putting"],
+    answer: "off-putting",
+  },
+  {
+    question: "The defense attorney objected, accusing the prosecutor of trying to _____ by suggesting the answer in her question.",
+    options: ["cross-examine", "call a recess", "lead the witness"],
+    answer: "lead the witness",
+  },
+  {
+    question: "His mother was so _____ that he couldn't make a single decision without her checking in every hour.",
+    options: ["smothering", "supportive", "distant"],
+    answer: "smothering",
+  },
+  {
+    question: "The witness's story kept changing, so the jury started to _____ his credibility.",
+    options: ["question", "reinforce", "overlook"],
+    answer: "question",
+  },
+  {
+    question: "After three rounds of layoffs, morale at the office had really _____.",
+    options: ["taken a hit", "picked up", "leveled off"],
+    answer: "taken a hit",
+  },
+  {
+    question: "The senator refused to answer directly and kept trying to _____ every question the reporters asked.",
+    options: ["welcome", "clarify", "dodge"],
+    answer: "dodge",
+  },
+  {
+    question: "Once the rumor got out, there was no way to _____ it, everyone in the building knew by noon.",
+    options: ["spread", "confirm", "contain"],
+    answer: "contain",
+  },
+  {
+    question: "The new intern was eager to impress, so she volunteered to _____ the extra shifts nobody else wanted.",
+    options: ["turn down", "sleep through", "take on"],
+    answer: "take on",
+  },
+  {
+    question: "He'd been warned twice already, so when it happened a third time, his boss decided to _____.",
+    options: ["give him a raise", "let him go", "promote him"],
+    answer: "let him go",
+  },
+  {
+    question: "The evidence was so overwhelming that the defense had no real option but to _____.",
+    options: ["push for trial", "demand a jury", "settle"],
+    answer: "settle",
+  },
+  {
+    question: "The city council kept delaying the vote, so frustrated residents decided to _____ at the next meeting.",
+    options: ["stay quiet", "back down", "speak out"],
+    answer: "speak out",
+  },
+  {
+    question: "Sales had been dropping for months, so the company finally decided to _____ the failing product line.",
+    options: ["expand", "relaunch", "discontinue"],
+    answer: "discontinue",
+  },
+  {
+    question: "He'd missed the last two payments, and the bank warned they would _____ if he missed another.",
+    options: ["lower the interest rate", "repossess the car", "extend the loan"],
+    answer: "repossess the car",
   }
+  
   
 
 ];
