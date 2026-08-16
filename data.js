@@ -9621,9 +9621,9 @@ const sentences = [
     "answer": "out of order"
   },
   {
-    "question": "Sam was obviously _____ in love with his new bride, and Martha was clearly content.",
-    "options": ["over the moon", "on cloud nine", "head over heels"],
-    "answer": "head over heels"
+    question: "Sam was obviously _____ in love with his new bride, and Martha was clearly content.",
+    options: ["fed up", "at his wit's end", "head over heels"],
+    answer: "head over heels",
   },
   {
     question: "I don't mean to _____, but this pasta sauce I made is quite delicious!",
