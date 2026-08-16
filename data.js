@@ -9296,7 +9296,7 @@ const sentences = [
     answer: "top-notch",
   },
   {
-    question: "The government is trying to _____ its commitment to reduce pollution.",
+    question: "Facing pressure from industry lobbyists, the government is trying to _____ its commitment to reduce pollution.",
     options: ["look into", "back out of", "catch up on"],
     answer: "back out of",
   },
