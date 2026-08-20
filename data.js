@@ -5016,8 +5016,8 @@ const sentences = [
     answer: "dog and pony show",
   },
   {
-    question: "He tried to _____ the bad news so she wouldn't be too upset.",
-    options: ["sugarcoat", "exaggerate", "hide"],
+    question: "He tried to _____ the bad news when he told her, choosing his words carefully so she wouldn't be too upset.",
+    options: ["exaggerate", "hide", "sugarcoat"],
     answer: "sugarcoat",
   },
   {
@@ -11279,8 +11279,232 @@ const sentences = [
     question: "He'd missed the last two payments, and the bank warned they would _____ if he missed another.",
     options: ["lower the interest rate", "repossess the car", "extend the loan"],
     answer: "repossess the car",
+  },
+  {
+    question: "The couple decided to _____ for divorce after years of trying to make things work.",
+    options: ["make", "file", "put in"],
+    answer: "file",
+  },
+  {
+    question: "She was born and _____ in a small town in the countryside.",
+    options: ["built", "made", "bred"],
+    answer: "bred",
+  },
+  {
+    question: "They tied the _____ in a small ceremony attended by close family only.",
+    options: ["rope", "knot", "string"],
+    answer: "knot",
+  },
+  {
+    question: "He got down on one _____ and proposed at the restaurant.",
+    options: ["knee", "foot", "leg"],
+    answer: "knee",
+  },
+  {
+    question: "He finally _____ the question after five years of dating.",
+    options: ["threw", "dropped", "popped"],
+    answer: "popped",
+  },
+  {
+    question: "She fell head _____ heels in love with him the moment they met.",
+    options: ["above", "over", "past"],
+    answer: "over",
+  },
+  {
+    question: "Their marriage has been on the _____ ever since he lost his job.",
+    options: ["edge", "stones", "rocks"],
+    answer: "rocks",
+  },
+  {
+    question: "He's been estranged _____ his father for over a decade.",
+    options: ["of", "from", "with"],
+    answer: "from",
+  },
+  {
+    question: "I don't get along with my wife's parents — my _____.",
+    options: ["step-parents", "cousins", "in-laws"],
+    answer: "in-laws",
+  },
+  {
+    question: "After remarrying, they became a _____ family with kids from both marriages.",
+    options: ["merged", "blended", "joined"],
+    answer: "blended",
+  },
+  {
+    question: "The divorcing couple is in the middle of a nasty custody _____ over their two children.",
+    options: ["race", "game", "battle"],
+    answer: "battle",
+  },
+  {
+    question: "It was a _____ wedding — she was already pregnant when they married.",
+    options: ["forced", "shotgun", "rushed"],
+    answer: "shotgun",
+  },
+  {
+    question: "They renewed their wedding _____ on their 25th anniversary.",
+    options: ["vows", "oaths", "promises"],
+    answer: "vows",
+  },
+  {
+    question: "He's always been considered the _____ sheep of the family.",
+    options: ["grey", "dark", "black"],
+    answer: "black",
+  },
+  {
+    question: "She's the spitting _____ of her mother.",
+    options: ["likeness", "image", "copy"],
+    answer: "image",
+  },
+  {
+    question: "Height really seems to _____ in the family.",
+    options: ["run", "pass", "flow"],
+    answer: "run",
+  },
+  {
+    question: "He's my own flesh and _____; I can't turn my back on him.",
+    options: ["skin", "blood", "bone"],
+    answer: "blood",
+  },
+  {
+    question: "Even after moving abroad, she maintained close family _____.",
+    options: ["strings", "ropes", "ties"],
+    answer: "ties",
+  },
+  {
+    question: "After years of traveling, he finally decided to _____ down and start a family.",
+    options: ["set", "settle", "sit"],
+    answer: "settle",
+  },
+  {
+    question: "She's been married _____ him for almost fifteen years.",
+    options: ["with", "to", "for"],
+    answer: "to",
+  },
+  {
+    question: "He's engaged _____ a woman he met in college.",
+    options: ["for", "with", "to"],
+    answer: "to",
+  },
+  {
+    question: "My daughter takes _____ her father — same stubborn streak.",
+    options: ["from", "after", "of"],
+    answer: "after",
+  },
+  {
+    question: "She's related _____ the former president, apparently.",
+    options: ["with", "by", "to"],
+    answer: "to",
+  },
+  {
+    question: "The kids were raised _____ their grandmother after their parents' accident.",
+    options: ["from", "by", "at"],
+    answer: "by",
+  },
+  {
+    question: "He's still not on speaking terms _____ his brother.",
+    options: ["by", "to", "with"],
+    answer: "with",
+  },
+  {
+    question: "She finally got custody _____ her two children after the trial.",
+    options: ["for", "in", "of"],
+    answer: "of",
+  },
+  {
+    question: "He was named _____ his grandfather, who died before he was born.",
+    options: ["as", "by", "after"],
+    answer: "after",
+  },
+  {
+    question: "My parents split _____ when I was only six years old.",
+    options: ["out", "off", "up"],
+    answer: "up",
+  },
+  {
+    question: "She's pregnant _____ her third child, due in the spring.",
+    options: ["for", "with", "of"],
+    answer: "with",
+  },
+  {
+    question: "He was brought up _____ very strict, old-fashioned values.",
+    options: ["by", "at", "with"],
+    answer: "with",
+  },
+  {
+    question: "She's been estranged _____ the rest of the family since the inheritance dispute.",
+    options: ["with", "from", "of"],
+    answer: "from",
+  },
+  {
+    question: "The couple is currently going _____ a bitter divorce.",
+    options: ["into", "over", "through"],
+    answer: "through",
+  },
+  {
+    question: "He's a distant cousin _____ mine, twice removed.",
+    options: ["to", "from", "of"],
+    answer: "of",
+  },
+  {
+    question: "He fell out _____ his father over the family business.",
+    options: ["from", "with", "of"],
+    answer: "with",
+  },
+  {
+    question: "The child was put up _____ adoption shortly after birth.",
+    options: ["to", "into", "for"],
+    answer: "for",
+  },
+  {
+    question: "She comes _____ a very wealthy family.",
+    options: ["of", "from", "off"],
+    answer: "from",
+  },
+  {
+    question: "He's married _____ his job — he never takes a day off.",
+    options: ["with", "for", "to"],
+    answer: "to",
+  },
+  {
+    question: "They've been together _____ nearly six years but still aren't married.",
+    options: ["since", "for", "from"],
+    answer: "for",
+  },
+  {
+    question: "Nobody said a word until a junior employee finally _____ with a suggestion.",
+    options: ["picked up", "propped up", "piped up"],
+    answer: "piped up",
+  },
+  {
+    question: "The committee voted to _____ the constitution to include the new clause.",
+    options: ["commend", "amend", "mend"],
+    answer: "amend",
+  },
+  {
+    question: "The hotel room was decorated with _____ carpets and velvet curtains.",
+    options: ["flush", "plush", "hush"],
+    answer: "plush",
+  },
+  {
+    question: "She finally decided to _____ him for his rude behavior in front of everyone.",
+    options: ["call in", "call off", "call out"],
+    answer: "call out",
+  },
+  {
+    question: "The fox is known for being a _____ predator, always outsmarting its prey.",
+    options: ["candid", "cunning", "clumsy"],
+    answer: "cunning",
+  },
+  {
+    question: "You should _____ yourself of every opportunity to practice speaking English.",
+    options: ["await", "avail", "avoid"],
+    answer: "avail",
+  },
+  {
+    question: "He's been _____ at his dissertation all summer, barely leaving his room.",
+    options: ["beavering away", "wandering off", "hovering around"],
+    answer: "beavering away",
   }
-  
   
 
 ];
