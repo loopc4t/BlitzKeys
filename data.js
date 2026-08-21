@@ -2455,7 +2455,7 @@ const sentences = [
     answer: "from",
   },
   {
-    question: "The journalist asked the politician a few things _____ the record.",
+    question: "The journalist promised to keep the politician's comments strictly _____ the record.",
     options: ["against", "at", "behind", "below", "by", "down", "from", "in", "off", "on", "with"],
     answer: "off",
   },
@@ -2465,12 +2465,12 @@ const sentences = [
     answer: "in",
   },
   {
-    question: "There are no doctors _____ duty right now.",
+    question: "There are no doctors available to see patients because none of them are _____ duty right now.",
     options: ["against", "at", "behind", "below", "by", "down", "from", "in", "off", "on", "with"],
     answer: "on",
   },
   {
-    question: "There are a few islands just miles _____ the coast.",
+    question: "There are a few islands just miles _____ the coast, visible only at low tide.",
     options: ["against", "at", "behind", "below", "by", "down", "from", "in", "off", "on", "with"],
     answer: "off",
   },
@@ -2485,7 +2485,7 @@ const sentences = [
     answer: "for",
   },
   {
-    question: "There are many advantages _____ speaking foreign languages.",
+    question: "There are many advantages _____ speaking foreign languages, such as better job prospects.",
     options: ["of", "in", "to"],
     answer: "of",
   },
@@ -2495,12 +2495,12 @@ const sentences = [
     answer: "of",
   },
   {
-    question: "I have a lot of respect for the teachers I had _____ school.",
+    question: "I have a lot of respect for the teachers I had back _____ school.",
     options: ["at", "in", "on"],
     answer: "at",
   },
   {
-    question: "I’d like to do a course _____ computer programming.",
+    question: "I'd like to enroll _____ a course in computer programming.",
     options: ["in", "on", "of"],
     answer: "in",
   },
@@ -2515,7 +2515,7 @@ const sentences = [
     answer: "for",
   },
   {
-    question: "We went to see an exhibition _____ Egyptian history.",
+    question: "We went to see a museum exhibition showcasing artifacts _____ Egyptian history.",
     options: ["of", "on", "about"],
     answer: "of",
   },
@@ -5787,7 +5787,7 @@ const sentences = [
   },
   {
     question: "The children _____ their favorite scenes from the movie, laughing and having a great time.",
-    options: ["left out", "figured out", "acted out"],
+    options: ["left out", "wiped out", "acted out"],
     answer: "acted out",
   },
   {
@@ -11504,7 +11504,106 @@ const sentences = [
     question: "He's been _____ at his dissertation all summer, barely leaving his room.",
     options: ["beavering away", "wandering off", "hovering around"],
     answer: "beavering away",
+  },
+  {
+    question: "She's been married _____ him for over twenty years.",
+    options: ["with", "for", "to"],
+    answer: "to",
+  },
+  {
+    question: "The company was founded _____ 1998 by two college friends.",
+    options: ["on", "in", "at"],
+    answer: "in",
+  },
+  {
+    question: "He apologized _____ arriving late to the meeting.",
+    options: ["about", "of", "for"],
+    answer: "for",
+  },
+  {
+    question: "This medicine is known to be effective _____ treating headaches.",
+    options: ["in", "at", "for"],
+    answer: "at",
+  },
+  {
+    question: "The results of the experiment were consistent _____ our original hypothesis.",
+    options: ["for", "to", "with"],
+    answer: "with",
+  },
+  {
+    question: "The children were responsible _____ cleaning up after themselves.",
+    options: ["of", "for", "to"],
+    answer: "for",
+  },
+  {
+    question: "The old bridge finally collapsed _____ the weight of the trucks crossing it daily.",
+    options: ["beneath", "below", "under"],
+    answer: "under",
+  },
+  {
+    question: "She's extremely talented _____ playing the violin.",
+    options: ["on", "at", "in"],
+    answer: "at",
+  },
+  {
+    question: "The manager congratulated the whole team _____ finishing the project ahead of schedule.",
+    options: ["about", "for", "on"],
+    answer: "on",
+  },
+  {
+    question: "He's been suffering _____ severe back pain for the past few weeks.",
+    options: ["with", "from", "of"],
+    answer: "from",
+  },
+  {
+    question: "We arrived _____ the airport two hours before our flight.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "My grandmother was born _____ 1945, just after the war ended.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The meeting has been rescheduled to take place _____ Monday morning.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "I usually finish work _____ six o'clock.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "She's studying engineering _____ a university in Germany.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "The photo of the wedding was hanging _____ the wall above the fireplace.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "He grew up _____ a small village in the mountains.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The president is expected to give a speech _____ the end of the ceremony.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "Turn left _____ the second traffic light and you'll see the store.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "I read about the accident _____ the front page of the newspaper.",
+    options: ["in", "on", "at"],
+    answer: "on",
   }
-  
 
 ];
