@@ -7812,7 +7812,7 @@ const sentences = [
   },
   {
     question: "The plot of the novel is so _____ with subplots that it's hard to keep track of every character.",
-    options: ["filled", "intertwined", "crowded"],
+    options: ["obsessed", "concerned", "intertwined"],
     answer: "intertwined",
   },
   {
@@ -11604,6 +11604,156 @@ const sentences = [
     question: "I read about the accident _____ the front page of the newspaper.",
     options: ["in", "on", "at"],
     answer: "on",
+  },
+  {
+    question: "I couldn't fall asleep because the _____ upstairs kept barking all night.",
+    options: ["kennel", "dog", "leash"],
+    answer: "dog",
+  },
+  {
+    question: "She burned her hand while taking the tray out of the _____.",
+    options: ["kettle", "stove", "oven"],
+    answer: "oven",
+  },
+  {
+    question: "The plane was delayed because of a mechanical problem with the _____.",
+    options: ["runway", "cockpit", "engine"],
+    answer: "engine",
+  },
+  {
+    question: "He couldn't read the sign because he'd forgotten his _____.",
+    options: ["binoculars", "glasses", "mirror"],
+    answer: "glasses",
+  },
+  {
+    question: "The kitchen smelled amazing because of the fresh _____ she had just baked.",
+    options: ["flour", "yeast", "bread"],
+    answer: "bread",
+  },
+  {
+    question: "The room was freezing because someone had left the _____ open all night.",
+    options: ["blind", "curtain", "window"],
+    answer: "window",
+  },
+  {
+    question: "The car wouldn't start because the _____ was completely dead.",
+    options: ["ignition", "engine", "battery"],
+    answer: "battery",
+  },
+  {
+    question: "He couldn't sign the document because he'd run out of _____.",
+    options: ["paper", "envelopes", "ink"],
+    answer: "ink",
+  },
+  {
+    question: "The garden looked neglected because the _____ hadn't been cut in weeks.",
+    options: ["soil", "grass", "hedge"],
+    answer: "grass",
+  },
+  {
+    question: "The soup tasted bland because she forgot to add any _____.",
+    options: ["broth", "spoon", "salt"],
+    answer: "salt",
+  },
+  {
+    question: "He couldn't open the letter because he'd misplaced the _____.",
+    options: ["envelope", "seal", "opener"],
+    answer: "opener",
+  },
+  {
+    question: "The carpenter smoothed the rough edge of the wood with a _____.",
+    options: ["saw", "sandpaper", "chisel"],
+    answer: "sandpaper",
+  },
+  {
+    question: "She measured the length of the fabric with a _____.",
+    options: ["ruler", "tape measure", "scale"],
+    answer: "tape measure",
+  },
+  {
+    question: "The old clock stopped working because the _____ had rusted and snapped.",
+    options: ["hands", "battery", "spring"],
+    answer: "spring",
+  },
+  {
+    question: "He tightened the loose screw with a _____.",
+    options: ["wrench", "screwdriver", "pliers"],
+    answer: "screwdriver",
+  },
+  {
+    question: "The hikers used a _____ to find their way through the dense forest.",
+    options: ["map", "flashlight", "compass"],
+    answer: "compass",
+  },
+  {
+    question: "The tailor pinned the fabric together before sewing it with a _____.",
+    options: ["thimble", "needle", "thread"],
+    answer: "needle",
+  },
+  {
+    question: "She strained the pasta using a _____, letting the water drain through the large holes into the sink.",
+    options: ["grater", "colander", "ladle"],
+    answer: "colander",
+  },
+  {
+    question: "The electrician used a _____ to cut through the thick cable.",
+    options: ["pliers", "screwdriver", "wire cutter"],
+    answer: "wire cutter",
+  },
+  {
+    question: "He poured the hot soup into the bowl using a _____.",
+    options: ["whisk", "ladle", "spatula"],
+    answer: "ladle",
+  },
+  {
+    question: "The room went dark suddenly because the _____ had blown.",
+    options: ["switch", "socket", "fuse"],
+    answer: "fuse",
+  },
+  {
+    question: "She hung the wet clothes on the _____ to dry in the sun.",
+    options: ["hanger", "clothesline", "rack"],
+    answer: "clothesline",
+  },
+  {
+    question: "He swept the broken glass into a _____ before vacuuming the rest.",
+    options: ["mop", "broom", "dustpan"],
+    answer: "dustpan",
+  },
+  {
+    question: "The house felt stuffy because the _____ hadn't been opened all day.",
+    options: ["shutters", "windows", "vents"],
+    answer: "windows",
+  },
+  {
+    question: "She hung her coat on the _____ by the front door.",
+    options: ["rail", "shelf", "hook"],
+    answer: "hook",
+  },
+  {
+    question: "The plumber had to replace the _____ under the sink because it was leaking.",
+    options: ["faucet", "drain", "pipe"],
+    answer: "pipe",
+  },
+  {
+    question: "He couldn't see anything in the basement because the _____ had burned out.",
+    options: ["lantern", "light bulb", "candle"],
+    answer: "light bulb",
+  },
+  {
+    question: "She wiped down the counter with a damp _____ after cooking.",
+    options: ["towel", "napkin", "cloth"],
+    answer: "cloth",
+  },
+  {
+    question: "The dog scratched at the _____ until someone let it outside.",
+    options: ["fence", "door", "gate"],
+    answer: "door",
+  },
+  {
+    question: "He locked the front _____ before going to bed.",
+    options: ["gate", "window", "door"],
+    answer: "door",
   }
 
 ];
