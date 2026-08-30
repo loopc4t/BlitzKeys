@@ -1995,104 +1995,104 @@ const sentences = [
     answer: "sight",
   },
   {
-    question: "As time went on, the boy changed _____ a man.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "into",
+    "question": "As time went on, the boy changed _____ a man.",
+    "options": ["with", "into", "for"],
+    "answer": "into"
   },
   {
-    question: "She works at night and sleeps _____ the day.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "during",
+    "question": "She works at night and sleeps _____ the day.",
+    "options": ["during", "under", "with"],
+    "answer": "during"
   },
   {
-    question: "He is very arrogant and always looks _____ at us.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "down",
+    "question": "He is very arrogant and always looks _____ at us.",
+    "options": ["over", "up", "down"],
+    "answer": "down"
   },
   {
-    question: "We went _____ the stairs to get our gym clothes.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "up",
+    "question": "We went _____ the stairs to get our gym clothes.",
+    "options": ["into", "through", "up"],
+    "answer": "up"
   },
   {
-    question: "She couldn't talk to me because she was _____ a hurry.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "in",
+    "question": "She couldn't talk to me because she was _____ a hurry.",
+    "options": ["with", "in", "under"],
+    "answer": "in"
   },
   {
-    question: "He was so tired that he slept the whole night _____.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "through",
+    "question": "He was so tired that he slept the whole night _____.",
+    "options": ["through", "over", "off"],
+    "answer": "through"
   },
   {
-    question: "You can't drive over that bridge because it is _____ repair at the moment.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "under",
+    "question": "You can't drive over that bridge because it is _____ repair at the moment.",
+    "options": ["under", "in", "on"],
+    "answer": "under"
   },
   {
-    question: "We shared the money we received _____ us.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "between",
+    "question": "We shared the money we received _____ us.",
+    "options": ["for", "between", "with"],
+    "answer": "between"
   },
   {
-    question: "She was able to solve the difficult math test _____ ease.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "with",
+    "question": "She was able to solve the difficult math test _____ ease.",
+    "options": ["under", "in", "with"],
+    "answer": "with"
   },
   {
-    question: "She prefers volleyball _____ basketball.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "to",
+    "question": "She prefers volleyball _____ basketball.",
+    "options": ["to", "for", "with"],
+    "answer": "to"
   },
   {
-    question: "You can't leave _____ any money.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "without",
+    "question": "You can't leave _____ any money.",
+    "options": ["on", "without", "under"],
+    "answer": "without"
   },
   {
-    question: "Teachers have gone _____ strike in the past.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "on",
+    "question": "Teachers have gone _____ strike in the past.",
+    "options": ["for", "on", "in"],
+    "answer": "on"
   },
   {
-    question: "It took _____ an hour for the technicians to restore electricity.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "over",
+    "question": "It took _____ an hour for the technicians to restore electricity.",
+    "options": ["during", "for", "over"],
+    "answer": "over"
   },
   {
-    question: "_____ now on you will report to me whenever something happens.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "from",
+    "question": "_____ now on you will report to me whenever something happens.",
+    "options": ["from", "for", "by"],
+    "answer": "from"
   },
   {
-    question: "He will remain in the office _____ a successor is found.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "until",
+    "question": "He will remain in the office _____ a successor is found.",
+    "options": ["during", "until", "for"],
+    "answer": "until"
   },
   {
-    question: "The boy was very clever _____ his age.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "for",
+    "question": "The boy was very clever _____ his age.",
+    "options": ["with", "for", "by"],
+    "answer": "for"
   },
   {
-    question: "You must hand in your thesis _____ next week, at the latest.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "by",
+    "question": "You must hand in your thesis _____ next week, at the latest.",
+    "options": ["by", "until", "on"],
+    "answer": "by"
   },
   {
-    question: "Do you speak any other languages _____ English?",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "besides",
+    "question": "Do you speak any other languages _____ English?",
+    "options": ["besides", "with", "for"],
+    "answer": "besides"
   },
   {
-    question: "The boy walked _____ the field to the house.",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "across",
+    "question": "The boy walked _____ the field of wheat, entering on one side and coming out on the other, to reach the house.",
+    "options": ["into", "across", "by"],
+    "answer": "across"
   },
   {
-    question: "Keep _____ the grass!",
-    options: ["across", "besides", "between", "by", "down", "during", "for", "from", "in", "into", "off", "on", "over", "through", "to", "under", "until", "up", "with", "without"],
-    answer: "off",
+    "question": "Keep _____ the grass!",
+    "options": ["off", "with", "under"],
+    "answer": "off"
   },
   {
     question: "I almost never agree _____ him, but this time we shared the same opinion.",
@@ -3515,9 +3515,9 @@ const sentences = [
     answer: "drew up",
   },
   {
-    question: "The manager had his lawyers _____ the new contract together with him so it would be ready for signing.",
-    options: ["found out", "gone through", "drawn up"],
-    answer: "drawn up",
+    "question": "The manager had his lawyers _____ the new contract together with him so it would be ready for signing.",
+    "options": ["find out", "go through", "draw up"],
+    "answer": "draw up"
   },
   {
     question: "John _____ that his wife had been cheating on him and filed for divorce.",
@@ -4370,9 +4370,9 @@ const sentences = [
     answer: "Let me tell you",
   },
   {
-    question: "Stop acting like a child; it's time you started behaving like a _____.",
-    options: ["pipsqueak", "grown-up", "adult"],
-    answer: "grown-up",
+    "question": "Stop acting like a child; it's time you started behaving like a _____.",
+    "options": ["pipsqueak", "grown-up", "brat"],
+    "answer": "grown-up"
   },
   {
     question: "Stop calling her a _____. She may be small, but she's very smart.",
@@ -4470,9 +4470,9 @@ const sentences = [
     answer: "candy bar",
   },
   {
-    question: "The volunteers went _____ to collect donations for the charity.",
-    options: ["door-to-door", "house by house", "around town"],
-    answer: "door-to-door",
+    "question": "The volunteers went _____ to collect donations for the charity.",
+    "options": ["back and forth", "around town", "door-to-door"],
+    "answer": "door-to-door"
   },
   {
     question: "As the eldest child, it is my _____ to take care of my younger siblings while my parents are at work.",
@@ -9611,7 +9611,7 @@ const sentences = [
     "answer": "keep me posted"
   },
   {
-    "question": "I haven't talked to her in years, so I wouldn't know how to _____ anymore.",
+    "question": "She moved to another city years ago and never gave me her new number, so I wouldn't know how to _____ if I needed to.",
     "options": ["get along with her", "get hold of her", "get over her"],
     "answer": "get hold of her"
   },
