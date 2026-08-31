@@ -11591,11 +11591,6 @@ const sentences = [
     answer: "in",
   },
   {
-    question: "The president is expected to give a speech _____ the end of the ceremony.",
-    options: ["in", "on", "at"],
-    answer: "at",
-  },
-  {
     question: "Turn left _____ the second traffic light and you'll see the store.",
     options: ["in", "on", "at"],
     answer: "at",
@@ -11754,6 +11749,526 @@ const sentences = [
     question: "He locked the front _____ before going to bed.",
     options: ["gate", "window", "door"],
     answer: "door",
+  },
+  {
+    "question": "The old engineer's warning about the bridge's design turned out to be eerily _____ when it collapsed exactly as he'd predicted.",
+    "options": ["hasty", "prescient", "insidious"],
+    "answer": "prescient"
+  },
+  {
+    "question": "He made a _____ decision to quit his job without saving any money first, and now he regrets not thinking it through.",
+    "options": ["poignant", "loath", "hasty"],
+    "answer": "hasty"
+  },
+  {
+    "question": "After his wife left him, he started drinking heavily and picking fights with strangers — everyone agreed he had truly gone _____.",
+    "options": ["par for the course", "off the deep end", "beholden"],
+    "answer": "off the deep end"
+  },
+  {
+    "question": "I never prepared a speech for the wedding, so I just had to _____ when they handed me the microphone.",
+    "options": ["wing it", "second-guess", "cop out"],
+    "answer": "wing it"
+  },
+  {
+    "question": "The old man's letter to his late wife, read aloud at the funeral, was so _____ that half the room was in tears.",
+    "options": ["poignant", "prescient", "insidious"],
+    "answer": "poignant"
+  },
+  {
+    "question": "She agreed to lend him the money, but she had a nagging _____ about whether she'd ever see it again.",
+    "options": ["crank", "qualm", "cop out"],
+    "answer": "qualm"
+  },
+  {
+    "question": "He promised to fire the underperforming employee himself, but at the last minute he had someone from HR do it instead — a total _____.",
+    "options": ["wing it", "qualm", "cop out"],
+    "answer": "cop out"
+  },
+  {
+    "question": "Once she submitted the exam, she couldn't stop _____ every answer she'd written, convinced she'd gotten them all wrong.",
+    "options": ["enthralling", "beholden", "second-guessing"],
+    "answer": "second-guessing"
+  },
+  {
+    "question": "The rumor spread in such an _____ way that by the time anyone noticed, it had already destroyed her reputation.",
+    "options": ["hasty", "insidious", "prescient"],
+    "answer": "insidious"
+  },
+  {
+    "question": "Nobody at the office takes him seriously anymore; he's become the neighborhood _____ who insists the moon landing was staged.",
+    "options": ["crank", "qualm", "cop out"],
+    "answer": "crank"
+  },
+  {
+    "question": "The trains being late again during rush hour is just _____ at this point — nobody even complains anymore.",
+    "options": ["off the deep end", "beholden", "par for the course"],
+    "answer": "par for the course"
+  },
+  {
+    "question": "I'm _____ to admit it, but I think my sister was right about the investment all along.",
+    "options": ["enthralled", "loath", "beholden"],
+    "answer": "loath"
+  },
+  {
+    "question": "After he paid off her debts, she felt permanently _____ to him and could never quite say no to his requests.",
+    "options": ["loath", "prescient", "beholden"],
+    "answer": "beholden"
+  },
+  {
+    "question": "The children sat completely _____ as the storyteller described the dragon's lair, not moving an inch.",
+    "options": ["enthralled", "hasty", "insidious"],
+    "answer": "enthralled"
+  },
+  {
+    "question": "Nobody thought the small startup could beat the tech giant's bid, but somehow they managed to _____ the deal.",
+    "options": ["cop out", "pull off", "wing it"],
+    "answer": "pull off"
+  },
+  {
+    question: "I _____ a mistake in my homework, so I had to correct it.",
+    options: ["did", "made", "had"],
+    answer: "made",
+  },
+  {
+    question: "She needs to _____ a decision about which university to attend soon.",
+    options: ["make", "do", "have"],
+    answer: "make",
+  },
+  {
+    question: "Good teachers _____ a difference in students' lives by encouraging them to believe in themselves.",
+    options: ["give", "do", "make"],
+    answer: "make",
+  },
+  {
+    question: "The kids _____ a mess in the kitchen while they were baking cookies.",
+    options: ["did", "took", "made"],
+    answer: "made",
+  },
+  {
+    question: "Please don't _____ noise during the exam because the other students need to concentrate.",
+    options: ["make", "have", "do"],
+    answer: "make",
+  },
+  {
+    question: "You should _____ an effort to speak English every day if you want to improve.",
+    options: ["do", "have", "make"],
+    answer: "make",
+  },
+  {
+    question: "He _____ money by selling handmade products online.",
+    options: ["makes", "gets", "does"],
+    answer: "makes",
+  },
+  {
+    question: "She is _____ progress in her English because she studies every day.",
+    options: ["doing", "having", "making"],
+    answer: "making",
+  },
+  {
+    question: "Can you _____ room for one more chair at the table?",
+    options: ["make", "give", "have"],
+    answer: "make",
+  },
+  {
+    question: "The boys were _____ trouble at school by constantly disturbing their classmates.",
+    options: ["having", "making", "doing"],
+    answer: "making",
+  },
+  {
+    question: "Let's _____ a plan for the weekend so we know what we're going to do.",
+    options: ["make", "do", "have"],
+    answer: "make",
+  },
+  {
+    question: "I usually _____ breakfast at 7 a.m. before I leave for work.",
+    options: ["have", "make", "do"],
+    answer: "have",
+  },
+  {
+    question: "She _____ lunch for the whole family because she enjoys cooking.",
+    options: ["did", "made", "took"],
+    answer: "made",
+  },
+  {
+    question: "Who's going to _____ dinner tonight? We need someone to prepare the food.",
+    options: ["make", "have", "do"],
+    answer: "make",
+  },
+  {
+    question: "It's easy to _____ friends in this class because everyone is very friendly.",
+    options: ["get", "do", "make"],
+    answer: "make",
+  },
+  {
+    question: "I need to _____ a phone call to the doctor this afternoon.",
+    options: ["make", "have", "do"],
+    answer: "make",
+  },
+  {
+    question: "_____ a list of things you need to buy before you go to the supermarket.",
+    options: ["Do", "Make", "Have"],
+    answer: "Make",
+  },
+  {
+    question: "My grandfather _____ furniture by hand in his workshop.",
+    options: ["makes", "takes", "does"],
+    answer: "makes",
+  },
+  {
+    question: "Can I _____ a suggestion about how we could solve this problem?",
+    options: ["take", "make", "do"],
+    answer: "make",
+  },
+  {
+    question: "You should _____ time for your hobbies, even when you're busy with work.",
+    options: ["take", "find", "make"],
+    answer: "make",
+  },
+  {
+    question: "I _____ my homework every evening after dinner.",
+    options: ["have", "do", "make"],
+    answer: "do",
+  },
+  {
+    question: "She _____ the housework on Saturdays because she is busy during the week.",
+    options: ["does", "takes", "makes"],
+    answer: "does",
+  },
+  {
+    question: "They _____ business with companies overseas and export products to several countries.",
+    options: ["do", "have", "make"],
+    answer: "do",
+  },
+  {
+    question: "I _____ exercise regularly to stay healthy.",
+    options: ["have", "make", "do"],
+    answer: "do",
+  },
+  {
+    question: "He _____ the dishes after dinner while his sister cleans the kitchen.",
+    options: ["makes", "takes", "does"],
+    answer: "does",
+  },
+  {
+    question: "My father _____ the cooking on weekends while my mother relaxes.",
+    options: ["has", "does", "makes"],
+    answer: "does",
+  },
+  {
+    question: "We _____ the shopping at the supermarket every Saturday morning.",
+    options: ["do", "make", "have"],
+    answer: "do",
+  },
+  {
+    question: "Can you _____ the washing up tonight? I'll dry the dishes afterward.",
+    options: ["take", "make", "do"],
+    answer: "do",
+  },
+  {
+    question: "I just want to _____ nothing and relax after such a long day.",
+    options: ["make", "do", "have"],
+    answer: "do",
+  },
+  {
+    question: "Could you _____ me a favour and pick up some milk on your way home?",
+    options: ["give", "do", "make"],
+    answer: "do",
+  },
+  {
+    question: "Always _____ your best in exams, even when the questions are difficult.",
+    options: ["do", "give", "make"],
+    answer: "do",
+  },
+  {
+    question: "She's _____ her hair in the bathroom before going out.",
+    options: ["doing", "having", "making"],
+    answer: "doing",
+  },
+  {
+    question: "I _____ the laundry twice a week because I don't have a washing machine.",
+    options: ["make", "do", "have"],
+    answer: "do",
+  },
+  {
+    question: "The students are _____ research for their science project in the library.",
+    options: ["making", "taking", "doing"],
+    answer: "doing",
+  },
+  {
+    question: "He _____ a good job on the presentation and received a lot of praise.",
+    options: ["did", "had", "made"],
+    answer: "did",
+  },
+  {
+    question: "We _____ the cleaning together before our guests arrived.",
+    options: ["take", "do", "make"],
+    answer: "do",
+  },
+  {
+    question: "My grandfather enjoys _____ the gardening on Sunday mornings.",
+    options: ["doing", "making", "having"],
+    answer: "doing",
+  },
+  {
+    question: "I hate _____ the ironing, so I usually do it while watching TV.",
+    options: ["taking", "making", "doing"],
+    answer: "doing",
+  },
+  {
+    question: "The storm _____ serious damage to the houses along the coast.",
+    options: ["made", "did", "took"],
+    answer: "did",
+  },
+  {
+    question: "She always _____ well in her exams because she studies hard.",
+    options: ["goes", "makes", "does"],
+    answer: "does",
+  },
+  {
+    question: "I _____ breakfast at the hotel every morning before going sightseeing.",
+    options: ["do", "have", "make"],
+    answer: "have",
+  },
+  {
+    question: "We _____ lunch together at work every Friday in the company cafeteria.",
+    options: ["have", "make", "do"],
+    answer: "have",
+  },
+  {
+    question: "They _____ dinner late last night because they didn't get home until 10 p.m.",
+    options: ["did", "made", "had"],
+    answer: "had",
+  },
+  {
+    question: "The baby is _____ a bath before going to bed.",
+    options: ["making", "having", "doing"],
+    answer: "having",
+  },
+  {
+    question: "I _____ a shower every morning before I go to work.",
+    options: ["have", "do", "make"],
+    answer: "have",
+  },
+  {
+    question: "Let's _____ a drink at the café after work and talk about the weekend.",
+    options: ["make", "have", "do"],
+    answer: "have",
+  },
+  {
+    question: "The kids are _____ fun at the park while their parents watch them.",
+    options: ["having", "doing", "making"],
+    answer: "having",
+  },
+  {
+    question: "We _____ a good time at the party because everyone was in a great mood.",
+    options: ["did", "had", "made"],
+    answer: "had",
+  },
+  {
+    question: "I'm going to _____ a haircut tomorrow because my hair has grown too long.",
+    options: ["make", "do", "have"],
+    answer: "have",
+  },
+  {
+    question: "They're _____ a holiday in Spain this summer and have already booked their hotel.",
+    options: ["doing", "making", "having"],
+    answer: "having",
+  },
+  {
+    question: "I _____ a problem with my computer, so I can't open the file.",
+    options: ["have", "make", "do"],
+    answer: "have",
+  },
+  {
+    question: "They _____ a good relationship because they communicate openly with each other.",
+    options: ["do", "have", "make"],
+    answer: "have",
+  },
+  {
+    question: "Sit down and _____ a rest. You've been working all morning.",
+    options: ["have", "make", "do"],
+    answer: "have",
+  },
+  {
+    question: "I _____ sympathy for her situation because I know how difficult it has been.",
+    options: ["do", "make", "have"],
+    answer: "have",
+  },
+  {
+    question: "We _____ a chat after class about the exam we had just taken.",
+    options: ["had", "did", "made"],
+    answer: "had",
+  },
+  {
+    question: "_____ a look at this photo and tell me if you recognize anyone.",
+    options: ["Make", "Have", "Do"],
+    answer: "Have",
+  },
+  {
+    question: "Let's _____ a meal together at the restaurant near the station.",
+    options: ["do", "have", "make"],
+    answer: "have",
+  },
+  {
+    question: "They _____ a party for her birthday at their house last Saturday.",
+    options: ["had", "made", "did"],
+    answer: "had",
+  },
+  {
+    question: "We're _____ a meeting at 10, so please arrive a few minutes early.",
+    options: ["making", "having", "doing"],
+    answer: "having",
+  },
+  {
+    question: "I _____ an idea for the project while I was walking home.",
+    options: ["do", "have", "make"],
+    answer: "have",
+  },
+  {
+    question: "Let's _____ a break — we've been working for three hours straight.",
+    options: ["make", "take", "do"],
+    answer: "take",
+  },
+  {
+    question: "You should _____ a chance sometimes instead of always playing it safe.",
+    options: ["do", "make", "take"],
+    answer: "take",
+  },
+  {
+    question: "_____ a look at this report before the meeting and check the final figures.",
+    options: ["Make", "Take", "Do"],
+    answer: "Take",
+  },
+  {
+    question: "Please _____ a seat while you wait for the doctor to call your name.",
+    options: ["have", "make", "take"],
+    answer: "take",
+  },
+  {
+    question: "We _____ a taxi to the airport because our flight was leaving early.",
+    options: ["took", "made", "did"],
+    answer: "took",
+  },
+  {
+    question: "Students _____ an exam next week to test what they have learned.",
+    options: ["do", "take", "make"],
+    answer: "take",
+  },
+  {
+    question: "She _____ notes during lectures so she can review them later.",
+    options: ["takes", "makes", "does"],
+    answer: "takes",
+  },
+  {
+    question: "John will _____ my place today since I'm out sick.",
+    options: ["have", "take", "make"],
+    answer: "take",
+  },
+  {
+    question: "The nurse _____ his temperature before the doctor examined him.",
+    options: ["did", "made", "took"],
+    answer: "took",
+  },
+  {
+    question: "He _____ a risk and started a business even though he wasn't sure it would succeed.",
+    options: ["took", "did", "made"],
+    answer: "took",
+  },
+  {
+    question: "I _____ a photo of the sunset while I was walking along the beach.",
+    options: ["made", "took", "did"],
+    answer: "took",
+  },
+  {
+    question: "I usually _____ a shower right before bed at night.",
+    options: ["do", "take", "make"],
+    answer: "take",
+  },
+  {
+    question: "You must _____ responsibility for your actions and accept the consequences.",
+    options: ["take", "have", "make"],
+    answer: "take",
+  },
+  {
+    question: "The government must _____ action to fix the housing crisis as soon as possible.",
+    options: ["make", "take", "do"],
+    answer: "take",
+  },
+  {
+    question: "She _____ part in the competition and reached the final round.",
+    options: ["did", "made", "took"],
+    answer: "took",
+  },
+  {
+    question: "_____ care of yourself while I'm away on business.",
+    options: ["Take", "Do", "Make"],
+    answer: "Take",
+  },
+  {
+    question: "Learning English _____ time — you can't rush the process.",
+    options: ["makes", "takes", "does"],
+    answer: "takes",
+  },
+  {
+    question: "Don't forget to _____ your medicine after dinner according to the doctor's instructions.",
+    options: ["take", "make", "do"],
+    answer: "take",
+  },
+  {
+    question: "He never _____ advice from others, even when he's clearly wrong.",
+    options: ["gives", "makes", "takes"],
+    answer: "takes",
+  },
+  {
+    question: "I'm trying to _____ the habit of checking my phone every five minutes.",
+    options: ["take", "give", "break"],
+    answer: "break",
+  },
+  {
+    question: "He _____ his promise to call me and didn't show up.",
+    options: ["did", "took", "broke"],
+    answer: "broke",
+  },
+  {
+    question: "She _____ the world record for the fastest marathon time.",
+    options: ["did", "made", "broke"],
+    answer: "broke",
+  },
+  {
+    question: "The ball _____ a window during the soccer game.",
+    options: ["did", "took", "broke"],
+    answer: "broke",
+  },
+  {
+    question: "The sad ending of the movie _____ my heart.",
+    options: ["did", "took", "broke"],
+    answer: "broke",
+  },
+  {
+    question: "He told a joke to _____ the ice at the meeting and make everyone feel more relaxed.",
+    options: ["make", "do", "break"],
+    answer: "break",
+  },
+  {
+    question: "Anyone who _____ the law must face the consequences.",
+    options: ["does", "takes", "breaks"],
+    answer: "breaks",
+  },
+  {
+    question: "You can't _____ the rules during the exam, even if you think they're unfair.",
+    options: ["do", "take", "break"],
+    answer: "break",
+  },
+  {
+    question: "She _____ the bad news gently to her family after everyone had sat down.",
+    options: ["did", "made", "broke"],
+    answer: "broke",
+  },
+  {
+    question: "\"Break a leg!\" we said to her before she went on stage.",
+    options: ["Take", "Do", "Break"],
+    answer: "Break",
   }
 
 ];
