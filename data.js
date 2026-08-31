@@ -12269,6 +12269,21 @@ const sentences = [
     question: "\"Break a leg!\" we said to her before she went on stage.",
     options: ["Take", "Do", "Break"],
     answer: "Break",
+  },
+  {
+    question: "My car's fuel light came on right as I hit the highway, so I pulled off at the next exit before the tank went completely _____.",
+    options: ["full", "spare", "dry"],
+    answer: "dry",
+  },
+  {
+    question: "Emily's wedding was in two days, and her hair was such a mess that she booked an _____ appointment at the salon.",
+    options: ["overdue", "emergency", "ordinary"],
+    answer: "emergency",
+  },
+  {
+    question: "Sarah was still sore from last night's gym session, so when Kate asked her to go for a walk in the morning, she had to _____ the invitation.",
+    options: ["accept", "decline", "extend"],
+    answer: "decline",
   }
 
 ];
