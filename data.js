@@ -3415,9 +3415,9 @@ const sentences = [
     answer: "put out",
   },
   {
-    question: "Being a primary school teacher _____ a lot of nerves and patience.",
-    options: ["goes with", "calls for", "looks into"],
-    answer: "calls for",
+    "question": "Being a primary school teacher _____ a lot of nerves and patience — you simply can't do the job without them.",
+    "options": ["goes with", "calls for", "looks into"],
+    "answer": "calls for"
   },
   {
     question: "All the employees had to _____ a form given to them by the personnel manager.",
@@ -12434,6 +12434,503 @@ const sentences = [
     question: "They finally succeeded _____ finding a cure after years of research.",
     options: ["at", "for", "in"],
     answer: "in",
+  },
+  {
+    question: "Growing up, I could _____ a lot just from watching my grandfather fix things in his shed.",
+    options: ["borrow", "glean", "grab"],
+    answer: "glean",
+  },
+  {
+    question: "Last night I had this dream where I had to _____ from a high platform into a deep pool, and weirdly, I wasn't scared at all.",
+    options: ["crawl", "leap", "roll"],
+    answer: "leap",
+  },
+  {
+    question: "I always end up in charge of the BBQ, and my brother has to _____ before he burns the sausages again.",
+    options: ["let down", "shut up", "calm down"],
+    answer: "calm down",
+  },
+  {
+    question: "Spending weekends in the countryside really helped _____ my confidence after a rough year at work.",
+    options: ["bolster", "save", "switch on"],
+    answer: "bolster",
+  },
+  {
+    question: "When the referee made another terrible decision, our normally calm coach completely _____ and started shouting at the officials.",
+    options: ["let himself down", "went off the deep end", "calmed himself down"],
+    answer: "went off the deep end",
+  },
+  {
+    question: "Standing by the ocean at sunset, I _____ that's the closest I've ever felt to being completely at peace.",
+    options: ["reckon", "glean", "save"],
+    answer: "reckon",
+  },
+  {
+    question: "I try to _____ the best street food stall for last whenever I visit a night market.",
+    options: ["bolster", "switch on", "save"],
+    answer: "save",
+  },
+  {
+    question: "I was so into the play that I told the guy next to me to _____ when his phone kept buzzing.",
+    options: ["let down", "shut up", "calm down"],
+    answer: "shut up",
+  },
+  {
+    question: "Before every road trip, I _____ the engine so the car is ready while I load the luggage.",
+    options: ["switch on", "leap", "reckon"],
+    answer: "switch on",
+  },
+  {
+    question: "Our road trip started off great, but the terrible weather really _____ me by the second day.",
+    options: ["shut up", "let down", "went off the deep end"],
+    answer: "let down",
+  },
+  {
+    question: "Every spring, our town throws a little _____ with rides that definitely look older than I am.",
+    options: ["trek", "carnival", "dive"],
+    answer: "carnival",
+  },
+  {
+    question: "On Halloween, I like to _____ the porch lights just enough to make the house feel spooky without scaring off the little kids.",
+    options: ["dim", "tear", "wear out"],
+    answer: "dim",
+  },
+  {
+    question: "I upgraded my laptop last year, but dealing with its constant software problems still manages to _____ me by lunchtime.",
+    options: ["tear", "wear out", "dim"],
+    answer: "wear out",
+  },
+  {
+    question: "There's a lake near my house where I go to sit _____ and think when things get overwhelming.",
+    options: ["humbly", "regularly", "peacefully"],
+    answer: "peacefully",
+  },
+  {
+    question: "Every New Year's Eve, I sometimes shed a _____ when I think about how quickly the last twelve months went.",
+    options: ["trek", "tear", "dive"],
+    answer: "tear",
+  },
+  {
+    question: "I've started to study more _____ this semester instead of cramming everything the night before.",
+    options: ["peacefully", "regularly", "humbly"],
+    answer: "regularly",
+  },
+  {
+    question: "After realizing that I had completely misunderstood the instructions, I _____ admitted that I had made a mistake.",
+    options: ["humbly", "regularly", "peacefully"],
+    answer: "humbly",
+  },
+  {
+    question: "This summer I want to _____ into learning a completely new hobby instead of just scrolling on my phone all day.",
+    options: ["trek", "dim", "dive"],
+    answer: "dive",
+  },
+  {
+    question: "We're planning a _____ up the mountain this weekend if the weather holds.",
+    options: ["carnival", "dive", "trek"],
+    answer: "trek",
+  },
+  {
+    question: "The final scene of the movie was so _____ that several people in the audience started crying.",
+    options: ["dim", "poignant", "humbly"],
+    answer: "poignant",
+  },
+  {
+    question: "I grew up on a farm, and I still remember the feeling of watching the horses _____ across the field at dawn.",
+    options: ["garnish", "canter", "turn down"],
+    answer: "canter",
+  },
+  {
+    question: "I've been gaming so much lately that I think I'm starting to _____ on the whole thing.",
+    options: ["canter", "garnish", "burn out"],
+    answer: "burn out",
+  },
+  {
+    question: "At the cafe, I always ask them to _____ my dessert with a little extra mint.",
+    options: ["turn down", "canter", "garnish"],
+    answer: "garnish",
+  },
+  {
+    question: "The music at the party was so loud that I had to ask someone to _____ it a bit.",
+    options: ["burn out", "turn down", "canter"],
+    answer: "turn down",
+  },
+  {
+    question: "Diving underwater for the first time, I was amazed by how _____ the coral colors looked.",
+    options: ["breezy", "obsidian", "vivid"],
+    answer: "vivid",
+  },
+  {
+    question: "As an _____ pet owner, I could tell right away that my dog wasn't feeling well.",
+    options: ["experienced", "vivid", "breezy"],
+    answer: "experienced",
+  },
+  {
+    question: "The trail was surprisingly pleasant and _____ for a summer hike, which made the climb a lot easier.",
+    options: ["vivid", "obsidian", "breezy"],
+    answer: "breezy",
+  },
+  {
+    question: "At graduation, I could _____ remember my parents crying in the front row.",
+    options: ["experienced", "breezy", "clearly"],
+    answer: "clearly",
+  },
+  {
+    question: "My coffee this morning was so dark and glossy that it looked almost _____ .",
+    options: ["obsidian", "breezy", "vivid"],
+    answer: "obsidian",
+  },
+  {
+    question: "I always tell myself I won't _____ on my homework, and yet here I am again the night before it's due.",
+    options: ["turn down", "procrastinate", "burn out"],
+    answer: "procrastinate",
+  },
+  {
+    question: "I went shopping for a necklace, but the chain got so _____ in my bag that I gave up and bought a new one.",
+    options: ["powdery", "misty", "entangled"],
+    answer: "entangled",
+  },
+  {
+    question: "Sitting by the lake, I reminded myself to _____ and enjoy the quiet instead of constantly checking my phone.",
+    options: ["buckle", "calm down", "slow down"],
+    answer: "calm down",
+  },
+  {
+    question: "Out in the countryside early in the morning, the fields looked _____ and almost dreamlike.",
+    options: ["misty", "entangled", "powdery"],
+    answer: "misty",
+  },
+  {
+    question: "I sometimes _____ what it would be like to live somewhere quieter than the city.",
+    options: ["carry on", "discover", "imagine"],
+    answer: "imagine",
+  },
+  {
+    question: "When I got to the hotel, I had to _____ before they'd give me my room key.",
+    options: ["check in", "crown", "buckle"],
+    answer: "check in",
+  },
+  {
+    question: "At graduation, they placed a small _____ of flowers on my head for the ceremony photos.",
+    options: ["check in", "buckle", "crown"],
+    answer: "crown",
+  },
+  {
+    question: "While fishing, I felt my knees _____ a bit when I realized how big the fish actually was.",
+    options: ["crown", "imagine", "buckle"],
+    answer: "buckle",
+  },
+  {
+    question: "At the museum, I decided to just _____ walking through the exhibit even though my feet were already tired.",
+    options: ["calm down", "carry on", "check in"],
+    answer: "carry on",
+  },
+  {
+    question: "Wandering through the art exhibit, I was excited to _____ a painter I'd never heard of before.",
+    options: ["imagine", "discover", "crown"],
+    answer: "discover",
+  },
+  {
+    question: "As the car started to _____ near the campsite, I felt myself finally relax.",
+    options: ["break out", "decelerate", "observe"],
+    answer: "decelerate",
+  },
+  {
+    question: "I found a _____ piece of driftwood washed up on the beach, thin and almost perfectly straight.",
+    options: ["slender", "leisurely", "distant"],
+    answer: "slender",
+  },
+  {
+    question: "I picked up a _____ at the bookstore last night and couldn't put it down.",
+    options: ["rooster", "memoir", "distant"],
+    answer: "memoir",
+  },
+  {
+    question: "I had to _____ notes quickly during the meeting before I forgot the key points.",
+    options: ["decelerate", "break out", "take down"],
+    answer: "take down",
+  },
+  {
+    question: "I woke up this morning to the sound of a _____ crowing right outside my window.",
+    options: ["slender", "rooster", "memoir"],
+    answer: "rooster",
+  },
+  {
+    question: "From my hotel room, the traffic outside sounded strangely _____, as if it were coming from miles away.",
+    options: ["bitterly", "distant", "slender"],
+    answer: "distant",
+  },
+  {
+    question: "A commotion suddenly _____ near the checkout line while I was out shopping.",
+    options: ["broke out", "observed", "took down"],
+    answer: "broke out",
+  },
+  {
+    question: "I like to sit quietly and _____ people while I study at the library.",
+    options: ["take down", "decelerate", "observe"],
+    answer: "observe",
+  },
+  {
+    question: "We had a _____ breakfast with my family on Sunday, with no plans and nowhere to be.",
+    options: ["bitterly", "leisurely", "distant"],
+    answer: "leisurely",
+  },
+  {
+    question: "It was _____ cold as I trudged through the snow back to the car.",
+    options: ["leisurely", "slender", "bitterly"],
+    answer: "bitterly",
+  },
+  {
+    question: "The dance floor at the outdoor wedding got _____ after the sudden rain shower, with mud sticking to everyone's shoes.",
+    options: ["rocky", "muddy", "dusty"],
+    answer: "muddy",
+  },
+  {
+    question: "On the long train ride, I slowly _____ off to sleep while listening to quiet music.",
+    options: ["drifted", "crept", "rushed"],
+    answer: "drifted",
+  },
+  {
+    question: "At the airport, I had to _____ a customs form before boarding my connecting flight.",
+    options: ["sign up", "fill out", "check in"],
+    answer: "fill out",
+  },
+  {
+    question: "The street festival downtown had rides, food stalls, games, and performers, making it feel just like a _____ from my childhood.",
+    options: ["protest", "conference", "carnival"],
+    answer: "carnival",
+  },
+  {
+    question: "I didn't expect to _____ my old roommate at the cafe this morning after not seeing him for years.",
+    options: ["run out of", "run into", "run through"],
+    answer: "run into",
+  },
+  {
+    question: "I still don't know what the initials printed on my coffee cup actually _____.",
+    options: ["stand for", "stand by", "stand up"],
+    answer: "stand for",
+  },
+  {
+    question: "The snow on the mountain was so _____ that it felt like walking through sugar.",
+    options: ["rocky", "powdery", "muddy"],
+    answer: "powdery",
+  },
+  {
+    question: "For my birthday, my sister gave me a wool _____ with a hood that I wear as an outer garment in winter.",
+    options: ["cloak", "scarf", "blanket"],
+    answer: "cloak",
+  },
+  {
+    question: "My grandmother used to _____ about the importance of watering the garden every single day.",
+    options: ["joke", "preach", "sing"],
+    answer: "preach",
+  },
+  {
+    question: "After I had climbed onto the diving board, I became too frightened to jump and had to _____ without diving.",
+    options: ["get on", "get over", "get off"],
+    answer: "get off",
+  },
+  {
+    question: "Halfway through the road trip, we suddenly hit a _____ increase in traffic that added two hours to the drive.",
+    options: ["chatty", "sudden", "stale"],
+    answer: "sudden",
+  },
+  {
+    question: "The hotel receptionist was so _____ that I ended up hearing her entire life story before getting my key.",
+    options: ["bronze", "luminous", "chatty"],
+    answer: "chatty",
+  },
+  {
+    question: "By the time we crossed the desert, the crackers in my bag had gone completely _____.",
+    options: ["stale", "forgotten", "shakily"],
+    answer: "stale",
+  },
+  {
+    question: "There was a _____ statue at the museum entrance that everyone stopped to take photos with.",
+    options: ["chatty", "bronze", "luminous"],
+    answer: "bronze",
+  },
+  {
+    question: "On the ski trip, the cold wind would _____ my cheeks every time I took off my scarf.",
+    options: ["get along", "light", "tickle"],
+    answer: "tickle",
+  },
+  {
+    question: "Driving through the countryside, I passed an old, _____ farmhouse that looked like nobody had lived there in years.",
+    options: ["luminous", "forgotten", "sudden"],
+    answer: "forgotten",
+  },
+  {
+    question: "The fireflies in the garden looked almost _____ against the dark grass.",
+    options: ["stale", "bronze", "luminous"],
+    answer: "luminous",
+  },
+  {
+    question: "My brother and I actually _____ pretty well during the long drive, which surprised both of us.",
+    options: ["tickle", "get along", "light"],
+    answer: "get along",
+  },
+  {
+    question: "I stepped out of the car _____ after being cramped in the same position for hours.",
+    options: ["sudden", "shakily", "chatty"],
+    answer: "shakily",
+  },
+  {
+    question: "Out in the forest at night, all I had to guide me was the dim _____ from my phone.",
+    options: ["light", "forgotten", "bronze"],
+    answer: "light",
+  },
+  {
+    question: "I always feel most at peace tending my garden right at _____, before anyone else is awake.",
+    options: ["sunset", "midnight", "sunrise"],
+    answer: "sunrise",
+  },
+  {
+    question: "For our picnic in the park, I packed a _____ tart filled with caramelized onions, cheese, and herbs.",
+    options: ["sweet", "savory", "bitter"],
+    answer: "savory",
+  },
+  {
+    question: "Some memories just stay alive like a quiet _____, glowing faintly long after the fire has gone out.",
+    options: ["ember", "spark", "flame"],
+    answer: "ember",
+  },
+  {
+    question: "My backpacking trip through Portugal ended _____ when I came down with a nasty fever and had to fly home immediately.",
+    options: ["slowly", "eventually", "abruptly"],
+    answer: "abruptly",
+  },
+  {
+    question: "I watched the paper lanterns _____ into the night sky at the festival until they disappeared above the trees.",
+    options: ["go by", "go up", "go down"],
+    answer: "go up",
+  },
+  {
+    question: "I like to _____ by the window in the evening and watch the sunset until the sky gets dark.",
+    options: ["kneel down", "sit down", "stand up"],
+    answer: "sit down",
+  },
+  {
+    question: "I _____ browsing online even when I have no intention of buying anything. Shopping's basically my hobby at this point.",
+    options: ["give up", "stop by", "keep on"],
+    answer: "keep on",
+  },
+  {
+    question: "I'm _____ to admit it, but I still get a little too excited every year on my birthday.",
+    options: ["eager", "loath", "proud"],
+    answer: "loath",
+  },
+  {
+    question: "After borrowing a large sum of money from his wealthy uncle, he felt _____ to him and uncomfortable about making any decisions without his approval.",
+    options: ["connected", "grateful", "beholden"],
+    answer: "beholden",
+  },
+  {
+    question: "Once I dive underwater, I finally let myself _____ and just float in the silence.",
+    options: ["settle down", "speed up", "wake up"],
+    answer: "settle down",
+  },
+  {
+    question: "I can _____ a future where our neighborhood runs entirely on solar power.",
+    options: ["remember", "envision", "regret"],
+    answer: "envision",
+  },
+  {
+    question: "Sitting by the lake with my fishing rod, I feel completely _____.",
+    options: ["quick", "peaceful", "loud"],
+    answer: "peaceful",
+  },
+  {
+    question: "My grandmother used to call me by my nickname so _____ that I still smile thinking about it.",
+    options: ["affectionately", "briefly", "sternly"],
+    answer: "affectionately",
+  },
+  {
+    question: "I don't shop often, but when I do, I can _____ lose track of time wandering the aisles.",
+    options: ["hardly", "easily", "barely"],
+    answer: "easily",
+  },
+  {
+    question: "I got so frustrated with the game that I almost decided to _____ of the tournament entirely.",
+    options: ["sign up", "check in", "drop out"],
+    answer: "drop out",
+  },
+  {
+    question: "The _____ up the mountain involved steep rocky paths and took nearly six hours.",
+    options: ["drive", "flight", "trek"],
+    answer: "trek",
+  },
+  {
+    question: "There's something about a rainy day that makes me want to _____ over how much I miss my childhood.",
+    options: ["sob", "applaud", "celebrate"],
+    answer: "sob",
+  },
+  {
+    question: "While I write, I always hum the same little _____ from an old song without even realizing it.",
+    options: ["paragraph", "tune", "sentence"],
+    answer: "tune",
+  },
+  {
+    question: "That black-and-white film from 1932 still holds up better than most movies made today.",
+    options: ["ancient", "recent", "modern"],
+    answer: "ancient",
+  },
+  {
+    question: "I _____ volunteer for anything spontaneously, but the trip to help build homes last year was worth it.",
+    options: ["constantly", "always", "rarely"],
+    answer: "rarely",
+  },
+  {
+    question: "When I checked into the hotel, I had to _____ the front desk since it was tucked behind a huge plant.",
+    options: ["ask for", "look for", "wait for"],
+    answer: "look for",
+  },
+  {
+    question: "The _____ linebacker on our sports team could bench press twice what I can.",
+    options: ["skinny", "brawny", "clumsy"],
+    answer: "brawny",
+  },
+  {
+    question: "I sometimes wonder if, _____, there's another version of me somewhere out in space.",
+    options: ["perhaps", "never", "certainly"],
+    answer: "perhaps",
+  },
+  {
+    question: "I was walking along the beach when I spotted a _____ leaping just past the waves.",
+    options: ["seagull", "crab", "dolphin"],
+    answer: "dolphin",
+  },
+  {
+    question: "Every evening I _____ to the balcony just to catch the sunset.",
+    options: ["come in", "go out", "stay back"],
+    answer: "go out",
+  },
+  {
+    question: "Our community decided to _____ a beach clean-up to help protect the environment.",
+    options: ["put off", "call off", "carry out"],
+    answer: "carry out",
+  },
+  {
+    question: "At the conference, I happened to _____ an old college friend I hadn't seen in years.",
+    options: ["come across", "run out of", "look after"],
+    answer: "come across",
+  },
+  {
+    question: "My family always jokes that I should _____ sweets, but I never listen.",
+    options: ["keep up", "keep off", "keep on"],
+    answer: "keep off",
+  },
+  {
+    question: "While writing at the cabin, I could hear someone playing a _____ with a sliding tube in the distance.",
+    options: ["trumpet", "drum", "harmonica"],
+    answer: "harmonica",
+  },
+  {
+    question: "After a long day of skiing, I treated myself to a bowl of garlic _____ served in a buttery sauce back at the lodge.",
+    options: ["shrimp", "toast", "steak"],
+    answer: "shrimp",
   }
+
+
 
 ];
