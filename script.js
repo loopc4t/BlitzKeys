@@ -800,7 +800,15 @@ function checkAnswer() {
     questionIndex = 0;
   }
 
-  setTimeout(showQuestion, 500);
+  correctSinceBonus++;
+
+  if (correctSinceBonus >= BONUS_EVERY) {
+    correctSinceBonus = 0;
+
+    bonusWaitId = setTimeout(startBonusWhenReady, 500);
+  } else {
+    setTimeout(showQuestion, 500);
+  }
 }
 
 function clearSavedProgress() {
@@ -813,6 +821,8 @@ function clearSavedProgress() {
 
 function startGame() {
   clearSavedProgress();
+
+  resetBonus();
 
   deck = shuffle(sentences);
 
@@ -850,6 +860,311 @@ function startGame() {
 
   showQuestion();
 }
+
+// =====================================================
+// Bonus Round — free typing for 2 minutes, 10 points
+// per correctly typed word. Runs after every
+// BONUS_EVERY correct sentences.
+// =====================================================
+
+const BONUS_EVERY = 10;
+
+const BONUS_DURATION_SECONDS = 120;
+
+const POINTS_PER_WORD = 10;
+
+const bonusCard = document.getElementById("bonusCard");
+const bonusInput = document.getElementById("bonusInput");
+const bonusPrompt = document.getElementById("bonusPrompt");
+const bonusStats = document.getElementById("bonusStats");
+const bonusTimer = document.getElementById("bonusTimer");
+const bonusProgressFill = document.getElementById("bonusProgressFill");
+const bonusResultWords = document.getElementById("bonusResultWords");
+const bonusResultPoints = document.getElementById("bonusResultPoints");
+const bonusContinue = document.getElementById("bonusContinue");
+
+let correctSinceBonus = 0;
+
+let bonusActive = false;
+
+let bonusStartTime = null;
+
+let bonusIntervalId = null;
+
+let bonusWaitId = null;
+
+let bonusPromptDeck = [];
+
+// 1-2 letter words that count. Longer words come from words.js.
+const SHORT_WORDS = new Set(
+  (
+    "a i am an as at be by do go he hi if in is it me my no of oh ok on or " +
+    "so to up us we ah ex ha ma pa uh um yo"
+  ).split(" "),
+);
+
+// Words from the exercises and prompts always count (names, rare vocabulary).
+const EXTRA_WORDS = new Set();
+
+function collectExtraWords(text) {
+  const matches = normalizeQuotes(String(text)).toLowerCase().match(/[a-z]+/g);
+
+  if (!matches) return;
+
+  for (const word of matches) {
+    if (word.length >= 3) EXTRA_WORDS.add(word);
+  }
+}
+
+if (typeof sentences !== "undefined") {
+  sentences.forEach((item) => {
+    collectExtraWords(item.question);
+    collectExtraWords(item.answer);
+    (item.options || []).forEach(collectExtraWords);
+  });
+}
+
+if (typeof freeTexts !== "undefined") {
+  freeTexts.forEach(collectExtraWords);
+}
+
+// Bases that take n't: don't, can't (ca), won't (wo), ain't (ai), shan't (sha)
+const NT_BASES = new Set(
+  (
+    "do does did is are was were has have had could would should must need " +
+    "might dare ca wo sha ai"
+  ).split(" "),
+);
+
+function isKnownWord(word) {
+  if (word.length <= 2) return SHORT_WORDS.has(word);
+
+  return VALID_WORDS.has(word) || EXTRA_WORDS.has(word);
+}
+
+function isValidContraction(word) {
+  const match = word.match(/^([a-z]+)(n't|'s|'re|'ve|'ll|'d|'m)$/);
+
+  if (!match) return false;
+
+  const [, base, suffix] = match;
+
+  if (suffix === "n't") return NT_BASES.has(base);
+
+  return isKnownWord(base);
+}
+
+function isValidWord(word) {
+  if (word.includes("-")) {
+    // well-known (each part is a word) or e-mail / wi-fi (joined form is)
+    return (
+      word.split("-").every(isValidWord) || isKnownWord(word.replace(/-/g, ""))
+    );
+  }
+
+  if (word.includes("'")) return isValidContraction(word);
+
+  return isKnownWord(word);
+}
+
+// Counts correctly spelled words. A word still being typed (no space or
+// punctuation after it yet) is left out until it's finished, or until
+// includeLastWord is true (time's up). The same word twice in a row only
+// counts once, so "the the the" can't farm points.
+function countValidWords(text, includeLastWord) {
+  const normalized = normalizeQuotes(text).toLowerCase();
+
+  const words = normalized.match(/[a-z]+(?:['-][a-z]+)*/g) || [];
+
+  if (!includeLastWord && /[a-z'-]$/.test(normalized)) {
+    words.pop();
+  }
+
+  let count = 0;
+  let previous = null;
+
+  for (const word of words) {
+    if (word === previous) continue;
+
+    previous = word;
+
+    if (isValidWord(word)) count++;
+  }
+
+  return count;
+}
+
+function nextBonusPrompt() {
+  if (typeof freeTexts === "undefined" || freeTexts.length === 0) {
+    return "Write anything you like...";
+  }
+
+  if (bonusPromptDeck.length === 0) {
+    bonusPromptDeck = shuffle(freeTexts);
+  }
+
+  return bonusPromptDeck.pop();
+}
+
+function formatClock(totalSeconds) {
+  const safe = Math.max(0, Math.ceil(totalSeconds));
+
+  const minutes = Math.floor(safe / 60);
+
+  const seconds = String(safe % 60).padStart(2, "0");
+
+  return `${minutes}:${seconds}`;
+}
+
+function renderBonusClock(remainingSeconds) {
+  bonusTimer.textContent = formatClock(remainingSeconds);
+
+  bonusTimer.classList.toggle("urgent", remainingSeconds <= 10);
+
+  bonusProgressFill.style.width = `${(remainingSeconds / BONUS_DURATION_SECONDS) * 100}%`;
+}
+
+function renderBonusLive() {
+  const words = countValidWords(bonusInput.value, false);
+
+  const points = words * POINTS_PER_WORD;
+
+  bonusStats.textContent = `${words} ${words === 1 ? "word" : "words"} · +${points}`;
+
+  score.textContent = currentScore + points;
+}
+
+function startBonusWhenReady() {
+  // Don't open the bonus behind a card reveal
+  if (unlockPopupShowing || unlockQueue.length > 0) {
+    bonusWaitId = setTimeout(startBonusWhenReady, 300);
+
+    return;
+  }
+
+  startBonus();
+}
+
+function startBonus() {
+  bonusActive = true;
+
+  bonusStartTime = null;
+
+  document.body.classList.add("bonus-mode");
+
+  bonusCard.classList.remove("finished");
+
+  bonusPrompt.textContent = nextBonusPrompt();
+
+  bonusInput.value = "";
+
+  bonusInput.disabled = false;
+
+  renderBonusClock(BONUS_DURATION_SECONDS);
+
+  renderBonusLive();
+
+  bonusInput.focus();
+}
+
+function tickBonus() {
+  const elapsed = (Date.now() - bonusStartTime) / 1000;
+
+  const remaining = BONUS_DURATION_SECONDS - elapsed;
+
+  if (remaining <= 0) {
+    finishBonus();
+
+    return;
+  }
+
+  renderBonusClock(remaining);
+}
+
+function finishBonus() {
+  clearInterval(bonusIntervalId);
+
+  bonusIntervalId = null;
+
+  bonusActive = false;
+
+  bonusInput.disabled = true;
+
+  renderBonusClock(0);
+
+  const words = countValidWords(bonusInput.value, true);
+
+  const points = words * POINTS_PER_WORD;
+
+  currentScore += points;
+
+  bonusResultWords.textContent = words;
+
+  bonusResultPoints.textContent = points;
+
+  bonusStats.textContent = `${words} ${words === 1 ? "word" : "words"} · +${points}`;
+
+  bonusCard.classList.add("finished");
+
+  const newLevel = levelForScore(currentScore);
+
+  if (newLevel > currentLevel) {
+    currentLevel = newLevel;
+
+    triggerLevelUp(currentLevel);
+  }
+
+  updateStats();
+
+  bonusContinue.focus();
+}
+
+function endBonus() {
+  document.body.classList.remove("bonus-mode");
+
+  bonusCard.classList.remove("finished");
+
+  showQuestion();
+}
+
+// Full reset (used by New Game): drop any running or pending bonus round
+function resetBonus() {
+  clearInterval(bonusIntervalId);
+
+  clearTimeout(bonusWaitId);
+
+  bonusIntervalId = null;
+
+  bonusWaitId = null;
+
+  bonusActive = false;
+
+  bonusStartTime = null;
+
+  correctSinceBonus = 0;
+
+  document.body.classList.remove("bonus-mode");
+
+  bonusCard.classList.remove("finished");
+}
+
+bonusInput.addEventListener("input", () => {
+  if (!bonusActive) return;
+
+  if (bonusStartTime === null) {
+    bonusStartTime = Date.now();
+
+    bonusIntervalId = setInterval(tickBonus, 250);
+  }
+
+  renderBonusLive();
+});
+
+// No pasting text in for free points
+bonusInput.addEventListener("paste", (event) => event.preventDefault());
+bonusInput.addEventListener("drop", (event) => event.preventDefault());
+
+bonusContinue.addEventListener("click", endBonus);
 
 // =====================================================
 // Event Listeners

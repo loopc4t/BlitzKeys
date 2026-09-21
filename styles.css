@@ -1150,3 +1150,170 @@ h1 {
     width: 200px;
   }
 }
+
+/* =====================================================
+   Bonus round — 2 minutes of free typing
+   (swaps in for the sentence card + input every N sentences)
+===================================================== */
+
+.bonus-card,
+.bonus-typing {
+  display: none;
+  width: min(1100px, 92vw);
+}
+
+body.bonus-mode #card,
+body.bonus-mode .typing-section {
+  display: none;
+}
+
+body.bonus-mode .bonus-card {
+  display: flex;
+  max-height: none;
+}
+
+body.bonus-mode .bonus-typing {
+  display: block;
+  margin-top: 10px;
+}
+
+.bonus-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 16px;
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--fog);
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.05em;
+}
+
+.bonus-title {
+  color: var(--amber);
+}
+
+.bonus-timer {
+  min-width: 4.5ch;
+  text-align: right;
+  font-family: var(--font-pixel);
+  font-size: 1.05rem;
+  color: var(--moonlight);
+}
+
+.bonus-timer.urgent {
+  color: var(--red);
+}
+
+.bonus-progress {
+  height: 4px;
+  background: rgba(0, 0, 0, 0.4);
+  border-top: 3px solid var(--frame);
+}
+
+.bonus-progress-fill {
+  height: 100%;
+  width: 100%;
+  background: var(--amber);
+  transition: width 0.25s linear;
+}
+
+.bonus-intro {
+  width: 100%;
+}
+
+.bonus-prompt {
+  min-height: 0;
+  padding-bottom: 8px;
+}
+
+.bonus-hint {
+  padding: 0 22px 16px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--fog);
+  opacity: 0.7;
+}
+
+.bonus-result {
+  display: none;
+  width: 100%;
+  padding: 18px 22px;
+  text-align: center;
+}
+
+.bonus-card.finished .bonus-intro {
+  display: none;
+}
+
+.bonus-card.finished .bonus-result {
+  display: block;
+}
+
+.bonus-result-title {
+  font-family: var(--font-pixel);
+  font-size: clamp(1.3rem, 3vw, 1.9rem);
+  color: var(--amber);
+  text-shadow: 0 0 18px var(--amber);
+}
+
+.bonus-result-line {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: var(--moonlight);
+}
+
+.bonus-result-line strong {
+  color: var(--green);
+}
+
+.bonus-result .about-button {
+  margin-left: 0;
+}
+
+#bonusInput {
+  display: block;
+  width: 100%;
+  height: clamp(96px, 17vh, 150px);
+  padding: 12px 14px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-family: var(--font-body);
+  color: var(--moonlight);
+  background: var(--panel);
+  border: 3px solid var(--border);
+  border-radius: 0;
+  outline: none;
+  resize: none;
+  caret-color: var(--amber);
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+
+#bonusInput:focus {
+  border-color: var(--frame);
+  box-shadow:
+    inset 0 0 0 2px var(--bg),
+    0 0 0 3px rgba(95, 122, 82, 0.25);
+}
+
+#bonusInput:disabled {
+  opacity: 0.55;
+}
+
+#bonusInput::placeholder {
+  color: var(--muted);
+}
+
+@media (max-width: 600px) {
+  .bonus-bar {
+    font-size: 0.74rem;
+    gap: 8px;
+  }
+
+  .bonus-hint {
+    padding: 0 16px 12px;
+  }
+}

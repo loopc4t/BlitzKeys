@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
 
   <body>
@@ -60,6 +60,52 @@
         spellcheck="false"
         placeholder="Type the complete sentence..."
       />
+    </section>
+
+    <section id="bonusCard" class="card bonus-card">
+      <div class="bonus-bar">
+        <span class="bonus-title">⚡ Bonus Round</span>
+        <span id="bonusStats" class="bonus-stats">0 words · +0</span>
+        <span id="bonusTimer" class="bonus-timer">2:00</span>
+      </div>
+
+      <div class="bonus-progress">
+        <div id="bonusProgressFill" class="bonus-progress-fill"></div>
+      </div>
+
+      <div class="sentence-container">
+        <div id="bonusIntro" class="bonus-intro">
+          <div id="bonusPrompt" class="sentence bonus-prompt"></div>
+
+          <p class="bonus-hint">
+            Keep going, or write about anything. Each correct word is worth 10
+            points. The 2:00 clock starts with your first key.
+          </p>
+        </div>
+
+        <div id="bonusResult" class="bonus-result">
+          <div class="bonus-result-title">Time's up!</div>
+
+          <div class="bonus-result-line">
+            <span id="bonusResultWords">0</span> words × 10 =
+            <strong>+<span id="bonusResultPoints">0</span></strong>
+          </div>
+
+          <button id="bonusContinue" class="about-button" type="button">
+            Continue ▶
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="bonusTyping" class="bonus-typing">
+      <textarea
+        id="bonusInput"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        placeholder="Type freely..."
+      ></textarea>
     </section>
 
     <section class="stats">
@@ -269,6 +315,10 @@
     </footer>
 
     <script src="data.js"></script>
+
+    <script src="free_texts.js"></script>
+
+    <script src="words.js"></script>
 
     <script src="script.js"></script>
   </body>

@@ -3415,11 +3415,6 @@ const sentences = [
     answer: "put out",
   },
   {
-    "question": "Being a primary school teacher _____ a lot of nerves and patience — you simply can't do the job without them.",
-    "options": ["goes with", "calls for", "looks into"],
-    "answer": "calls for"
-  },
-  {
     question: "All the employees had to _____ a form given to them by the personnel manager.",
     options: ["make out", "drop off", "fill in"],
     answer: "fill in",
@@ -10976,11 +10971,6 @@ const sentences = [
     answer: "early",
   },
   {
-    question: "It's a small world — turns out my new boss is actually my second _____ once removed.",
-    options: ["relative", "cousin", "nephew"],
-    answer: "cousin",
-  },
-  {
     question: "The train was _____ through the tunnel at breakneck speed.",
     options: ["hurtling", "sprinting", "hurling"],
     answer: "hurtling",
@@ -11321,11 +11311,6 @@ const sentences = [
     answer: "from",
   },
   {
-    question: "I don't get along with my wife's parents — my _____.",
-    options: ["step-parents", "cousins", "in-laws"],
-    answer: "in-laws",
-  },
-  {
     question: "After remarrying, they became a _____ family with kids from both marriages.",
     options: ["merged", "blended", "joined"],
     answer: "blended",
@@ -11334,11 +11319,6 @@ const sentences = [
     question: "The divorcing couple is in the middle of a nasty custody _____ over their two children.",
     options: ["race", "game", "battle"],
     answer: "battle",
-  },
-  {
-    question: "It was a _____ wedding — she was already pregnant when they married.",
-    options: ["forced", "shotgun", "rushed"],
-    answer: "shotgun",
   },
   {
     question: "They renewed their wedding _____ on their 25th anniversary.",
@@ -11384,11 +11364,6 @@ const sentences = [
     question: "He's engaged _____ a woman he met in college.",
     options: ["for", "with", "to"],
     answer: "to",
-  },
-  {
-    question: "My daughter takes _____ her father — same stubborn streak.",
-    options: ["from", "after", "of"],
-    answer: "after",
   },
   {
     question: "She's related _____ the former president, apparently.",
@@ -11459,11 +11434,6 @@ const sentences = [
     question: "She comes _____ a very wealthy family.",
     options: ["of", "from", "off"],
     answer: "from",
-  },
-  {
-    question: "He's married _____ his job — he never takes a day off.",
-    options: ["with", "for", "to"],
-    answer: "to",
   },
   {
     question: "They've been together _____ nearly six years but still aren't married.",
@@ -11761,11 +11731,6 @@ const sentences = [
     "answer": "hasty"
   },
   {
-    "question": "After his wife left him, he started drinking heavily and picking fights with strangers — everyone agreed he had truly gone _____.",
-    "options": ["par for the course", "off the deep end", "beholden"],
-    "answer": "off the deep end"
-  },
-  {
     "question": "I never prepared a speech for the wedding, so I just had to _____ when they handed me the microphone.",
     "options": ["wing it", "second-guess", "cop out"],
     "answer": "wing it"
@@ -11781,11 +11746,6 @@ const sentences = [
     "answer": "qualm"
   },
   {
-    "question": "He promised to fire the underperforming employee himself, but at the last minute he had someone from HR do it instead — a total _____.",
-    "options": ["wing it", "qualm", "cop out"],
-    "answer": "cop out"
-  },
-  {
     "question": "Once she submitted the exam, she couldn't stop _____ every answer she'd written, convinced she'd gotten them all wrong.",
     "options": ["enthralling", "beholden", "second-guessing"],
     "answer": "second-guessing"
@@ -11799,11 +11759,6 @@ const sentences = [
     "question": "Nobody at the office takes him seriously anymore; he's become the neighborhood _____ who insists the moon landing was staged.",
     "options": ["crank", "qualm", "cop out"],
     "answer": "crank"
-  },
-  {
-    "question": "The trains being late again during rush hour is just _____ at this point — nobody even complains anymore.",
-    "options": ["off the deep end", "beholden", "par for the course"],
-    "answer": "par for the course"
   },
   {
     "question": "I'm _____ to admit it, but I think my sister was right about the investment all along.",
@@ -12126,11 +12081,6 @@ const sentences = [
     answer: "have",
   },
   {
-    question: "Let's _____ a break — we've been working for three hours straight.",
-    options: ["make", "take", "do"],
-    answer: "take",
-  },
-  {
     question: "You should _____ a chance sometimes instead of always playing it safe.",
     options: ["do", "make", "take"],
     answer: "take",
@@ -12204,11 +12154,6 @@ const sentences = [
     question: "_____ care of yourself while I'm away on business.",
     options: ["Take", "Do", "Make"],
     answer: "Take",
-  },
-  {
-    question: "Learning English _____ time — you can't rush the process.",
-    options: ["makes", "takes", "does"],
-    answer: "takes",
   },
   {
     question: "Don't forget to _____ your medicine after dinner according to the doctor's instructions.",
