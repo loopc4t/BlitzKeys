@@ -10206,7 +10206,7 @@ const sentences = [
     answer: "touch base",
   },
   {
-    question: "Simran is looking for a loyal friend, not _____.",
+    question: "Jenny is looking for a loyal friend, not _____.",
     options: ["a shoulder to cry on", "a fair-weather friend", "a kindred spirit"],
     answer: "a fair-weather friend",
   },
