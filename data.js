@@ -6987,7 +6987,7 @@ const sentences = [
   },
   {
     question: "Stop _____ the past. It's keeping you from moving forward.",
-    options: ["laughing at", "talking about", "dwelling on"],
+    options: ["laughing at", "asking about", "dwelling on"],
     answer: "dwelling on",
   },
   {
@@ -12874,8 +12874,302 @@ const sentences = [
     question: "After a long day of skiing, I treated myself to a bowl of garlic _____ served in a buttery sauce back at the lodge.",
     options: ["shrimp", "toast", "steak"],
     answer: "shrimp",
+  },
+  {
+    question: "My parents got _____ when I was eight, and I split my time between two households.",
+    options: ["engaged", "divorced", "married"],
+    answer: "divorced",
+  },
+  {
+    question: "She's the _____ child, so she's used to getting her way.",
+    options: ["eldest", "youngest", "only"],
+    answer: "only",
+  },
+  {
+    question: "He was _____ up by a single mother who worked two jobs to support him.",
+    options: ["grown", "brought", "built"],
+    answer: "brought",
+  },
+  {
+    question: "They've been _____ married for over 30 years and still act like newlyweds.",
+    options: ["gladly", "cheerfully", "happily"],
+    answer: "happily",
+  },
+  {
+    question: "My grandmother is the _____ of the family; everyone goes to her for advice.",
+    options: ["matriarch", "patriarch", "elder"],
+    answer: "matriarch",
+  },
+  {
+    question: "We're a very _____-knit family; we talk every single day.",
+    options: ["friendly", "strong", "close"],
+    answer: "close",
+  },
+  {
+    question: "After the funeral, a bitter fight over the money and property in the will tore the siblings apart.",
+    options: ["vacation", "inheritance", "celebration"],
+    answer: "inheritance",
+  },
+  {
+    question: "My father _____ out on us when I was just a toddler.",
+    options: ["walked", "turned", "moved"],
+    answer: "walked",
+  },
+  {
+    question: "She's my _____ sister — we share the same father but different mothers.",
+    options: ["step", "half", "part"],
+    answer: "half",
+  },
+  {
+    question: "It took years, but they finally managed to _____ their differences and reconcile.",
+    options: ["ignore", "hide", "resolve"],
+    answer: "resolve",
+  },
+  {
+    question: "When reporters asked if she'd run for office, the senator gave a _____ answer, refusing to say yes or no.",
+    options: ["hasty", "hedging", "derisive"],
+    answer: "hedging",
+  },
+  {
+    question: "He gave a _____ laugh when I suggested he might fail the exam.",
+    options: ["derisive", "unwavering", "poignant"],
+    answer: "derisive",
+  },
+  {
+    question: "My little brother always wants to _____ when I go out with my friends.",
+    options: ["hedge", "hammer in", "tag along"],
+    answer: "tag along",
+  },
+  {
+    question: "After losing his job and his marriage in the same month, he became a total _____.",
+    options: ["spat", "basket case", "zinger"],
+    answer: "basket case",
+  },
+  {
+    question: "The new intern was a bit too _____ in the meeting, interrupting the CEO twice.",
+    options: ["prescient", "brash", "unwavering"],
+    answer: "brash",
+  },
+  {
+    question: "They had a quick _____ over whose turn it was to do the dishes, but it blew over in minutes.",
+    options: ["qualm", "zinger", "spat"],
+    answer: "spat",
+  },
+  {
+    question: "She ended her speech with a real _____ that got the whole room laughing.",
+    options: ["hedge", "zinger", "qualm"],
+    answer: "zinger",
+  },
+  {
+    question: "The coach kept trying to _____ the importance of teamwork into the players' heads.",
+    options: ["tag along", "hedge", "hammer in"],
+    answer: "hammer in",
+  },
+  {
+    question: "Despite all the criticism, her support for the project remained _____.",
+    options: ["brash", "unwavering", "hasty"],
+    answer: "unwavering",
+  },
+  {
+    question: "By the time we got to the sale, there were only _____ left — a few damaged items that nobody wanted.",
+    options: ["fresh arrivals", "great bargains", "slim pickings"],
+    answer: "slim pickings",
+  },
+  {
+    question: "Looking back, her warning about the housing market seems remarkably _____.",
+    options: ["prescient", "brash", "hasty"],
+    answer: "prescient",
+  },
+  {
+    question: "He made a _____ decision to quit his job without having another one lined up.",
+    options: ["poignant", "hasty", "unwavering"],
+    answer: "hasty",
+  },
+  {
+    question: "After the breakup, she really went _____, quitting her job and moving to another country overnight.",
+    options: ["back to normal", "under the weather", "off the deep end"],
+    answer: "off the deep end",
+  },
+  {
+    question: "The old man's letter to his late wife was so _____ that everyone in the room was in tears.",
+    options: ["derisive", "poignant", "brash"],
+    answer: "poignant",
+  },
+  {
+    question: "I have a few _____ about lending him money again, given what happened last time.",
+    options: ["qualms", "spats", "zingers"],
+    answer: "qualms",
+  },
+  {
+    question: "Instead of admitting he was afraid, he decided to _____ and just canceled the trip altogether.",
+    options: ["sidekick", "cop out", "hedge"],
+    answer: "cop out",
+  },
+  {
+    question: "Don't _____ yourself now — you studied hard and you know this material.",
+    options: ["twig", "relinquish", "second-guess"],
+    answer: "second-guess",
+  },
+  {
+    question: "The effects of the rumor were _____, slowly poisoning her reputation without anyone noticing at first.",
+    options: ["harrowing", "headstrong", "insidious"],
+    answer: "insidious",
+  },
+  {
+    question: "My uncle is a real _____ — he complains about everything from the weather to his coffee order.",
+    options: ["crank", "cop out", "sidekick"],
+    answer: "crank",
+  },
+  {
+    question: "The trains were delayed again this morning, but honestly that's _____ on this line.",
+    options: ["off base", "par for the course", "bad blood"],
+    answer: "par for the course",
+  },
+  {
+    question: "I'm _____ to criticize his work in front of the whole team, so I'll talk to him privately instead.",
+    options: ["headstrong", "loath", "beholden"],
+    answer: "loath",
+  },
+  {
+    question: "After he loaned her the money, she felt _____ to him and hated the feeling.",
+    options: ["beholden", "deject", "loath"],
+    answer: "beholden",
+  },
+  {
+    question: "The storyteller managed to _____ the entire audience, from the youngest child to the oldest grandparent.",
+    options: ["upend", "enthrall", "skimp"],
+    answer: "enthrall",
+  },
+  {
+    question: "Nobody thought she could _____ the heist, but she walked out with the painting undetected.",
+    options: ["relinquish", "twig", "pull off"],
+    answer: "pull off",
+  },
+  {
+    question: "There's still some _____ between the two brothers after the argument over their father's will.",
+    options: ["sidekick", "bad blood", "qualm"],
+    answer: "bad blood",
+  },
+  {
+    question: "I wanted to say something rude, but I decided to _____ and stay quiet.",
+    options: ["hold back", "skimp", "twig"],
+    answer: "hold back",
+  },
+  {
+    question: "Your guess about who's behind this is completely _____ — it's not even close to the truth.",
+    options: ["insidious", "ornery", "off base"],
+    answer: "off base",
+  },
+  {
+    question: "The survivor's account of the shipwreck was absolutely _____ to listen to.",
+    options: ["beholden", "off-putting", "harrowing"],
+    answer: "harrowing",
+  },
+  {
+    question: "Batman always has his trusty _____, Robin, by his side.",
+    options: ["cop out", "sidekick", "crank"],
+    answer: "sidekick",
+  },
+  {
+    question: "Even as a toddler, she was _____, refusing to wear anything but her favorite red boots.",
+    options: ["headstrong", "beholden", "insidious"],
+    answer: "headstrong",
+  },
+  {
+    question: "Don't _____ on the ingredients if you want the cake to actually taste good.",
+    options: ["upend", "skimp", "twig"],
+    answer: "skimp",
+  },
+  {
+    question: "His constant bragging about his salary was pretty _____ to everyone at the party.",
+    options: ["prescient", "off-putting", "harrowing"],
+    answer: "off-putting",
+  },
+  {
+    question: "The scandal threatened to _____ his entire campaign just weeks before the election. (meaning: overturn/disrupt completely)",
+    options: ["upend", "skimp", "twig"],
+    answer: "upend",
+  },
+  {
+    question: "The waiter accidentally bumped the table and _____ the vase of flowers, sending it crashing to the floor. (meaning: knock over/turn upside down)",
+    options: ["relinquished", "upended", "held back"],
+    answer: "upended",
+  },
+  {
+    question: "It took me a minute, but I finally _____ that he'd been joking the whole time. (meaning: to realize/catch on)",
+    options: ["skimped", "dejected", "twigged"],
+    answer: "twigged",
+  },
+  {
+    question: "She went out to the garden and snapped a small _____ off the oak tree. (meaning: a small branch)",
+    options: ["sidekick", "twig", "cop out"],
+    answer: "twig",
+  },
+  {
+    question: "The old goat was so _____ that it butted anyone who came near its pen.",
+    options: ["ornery", "beholden", "prescient"],
+    answer: "ornery",
+  },
+  {
+    question: "The team looked completely _____ after losing the championship in the final seconds.",
+    options: ["insidious", "dejected", "enthralled"],
+    answer: "dejected",
+  },
+  {
+    question: "After years of running the company, she decided to _____ control to her daughter.",
+    options: ["hold back", "relinquish", "twig"],
+    answer: "relinquish",
+  },
+  {
+    question: "She's always been very good _____ math, ever since elementary school.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "I'll meet you _____ the corner of Main Street and 5th Avenue.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "He arrived _____ the airport two hours before his flight.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "We're planning to move _____ the new house sometime next month.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "My father was born _____ a small village in the mountains.",
+    options: ["in", "on", "at"],
+    answer: "in",
+  },
+  {
+    question: "The keys are _____ the kitchen counter, right next to the fruit bowl.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "I saw an interesting article _____ the front page of today's newspaper.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "She's been working _____ that same company for over a decade.",
+    options: ["in", "on", "at"],
+    answer: "at",
+  },
+  {
+    question: "The wedding is scheduled to take place _____ the first Saturday of June.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "He was still wide awake _____ midnight, staring at the ceiling.",
+    options: ["in", "on", "at"],
+    answer: "at",
   }
-
 
 
 ];
