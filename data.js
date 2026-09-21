@@ -1230,7 +1230,7 @@ const sentences = [
     answer: "of",
   },
   {
-    question: "Sonja gets _____ the seven o'clock bus every morning.",
+    question: "Sahra gets _____ the seven o'clock bus every morning.",
     options: ["at", "with", "on"],
     answer: "on",
   },
