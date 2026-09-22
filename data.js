@@ -13169,6 +13169,106 @@ const sentences = [
     question: "He was still wide awake _____ midnight, staring at the ceiling.",
     options: ["in", "on", "at"],
     answer: "at",
+  },
+  {
+    question: "I left my laptop charger _____ the office yesterday, so I had to borrow one.",
+    options: ["in", "at", "on"],
+    answer: "at",
+  },
+  {
+    question: "Our flight has a two-hour layover _____ Frankfurt before we continue to Rome.",
+    options: ["in", "at", "on"],
+    answer: "in",
+  },
+  {
+    question: "My whole family gets together _____ Thanksgiving every single year without fail.",
+    options: ["on", "at", "in"],
+    answer: "at",
+  },
+  {
+    question: "All my photos are backed up _____ the cloud now, so I don't worry about losing them.",
+    options: ["at", "on", "in"],
+    answer: "on",
+  },
+  {
+    question: "We booked a little cabin _____ the mountains for our vacation this summer.",
+    options: ["on", "in", "at"],
+    answer: "in",
+  },
+  {
+    question: "We're meeting _____ the bar downtown after work. Want to join us?",
+    options: ["at", "in", "on"],
+    answer: "at",
+  },
+  {
+    question: "I usually arrive _____ work around six, but on Fridays I try to get there earlier.",
+    options: ["in", "at", "on"],
+    answer: "at",
+  },
+  {
+    question: "Could we get a table _____ the window? The view of the street is lovely.",
+    options: ["at", "on", "in"],
+    answer: "at",
+  },
+  {
+    question: "She's _____ a business trip in Chicago until the end of the week.",
+    options: ["in", "on", "at"],
+    answer: "on",
+  },
+  {
+    question: "My meeting got moved to a different room, so I'm not sure it's still _____ the third floor.",
+    options: ["at", "on", "in"],
+    answer: "on",
+  },
+  {
+    question: "I'm really looking forward _____ the family reunion next weekend.",
+    options: ["about", "to", "in"],
+    answer: "to",
+  },
+  {
+    question: "We argued _____ whose turn it was to pay for dinner, but it wasn't serious.",
+    options: ["from", "over", "with"],
+    answer: "over",
+  },
+  {
+    question: "She's been complaining _____ her new manager ever since she started the job.",
+    options: ["about", "to", "with"],
+    answer: "about",
+  },
+  {
+    question: "My connecting flight _____ London was delayed, so I missed my train home.",
+    options: ["with", "at", "from"],
+    answer: "from",
+  },
+  {
+    question: "He's staying _____ his cousins while he's visiting the city for the conference.",
+    options: ["at", "to", "with"],
+    answer: "with",
+  },
+  {
+    question: "The waiter came over _____ the bill just as we were finishing dessert.",
+    options: ["with", "from", "to"],
+    answer: "with",
+  },
+  {
+    question: "I finally got _____ the bottom of why the app keeps crashing on my phone.",
+    options: ["about", "to", "at"],
+    answer: "to",
+  },
+  {
+    question: "She's obsessed _____ that new travel show; she's watched every episode twice.",
+    options: ["with", "over", "about"],
+    answer: "with",
+  },
+  {
+    question: "We're driving _____ my parents' place for the holidays instead of flying this year.",
+    options: ["at", "with", "to"],
+    answer: "to",
+  },
+  {
+    question: "He handed in his resignation letter and walked out _____ his boss saying a word.",
+    options: ["from", "without", "over"],
+    answer: "without",
   }
 
 
