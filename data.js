@@ -4805,8 +4805,8 @@ const sentences = [
     answer: "pipe dream",
   },
   {
-    question: "Her _____ is amazing. She donates time and money to many causes.",
-    options: ["patience", "generosity", "charity work"],
+    question: "Her _____ is amazing. She's always the first to give, whether someone needs a place to stay, a loan, or just a helping hand.",
+    options: ["patience", "charity work", "generosity"],
     answer: "generosity",
   },
   {
@@ -5541,7 +5541,7 @@ const sentences = [
     answer: "sneaking",
   },
   {
-    question: "As a _____, he always worried that every small cough or headache was a sign of something serious.",
+    question: "As a _____, he went to the doctor almost weekly, convinced every small cough or headache was a sign of something serious — even after being told he was perfectly healthy.",
     options: ["pessimist", "hypochondriac", "skeptic"],
     answer: "hypochondriac",
   },
@@ -8831,8 +8831,8 @@ const sentences = [
     answer: "go too far",
   },
   {
-    question: "Do you _____ coming up with ideas? If so, we would love to hear from you.",
-    options: ["have a say in", "have a knack for", "have a hunch about"],
+    question: "Do you _____ coming up with creative, out of the box ideas that others wouldn't think of? If so, we'd love to hear from you. We're hiring for our creative team.",
+    options: ["have a say in", "have a hunch about", "have a knack for"],
     answer: "have a knack for",
   },
   {
