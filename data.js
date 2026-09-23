@@ -2121,7 +2121,7 @@ const sentences = [
   },
   {
     question: "Students are protesting _____ increasing tuition fees at universities.",
-    options: ["about", "against", "at", "for", "from", "in", "into", "of", "on", "to", "with"],
+    options: ["against", "at", "for", "from", "in", "into", "of", "on", "over", "to"],
     answer: "against",
   },
   {
@@ -4198,11 +4198,6 @@ const sentences = [
     question: "Yes, this is she. _____.",
     options: ["Speaking", "May I speak to", "Hold, please"],
     answer: "Speaking",
-  },
-  {
-    question: "Who should I email directly if I have questions about the conference registration?",
-    options: ["contact person", "administrative assistant", "staff"],
-    answer: "contact person",
   },
   {
     question: "The _____ answers phones, schedules meetings, and prepares documents.",
@@ -9991,8 +9986,8 @@ const sentences = [
     answer: "wiped out",
   },
   {
-    question: "Sarah's a very sensitive kid, so don't _____ her.",
-    options: ["mess with", "mess around with", "fool around with"],
+    question: "Sarah's a very sensitive kid, so don't _____ her by teasing her about her grades in front of her friends.",
+    options: ["catch up with", "keep up with", "mess with"],
     answer: "mess with",
   },
   {
@@ -10011,13 +10006,13 @@ const sentences = [
     answer: "stands to reason",
   },
   {
-    question: "Why does Kerry always _____ by saying the wrong thing?",
+    question: "Why does Kerry always _____ by blurting out something embarrassing at the worst possible moment?",
     options: ["step on her own toes", "put her foot in her mouth", "shoot herself in the foot"],
     answer: "put her foot in her mouth",
   },
   {
-    question: "David complained that his older sister was always _____.",
-    options: ["showing off to him", "bossing him around", "picking on him"],
+    question: "David complained that his older sister was always _____, telling him what to do and when to do it, even about things that weren't her business.",
+    options: ["showing off to him", "picking on him", "bossing him around"],
     answer: "bossing him around",
   },
   {
