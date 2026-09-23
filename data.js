@@ -10041,8 +10041,8 @@ const sentences = [
     answer: "adjust to",
   },
   {
-    question: "It's a completely desolate area. There are no people there _____.",
-    options: ["for what it's worth", "in the true sense of the word", "as far as it goes"],
+    question: "It's a completely desolate area, _____. There are no people, no buildings, nothing for miles.",
+    options: ["for what it's worth", "as far as it goes", "in the true sense of the word"],
     answer: "in the true sense of the word",
   },
   {
