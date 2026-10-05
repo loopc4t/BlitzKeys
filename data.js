@@ -4570,7 +4570,7 @@ const sentences = [
     answer: "wisdom teeth",
   },
   {
-    question: "He had to get a _____ because the tooth was badly infected.",
+    question: "The dentist had to clean out the nerve inside the tooth, so he needed a _____.",
     options: ["cavity", "root canal", "filling"],
     answer: "root canal",
   },
@@ -4900,7 +4900,7 @@ const sentences = [
     answer: "invasion",
   },
   {
-    question: "He enjoys the _____ of online forums where no one knows his real name.",
+    question: "He enjoys the _____ of online forums, where he can post under a fake username and no one can trace a post back to who he really is.",
     options: ["privacy", "hermit", "anonymity"],
     answer: "anonymity",
   },
@@ -7879,12 +7879,7 @@ const sentences = [
     question: "Despite losing the championship, the team remained _____ about next season.",
     options: ["bitter", "optimistic", "envious"],
     answer: "optimistic",
-  },
-  {
-    question: "A: I can't parallel park this car!\nB: Just turn the wheel a little more. _____ You did it!",
-    options: ["Definitely!", "There you go!", "There you are!"],
-    answer: "There you go!",
-  },
+  },,
   {
     question: "_____! I've been looking for you all over the building.",
     options: ["Exactly!", "There you are!", "There you go!"],
@@ -7946,11 +7941,6 @@ const sentences = [
     answer: "definitely",
   },
   {
-    question: "A: I wanted a laptop that was lightweight and had a big screen.\nB: This one is _____ what you're describing.",
-    options: ["determine", "exactly", "definitely"],
-    answer: "exactly",
-  },
-  {
     question: "At the festival, dancers wore the _____ clothing of their home country.",
     options: ["common sense", "pulpit", "native"],
     answer: "native",
@@ -7959,11 +7949,6 @@ const sentences = [
     question: "The company is hiring new employees at a fast _____.",
     options: ["choir loft", "sermon", "rate"],
     answer: "rate",
-  },
-  {
-    question: "A: We should really recycle more at this company.\nB: You're _____. Everyone in this room already recycles at home.",
-    options: ["in the shade", "preaching to the choir", "estimating"],
-    answer: "preaching to the choir",
   },
   {
     question: "The priest's _____ this Sunday was about forgiveness.",
@@ -8009,11 +7994,6 @@ const sentences = [
     question: "I didn't count exactly, but I'd say _____ 200 people showed up to the event.",
     options: ["vast majority", "roughly", "as a matter of fact"],
     answer: "roughly",
-  },
-  {
-    question: "A: This restaurant is a bit expensive.\nB: _____, it's the most expensive place in town.",
-    options: ["Vast majority", "As a matter of fact", "Roughly"],
-    answer: "As a matter of fact",
   },
   {
     question: "A _____ of the employees voted in favor of the new schedule.",
@@ -8701,11 +8681,6 @@ const sentences = [
     answer: "no big deal",
   },
   {
-    question: "Boss: I need someone to pick up my wife when she arrives from the airport.\nEmployee: _____.",
-    options: ["Suit yourself", "Leave it to me", "Bear with me"],
-    answer: "Leave it to me",
-  },
-  {
     question: "Why is your face all bruised? _____ you were in the middle of a fight.",
     options: ["I doubt", "I bet", "I wonder"],
     answer: "I bet",
@@ -8876,7 +8851,7 @@ const sentences = [
     answer: "slipped my mind",
   },
   {
-    question: "The code of conduct required that he strike back or _____.",
+    question: "The code of conduct required that he strike back, or he would _____ in front of the entire village.",
     options: ["take the blame", "back down", "lose face"],
     answer: "lose face",
   },
@@ -9012,7 +8987,7 @@ const sentences = [
   },
   {
     question: "Do not _____, my dear friends, but leave room for God's wrath.",
-    options: ["make amends", "take revenge", "hold a grudge"],
+    options: ["make amends", "take revenge", "take heart"],
     answer: "take revenge",
   },
   {
@@ -9039,12 +9014,7 @@ const sentences = [
     question: "I don't mean to _____, but the fact is you're the one who is left out.",
     options: ["pick on you", "hurt your feelings", "get on your nerves"],
     answer: "hurt your feelings",
-  },
-  {
-    question: "Keith: We must continue our discussion of the Wilson project.\nSally: _____!",
-    options: ["That's more like it", "Here we go again", "So far so good"],
-    answer: "Here we go again",
-  },
+  },,
   {
     question: "Regulators _____ those infractions, and thousands of consumers suffered for it.",
     options: ["gave the green light to", "turned a blind eye to", "kept a close eye on"],
@@ -9206,7 +9176,7 @@ const sentences = [
     answer: "go a long way",
   },
   {
-    question: "We were two moms _____, both exhausted from sleepless nights with our newborns, and able to make each other feel better.",
+    question: "We were two moms _____, both exhausted from sleepless nights with our newborns, so we understood exactly what the other was going through.",
     options: ["in the same boat", "on the same page", "at the same time"],
     answer: "in the same boat",
   },
@@ -13264,6 +13234,56 @@ const sentences = [
     question: "He handed in his resignation letter and walked out _____ his boss saying a word.",
     options: ["from", "without", "over"],
     answer: "without",
+  },
+  {
+    question: "My son _____ his grandfather; he has the same laugh and the same temper.",
+    options: ["gives away", "takes after", "calls off"],
+    answer: "takes after",
+  },
+  {
+    question: "The thief tried to _____, but the police caught him at the corner.",
+    options: ["fill in", "tear down", "get away"],
+    answer: "get away",
+  },
+  {
+    question: "I'll _____ you as soon as I check my schedule.",
+    options: ["hand over", "call back", "knock out"],
+    answer: "call back",
+  },
+  {
+    question: "The city decided to _____ the old factory because it was unsafe.",
+    options: ["show off", "tear down", "pass out"],
+    answer: "tear down",
+  },
+  {
+    question: "Don't _____ his lies; he has deceived everyone before.",
+    options: ["check in", "look after", "fall for"],
+    answer: "fall for",
+  },
+  {
+    question: "The teacher asked us to _____ our essays by Friday.",
+    options: ["stand out", "hand in", "fall for"],
+    answer: "hand in",
+  },
+  {
+    question: "The flight was delayed, so we couldn't _____ until midnight.",
+    options: ["show off", "take off", "break down"],
+    answer: "take off",
+  },
+  {
+    question: "Please _____ while I find the document; it will only take a minute.",
+    options: ["give up", "break down", "hold on"],
+    answer: "hold on",
+  },
+  {
+    question: "We've _____ milk, so I need to go to the store.",
+    options: ["look after", "run out of", "hand in"],
+    answer: "run out of",
+  },
+  {
+    question: "It took her months to _____ the breakup.",
+    options: ["get over", "give in", "get away"],
+    answer: "get over",
   }
 
 
