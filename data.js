@@ -3926,7 +3926,7 @@ const sentences = [
   },
   {
     question: "Please _____ to the boss at the end of the week with your updates.",
-    options: ["report back", "let down", "get results"],
+    options: ["let down", "get results", "report back"],
     answer: "report back",
   },
   {
@@ -4336,17 +4336,17 @@ const sentences = [
   },
   {
     question: "As the headliner, her name is at the top of the _____ posted outside the theater.",
-    options: ["bill", "invoice", "list"],
+    options: ["invoice", "bill", "list"],
     answer: "bill",
   },
   {
     question: "She earns _____ because she's one of the company's top lawyers.",
-    options: ["the big bucks", "a flair", "a passion"],
+    options: ["a flair", "a passion", "the big bucks"],
     answer: "the big bucks",
   },
   {
     question: "I was very _____ when she said she loved my painting.",
-    options: ["flattered", "flawless", "pathetic"],
+    options: ["flawless", "pathetic", "flattered"],
     answer: "flattered",
   },
   {
@@ -8911,8 +8911,8 @@ const sentences = [
     answer: "dying for",
   },
   {
-    question: "An old friend _____ me the day before yesterday.",
-    options: ["ran into", "called on", "checked in on"],
+    question: "An old friend _____ me at my house the day before yesterday, so we had coffee together.",
+    options: ["made up", "got over", "called on"],
     answer: "called on",
   },
   {
@@ -9537,7 +9537,7 @@ const sentences = [
   },
   {
     "question": "After the horrible events of the last week, we are all _____.",
-    "options": ["on the fence", "on edge", "on the ball"],
+    "options": ["on edge", "on the fence", "on the house"],
     "answer": "on edge"
   },
   {
@@ -10957,10 +10957,9 @@ const sentences = [
   },
   {
     question: "The tourists wandered past _____ buildings that hadn't been touched in decades.",
-    options: ["pristine", "dilapidated", "modern"],
+    options: ["spacious", "colorful", "dilapidated"],
     answer: "dilapidated",
   },
-  {
     question: "The detective followed the suspect into a _____ bar in the worst part of town.",
     options: ["seedy", "upscale", "trendy"],
     answer: "seedy",
