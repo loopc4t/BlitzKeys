@@ -7879,7 +7879,7 @@ const sentences = [
     question: "Despite losing the championship, the team remained _____ about next season.",
     options: ["bitter", "optimistic", "envious"],
     answer: "optimistic",
-  },,
+  },
   {
     question: "_____! I've been looking for you all over the building.",
     options: ["Exactly!", "There you are!", "There you go!"],
