@@ -13051,7 +13051,7 @@ const sentences = [
     answer: "off-putting",
   },
   {
-    question: "She went out to the garden and snapped a small _____ off the oak tree. (meaning: a small branch)",
+    question: "She went out to the garden and snapped a small _____ off the oak tree.",
     options: ["sidekick", "twig", "cop out"],
     answer: "twig",
   },
