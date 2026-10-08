@@ -9014,7 +9014,7 @@ const sentences = [
     question: "I don't mean to _____, but the fact is you're the one who is left out.",
     options: ["pick on you", "hurt your feelings", "get on your nerves"],
     answer: "hurt your feelings",
-  },,
+  },
   {
     question: "Regulators _____ those infractions, and thousands of consumers suffered for it.",
     options: ["gave the green light to", "turned a blind eye to", "kept a close eye on"],
@@ -10960,6 +10960,7 @@ const sentences = [
     options: ["spacious", "colorful", "dilapidated"],
     answer: "dilapidated",
   },
+  {
     question: "The detective followed the suspect into a _____ bar in the worst part of town.",
     options: ["seedy", "upscale", "trendy"],
     answer: "seedy",
@@ -13048,21 +13049,6 @@ const sentences = [
     question: "His constant bragging about his salary was pretty _____ to everyone at the party.",
     options: ["prescient", "off-putting", "harrowing"],
     answer: "off-putting",
-  },
-  {
-    question: "The scandal threatened to _____ his entire campaign just weeks before the election. (meaning: overturn/disrupt completely)",
-    options: ["upend", "skimp", "twig"],
-    answer: "upend",
-  },
-  {
-    question: "The waiter accidentally bumped the table and _____ the vase of flowers, sending it crashing to the floor. (meaning: knock over/turn upside down)",
-    options: ["relinquished", "upended", "held back"],
-    answer: "upended",
-  },
-  {
-    question: "It took me a minute, but I finally _____ that he'd been joking the whole time. (meaning: to realize/catch on)",
-    options: ["skimped", "dejected", "twigged"],
-    answer: "twigged",
   },
   {
     question: "She went out to the garden and snapped a small _____ off the oak tree. (meaning: a small branch)",
