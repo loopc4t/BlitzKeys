@@ -145,11 +145,6 @@ const sentences = [
     answer: "medium",
   },
   {
-    question: "My soccer coach has very _____ legs.",
-    options: ["muscular", "comb", "curly"],
-    answer: "muscular",
-  },
-  {
     question: "A lot of successful entrepreneurs have not only a _____ imagination, but also the willingness to work hard.",
     options: ["bright", "lucid", "vivid"],
     answer: "vivid",
@@ -190,13 +185,8 @@ const sentences = [
     answer: "outgoing",
   },
   {
-    question: "My brother is _____ shy, but I'm trying to encourage him to come out of his _____ .",
-    options: ["painfully", "shell"], // Note: two blanks in original
-    answer: "painfully", // Main answer for first blank
-  },
-  {
     question: "My daughter gets along with her classmates, but she has a competitive _____ when it comes to academics.",
-    options: ["streak", "spot", "strip"],
+    options: ["spot", "strip", "streak"],
     answer: "streak",
   },
   {
@@ -391,7 +381,7 @@ const sentences = [
   },
   {
     question: "I enjoyed the book because I could really identify with the main _____.",
-    options: ["character", "role", "star"],
+    options: ["chapter", "cover", "character"],
     answer: "character",
   },
   {
@@ -5007,7 +4997,7 @@ const sentences = [
   },
   {
     question: "He tried to _____ the bad news when he told her, choosing his words carefully so she wouldn't be too upset.",
-    options: ["exaggerate", "hide", "sugarcoat"],
+    options: ["exaggerate", "announce", "sugarcoat"],
     answer: "sugarcoat",
   },
   {
@@ -7311,7 +7301,7 @@ const sentences = [
     answer: "objectify",
   },
   {
-    question: "He's been working out hard to get a _____ .",
+    question: "He's been working out hard to get a _____.",
     options: ["big belly", "six-pack", "long legs"],
     answer: "six-pack",
   },
@@ -8842,7 +8832,7 @@ const sentences = [
   },
   {
     question: "Mom can't wait for the flowers to bloom and _____ our yard.",
-    options: ["brighten up", "clean up", "fix up"],
+    options: ["give up", "brighten up", "break down"],
     answer: "brighten up",
   },
   {
