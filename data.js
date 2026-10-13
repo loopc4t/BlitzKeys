@@ -2580,8 +2580,33 @@ const sentences = [
     answer: "at",
   },
   {
-    question: "You have absolutely no reason to talk _____ me like that.",
-    options: ["to", "with", "at"],
+    question: "You have absolutely no reason to be so unkind _____ me.",
+    options: ["with", "at", "to"],
+    answer: "to",
+  },
+  {
+    question: "I'm not very good _____ remembering names.",
+    options: ["in", "at", "on"],
+    answer: "at",
+  },
+  {
+    question: "The final decision depends _____ the weather.",
+    options: ["of", "from", "on"],
+    answer: "on",
+  },
+  {
+    question: "She arrived _____ the party an hour late.",
+    options: ["in", "to", "at"],
+    answer: "at",
+  },
+  {
+    question: "He has been married _____ her for ten years.",
+    options: ["with", "by", "to"],
+    answer: "to",
+  },
+  {
+    question: "I'm really looking forward _____ seeing you again.",
+    options: ["to", "for", "at"],
     answer: "to",
   },
   {
@@ -9667,7 +9692,7 @@ const sentences = [
   },
   {
     question: "Let's slow down for heaven's sake! _____.",
-    options: ["My head is spinning", "I've lost my train of thought", "I'm at my wit's end"],
+    options: ["I'm over the moon", "I'm on cloud nine", "My head is spinning"],
     answer: "My head is spinning",
   },
   {
