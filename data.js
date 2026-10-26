@@ -130,11 +130,6 @@ const sentences = [
     answer: "deep-set",
   },
   {
-    question: "I love men with _____ hair - I think it's sexy.",
-    options: ["facial", "medium", "trim"],
-    answer: "facial",
-  },
-  {
     question: "Would you please _____ your hair? It looks like you've just gotten out of bed.",
     options: ["comb", "curly", "radiant"],
     answer: "comb",
@@ -8141,11 +8136,6 @@ const sentences = [
     answer: "mock",
   },
   {
-    question: "Nobody wanted to sit near him at the party because he's such a _____.",
-    options: ["pundit", "loudmouth", "hue"],
-    answer: "loudmouth",
-  },
-  {
     question: "The company's first-quarter sales were amazing. _____, this year could be their best yet.",
     options: ["To attribute", "If that's anything to go by", "The die is cast"],
     answer: "If that's anything to go by",
@@ -9432,7 +9422,7 @@ const sentences = [
   },
   {
     question: "The thought of working for a faceless corporation really _____.",
-    options: ["throws me off", "gets me down", "wears me out"],
+    options: ["cracks me up", "fires me up", "gets me down"],
     answer: "gets me down",
   },
   {
@@ -9536,8 +9526,8 @@ const sentences = [
     "answer": "blow my own horn"
   },
   {
-    "question": "The silent treatment isn't helping the situation between you two, so just _____ already!",
-    "options": ["clear the air", "break the ice", "call it quits"],
+    "question": "You two have been best friends for years, and the silent treatment is only hurting the friendship, so just _____ already and say what's bothering you!",
+    "options": ["break the ice", "call it quits", "clear the air"],
     "answer": "clear the air"
   },
   {
@@ -10267,7 +10257,7 @@ const sentences = [
   },
   {
     question: "Her parents want her to go to college, but she _____ and insists on trying to become an actress.",
-    options: ["has her head in the clouds", "has second thoughts", "has a mind of her own"],
+    options: ["has cold feet", "has a sweet tooth", "has a mind of her own"],
     answer: "has a mind of her own",
   },
   {
@@ -12896,11 +12886,6 @@ const sentences = [
     answer: "walked",
   },
   {
-    question: "She's my _____ sister — we share the same father but different mothers.",
-    options: ["step", "half", "part"],
-    answer: "half",
-  },
-  {
     question: "It took years, but they finally managed to _____ their differences and reconcile.",
     options: ["ignore", "hide", "resolve"],
     answer: "resolve",
@@ -13196,9 +13181,9 @@ const sentences = [
     answer: "over",
   },
   {
-    question: "She's been complaining _____ her new manager ever since she started the job.",
-    options: ["about", "to", "with"],
-    answer: "about",
+    question: "She's been complaining _____ her manager ever since she started, but nothing has changed.",
+    options: ["to", "about", "with"],
+    answer: "to",
   },
   {
     question: "My connecting flight _____ London was delayed, so I missed my train home.",
