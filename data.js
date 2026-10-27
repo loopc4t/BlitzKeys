@@ -9511,9 +9511,9 @@ const sentences = [
     answer: "off the top of my head",
   },
   {
-    question: "Wait, _____ a little. What did you say that phone number was?",
-    options: ["back up", "slow down", "hold on"],
-    answer: "back up",
+    "question": "Wait, can you _____ to the part where you gave me the area code? I missed it.",
+    "options": ["back up", "slow down", "hold on"],
+    "answer": "back up"
   },
   {
     question: "It does make sense to _____ my French before I go to Paris.",
@@ -13269,6 +13269,51 @@ const sentences = [
     question: "It took her months to _____ the breakup.",
     options: ["get over", "give in", "get away"],
     answer: "get over",
+  },
+  {
+    "question": "She's incredibly _____. She wakes up at 5 a.m. every day and never stops working until she reaches her goals.",
+    "options": ["relaxed", "driven", "gullible"],
+    "answer": "driven"
+  },
+  {
+    "question": "The _____ employees complained in the break room after the company cancelled their yearly bonuses.",
+    "options": ["thrilled", "grateful", "disgruntled"],
+    "answer": "disgruntled"
+  },
+  {
+    "question": "He's so _____ that he talked about his own problems for two hours and never once asked how I was doing.",
+    "options": ["self-absorbed", "thoughtful", "shy"],
+    "answer": "self-absorbed"
+  },
+  {
+    "question": "The charity turned out to be a _____: the organizers kept all the donations and disappeared.",
+    "options": ["festival", "grift", "tradition"],
+    "answer": "grift"
+  },
+  {
+    "question": "Sorry, I totally _____ during the meeting. Can you repeat what the manager said?",
+    "options": ["backed out", "stood out", "spaced out"],
+    "answer": "spaced out"
+  },
+  {
+    "question": "My parents set a ten o'clock _____, so I have to be home by then on school nights.",
+    "options": ["allowance", "curfew", "vacation"],
+    "answer": "curfew"
+  },
+  {
+    "question": "You _____ to apologize to her. What you said was really rude.",
+    "options": ["would", "might", "ought"],
+    "answer": "ought"
+  },
+  {
+    "question": "The old library was a _____ of inspiration for the young writer; every visit gave her new ideas.",
+    "options": ["wellspring", "shortage", "obstacle"],
+    "answer": "wellspring"
+  },
+  {
+    "question": "Be careful with that glass vase. If you drop it, it will _____ into a hundred pieces.",
+    "options": ["bend", "melt", "shatter"],
+    "answer": "shatter"
   }
 
 
