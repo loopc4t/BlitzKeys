@@ -8901,9 +8901,9 @@ const sentences = [
     answer: "day and night",
   },
   {
-    question: "He has compiled a record _____ in its wretchedness.",
-    options: ["second to none", "few and far between", "larger than life"],
-    answer: "second to none",
+    "question": "He has compiled a record _____ in its wretchedness: no one in the company has ever failed more often.",
+    "options": ["second to none", "few and far between", "larger than life"],
+    "answer": "second to none"
   },
   {
     question: "There are women who have silver hair _____.",
@@ -12936,7 +12936,7 @@ const sentences = [
     answer: "unwavering",
   },
   {
-    question: "By the time we got to the sale, there were only _____ left — a few damaged items that nobody wanted.",
+    question: "By the time we got to the sale, there were only _____ left; a few damaged items that nobody wanted.",
     options: ["fresh arrivals", "great bargains", "slim pickings"],
     answer: "slim pickings",
   },
