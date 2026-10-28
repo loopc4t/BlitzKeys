@@ -810,9 +810,9 @@ const sentences = [
     answer: "boarding",
   },
   {
-    question: "The rooms of the hotel were nice, but the fitness center was rather _____.",
-    options: ["dingy", "red-light", "one-star"],
-    answer: "dingy",
+    "question": "The rooms of the hotel were nice, but the fitness center was rather _____: the lights were dim and the carpet was stained.",
+    "options": ["dingy", "spacious", "one-star"],
+    "answer": "dingy"
   },
   {
     question: "The _____ is offering a great deal on a 5-day package in Miami.",
@@ -3015,7 +3015,7 @@ const sentences = [
     answer: "in",
   },
   {
-    question: "Whom did they vote _____ ?",
+    question: "Whom did they vote _____?",
     options: ["for", "to", "with"],
     answer: "for",
   },
@@ -4615,9 +4615,9 @@ const sentences = [
     answer: "gums",
   },
   {
-    question: "The dentist said my gums are starting to _____.",
-    options: ["recede", "bleed", "swell"],
-    answer: "recede",
+    "question": "The dentist said my gums are starting to _____, which is why my teeth look longer than before.",
+    "options": ["recede", "bleed", "swell"],
+    "answer": "recede"
   },
   {
     question: "The infection reached the _____ of the tooth.",
@@ -4855,9 +4855,9 @@ const sentences = [
     answer: "charitable",
   },
   {
-    question: "I'm trying to save money, but _____, I'll join you for dinner.",
-    options: ["what the heck", "no way", "never mind"],
-    answer: "what the heck",
+    "question": "I'm trying to save money, but _____, you only live once! I'll join you for dinner.",
+    "options": ["what the heck", "no way", "never mind"],
+    "answer": "what the heck"
   },
   {
     question: "This $50 will help _____ until I get paid next week.",
@@ -6456,9 +6456,9 @@ const sentences = [
     answer: "art",
   },
   {
-    question: "My attempt at urban gardening has turned my balcony into what looks like a plant _____.",
-    options: ["paradise", "factory", "hospital"],
-    answer: "hospital",
+    "question": "My attempt at urban gardening has turned my balcony into what looks like a plant _____: half of them are drooping, yellow, and barely alive.",
+    "options": ["paradise", "factory", "hospital"],
+    "answer": "hospital"
   },
   {
     question: "The relationship between me and my reusable water bottle is more _____ than any dating relationship I have had.",
@@ -8396,9 +8396,9 @@ const sentences = [
     answer: "wanted out",
   },
   {
-    question: "Some of the world's richest business _____ own newspapers, television networks, and movie studios.",
-    options: ["publishers", "magnates", "populations"],
-    answer: "magnates",
+    "question": "Some of the world's richest business _____ made their fortunes in oil and real estate, yet they also own newspapers, television networks, and movie studios.",
+    "options": ["publishers", "magnates", "populations"],
+    "answer": "magnates"
   },
   {
     question: "After years of writing, she finally found a _____ willing to print her novel.",
@@ -9456,9 +9456,9 @@ const sentences = [
     answer: "keep you posted",
   },
   {
-    question: "I'll _____ once I get settled in at school.",
-    options: ["drop you a line", "give you a ring", "keep you posted"],
-    answer: "drop you a line",
+    "question": "I'll _____ once I get settled in at school. Expect a short email or a postcard, nothing more.",
+    "options": ["drop you a line", "give you a ring", "keep you posted"],
+    "answer": "drop you a line"
   },
   {
     question: "Sports stars earn _____ for pushing everything from shoes to soft drinks.",
