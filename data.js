@@ -9181,9 +9181,9 @@ const sentences = [
     answer: "go a long way",
   },
   {
-    question: "We were two moms _____, both exhausted from sleepless nights with our newborns, so we understood exactly what the other was going through.",
-    options: ["in the same boat", "on the same page", "at the same time"],
-    answer: "in the same boat",
+    "question": "We were two moms _____, both exhausted from sleepless nights with our newborns, so we understood exactly what the other was going through.",
+    "options": ["out of the woods", "at the same time", "in the same boat"],
+    "answer": "in the same boat"
   },
   {
     question: "Obviously, you've been _____. Why did you give him five thousand francs?",
