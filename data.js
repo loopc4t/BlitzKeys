@@ -295,8 +295,8 @@ const sentences = [
     answer: "move",
   },
   {
-    question: "We're going to need a more _____ apartment now that we're going to have a baby.",
-    options: ["spacious", "short-term", "widespread"],
+    question: "Our one-bedroom feels cramped, so we're looking for a more _____ apartment now that we're having a baby.",
+    options: ["affordable", "widespread", "spacious"],
     answer: "spacious",
   },
   {
@@ -10011,7 +10011,7 @@ const sentences = [
     answer: "adjust to",
   },
   {
-    question: "It's a completely desolate area, _____. There are no people, no buildings, nothing for miles.",
+    question: "It's a wilderness, _____. There are no people, no buildings, nothing for miles.",
     options: ["for what it's worth", "as far as it goes", "in the true sense of the word"],
     answer: "in the true sense of the word",
   },
@@ -10051,8 +10051,8 @@ const sentences = [
     answer: "gets a kick out of",
   },
   {
-    question: "Everyone was frightened to death as the car _____.",
-    options: ["went into reverse", "went downhill", "went out of control"],
+    question: "Everyone screamed as the driver lost the brakes and the car _____.",
+    options: ["went into reverse", "went out of fashion", "went out of control"],
     answer: "went out of control",
   },
   {
@@ -13314,7 +13314,56 @@ const sentences = [
     "question": "Be careful with that glass vase. If you drop it, it will _____ into a hundred pieces.",
     "options": ["bend", "melt", "shatter"],
     "answer": "shatter"
+  },
+  {
+    question: "The meeting starts _____ 9:30 sharp.",
+    options: ["on", "in", "at"],
+    answer: "at",
+  },
+  {
+    question: "My birthday is _____ March.",
+    options: ["on", "in", "at"],
+    answer: "in",
+  },
+  {
+    question: "We always have a big family dinner _____ Sundays.",
+    options: ["on", "in", "at"],
+    answer: "on",
+  },
+  {
+    question: "My grandmother was born _____ 1948.",
+    options: ["on", "in", "at"],
+    answer: "in",
+  },
+  {
+    question: "I'll meet you _____ the bus stop outside the library.",
+    options: ["on", "in", "at"],
+    answer: "at",
+  },
+  {
+    question: "The painting is hanging _____ the wall above the sofa.",
+    options: ["on", "in", "at"],
+    answer: "on",
+  },
+  {
+    question: "Her cousin has lived _____ Portugal for ten years.",
+    options: ["on", "in", "at"],
+    answer: "in",
+  },
+  {
+    question: "The concert is _____ 25 December.",
+    options: ["on", "in", "at"],
+    answer: "on",
+  },
+  {
+    question: "She's waiting for you _____ the entrance of the building.",
+    options: ["on", "in", "at"],
+    answer: "at",
+  },
+  {
+    question: "There are three eggs _____ the box.",
+    options: ["on", "in", "at"],
+    answer: "in",
   }
-
 
 ];
