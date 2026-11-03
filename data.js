@@ -4795,9 +4795,9 @@ const sentences = [
     answer: "graders",
   },
   {
-    question: "He _____ all his friends, asking them to lend him money for his new phone.",
-    options: ["spotted", "hit up", "called"],
-    answer: "hit up",
+    "question": "He _____ all his friends, asking them to lend him money for his new phone.",
+    "options": ["spotted", "hit up", "ignored"],
+    "answer": "hit up"
   },
   {
     question: "Can you _____ me $10 until next week? I forgot my wallet.",
@@ -6421,9 +6421,9 @@ const sentences = [
     answer: "scattered",
   },
   {
-    question: "The laundry basket is giving me _____ every time I walk past it without doing the washing.",
-    options: ["friendly waves", "disappointed looks", "a standing ovation"],
-    answer: "disappointed looks",
+    question: "The laundry basket is overflowing, and it gives me _____ every time I walk past without doing the washing.",
+    options: ["disapproving looks", "friendly waves", "warm hugs"],
+    answer: "disapproving looks",
   },
   {
     question: "My cooking skills have evolved from burning toast to successfully making pasta without _____ the smoke alarm.",
@@ -7766,9 +7766,9 @@ const sentences = [
     answer: "come out of the woodwork",
   },
   {
-    question: "After the layoffs were announced, everyone was walking on _____ around the office.",
-    options: ["thin ice", "eggshells", "cloud nine"],
-    answer: "eggshells",
+    "question": "After the layoffs were announced, everyone was walking on _____ around the office.",
+    "options": ["air", "eggshells", "cloud nine"],
+    "answer": "eggshells"
   },
   {
     question: "I'm not going to _____ about it, the presentation was a disaster.",
