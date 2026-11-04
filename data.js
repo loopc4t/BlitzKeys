@@ -3110,9 +3110,9 @@ const sentences = [
     answer: "In conclusion",
   },
   {
-    question: "The headmaster cancelled the meeting _____ because he had to be somewhere else.",
-    options: ["at the latest", "by surprise", "at short notice"],
-    answer: "at short notice",
+    "question": "The headmaster's cancellation of the meeting _____ because he had to be somewhere else caught everyone off guard.",
+    "options": ["at the latest", "by surprise", "at short notice"],
+    "answer": "at short notice"
   },
   {
     question: "Mission Impossible is _____ the best thriller I have ever seen.",
