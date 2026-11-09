@@ -4405,8 +4405,8 @@ const sentences = [
     answer: "peace and quiet",
   },
   {
-    question: "_____ 'but Mom' me! You still have to finish your homework.",
-    options: ["Don't", "Never", "Stop"],
+    question: "_____ talk back to me! You still have to finish your homework.",
+    options: ["Don't", "Doesn't", "Not"],
     answer: "Don't",
   },
   {
@@ -5442,7 +5442,7 @@ const sentences = [
   },
   {
     question: "With too many _____, she was feeling overwhelmed by all the projects she had to juggle.",
-    options: ["fish to fry", "irons in the fire", "eggs in one basket"],
+    options: ["eggs in one basket", "cooks in the kitchen", "irons in the fire"],
     answer: "irons in the fire",
   },
   {
