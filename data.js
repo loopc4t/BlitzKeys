@@ -6066,8 +6066,8 @@ const sentences = [
     answer: "tucked",
   },
   {
-    question: "The ball rolled into the neighbor's yard, sending the kids _____ to retrieve it.",
-    options: ["scrambling", "resting", "wandering"],
+    question: "The ball rolled into the neighbor's yard, sending the kids _____ to retrieve it before the dog got there.",
+    options: ["scrambling", "resting", "napping"],
     answer: "scrambling",
   },
   {
@@ -12874,11 +12874,6 @@ const sentences = [
     question: "We're a very _____-knit family; we talk every single day.",
     options: ["friendly", "strong", "close"],
     answer: "close",
-  },
-  {
-    question: "After the funeral, a bitter fight over the money and property in the will tore the siblings apart.",
-    options: ["vacation", "inheritance", "celebration"],
-    answer: "inheritance",
   },
   {
     question: "My father _____ out on us when I was just a toddler.",
